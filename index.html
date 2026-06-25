@@ -111,7 +111,6 @@
   nav.toc {
     background: var(--psu-navy);
     border-top: 1px solid var(--psu-navy-light);
-    overflow-x: hidden;
     width: 100%;
   }
   .toc-inner {
@@ -119,20 +118,25 @@
     margin: 0 auto;
     padding: 0 32px;
     display: flex;
-    align-items: stretch;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    max-width: 100%;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE */
   }
+  .toc-inner::-webkit-scrollbar { display: none; }
   .toc-inner a {
     color: var(--psu-white);
     text-decoration: none;
-    padding: 14px 18px;
+    padding: 14px 14px;
     font-size: 13px;
     font-weight: 600;
     border-bottom: 3px solid transparent;
     transition: all 0.2s;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .toc-inner a:hover {
     background: var(--psu-navy-light);
@@ -599,10 +603,10 @@
     .header-meta .date { font-size: 14px; }
     .header-meta .edition { font-size: 10px; }
     /* TOC horizontal scroll */
-    .toc-inner { padding: 0 8px; -webkit-overflow-scrolling: touch; }
+    .toc-inner { padding: 0 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     .toc-inner a {
-      padding: 10px 11px;
-      font-size: 12px;
+      padding: 10px 9px;
+      font-size: 11px;
       flex-shrink: 0;
     }
     /* Hero */
@@ -657,7 +661,7 @@
     .brand-text .subtitle { font-size: 9px; letter-spacing: 0.5px; }
     .header-meta .date { font-size: 12px; }
     .header-meta .edition { font-size: 9px; }
-    .toc-inner a { font-size: 11px; padding: 9px 8px; }
+    .toc-inner a { font-size: 10px; padding: 9px 7px; }
     .hero { padding: 24px 10px; }
     .hero .we-are { font-size: 10px; letter-spacing: 2px; }
     .hero h2 { font-size: 19px; }
