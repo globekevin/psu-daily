@@ -272,7 +272,9 @@
     color: var(--psu-gray-dark);
   }
   .card-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 12px;
     padding: 10px 20px;
     background: var(--psu-navy);
@@ -281,8 +283,8 @@
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    text-align: center;
     transition: background 0.2s;
+    width: 100%;
   }
   .card-link:hover {
     background: var(--psu-navy-light);
@@ -547,7 +549,7 @@
     .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; }
     .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
     .source-badge { font-size: 9px; padding: 2px 7px; }
-    .card-link { width: 100%; text-align: center; padding: 10px; font-size: 13px; }
+    .card-link { padding: 10px; font-size: 13px; }
     /* Stats */
     .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .stat-card { padding: 14px 8px; }
@@ -679,7 +681,7 @@
   @media (pointer: coarse) {
     /* Bigger tap targets on touch devices */
     .toc-inner a { min-height: 44px; display: inline-flex; align-items: center; }
-    .card-link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+    .card-link { min-height: 44px; }
     .source-badge { min-height: 32px; display: inline-flex; align-items: center; }
   }
 
