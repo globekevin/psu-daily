@@ -451,9 +451,14 @@
   }
   .footer-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 20px;
     margin-bottom: 24px;
+    width: 100%;
+  }
+  .footer-col {
+    min-width: 0;
+    width: 100%;
   }
   .footer-col h4 {
     color: var(--psu-white);
@@ -539,7 +544,7 @@
     .section-divider h3 { font-size: 26px; }
     .card-title { font-size: 24px; }
     .stats { grid-template-columns: repeat(4, 1fr); }
-    .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 20px; }
     .toc-inner { padding: 0 20px; }
     /* Source links 2-col on iPad */
     .sources-grid { grid-template-columns: repeat(2, 1fr) !important; }
@@ -564,7 +569,7 @@
     .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
-    .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 20px; }
     .footer-col:first-child { max-width: none; }
     /* Sources */
     .sources-box { padding: 18px 18px; }
@@ -632,7 +637,7 @@
     .source-name { font-size: 14px; }
     .source-desc { font-size: 11px; }
     /* Footer */
-    .footer-grid { grid-template-columns: 1fr; gap: 18px; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 18px; }
     .footer-col:first-child { max-width: none; }
     .footer-col h4, .footer-toggle { font-size: 12px; }
     .footer-col p, .footer-col li { font-size: 12px; }
