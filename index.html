@@ -461,10 +461,6 @@
     max-width: 7em;
     line-height: 1.8;
   }
-  /* Force narrow width on about column across all screen sizes */
-  .footer-col:first-child {
-    max-width: 8em;
-  }
   .footer-col h4 {
     color: var(--psu-white);
     font-size: 14px;
@@ -545,7 +541,7 @@
     .card-title { font-size: 24px; }
     .stats { grid-template-columns: repeat(4, 1fr); }
     .footer-grid { grid-template-columns: 1fr 1fr; }
-    .footer-col:first-child { max-width: 8em; }
+    .footer-col:first-child { max-width: none; }
     .toc-inner { padding: 0 20px; }
     /* Source links 2-col on iPad */
     .sources-grid { grid-template-columns: repeat(2, 1fr) !important; }
@@ -571,7 +567,7 @@
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
     .footer-grid { grid-template-columns: 1fr; gap: 20px; }
-    .footer-col:first-child { max-width: 8em; }
+    .footer-col:first-child { max-width: none; }
     /* Sources */
     .sources-box { padding: 18px 18px; }
     .sources-intro { font-size: 13.5px; }
@@ -641,9 +637,10 @@
     .source-desc { font-size: 11px; }
     /* Footer */
     .footer-grid { grid-template-columns: 1fr; gap: 18px; }
-    .footer-col:first-child { max-width: 8em; }
+    .footer-col:first-child { max-width: none; }
     .footer-col h4, .footer-toggle { font-size: 12px; }
     .footer-col p, .footer-col li { font-size: 12px; }
+    .footer-col .footer-content p, .footer-col .footer-content li { font-size: 12px; }
     .footer-bottom { font-size: 10px; padding: 0 8px; }
   }
 
