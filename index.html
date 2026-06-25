@@ -43,14 +43,6 @@
     overflow-x: hidden;
     width: 100%;
   }
-  .top-bar {
-    background: var(--psu-navy-dark);
-    padding: 6px 0;
-    font-size: 12px;
-    text-align: center;
-    color: var(--psu-beaver-blue);
-    letter-spacing: 1px;
-  }
   .header-main {
     max-width: 1200px;
     margin: 0 auto;
@@ -586,8 +578,6 @@
   /* Covers: iPhone 12-16 standard (390/393px),
      Most Android phones (360-414px CSS px)             */
   @media (min-width: 360px) and (max-width: 429px) {
-    /* Top bar */
-    .top-bar { font-size: 10px; padding: 5px 10px; letter-spacing: 0.5px; }
     /* Header stacks vertically */
     .header-main {
       flex-direction: column;
@@ -654,7 +644,6 @@
   /* --- Very Small Screens (≤359px) --- */
   /* iPhone SE 1st gen (320px), very old Androids     */
   @media (max-width: 359px) {
-    .top-bar { font-size: 9px; padding: 4px 6px; letter-spacing: 0; }
     .header-main { padding: 10px 10px; gap: 4px; }
     .lion-shield { width: 32px; height: 32px; font-size: 18px; }
     .brand-text h1 { font-size: 15px; }
@@ -693,11 +682,6 @@
      Uses both constant() (iOS < 11.2) and env() (iOS ≥ 11.2)
      ============================================================ */
   @supports (padding-top: env(safe-area-inset-top)) or (padding-top: constant(safe-area-inset-top)) {
-    /* Top bar: add safe top padding for notch/Dynamic Island */
-    .top-bar {
-      padding-top: constant(safe-area-inset-top, 6px);
-      padding-top: env(safe-area-inset-top, 6px);
-    }
     /* Header main: avoid notch overlap */
     .header-main {
       padding-top: constant(safe-area-inset-top, 24px);
@@ -780,9 +764,6 @@
 
     /* ---- Page background ---- */
     body { background: #0d0d0d; color: #e8e8e8; }
-
-    /* ---- Top bar ---- */
-    .top-bar { background: #1a1a1a; color: #96BEE6; border-bottom-color: #2a2a2a; }
 
     /* ---- Header ---- */
     .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
@@ -891,8 +872,6 @@
 </style>
 </head>
 <body>
-
-<div class="top-bar">THE PENNSYLVANIA STATE UNIVERSITY · DAILY NEWS DIGEST · 宾州州立大学每日新闻</div>
 
 <header>
   <div class="header-main">
