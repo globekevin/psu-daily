@@ -671,19 +671,84 @@
   }
 
   /* ============================================================
-     DARK MODE SUPPORT (optional — system preference)
+     DARK MODE SUPPORT (system preference)
      ============================================================ */
   @media (prefers-color-scheme: dark) {
-    /* Keep PSU brand colors, just soften background for OLED */
-    body { background: #0a0a0a; }
-    .news-card { background: #1a1a2e; border-top-color: var(--psu-beaver-blue); }
-    .card-title { color: var(--psu-beaver-blue); }
-    .card-title-en { color: #aaa; border-bottom-color: #333; }
-    .card-summary { color: #ddd; }
-    .card-meta { border-top-color: #333; color: #999; }
-    .stat-card { background: #1a1a2e; }
-    .stat-num { color: var(--psu-beaver-blue); }
-    footer { background: #050510; }
+    /* ---- Page background ---- */
+    body { background: #0d0d0d; color: #e8e8e8; }
+
+    /* ---- Top bar ---- */
+    .top-bar { background: #1a1a1a; color: #96BEE6; border-bottom-color: #2a2a2a; }
+
+    /* ---- Header ---- */
+    .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
+    .brand-text .subtitle { color: #96BEE6; }
+    .header-meta .date { color: #e0e0e0; }
+    .header-meta .edition { color: #96BEE6; }
+
+    /* ---- TOC ---- */
+    .toc { background: #1a1a1a; border-bottom-color: #2a2a2a; }
+    .toc-inner a { color: #ccc; }
+    .toc-inner a:hover { color: #fff; background: rgba(150,190,230,0.12); }
+    .toc-inner a.btn-toc-archive { color: #001E44; }
+
+    /* ---- Hero ---- */
+    .hero { background: linear-gradient(135deg, #001E44 0%, #0a2744 60%, #0d1a3a 100%); }
+    .hero .we-are { color: #96BEE6; }
+    .hero .lead-cn { color: #d0d0d0; }
+    .hero .lead-en { color: #888; }
+
+    /* ---- Section divider ---- */
+    .section-divider { border-bottom-color: #2a2a2a; }
+    .section-divider h3 { color: #e8e8e8; }
+    .section-divider .line { background: #2a2a2a; }
+
+    /* ---- News cards ---- */
+    .news-card {
+      background: #161625;
+      border-top-color: #96BEE6;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+    .card-tag { background: rgba(150,190,230,0.15); color: #96BEE6; }
+    .card-title { color: #ffffff; }
+    .card-title-en { color: #999; border-bottom-color: #2a2a2a; }
+    .card-summary { color: #d0d0d0; }
+    .card-meta { border-top-color: #2a2a2a; color: #888; }
+    .source-badge { background: rgba(150,190,230,0.15); color: #96BEE6; }
+    .card-link {
+      background: rgba(150,190,230,0.1);
+      color: #96BEE6;
+      border-top: 1px solid #2a2a2a;
+    }
+    .card-link:hover { background: rgba(150,190,230,0.2); }
+
+    /* ---- Stats ---- */
+    .stats { background: #161625; border-color: #2a2a2a; }
+    .stat-card { background: #1e1e32; }
+    .stat-num { color: #96BEE6; }
+    .stat-label { color: #999; }
+
+    /* ---- Sources ---- */
+    .sources-box {
+      background: #161625;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .sources-intro { color: #e0e0e0; }
+    .source-item {
+      background: #1e1e32;
+      border-left-color: #96BEE6;
+    }
+    .source-item:hover { background: #252540; }
+    .source-name { color: #e8e8e8; }
+    .source-desc { color: #888; }
+    .source-item a { color: #e8e8e8; }
+
+    /* ---- Footer ---- */
+    footer { background: #050510; color: #888; }
+    .footer-col h4 { color: #96BEE6; }
+    .footer-col a { color: #888; }
+    .footer-col a:hover { color: #96BEE6; }
+    .footer-bottom { border-top-color: #1a1a1a; }
   }
 </style>
 </head>
