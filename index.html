@@ -264,6 +264,19 @@
     border-top: 1px solid var(--psu-gray);
     font-size: 12px;
     color: var(--psu-gray-dark);
+    gap: 8px;
+  }
+  .card-meta .meta-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .card-meta .meta-right {
+    flex-shrink: 0;
+    white-space: nowrap;
   }
   .source-badge {
     background: var(--psu-navy);
@@ -273,6 +286,10 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
   .source-badge.onward { background: #B8541C; }
   .source-badge.collegian { background: #6B4F8E; }
@@ -881,8 +898,12 @@
           <strong>核心提炼：</strong>宾州州立大学贝尔纳罗传媒学院一名学生凭借出色的学术与实践能力，获得位于华盛顿特区的<strong>美国国会图书馆实习机会</strong>，个人形容"堪称完美"。这一岗位竞争激烈，体现出 PSU 传媒学院在新闻、广告、公关、媒体研究等领域的人才培养获得国家级文化机构的高度认可，也为该校学生进入美国顶级文化与信息机构打开通道。事件再次印证 Bellisario College 在全国传媒教育中的领先地位。
         </p>
         <div class="card-meta">
-          <span class="source-badge psu">Penn State News</span>
-          <span class="card-date">2026年6月21日</span>
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月21日</span>
+          </div>
         </div>
         <a class="card-link" href="https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
@@ -898,8 +919,12 @@
           <strong>核心提炼：</strong>美国当红说唱歌手 <strong>Don Toliver</strong> 携其<strong>"NITROUS – OCTANE WORLD TOUR" 世界巡演</strong>于 <strong>9月2日</strong> 登陆宾州州立大学<strong>帕克校区的 Bryce Jordan Center（BJC）</strong>，为校园带来顶级 Hip-Hop 演出。本次演出是 BJC 秋季重磅活动之一，预计将吸引校内外大量乐迷，凸显帕克校区作为宾州中部文化娱乐中心的地位，并丰富学生的校园生活体验。
         </p>
         <div class="card-meta">
-          <span class="source-badge psu">Penn State News</span>
-          <span class="card-date">2026年6月23日</span>
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月23日</span>
+          </div>
         </div>
         <a class="card-link" href="https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
@@ -915,8 +940,12 @@
           <strong>核心提炼：</strong>宾州州立大学校友会主办的<strong>「We Are Weekend」校友团聚周末</strong>将于 <strong>6月26-27日（本周末）</strong> 在<strong>帕克校区</strong>盛大举行。活动包括 Bellisario 传媒中心参观、The Daily Collegian 编辑部探访、Collegian AIG 导览、家庭友好型活动、校友交流与校园参观等。这是校友返校、结识在校学生、感受校园文化的核心载体，预计吸引数千名校友和家属回到 Happy Valley。
         </p>
         <div class="card-meta">
-          <span class="source-badge psu">Penn State News</span>
-          <span class="card-date">2026年5月12日发布 · 6月26-27日举行</span>
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年5月12日发布 · 6月26-27日举行</span>
+          </div>
         </div>
         <a class="card-link" href="https://www.psu.edu/news/alumni-association/story/we-are-weekend-unite-penn-staters-university-park-june-26-27" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
@@ -932,8 +961,12 @@
           <strong>核心提炼：</strong>三星级高中角卫 <strong>Dhillon McGee</strong> 于<strong>6月24日</strong>正式承诺加入宾州州立大学橄榄球队，继续 2027 届招募节奏。主帅 <strong>Terry Smith</strong> 在新周期中持续发力，加强球队防守后场深度。本次招募展示出 PSU 招募团队在二线后卫位置上的吸引力，为下赛季的阵容调整奠定基础。
         </p>
         <div class="card-meta">
-          <span class="source-badge onward">Onward State</span>
-          <span class="card-date">2026年6月24日</span>
+          <div class="meta-left">
+            <span class="source-badge onward">Onward State</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月24日</span>
+          </div>
         </div>
         <a class="card-link" href="https://onwardstate.com/2026/06/24/three-star-cornerback-dhillon-mcgee-commits-to-penn-state-football/" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
@@ -949,8 +982,12 @@
           <strong>核心提炼：</strong>NCAA 于本周二（6月23日）公布重大资格规则改革，引入<strong>基于年龄的资格认定（"五年五赛季"规则）</strong>，将在全美大学体育层面产生深远影响。对宾州州立而言，新规或将影响现有球员的参赛资格、招募策略与球队阵容规划，尤其是"超级新星"和"高龄转学生"的参赛通道将发生重大变化。校方体育部门正评估其对 Nittany Lions 各项目（橄榄球、篮球、冰球等）的具体影响。
         </p>
         <div class="card-meta">
-          <span class="source-badge onward">Onward State</span>
-          <span class="card-date">2026年6月23日</span>
+          <div class="meta-left">
+            <span class="source-badge onward">Onward State</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月23日</span>
+          </div>
         </div>
         <a class="card-link" href="https://onwardstate.com/2026/06/23/what-the-ncaas-five-in-five-eligibility-ruling-means-for-penn-state-athletics/" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
@@ -966,8 +1003,12 @@
           <strong>核心提炼：</strong>宾州州立大学学生事务部任命 <strong>Megan McKnight</strong> 为<strong>健康促进与福祉部门（Health Promotion and Wellness）主任</strong>，自 6月24日生效。该部门负责统筹全校学生的身心健康、疾病预防、营养教育、性健康与药物滥用干预等核心服务。此次人事任命表明 PSU 在新学年中继续强化学生福祉体系，特别是面向即将返校的全美最大校园之一——帕克校区数万名学生。
         </p>
         <div class="card-meta">
-          <span class="source-badge psu">Penn State News</span>
-          <span class="card-date">2026年6月24日</span>
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月24日</span>
+          </div>
         </div>
         <a class="card-link" href="https://www.psu.edu/news/student-affairs/story/megan-mcknight-named-director-health-promotion-and-wellness-penn-state" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
