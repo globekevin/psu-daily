@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-25",
+  "shown_news_history": [
+    {
+      "date": "2026-06-25",
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking",
+      "title_cn": "国会图书馆实习机会「堪称完美」",
+      "category": "传媒学院",
+      "source": "Penn State News"
+    },
+    {
+      "date": "2026-06-25",
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2",
+      "title_cn": "Don Toliver 携 NITROUS 巡演登陆 BJC",
+      "category": "帕克校区",
+      "source": "Penn State News"
+    },
+    {
+      "date": "2026-06-25",
+      "url": "https://www.psu.edu/news/alumni-association/story/we-are-weekend-unite-penn-staters-university-park-june-26-27",
+      "title_cn": "We Are Weekend 校友周末齐聚帕克校区",
+      "category": "帕克校区",
+      "source": "Penn State News"
+    },
+    {
+      "date": "2026-06-25",
+      "url": "https://onwardstate.com/2026/06/24/three-star-cornerback-dhillon-mcgee-commits-to-penn-state-football/",
+      "title_cn": "三星级角卫 Dhillon McGee 承诺加盟 PSU 橄榄球",
+      "category": "体育",
+      "source": "Onward State"
+    },
+    {
+      "date": "2026-06-25",
+      "url": "https://onwardstate.com/2026/06/23/what-the-ncaas-five-in-five-eligibility-ruling-means-for-penn-state-athletics/",
+      "title_cn": "NCAA「五年五赛季」年龄资格新规影响宾州州立体育",
+      "category": "体育",
+      "source": "Onward State"
+    },
+    {
+      "date": "2026-06-25",
+      "url": "https://www.psu.edu/news/student-affairs/story/megan-mcknight-named-director-health-promotion-and-wellness-penn-state",
+      "title_cn": "Megan McKnight 出任健康促进与福祉部门主任",
+      "category": "行政人事",
+      "source": "Penn State News"
+    }
+  ],
+  "notes": "历史去重记录文件：每次生成日报时，先读取此文件排除已展示过的新闻 URL；每次新生成日报时，追加新新闻条目到此文件。建议每 30 天清理一次超过 60 天的旧条目。"
+}

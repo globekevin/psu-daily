@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宾州州立大学新闻日报 | 2026年6月25日</title>
+<style>
+  :root {
+    --psu-navy: #001E44;
+    --psu-navy-dark: #001428;
+    --psu-navy-light: #1E4079;
+    --psu-white: #FFFFFF;
+    --psu-beaver-blue: #96BEE6;
+    --psu-gray: #E4E5E7;
+    --psu-gray-dark: #4A4A4A;
+    --psu-gold: #B5995E;
+    --psu-red: #9E1B32;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--psu-gray);
+    color: #222;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    border-bottom: 4px solid var(--psu-white);
+  }
+  .top-bar {
+    background: var(--psu-navy-dark);
+    padding: 6px 0;
+    font-size: 12px;
+    text-align: center;
+    color: var(--psu-beaver-blue);
+    letter-spacing: 1px;
+  }
+  .header-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .lion-shield {
+    width: 56px;
+    height: 56px;
+    background: var(--psu-navy);
+    border: 2px solid var(--psu-white);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-shrink: 0;
+  }
+  .brand-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  .brand-text .subtitle {
+    font-size: 12px;
+    color: var(--psu-beaver-blue);
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .header-meta {
+    text-align: right;
+    font-size: 13px;
+  }
+  .header-meta .date {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .header-meta .edition {
+    color: var(--psu-beaver-blue);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+  }
+
+  /* Navigation / TOC */
+  nav.toc {
+    background: var(--psu-navy);
+    border-top: 1px solid var(--psu-navy-light);
+  }
+  .toc-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+  }
+  .toc-inner a {
+    color: var(--psu-white);
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .toc-inner a:hover {
+    background: var(--psu-navy-light);
+    border-bottom-color: var(--psu-gold);
+  }
+
+  /* Hero / Lead */
+  .hero {
+    background: linear-gradient(135deg, var(--psu-navy) 0%, var(--psu-navy-light) 100%);
+    color: var(--psu-white);
+    padding: 60px 32px;
+    text-align: center;
+  }
+  .hero .we-are {
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: var(--psu-gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .hero h2 {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 0 auto 12px;
+  }
+  .hero .lead-cn {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--psu-beaver-blue);
+    margin-top: 8px;
+  }
+  .hero .lead-en {
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 16px;
+    font-style: italic;
+  }
+
+  /* Container */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 32px;
+  }
+
+  /* News Grid */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .news-card {
+    background: var(--psu-white);
+    border-top: 4px solid var(--psu-navy);
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .news-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,30,68,0.15);
+  }
+  .news-card.full {
+    grid-column: 1 / -1;
+  }
+  .card-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 24px 0;
+    color: var(--psu-white);
+  }
+  .tag-comm { background: var(--psu-red); }
+  .tag-up { background: var(--psu-navy); }
+  .tag-sports { background: var(--psu-gold); color: var(--psu-navy-dark); }
+  .tag-admin { background: #5A7A3A; }
+  .tag-alumni { background: #6B4F8E; }
+  .tag-policy { background: #B8541C; }
+
+  .card-body {
+    padding: 20px 24px 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--psu-navy);
+    line-height: 1.35;
+    margin-bottom: 10px;
+  }
+  .card-title-en {
+    font-size: 16px;
+    color: var(--psu-gray-dark);
+    font-style: italic;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--psu-gray);
+  }
+  .card-summary {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.8;
+  }
+  .card-summary strong {
+    color: var(--psu-navy);
+  }
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid var(--psu-gray);
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+  }
+  .source-badge {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .source-badge.onward { background: #B8541C; }
+  .source-badge.collegian { background: #6B4F8E; }
+  .source-badge.psu { background: var(--psu-navy); }
+  .card-date {
+    color: var(--psu-gray-dark);
+  }
+  .card-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .card-link:hover {
+    background: var(--psu-navy-light);
+  }
+  .card-link .arrow {
+    margin-left: 6px;
+  }
+
+  /* Section Divider */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 24px;
+    gap: 16px;
+  }
+  .section-divider h3 {
+    font-size: 30px;
+    color: var(--psu-navy);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .section-divider .line {
+    flex: 1;
+    height: 2px;
+    background: var(--psu-navy);
+    opacity: 0.3;
+  }
+
+  /* Stats Panel */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: var(--psu-white);
+    border-left: 4px solid var(--psu-navy);
+    padding: 20px;
+    text-align: center;
+  }
+  .stat-card.comm { border-left-color: var(--psu-red); }
+  .stat-card.up { border-left-color: var(--psu-navy); }
+  .stat-card.sports { border-left-color: var(--psu-gold); }
+  .stat-card.policy { border-left-color: #B8541C; }
+  .stat-num {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--psu-navy);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  /* Footer */
+  footer {
+    background: var(--psu-navy-dark);
+    color: var(--psu-beaver-blue);
+    padding: 40px 32px 24px;
+    margin-top: 40px;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+  .footer-col h4 {
+    color: var(--psu-white);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+  .footer-col p, .footer-col li {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer-col ul {
+    list-style: none;
+  }
+  .footer-col a {
+    color: var(--psu-beaver-blue);
+    text-decoration: none;
+  }
+  .footer-col a:hover {
+    color: var(--psu-white);
+  }
+  .footer-bottom {
+    border-top: 1px solid var(--psu-navy-light);
+    padding-top: 16px;
+    font-size: 11px;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+  }
+
+  @media (max-width: 768px) {
+    .news-grid { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: 1fr; }
+    .hero h2 { font-size: 26px; }
+    .header-main { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">THE PENNSYLVANIA STATE UNIVERSITY · DAILY NEWS DIGEST · 宾州州立大学每日新闻</div>
+
+<header>
+  <div class="header-main">
+    <div class="brand">
+      <div class="lion-shield">🦁</div>
+      <div class="brand-text">
+        <h1>宾夕法尼亚州立大学 · 新闻日报</h1>
+        <div class="subtitle">Penn State Daily News · We Are!</div>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="date" id="todayDate">2026年6月25日 星期四</div>
+      <div class="edition">Daily Edition · 第 1 期</div>
+    </div>
+  </div>
+  <nav class="toc">
+    <div class="toc-inner">
+      <a href="#lead">头条</a>
+      <a href="#news-1">传媒学院</a>
+      <a href="#news-2">演出预告</a>
+      <a href="#news-3">校友活动</a>
+      <a href="#news-4">橄榄球招生</a>
+      <a href="#news-5">NCAA 政策</a>
+      <a href="#news-6">行政人事</a>
+      <a href="#sources">信息来源</a>
+      <a href="archive.html" style="background:var(--psu-gold);color:var(--psu-navy-dark);">📰 往日新闻</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="lead">
+  <div class="we-are">We Are · Penn State</div>
+  <h2>今日精选 6 条 PSUTODAY 头条</h2>
+  <div class="lead-cn">聚焦传媒学院 · 帕克校区 · 体育动态 · 校园人事</div>
+  <div class="lead-en">6 selected stories from The Daily Collegian · Onward State · Penn State News</div>
+</section>
+
+<main>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-num">6</div>
+      <div class="stat-label">今日精选</div>
+    </div>
+    <div class="stat-card comm">
+      <div class="stat-num">1</div>
+      <div class="stat-label">传媒学院</div>
+    </div>
+    <div class="stat-card up">
+      <div class="stat-num">2</div>
+      <div class="stat-label">帕克校区</div>
+    </div>
+    <div class="stat-card sports">
+      <div class="stat-num">2</div>
+      <div class="stat-label">体育动态</div>
+    </div>
+  </div>
+
+  <div class="section-divider">
+    <h3>📰 今日要闻</h3>
+    <div class="line"></div>
+  </div>
+
+  <div class="news-grid">
+
+    <!-- 1. College of Communications -->
+    <article class="news-card" id="news-1">
+      <span class="card-tag tag-comm">传媒学院</span>
+      <div class="card-body">
+        <h2 class="card-title">国会图书馆实习机会"堪称完美"，PSU 传媒学院勤奋学生圆梦华府</h2>
+        <div class="card-title-en">Opportunity at Library of Congress 'feels perfect' for hardworking student · Donald P. Bellisario College of Communications</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立大学贝尔纳罗传媒学院一名学生凭借出色的学术与实践能力，获得位于华盛顿特区的<strong>美国国会图书馆实习机会</strong>，个人形容"堪称完美"。这一岗位竞争激烈，体现出 PSU 传媒学院在新闻、广告、公关、媒体研究等领域的人才培养获得国家级文化机构的高度认可，也为该校学生进入美国顶级文化与信息机构打开通道。事件再次印证 Bellisario College 在全国传媒教育中的领先地位。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge psu">Penn State News</span>
+          <span class="card-date">2026年6月21日</span>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 2. Don Toliver at BJC (University Park) -->
+    <article class="news-card" id="news-2">
+      <span class="card-tag tag-up">帕克校区 · 演出</span>
+      <div class="card-body">
+        <h2 class="card-title">说唱歌手 Don Toliver 携 "NITROUS – OCTANE WORLD TOUR" 登陆 BJC，9月2日开唱</h2>
+        <div class="card-title-en">Don Toliver brings 'NITROUS – OCTANE WORLD TOUR' to the BJC on Sept. 2 · Bryce Jordan Center, University Park</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>美国当红说唱歌手 <strong>Don Toliver</strong> 携其<strong>"NITROUS – OCTANE WORLD TOUR" 世界巡演</strong>于 <strong>9月2日</strong> 登陆宾州州立大学<strong>帕克校区的 Bryce Jordan Center（BJC）</strong>，为校园带来顶级 Hip-Hop 演出。本次演出是 BJC 秋季重磅活动之一，预计将吸引校内外大量乐迷，凸显帕克校区作为宾州中部文化娱乐中心的地位，并丰富学生的校园生活体验。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge psu">Penn State News</span>
+          <span class="card-date">2026年6月23日</span>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 3. We Are Weekend at University Park -->
+    <article class="news-card" id="news-3">
+      <span class="card-tag tag-alumni">帕克校区 · 校友</span>
+      <div class="card-body">
+        <h2 class="card-title">"We Are Weekend" 校友周末将于6月26-27日齐聚帕克校区，共度盛夏</h2>
+        <div class="card-title-en">'We Are Weekend' to unite Penn Staters at University Park June 26–27 · Alumni Association</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立大学校友会主办的<strong>「We Are Weekend」校友团聚周末</strong>将于 <strong>6月26-27日（本周末）</strong> 在<strong>帕克校区</strong>盛大举行。活动包括 Bellisario 传媒中心参观、The Daily Collegian 编辑部探访、Collegian AIG 导览、家庭友好型活动、校友交流与校园参观等。这是校友返校、结识在校学生、感受校园文化的核心载体，预计吸引数千名校友和家属回到 Happy Valley。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge psu">Penn State News</span>
+          <span class="card-date">2026年5月12日发布 · 6月26-27日举行</span>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/alumni-association/story/we-are-weekend-unite-penn-staters-university-park-june-26-27" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 4. Three-Star CB McGee Commits -->
+    <article class="news-card" id="news-4">
+      <span class="card-tag tag-sports">体育 · 招生</span>
+      <div class="card-body">
+        <h2 class="card-title">三星级角卫 Dhillon McGee 承诺加盟宾州州立橄榄球，主帅 Terry Smith 持续网罗新血</h2>
+        <div class="card-title-en">Three-Star Cornerback Dhillon McGee Commits To Penn State Football · Onward State</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>三星级高中角卫 <strong>Dhillon McGee</strong> 于<strong>6月24日</strong>正式承诺加入宾州州立大学橄榄球队，继续 2027 届招募节奏。主帅 <strong>Terry Smith</strong> 在新周期中持续发力，加强球队防守后场深度。本次招募展示出 PSU 招募团队在二线后卫位置上的吸引力，为下赛季的阵容调整奠定基础。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge onward">Onward State</span>
+          <span class="card-date">2026年6月24日</span>
+        </div>
+        <a class="card-link" href="https://onwardstate.com/2026/06/24/three-star-cornerback-dhillon-mcgee-commits-to-penn-state-football/" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 5. NCAA Age-Based Eligibility Ruling -->
+    <article class="news-card" id="news-5">
+      <span class="card-tag tag-policy">体育 · 政策</span>
+      <div class="card-body">
+        <h2 class="card-title">NCAA 颁布"五年五赛季"年龄资格新规，对宾州州立体育影响深远</h2>
+        <div class="card-title-en">What The NCAA's Age-Based Eligibility Ruling Means For Penn State Athletics · Onward State</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>NCAA 于本周二（6月23日）公布重大资格规则改革，引入<strong>基于年龄的资格认定（"五年五赛季"规则）</strong>，将在全美大学体育层面产生深远影响。对宾州州立而言，新规或将影响现有球员的参赛资格、招募策略与球队阵容规划，尤其是"超级新星"和"高龄转学生"的参赛通道将发生重大变化。校方体育部门正评估其对 Nittany Lions 各项目（橄榄球、篮球、冰球等）的具体影响。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge onward">Onward State</span>
+          <span class="card-date">2026年6月23日</span>
+        </div>
+        <a class="card-link" href="https://onwardstate.com/2026/06/23/what-the-ncaas-five-in-five-eligibility-ruling-means-for-penn-state-athletics/" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 6. Megan McKnight Appointment -->
+    <article class="news-card full" id="news-6">
+      <span class="card-tag tag-admin">行政任命</span>
+      <div class="card-body">
+        <h2 class="card-title">Megan McKnight 出任宾州州立大学健康促进与福祉部门主任</h2>
+        <div class="card-title-en">Megan McKnight named director of Health Promotion and Wellness at Penn State · Student Affairs</div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立大学学生事务部任命 <strong>Megan McKnight</strong> 为<strong>健康促进与福祉部门（Health Promotion and Wellness）主任</strong>，自 6月24日生效。该部门负责统筹全校学生的身心健康、疾病预防、营养教育、性健康与药物滥用干预等核心服务。此次人事任命表明 PSU 在新学年中继续强化学生福祉体系，特别是面向即将返校的全美最大校园之一——帕克校区数万名学生。
+        </p>
+        <div class="card-meta">
+          <span class="source-badge psu">Penn State News</span>
+          <span class="card-date">2026年6月24日</span>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/student-affairs/story/megan-mcknight-named-director-health-promotion-and-wellness-penn-state" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="section-divider" id="sources">
+    <h3>🔗 信息来源</h3>
+    <div class="line"></div>
+  </div>
+
+  <div style="background: var(--psu-white); padding: 24px 32px; box-shadow: 0 2px 8px rgba(0,30,68,0.08);">
+    <p style="margin-bottom: 14px; font-size: 14px; color: var(--psu-navy); font-weight: 600;">本日报所有新闻均来自以下 4 个宾州州立大学官方与权威媒体渠道：</p>
+    <ul style="list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+      <li>
+        <a href="https://www.psucollegian.com" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
+          <strong>The Daily Collegian</strong><br>
+          <span style="color: #666; font-size: 12px;">psucollegian.com · 独立学生日报</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://onwardstate.com" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
+          <strong>Onward State</strong><br>
+          <span style="color: #666; font-size: 12px;">onwardstate.com · 独立新闻网站</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.psu.edu/news/campus-life" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
+          <strong>Penn State News · Campus Life</strong><br>
+          <span style="color: #666; font-size: 12px;">psu.edu/news/campus-life · 校园生活</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.collegian.psu.edu/" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
+          <strong>The Collegian</strong><br>
+          <span style="color: #666; font-size: 12px;">collegian.psu.edu · 校园媒体</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>关于本日报</h4>
+        <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻，翻译为中文并提炼核心内容，重点覆盖 Donald P. Bellisario College of Communications 与 University Park 帕克校区动态。</p>
+      </div>
+      <div class="footer-col">
+        <h4>每日筛选标准</h4>
+        <ul>
+          <li>· 重大性 / 影响力</li>
+          <li>· 时效性（24-72h）</li>
+          <li>· 必含传媒学院</li>
+          <li>· 必含帕克校区</li>
+          <li>· 避免与昨日重复</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>核心关键词</h4>
+        <ul>
+          <li>· Bellisario College</li>
+          <li>· University Park</li>
+          <li>· Happy Valley</li>
+          <li>· Nittany Lions</li>
+          <li>· We Are!</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 The Pennsylvania State University · 本日报为信息整理用途，不构成官方新闻发布 · 由 Buddy 为 凯子鱼 整理
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Auto-update date
+  const now = new Date();
+  const cnDate = now.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+  document.getElementById('todayDate').textContent = cnDate;
+</script>
+
+</body>
+</html>
