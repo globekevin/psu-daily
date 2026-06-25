@@ -119,9 +119,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
     flex-shrink: 0;
-    order: -1;
+  }
+  .lion-shield img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
   }
 
   /* ===== Navigation / TOC ===== */
@@ -625,7 +630,7 @@
   @media (min-width: 430px) and (max-width: 767px) {
     .header-main { padding: 32px 18px; }
     .brand-text h1 { font-size: 20px; }
-    .lion-shield { width: 44px; height: 44px; font-size: 24px; }
+    .lion-shield { width: 44px; height: 44px; }
     .hero { padding: 36px 18px; }
     .hero h2 { font-size: 26px; }
     .hero .lead-cn { font-size: 17px; }
@@ -663,7 +668,7 @@
       gap: 6px;
     }
     .brand { gap: 10px; }
-    .lion-shield { width: 38px; height: 38px; font-size: 20px; }
+    .lion-shield { width: 38px; height: 38px; }
     .brand-text h1 { font-size: 17px; }
     .brand-text .subtitle { font-size: 10px; letter-spacing: 1px; }
     .header-meta { text-align: left; }
@@ -722,7 +727,7 @@
   /* iPhone SE 1st gen (320px), very old Androids     */
   @media (max-width: 359px) {
     .header-main { padding: 24px 10px; gap: 4px; }
-    .lion-shield { width: 32px; height: 32px; font-size: 18px; }
+    .lion-shield { width: 32px; height: 32px; }
     .brand-text h1 { font-size: 15px; }
     .brand-text .subtitle { font-size: 9px; letter-spacing: 0.5px; }
     .header-meta .date { font-size: 12px; }
@@ -955,11 +960,13 @@
 <header>
   <div class="header-main">
       <div class="brand">
+        <div class="lion-shield">
+          <img src="psu-shield.png" alt="Penn State">
+        </div>
         <div class="brand-text">
           <h1>宾夕法尼亚州立大学</h1>
           <div class="subtitle">Penn State · 每日新闻精选</div>
         </div>
-        <div class="lion-shield">🦁</div>
       </div>
     <div class="header-meta">
       <div class="date" id="todayDate">2026年6月25日 星期四</div>
