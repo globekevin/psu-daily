@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes">
+<title>往日新闻目录 · 宾州州立大学 Six A Day</title>
+<style>
+  :root {
+    --psu-navy: #001E44;
+    --psu-navy-dark: #001428;
+    --psu-navy-light: #1E4079;
+    --psu-white: #FFFFFF;
+    --psu-beaver-blue: #96BEE6;
+    --psu-gray: #E4E5E7;
+    --psu-gray-dark: #4A4A4A;
+    --psu-gold: #B5995E;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--psu-gray);
+    color: #222;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    border-bottom: 4px solid var(--psu-white);
+  }
+  .top-bar {
+    background: var(--psu-navy-dark);
+    padding: 6px 0;
+    font-size: 12px;
+    text-align: center;
+    color: var(--psu-beaver-blue);
+    letter-spacing: 1px;
+  }
+  .header-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--psu-white);
+  }
+  .lion-shield {
+    width: 56px;
+    height: 56px;
+    background: var(--psu-navy);
+    border: 2px solid var(--psu-white);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-shrink: 0;
+  }
+  .brand-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  .brand-text .subtitle {
+    font-size: 12px;
+    color: var(--psu-beaver-blue);
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .header-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--psu-navy-light);
+    color: var(--psu-white);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+  }
+  .btn-back:hover {
+    background: var(--psu-gold);
+    color: var(--psu-navy-dark);
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, var(--psu-navy) 0%, var(--psu-navy-light) 100%);
+    color: var(--psu-white);
+    padding: 36px 32px 28px;
+    text-align: center;
+  }
+  .hero .we-are {
+    font-size: 13px;
+    letter-spacing: 6px;
+    color: var(--psu-gold);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .hero h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  .hero .lead-cn {
+    font-size: 16px;
+    color: var(--psu-beaver-blue);
+    margin-top: 8px;
+  }
+
+  /* Category Quick Nav (sticky) */
+  .cat-nav {
+    background: var(--psu-white);
+    border-bottom: 2px solid var(--psu-gray);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
+  }
+  .cat-nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 32px;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .cat-nav-inner::-webkit-scrollbar { display: none; }
+  .cat-nav a {
+    flex-shrink: 0;
+    padding: 6px 14px;
+    background: var(--psu-gray);
+    color: var(--psu-navy);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+  }
+  .cat-nav a:hover {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+  }
+  .cat-nav a.active {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+  }
+
+  /* Main */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  /* Category Section */
+  .cat-section {
+    margin-bottom: 36px;
+    scroll-margin-top: 60px;
+  }
+  .cat-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--psu-navy);
+  }
+  .cat-header h3 {
+    font-size: 22px;
+    color: var(--psu-navy);
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .cat-header .count {
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+    background: var(--psu-gray);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .cat-header .line {
+    flex: 1;
+    height: 1px;
+    background: var(--psu-navy);
+    opacity: 0.15;
+  }
+
+  /* News List */
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .news-item {
+    background: var(--psu-white);
+    border-left: 4px solid var(--psu-navy);
+    padding: 14px 18px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 1px 4px rgba(0,30,68,0.06);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .news-item:hover {
+    transform: translateX(2px);
+    box-shadow: 0 3px 12px rgba(0,30,68,0.12);
+  }
+  .news-date {
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+    font-weight: 600;
+    min-width: 90px;
+    flex-shrink: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  .news-title {
+    flex: 1;
+    font-size: 15px;
+    color: var(--psu-navy);
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .news-source {
+    font-size: 11px;
+    color: var(--psu-gray-dark);
+    background: var(--psu-gray);
+    padding: 2px 8px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    font-weight: 500;
+  }
+
+  /* Empty State */
+  .empty-state {
+    text-align: center;
+    padding: 60px 32px;
+    color: var(--psu-gray-dark);
+  }
+  .empty-state .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  /* Footer */
+  footer {
+    background: var(--psu-navy-dark);
+    color: var(--psu-beaver-blue);
+    padding: 28px 32px;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 40px;
+  }
+
+  /* ============================================================
+     RESPONSIVE
+     ============================================================ */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header-main { padding: 20px 28px; }
+    .hero { padding: 32px 28px 24px; }
+    .hero h2 { font-size: 26px; }
+    .cat-nav-inner { padding: 10px 28px; }
+    main { padding: 28px; }
+  }
+
+  @media (min-width: 430px) and (max-width: 767px) {
+    .header-main { padding: 14px 18px; }
+    .brand-text h1 { font-size: 20px; }
+    .lion-shield { width: 44px; height: 44px; font-size: 24px; }
+    .hero { padding: 28px 18px 20px; }
+    .hero h2 { font-size: 22px; }
+    .cat-nav-inner { padding: 8px 18px; }
+    main { padding: 20px 16px; }
+    .cat-section { margin-bottom: 28px; }
+    .cat-header h3 { font-size: 18px; }
+    .news-item { padding: 12px 14px; gap: 10px; }
+    .news-date { font-size: 11px; min-width: 70px; }
+    .news-title { font-size: 14px; }
+    .news-source { font-size: 10px; }
+  }
+
+  @media (min-width: 360px) and (max-width: 429px) {
+    .top-bar { font-size: 10px; padding: 5px 10px; letter-spacing: 0.5px; }
+    .header-main {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 12px 14px;
+      gap: 8px;
+    }
+    .brand { gap: 10px; }
+    .lion-shield { width: 38px; height: 38px; font-size: 20px; }
+    .brand-text h1 { font-size: 17px; }
+    .brand-text .subtitle { font-size: 10px; letter-spacing: 1px; }
+    .header-actions { width: 100%; }
+    .btn-back { width: 100%; text-align: center; padding: 10px; font-size: 13px; }
+    .hero { padding: 24px 14px 18px; }
+    .hero .we-are { font-size: 11px; letter-spacing: 3px; }
+    .hero h2 { font-size: 20px; }
+    .hero .lead-cn { font-size: 13px; }
+    .cat-nav-inner { padding: 8px 14px; }
+    .cat-nav a { font-size: 12px; padding: 5px 10px; }
+    main { padding: 18px 12px; }
+    .cat-section { margin-bottom: 24px; }
+    .cat-header { gap: 8px; margin-bottom: 10px; }
+    .cat-header h3 { font-size: 16px; }
+    .cat-header .count { font-size: 11px; padding: 1px 8px; }
+    .news-item {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 12px;
+      gap: 6px;
+    }
+    .news-date { font-size: 11px; min-width: 0; }
+    .news-title { font-size: 13px; }
+    .news-source { font-size: 10px; align-self: flex-end; }
+    footer { font-size: 10px; padding: 20px 16px; }
+  }
+
+  @media (max-width: 359px) {
+    .top-bar { font-size: 9px; padding: 4px 6px; }
+    .header-main { padding: 10px 10px; }
+    .lion-shield { width: 32px; height: 32px; font-size: 18px; }
+    .brand-text h1 { font-size: 15px; }
+    .brand-text .subtitle { font-size: 9px; }
+    .hero h2 { font-size: 18px; }
+    main { padding: 14px 8px; }
+    .cat-header h3 { font-size: 15px; }
+    .news-title { font-size: 12px; }
+  }
+
+  /* iOS Safe Area */
+  @supports (padding-top: env(safe-area-inset-top)) {
+    .top-bar {
+      padding-top: env(safe-area-inset-top, 6px);
+    }
+    .header-main {
+      padding-top: env(safe-area-inset-top, 24px);
+    }
+    .cat-nav {
+      padding-top: env(safe-area-inset-top, 0px);
+    }
+    footer {
+      padding-bottom: env(safe-area-inset-bottom, 24px);
+    }
+  }
+
+  /* Foldable */
+  @media (max-width: 820px) {
+    .cat-nav-inner { gap: 6px; }
+  }
+
+  /* Touch */
+  @media (pointer: coarse) {
+    .btn-back { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+    .cat-nav a { min-height: 32px; display: inline-flex; align-items: center; }
+  }
+
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    * {
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+      text-rendering: optimizeLegibility !important;
+    }
+    body { background: #0d0d0d; color: #e8e8e8; }
+    .top-bar { background: #1a1a1a; color: #96BEE6; }
+    .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
+    .brand-text .subtitle { color: #96BEE6; }
+    .btn-back { background: rgba(150,190,230,0.12); color: #96BEE6; border: 1px solid rgba(150,190,230,0.25); }
+    .btn-back:hover { background: rgba(150,190,230,0.22); }
+    .hero { background: linear-gradient(135deg, #001E44 0%, #0a2744 60%, #0d1a3a 100%); }
+    .hero .we-are { color: #96BEE6; }
+    .hero .lead-cn { color: #d0d0d0; }
+    .cat-nav { background: #1a1a1a; border-bottom-color: #2a2a2a; }
+    .cat-nav a { background: #2a2a2a; color: #96BEE6; }
+    .cat-nav a:hover, .cat-nav a.active { background: #96BEE6; color: #001E44; }
+    .cat-header h3 { color: #ffffff; }
+    .cat-header { border-bottom-color: #96BEE6; }
+    .cat-header .line { background: #2a2a2a; }
+    .cat-header .count { background: #2a2a2a; color: #aaa; }
+    .news-item {
+      background: #161625;
+      border-left-color: #96BEE6;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    }
+    .news-item:hover { background: #1e1e32; }
+    .news-date { color: #96BEE6; }
+    .news-title { color: #ffffff; }
+    .news-source { background: #2a2a2a; color: #aaa; }
+    footer { background: #050510; color: #888; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">THE PENNSYLVANIA STATE UNIVERSITY · DAILY NEWS ARCHIVE · 往日新闻目录</div>
+
+<header>
+  <div class="header-main">
+    <a class="brand" href="index.html">
+      <div class="lion-shield">🦁</div>
+      <div class="brand-text">
+        <h1>宾州州立大学 · Six A Day</h1>
+        <div class="subtitle">Penn State Daily News · We Are!</div>
+      </div>
+    </a>
+    <div class="header-actions">
+      <a class="btn-back" href="archive.html">📅 按日期查看</a>
+      <a class="btn-back" href="index.html">← 返回今日</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="we-are">We Are · Penn State</div>
+  <h2>📚 往日新闻目录</h2>
+  <div class="lead-cn">按分类索引所有历史新闻 · 点击分类快速跳转到相关往期</div>
+</section>
+
+<nav class="cat-nav">
+  <div class="cat-nav-inner">
+    <a href="#cat-传媒学院" class="active">传媒学院</a>
+    <a href="#cat-演出预告">演出预告</a>
+    <a href="#cat-校友活动">校友活动</a>
+    <a href="#cat-橄榄球招生">橄榄球招生</a>
+    <a href="#cat-NCAA政策">NCAA 政策</a>
+    <a href="#cat-行政人事">行政人事</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- 传媒学院 -->
+  <div class="cat-section" id="cat-传媒学院">
+    <div class="cat-header">
+      <h3>📡 传媒学院</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">国会图书馆实习机会「堪称完美」：勤奋学生的理想舞台</span>
+        <span class="news-source">Penn State News</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 演出预告 -->
+  <div class="cat-section" id="cat-演出预告">
+    <div class="cat-header">
+      <h3>🎤 演出预告</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">Don Toliver 携 NITROUS 巡演登陆 BJC，9月2日开唱</span>
+        <span class="news-source">Penn State News</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 校友活动 -->
+  <div class="cat-section" id="cat-校友活动">
+    <div class="cat-header">
+      <h3>🎓 校友活动</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://www.psu.edu/news/alumni-association/story/we-are-weekend-unite-penn-staters-university-park-june-26-27" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">We Are Weekend 校友周末齐聚帕克校区（6月26-27日）</span>
+        <span class="news-source">Penn State News</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 橄榄球招生 -->
+  <div class="cat-section" id="cat-橄榄球招生">
+    <div class="cat-header">
+      <h3>🏈 橄榄球招生</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://onwardstate.com/2026/06/24/three-star-cornerback-dhillon-mcgee-commits-to-penn-state-football/" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">三星级角卫 Dhillon McGee 承诺加盟 PSU 橄榄球</span>
+        <span class="news-source">Onward State</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- NCAA 政策 -->
+  <div class="cat-section" id="cat-NCAA政策">
+    <div class="cat-header">
+      <h3>📜 NCAA 政策</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://onwardstate.com/2026/06/23/what-the-ncaas-five-in-five-eligibility-ruling-means-for-penn-state-athletics/" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">NCAA「五年五赛季」年龄资格新规影响宾州州立体育</span>
+        <span class="news-source">Onward State</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 行政人事 -->
+  <div class="cat-section" id="cat-行政人事">
+    <div class="cat-header">
+      <h3>🏛️ 行政人事</h3>
+      <span class="count">1 条</span>
+      <div class="line"></div>
+    </div>
+    <div class="news-list">
+      <a class="news-item" href="https://www.psu.edu/news/student-affairs/story/megan-mcknight-named-director-health-promotion-and-wellness-penn-state" target="_blank" rel="noopener">
+        <span class="news-date">2026-06-25</span>
+        <span class="news-title">Megan McKnight 出任健康促进与福祉部门主任</span>
+        <span class="news-source">Penn State News</span>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  © 2026 The Pennsylvania State University · 往日新闻目录 · 由 Buddy 为 凯子鱼 整理
+</footer>
+
+<script>
+  // Highlight active category in sticky nav on scroll
+  const sections = document.querySelectorAll('.cat-section');
+  const navLinks = document.querySelectorAll('.cat-nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 80 && rect.bottom > 80) {
+        current = section.id;
+      }
+    });
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  });
+</script>
+</body>
+</html>
