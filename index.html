@@ -349,17 +349,43 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
-  .sources-grid li a {
-    color: var(--psu-navy);
-    text-decoration: none;
-    font-size: 13px;
-    display: block;
-    padding: 8px 0;
-    border-bottom: 1px solid var(--psu-gray);
+  .source-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
-  .sources-grid li a strong { display: block; margin-bottom: 2px; }
-  .sources-grid li a span { color: #666; font-size: 12px; }
-  .sources-grid li:last-child a { border-bottom: none; }
+  .source-item a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 14px;
+    background: #f7f8fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--psu-navy);
+    border-left: 3px solid var(--psu-navy);
+    transition: background 0.2s;
+    min-height: 44px;
+    justify-content: center;
+  }
+  .source-item a:active {
+    background: #e8ecf3;
+  }
+  .source-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--psu-navy);
+    line-height: 1.3;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .source-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.3;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
 
   /* Footer */
   footer {
@@ -457,7 +483,8 @@
     /* Sources */
     .sources-box { padding: 18px 18px; }
     .sources-intro { font-size: 13.5px; }
-    .sources-grid li a { font-size: 13px; }
+    .source-name { font-size: 13.5px; }
+    .source-desc { font-size: 11.5px; }
   }
 
   /* --- Standard Phones (360px–429px) --- */
@@ -516,9 +543,10 @@
     /* Sources */
     .sources-box { padding: 16px 14px; }
     .sources-intro { font-size: 13px; margin-bottom: 12px; line-height: 1.5; }
-    .sources-grid { grid-template-columns: 1fr !important; gap: 0; }
-    .sources-grid li a { padding: 10px 0; font-size: 13px; }
-    .sources-grid li a strong { font-size: 14px; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 8px; }
+    .source-item a { padding: 10px 14px; }
+    .source-name { font-size: 14px; }
+    .source-desc { font-size: 11px; }
     /* Footer */
     .footer-grid { grid-template-columns: 1fr; gap: 18px; }
     .footer-col h4 { font-size: 12px; }
@@ -557,9 +585,10 @@
     /* Sources */
     .sources-box { padding: 12px 10px; }
     .sources-intro { font-size: 12px; }
-    .sources-grid { grid-template-columns: 1fr !important; gap: 0; }
-    .sources-grid li a { padding: 8px 0; font-size: 12px; }
-    .sources-grid li a strong { font-size: 13px; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 8px; }
+    .source-item a { padding: 8px 10px; }
+    .source-name { font-size: 13px; }
+    .source-desc { font-size: 10px; }
   }
 
   /* ============================================================
@@ -838,28 +867,28 @@
   <div class="sources-box">
     <p class="sources-intro">本日报所有新闻均来自以下 <strong>4 个</strong>宾州州立大学官方与权威媒体渠道：</p>
     <ul class="sources-grid">
-      <li>
-        <a href="https://www.psucollegian.com" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
-          <strong>The Daily Collegian</strong><br>
-          <span style="color: #666; font-size: 12px;">psucollegian.com · 独立学生日报</span>
+      <li class="source-item">
+        <a href="https://www.psucollegian.com" target="_blank" rel="noopener">
+          <span class="source-name">The Daily Collegian</span>
+          <span class="source-desc">psucollegian.com · 独立学生日报</span>
         </a>
       </li>
-      <li>
-        <a href="https://onwardstate.com" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
-          <strong>Onward State</strong><br>
-          <span style="color: #666; font-size: 12px;">onwardstate.com · 独立新闻网站</span>
+      <li class="source-item">
+        <a href="https://onwardstate.com" target="_blank" rel="noopener">
+          <span class="source-name">Onward State</span>
+          <span class="source-desc">onwardstate.com · 独立新闻网站</span>
         </a>
       </li>
-      <li>
-        <a href="https://www.psu.edu/news/campus-life" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
-          <strong>Penn State News · Campus Life</strong><br>
-          <span style="color: #666; font-size: 12px;">psu.edu/news/campus-life · 校园生活</span>
+      <li class="source-item">
+        <a href="https://www.psu.edu/news/campus-life" target="_blank" rel="noopener">
+          <span class="source-name">Penn State News · Campus Life</span>
+          <span class="source-desc">psu.edu/news/campus-life · 校园生活</span>
         </a>
       </li>
-      <li>
-        <a href="https://www.collegian.psu.edu/" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
-          <strong>The Collegian</strong><br>
-          <span style="color: #666; font-size: 12px;">collegian.psu.edu · 校园媒体</span>
+      <li class="source-item">
+        <a href="https://www.collegian.psu.edu/" target="_blank" rel="noopener">
+          <span class="source-name">The Collegian</span>
+          <span class="source-desc">collegian.psu.edu · 校园媒体</span>
         </a>
       </li>
     </ul>
