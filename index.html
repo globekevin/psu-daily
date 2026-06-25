@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
 <title>宾州州立大学 Six A Day | 2026年6月25日</title>
 <style>
   :root {
@@ -16,11 +16,12 @@
     --psu-gold: #B5995E;
     --psu-red: #9E1B32;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  * { margin: 0; padding: 0; box-sizing: border-box; min-width: 0; }
   html {
     overflow-x: hidden;
     width: 100%;
     max-width: 100vw;
+    -webkit-text-size-adjust: 100%;
   }
   body {
     font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
@@ -29,6 +30,9 @@
     line-height: 1.6;
     overflow-x: hidden;
     width: 100%;
+    max-width: 100vw;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
   }
 
   /* Header */
@@ -36,6 +40,8 @@
     background: var(--psu-navy);
     color: var(--psu-white);
     border-bottom: 4px solid var(--psu-white);
+    overflow-x: hidden;
+    width: 100%;
   }
   .top-bar {
     background: var(--psu-navy-dark);
@@ -105,6 +111,8 @@
   nav.toc {
     background: var(--psu-navy);
     border-top: 1px solid var(--psu-navy-light);
+    overflow-x: hidden;
+    width: 100%;
   }
   .toc-inner {
     max-width: 1200px;
@@ -113,6 +121,8 @@
     display: flex;
     align-items: stretch;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
   }
   .toc-inner a {
     color: var(--psu-white);
@@ -817,6 +827,22 @@
     .footer-col a { color: #888; }
     .footer-col a:hover { color: #96BEE6; }
     .footer-bottom { border-top-color: #1a1a1a; }
+  }
+
+  /* ============================================================
+     iOS SAFARI SPECIFIC FIXES
+     Fix horizontal overflow bug on iOS Safari
+     ============================================================ */
+  @supports (-webkit-touch-callout: none) {
+    html, body {
+      overflow-x: hidden !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    header, nav, .hero, main, footer {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+    }
   }
 </style>
 </head>
