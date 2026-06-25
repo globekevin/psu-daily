@@ -415,9 +415,13 @@
   }
   .footer-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr;
     gap: 32px;
     margin-bottom: 24px;
+  }
+  .footer-col:first-child p {
+    max-width: 7em;
+    line-height: 1.8;
   }
   .footer-col h4 {
     color: var(--psu-white);
