@@ -466,17 +466,18 @@
   .footer-col h4 {
     color: var(--psu-white);
     font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
     margin-bottom: 12px;
   }
   .footer-toggle {
     cursor: pointer;
     user-select: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 6px;
     margin-bottom: 12px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: var(--psu-white);
   }
   .footer-toggle:hover {
     color: var(--psu-beaver-blue) !important;
@@ -858,7 +859,7 @@
 
     /* ---- Footer ---- */
     footer { background: #050510; color: #888; }
-    .footer-col h4 { color: #96BEE6; }
+    .footer-col h4, .footer-toggle { color: #96BEE6; }
     .footer-col a { color: #888; }
     .footer-col a:hover { color: #96BEE6; }
     .footer-bottom { border-top-color: #1a1a1a; }
