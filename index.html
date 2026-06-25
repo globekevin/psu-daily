@@ -120,9 +120,6 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    background: white;
-    border-radius: 4px;
-    padding: 5px;
   }
   .lion-shield svg {
     width: 100%;
@@ -962,23 +959,23 @@
       <div class="brand">
         <div class="lion-shield">
           <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
-            <!-- Shield background (navy) -->
-            <path d="M50 8 L82 28 C82 28 88 60 72 82 C62 94 50 104 50 104 C50 104 38 94 28 82 C12 60 18 28 18 28 Z" fill="#001E42" stroke="white" stroke-width="2"/>
-            <!-- Lion rampant (white) -->
-            <g transform="translate(50,56)" fill="white">
+            <!-- White rounded background card -->
+            <rect x="6" y="6" width="88" height="108" rx="8" fill="white"/>
+            <!-- Navy blue shield -->
+            <path d="M50 16 L78 34 C78 34 84 62 70 82 C60 96 50 106 50 106 C50 106 40 96 30 82 C16 62 22 34 22 34 Z" fill="#001E42" stroke="white" stroke-width="1.5"/>
+            <!-- White lion rampant -->
+            <g transform="translate(50,58)" fill="white">
               <!-- Body -->
-              <ellipse cx="0" cy="0" rx="12" ry="16"/>
+              <ellipse cx="0" cy="0" rx="10" ry="14"/>
               <!-- Head -->
-              <circle cx="0" cy="-20" r="8"/>
-              <!-- Mane (stylized) -->
-              <path d="M-6 -22 Q-14 -30 -12 -36 Q-6 -30 0 -28 Q6 -30 12 -36 Q14 -30 6 -22" fill="white"/>
-              <!-- Front legs (raised) -->
-              <path d="M-5 12 L-9 26" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-              <path d="M5 12 L9 26" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-              <!-- Tail (curled) -->
-              <path d="M9 4 Q20 -8 16 -18" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
-              <!-- Tongue -->
-              <path d="M0 -12 Q2 -8 0 -5" stroke="#E63946" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <circle cx="0" cy="-18" r="7"/>
+              <!-- Mane (stylized, larger) -->
+              <path d="M-5 -20 Q-14 -28 -12 -34 Q-6 -28 0 -26 Q6 -28 12 -34 Q14 -28 5 -20" fill="white"/>
+              <!-- Front legs (raised up, lion rampant pose) -->
+              <path d="M-4 12 L-8 24" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <path d="M4 12 L8 24" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <!-- Tail (curled over back) -->
+              <path d="M8 2 Q20 -12 14 -22" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
             </g>
           </svg>
         </div>
