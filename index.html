@@ -470,6 +470,35 @@
     letter-spacing: 1.5px;
     margin-bottom: 12px;
   }
+  .footer-toggle {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .footer-toggle:hover {
+    color: var(--psu-beaver-blue) !important;
+  }
+  .footer-arrow {
+    display: inline-block;
+    transition: transform 0.25s ease;
+    font-size: 12px;
+  }
+  .footer-toggle.open .footer-arrow {
+    transform: rotate(90deg);
+  }
+  .footer-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.25s ease;
+    opacity: 0;
+  }
+  .footer-content.show {
+    max-height: 400px;
+    opacity: 1;
+  }
   .footer-col p, .footer-col li {
     font-size: 13px;
     line-height: 1.8;
@@ -611,7 +640,7 @@
     /* Footer */
     .footer-grid { grid-template-columns: 1fr; gap: 18px; }
     .footer-col:first-child { max-width: 8em; }
-    .footer-col h4 { font-size: 12px; }
+    .footer-col h4, .footer-toggle { font-size: 12px; }
     .footer-col p, .footer-col li { font-size: 12px; }
     .footer-bottom { font-size: 10px; padding: 0 8px; }
   }
@@ -1083,28 +1112,34 @@
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>关于本日报</h4>
-        <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻。</p>
+        <h4 class="footer-toggle" onclick="toggleFooter(this)">关于本日报 <span class="footer-arrow">▸</span></h4>
+        <div class="footer-content">
+          <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻。</p>
+        </div>
       </div>
       <div class="footer-col">
-        <h4>每日筛选标准</h4>
-        <ul>
-          <li>· 重大性 / 影响力</li>
-          <li>· 时效性（24-72h）</li>
-          <li>· 必含传媒学院</li>
-          <li>· 必含帕克校区</li>
-          <li>· 避免与昨日重复</li>
-        </ul>
+        <h4 class="footer-toggle" onclick="toggleFooter(this)">每日筛选标准 <span class="footer-arrow">▸</span></h4>
+        <div class="footer-content">
+          <ul>
+            <li>· 重大性 / 影响力</li>
+            <li>· 时效性（24-72h）</li>
+            <li>· 必含传媒学院</li>
+            <li>· 必含帕克校区</li>
+            <li>· 避免与昨日重复</li>
+          </ul>
+        </div>
       </div>
       <div class="footer-col">
-        <h4>核心关键词</h4>
-        <ul>
-          <li>· Bellisario College</li>
-          <li>· University Park</li>
-          <li>· Happy Valley</li>
-          <li>· Nittany Lions</li>
-          <li>· We Are!</li>
-        </ul>
+        <h4 class="footer-toggle" onclick="toggleFooter(this)">核心关键词 <span class="footer-arrow">▸</span></h4>
+        <div class="footer-content">
+          <ul>
+            <li>· Bellisario College</li>
+            <li>· University Park</li>
+            <li>· Happy Valley</li>
+            <li>· Nittany Lions</li>
+            <li>· We Are!</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
@@ -1147,6 +1182,20 @@
     // Small delay to let the browser finish the orientation change
     setTimeout(detectFoldable, 200);
   });
+
+  // ===== Footer toggle (expand/collapse) =====
+  function toggleFooter(el) {
+    const content = el.nextElementSibling;
+    if (!content) return;
+    const isOpen = el.classList.contains('open');
+    if (isOpen) {
+      el.classList.remove('open');
+      content.classList.remove('show');
+    } else {
+      el.classList.add('open');
+      content.classList.add('show');
+    }
+  }
 </script>
 
 </body>
