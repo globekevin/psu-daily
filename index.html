@@ -62,7 +62,7 @@
     margin: 0 auto;
     padding: 36px 32px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
@@ -112,6 +112,16 @@
     font-size: 16px;
     font-weight: 700;
     color: var(--psu-white);
+  }
+  .lion-shield {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    flex-shrink: 0;
+    order: -1;
   }
 
   /* ===== Navigation / TOC ===== */
@@ -944,13 +954,13 @@
 
 <header>
   <div class="header-main">
-    <div class="brand">
-      <div class="lion-shield">🦁</div>
-      <div class="brand-text">
-        <h1>宾夕法尼亚州立大学</h1>
-        <div class="subtitle">Penn State · 每日新闻精选</div>
+      <div class="brand">
+        <div class="brand-text">
+          <h1>宾夕法尼亚州立大学</h1>
+          <div class="subtitle">Penn State · 每日新闻精选</div>
+        </div>
+        <div class="lion-shield">🦁</div>
       </div>
-    </div>
     <div class="header-meta">
       <div class="date" id="todayDate">2026年6月25日 星期四</div>
     </div>
