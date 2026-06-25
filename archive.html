@@ -398,6 +398,12 @@
      DARK MODE SUPPORT (system preference)
      ============================================================ */
   @media (prefers-color-scheme: dark) {
+    /* ---- Fix: force grayscale anti-aliasing to eliminate CJK text ghost on OLED dark mode ---- */
+    * {
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+      text-rendering: optimizeLegibility !important;
+    }
     body { background: #0d0d0d; color: #e8e8e8; }
     .top-bar { background: #1a1a1a; color: #96BEE6; border-bottom-color: #2a2a2a; }
     .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
