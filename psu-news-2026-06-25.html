@@ -330,13 +330,36 @@
     margin-top: 6px;
   }
 
-  /* Sources grid */
+  /* Sources box */
+  .sources-box {
+    background: var(--psu-white);
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
+  }
+  .sources-intro {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: var(--psu-navy);
+    font-weight: 600;
+    line-height: 1.6;
+  }
   .sources-grid {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 12px;
   }
+  .sources-grid li a {
+    color: var(--psu-navy);
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--psu-gray);
+  }
+  .sources-grid li a strong { display: block; margin-bottom: 2px; }
+  .sources-grid li a span { color: #666; font-size: 12px; }
+  .sources-grid li:last-child a { border-bottom: none; }
 
   /* Footer */
   footer {
@@ -431,6 +454,10 @@
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
     .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+    /* Sources */
+    .sources-box { padding: 18px 18px; }
+    .sources-intro { font-size: 13.5px; }
+    .sources-grid li a { font-size: 13px; }
   }
 
   /* --- Standard Phones (360px–429px) --- */
@@ -487,7 +514,11 @@
     .stat-num { font-size: 24px; }
     .stat-label { font-size: 10px; }
     /* Sources */
-    .sources-grid { grid-template-columns: 1fr !important; }
+    .sources-box { padding: 16px 14px; }
+    .sources-intro { font-size: 13px; margin-bottom: 12px; line-height: 1.5; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 0; }
+    .sources-grid li a { padding: 10px 0; font-size: 13px; }
+    .sources-grid li a strong { font-size: 14px; }
     /* Footer */
     .footer-grid { grid-template-columns: 1fr; gap: 18px; }
     .footer-col h4 { font-size: 12px; }
@@ -523,6 +554,12 @@
     .stat-card { padding: 10px 6px; }
     .stat-num { font-size: 20px; }
     .stat-label { font-size: 9px; }
+    /* Sources */
+    .sources-box { padding: 12px 10px; }
+    .sources-intro { font-size: 12px; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 0; }
+    .sources-grid li a { padding: 8px 0; font-size: 12px; }
+    .sources-grid li a strong { font-size: 13px; }
   }
 
   /* ============================================================
@@ -798,8 +835,8 @@
     <div class="line"></div>
   </div>
 
-  <div style="background: var(--psu-white); padding: 24px 32px; box-shadow: 0 2px 8px rgba(0,30,68,0.08);">
-    <p style="margin-bottom: 14px; font-size: 14px; color: var(--psu-navy); font-weight: 600;">本日报所有新闻均来自以下 4 个宾州州立大学官方与权威媒体渠道：</p>
+  <div class="sources-box">
+    <p class="sources-intro">本日报所有新闻均来自以下 <strong>4 个</strong>宾州州立大学官方与权威媒体渠道：</p>
     <ul class="sources-grid">
       <li>
         <a href="https://www.psucollegian.com" target="_blank" rel="noopener" style="color: var(--psu-navy); text-decoration: none; font-size: 13px;">
