@@ -262,6 +262,8 @@
     line-height: 1.8;
     text-align: justify;
     text-justify: inter-ideograph;
+    text-align-last: left;
+    -moz-text-align-last: left;
   }
   .card-summary strong {
     color: inherit;
@@ -562,7 +564,7 @@
     .section-divider h3 { font-size: 22px; }
     .card-title { font-size: 22px; }
     .card-body { padding: 18px 20px 22px; }
-    .card-summary { font-size: 16px; text-align: justify; }
+    .card-summary { font-size: 16px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
     .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
@@ -619,7 +621,7 @@
     .card-body { padding: 14px 14px 18px; }
     .card-title { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
     .card-title-en { font-size: 13px; margin-bottom: 10px; padding-bottom: 10px; }
-    .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; text-align: justify; }
+    .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
     .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
     .source-badge { font-size: 9px; padding: 2px 7px; }
     .card-link { padding: 10px; font-size: 13px; }
@@ -667,7 +669,7 @@
     .card-body { padding: 12px 12px 16px; }
     .card-title { font-size: 16px; line-height: 1.45; }
     .card-title-en { font-size: 12px; }
-    .card-summary { font-size: 14px; line-height: 1.65; text-align: justify; }
+    .card-summary { font-size: 14px; line-height: 1.65; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
     .card-link { font-size: 12px; padding: 9px; }
     .stat-card { padding: 10px 6px; }
     .stat-num { font-size: 20px; }
@@ -745,7 +747,7 @@
     main { padding: 16px 32px; }
     .news-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
     .card-title { font-size: 18px; }
-    .card-summary { font-size: 14px; text-align: justify; }
+    .card-summary { font-size: 14px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
     .header-main { padding: 10px 32px; }
     .toc-inner { padding: 0 32px; }
   }
@@ -817,7 +819,7 @@
     .tag-sports { color: #96BEE6 !important; }
     .card-title { color: #ffffff; }
     .card-title-en { color: #999; border-bottom-color: #2a2a2a; }
-    .card-summary { color: #d0d0d0; }
+    .card-summary { color: #d0d0d0; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
     .card-summary strong { color: inherit; font-weight: 400; }
     .card-meta { border-top-color: #2a2a2a; color: #888; }
     .source-badge { background: rgba(150,190,230,0.15) !important; color: #96BEE6 !important; }
@@ -867,6 +869,10 @@
      Fix horizontal overflow bug on iOS Safari
      ============================================================ */
   @supports (-webkit-touch-callout: none) {
+    .card-summary {
+      text-align: justify !important;
+      -webkit-hyphens: none !important;
+    }
     html, body {
       overflow-x: hidden !important;
       width: 100% !important;
