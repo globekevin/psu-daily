@@ -233,6 +233,18 @@
     padding-bottom: 14px;
     border-bottom: 1px solid var(--psu-gray);
   }
+  .card-image {
+    margin-bottom: 16px;
+    border-radius: 6px;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .card-image img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    display: block;
+  }
   .card-summary {
     font-size: 17px;
     color: #333;
@@ -462,6 +474,7 @@
     .hero h2 { font-size: 32px; }
     .section-divider h3 { font-size: 26px; }
     .card-title { font-size: 24px; }
+    .card-image img { max-height: 240px; }
     .stats { grid-template-columns: repeat(4, 1fr); }
     .footer-grid { grid-template-columns: 1fr 1fr; }
     .toc-inner { padding: 0 20px; }
@@ -483,6 +496,7 @@
     .news-grid { grid-template-columns: 1fr; gap: 16px; }
     .section-divider h3 { font-size: 22px; }
     .card-title { font-size: 22px; }
+    .card-image img { max-height: 200px; }
     .card-body { padding: 18px 20px 22px; }
     .card-summary { font-size: 16px; }
     .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
@@ -540,6 +554,7 @@
     .card-body { padding: 14px 14px 18px; }
     .card-title { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
     .card-title-en { font-size: 13px; margin-bottom: 10px; padding-bottom: 10px; }
+    .card-image img { max-height: 180px; }
     .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; }
     .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
     .source-badge { font-size: 9px; padding: 2px 7px; }
@@ -586,6 +601,7 @@
     .card-body { padding: 12px 12px 16px; }
     .card-title { font-size: 16px; line-height: 1.45; }
     .card-title-en { font-size: 12px; }
+    .card-image img { max-height: 150px; }
     .card-summary { font-size: 14px; line-height: 1.65; }
     .card-link { font-size: 12px; padding: 9px; }
     .stat-card { padding: 10px 6px; }
@@ -664,6 +680,7 @@
     main { padding: 16px 32px; }
     .news-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
     .card-title { font-size: 18px; }
+    .card-image img { max-height: 160px; }
     .card-summary { font-size: 14px; }
     .header-main { padding: 10px 32px; }
     .toc-inner { padding: 0 32px; }
@@ -736,6 +753,7 @@
     .tag-sports { color: #96BEE6 !important; }
     .card-title { color: #ffffff; }
     .card-title-en { color: #999; border-bottom-color: #2a2a2a; }
+    .card-image { background: #1a1a2e; }
     .card-summary { color: #d0d0d0; }
     .card-summary strong { color: #ffffff !important; }
     .card-meta { border-top-color: #2a2a2a; color: #888; }
@@ -851,6 +869,7 @@
       <div class="card-body">
         <h2 class="card-title">国会图书馆实习机会"堪称完美"，PSU 传媒学院勤奋学生圆梦华府</h2>
         <div class="card-title-en">Opportunity at Library of Congress 'feels perfect' for hardworking student · Donald P. Bellisario College of Communications</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>宾州州立大学贝尔纳罗传媒学院一名学生凭借出色的学术与实践能力，获得位于华盛顿特区的<strong>美国国会图书馆实习机会</strong>，个人形容"堪称完美"。这一岗位竞争激烈，体现出 PSU 传媒学院在新闻、广告、公关、媒体研究等领域的人才培养获得国家级文化机构的高度认可，也为该校学生进入美国顶级文化与信息机构打开通道。事件再次印证 Bellisario College 在全国传媒教育中的领先地位。
         </p>
@@ -868,6 +887,7 @@
       <div class="card-body">
         <h2 class="card-title">说唱歌手 Don Toliver 携 "NITROUS – OCTANE WORLD TOUR" 登陆 BJC，9月2日开唱</h2>
         <div class="card-title-en">Don Toliver brings 'NITROUS – OCTANE WORLD TOUR' to the BJC on Sept. 2 · Bryce Jordan Center, University Park</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>美国当红说唱歌手 <strong>Don Toliver</strong> 携其<strong>"NITROUS – OCTANE WORLD TOUR" 世界巡演</strong>于 <strong>9月2日</strong> 登陆宾州州立大学<strong>帕克校区的 Bryce Jordan Center（BJC）</strong>，为校园带来顶级 Hip-Hop 演出。本次演出是 BJC 秋季重磅活动之一，预计将吸引校内外大量乐迷，凸显帕克校区作为宾州中部文化娱乐中心的地位，并丰富学生的校园生活体验。
         </p>
@@ -885,6 +905,7 @@
       <div class="card-body">
         <h2 class="card-title">"We Are Weekend" 校友周末将于6月26-27日齐聚帕克校区，共度盛夏</h2>
         <div class="card-title-en">'We Are Weekend' to unite Penn Staters at University Park June 26–27 · Alumni Association</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>宾州州立大学校友会主办的<strong>「We Are Weekend」校友团聚周末</strong>将于 <strong>6月26-27日（本周末）</strong> 在<strong>帕克校区</strong>盛大举行。活动包括 Bellisario 传媒中心参观、The Daily Collegian 编辑部探访、Collegian AIG 导览、家庭友好型活动、校友交流与校园参观等。这是校友返校、结识在校学生、感受校园文化的核心载体，预计吸引数千名校友和家属回到 Happy Valley。
         </p>
@@ -902,6 +923,7 @@
       <div class="card-body">
         <h2 class="card-title">三星级角卫 Dhillon McGee 承诺加盟宾州州立橄榄球，主帅 Terry Smith 持续网罗新血</h2>
         <div class="card-title-en">Three-Star Cornerback Dhillon McGee Commits To Penn State Football · Onward State</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>三星级高中角卫 <strong>Dhillon McGee</strong> 于<strong>6月24日</strong>正式承诺加入宾州州立大学橄榄球队，继续 2027 届招募节奏。主帅 <strong>Terry Smith</strong> 在新周期中持续发力，加强球队防守后场深度。本次招募展示出 PSU 招募团队在二线后卫位置上的吸引力，为下赛季的阵容调整奠定基础。
         </p>
@@ -919,6 +941,7 @@
       <div class="card-body">
         <h2 class="card-title">NCAA 颁布"五年五赛季"年龄资格新规，对宾州州立体育影响深远</h2>
         <div class="card-title-en">What The NCAA's Age-Based Eligibility Ruling Means For Penn State Athletics · Onward State</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>NCAA 于本周二（6月23日）公布重大资格规则改革，引入<strong>基于年龄的资格认定（"五年五赛季"规则）</strong>，将在全美大学体育层面产生深远影响。对宾州州立而言，新规或将影响现有球员的参赛资格、招募策略与球队阵容规划，尤其是"超级新星"和"高龄转学生"的参赛通道将发生重大变化。校方体育部门正评估其对 Nittany Lions 各项目（橄榄球、篮球、冰球等）的具体影响。
         </p>
@@ -936,6 +959,7 @@
       <div class="card-body">
         <h2 class="card-title">Megan McKnight 出任宾州州立大学健康促进与福祉部门主任</h2>
         <div class="card-title-en">Megan McKnight named director of Health Promotion and Wellness at Penn State · Student Affairs</div>
+        <div class="card-image"><img src="" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
           <strong>核心提炼：</strong>宾州州立大学学生事务部任命 <strong>Megan McKnight</strong> 为<strong>健康促进与福祉部门（Health Promotion and Wellness）主任</strong>，自 6月24日生效。该部门负责统筹全校学生的身心健康、疾病预防、营养教育、性健康与药物滥用干预等核心服务。此次人事任命表明 PSU 在新学年中继续强化学生福祉体系，特别是面向即将返校的全美最大校园之一——帕克校区数万名学生。
         </p>
