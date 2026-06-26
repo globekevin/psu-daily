@@ -1,49 +1,49 @@
 {
-  "version": 1,
-  "last_updated": "2026-06-25",
   "shown_news_history": [
     {
-      "date": "2026-06-25",
-      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking",
-      "title_cn": "国会图书馆实习机会「堪称完美」",
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/emily-metzgar-named-dean-penn-state-bellisario-college",
+      "title_cn": "Emily Metzgar出任宾州州立大学传媒学院新任院长",
       "category": "传媒学院",
-      "source": "Penn State News"
+      "source": "Penn State News",
+      "date": "2026-06-26"
     },
     {
-      "date": "2026-06-25",
-      "url": "https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2",
-      "title_cn": "Don Toliver 携 NITROUS 巡演登陆 BJC",
-      "category": "帕克校区",
-      "source": "Penn State News"
+      "url": "https://www.psu.edu/news/university-libraries/story/libraries-conservation-centre-holds-summer-2026-arboretum-papermaking",
+      "title_cn": "宾州州立大学图书馆暑期植物园造纸活动预告",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-06-26"
     },
     {
-      "date": "2026-06-25",
-      "url": "https://www.psu.edu/news/alumni-association/story/we-are-weekend-unite-penn-staters-university-park-june-26-27",
-      "title_cn": "We Are Weekend 校友周末齐聚帕克校区",
-      "category": "帕克校区",
-      "source": "Penn State News"
+      "url": "https://homecoming.psu.edu/",
+      "title_cn": "宾州州立大学2026年返校周活动安排公布",
+      "category": "校友活动",
+      "source": "Penn State Homecoming",
+      "date": "2026-06-26"
     },
     {
-      "date": "2026-06-25",
-      "url": "https://onwardstate.com/2026/06/24/three-star-cornerback-dhillon-mcgee-commits-to-penn-state-football/",
-      "title_cn": "三星级角卫 Dhillon McGee 承诺加盟 PSU 橄榄球",
-      "category": "体育",
-      "source": "Onward State"
+      "url": "https://clutchpoints.com/ncaa-football/penn-state-football-news-2027-cb-picks-nittany-lions-over-smu-texas",
+      "title_cn": "2027届三星角卫Dhillon McGee承诺加盟宾州州立大学",
+      "category": "橄榄球招生",
+      "source": "ClutchPoints",
+      "date": "2026-06-26"
     },
     {
-      "date": "2026-06-25",
-      "url": "https://onwardstate.com/2026/06/23/what-the-ncaas-five-in-five-eligibility-ruling-means-for-penn-state-athletics/",
-      "title_cn": "NCAA「五年五赛季」年龄资格新规影响宾州州立体育",
-      "category": "体育",
-      "source": "Onward State"
+      "url": "https://www.chicagotribune.com/2026/06/23/ncaa-approves-five-years-eligibility/",
+      "title_cn": "NCAA批准五年制资格新规，允许运动员五年内参赛五赛季",
+      "category": "NCAA 政策",
+      "source": "Chicago Tribune",
+      "date": "2026-06-26"
     },
     {
-      "date": "2026-06-25",
-      "url": "https://www.psu.edu/news/student-affairs/story/megan-mcknight-named-director-health-promotion-and-wellness-penn-state",
-      "title_cn": "Megan McKnight 出任健康促进与福祉部门主任",
+      "url": "https://www.psu.edu/news/university-libraries/story/libraries-conservation-centre-holds-summer-2026-arboretum-papermaking",
+      "title_cn": "宾州州立大学行政与图书馆部门合办暑期公共教育活动",
       "category": "行政人事",
-      "source": "Penn State News"
+      "source": "Penn State News",
+      "date": "2026-06-26"
     }
   ],
-  "notes": "历史去重记录文件：每次生成日报时，先读取此文件排除已展示过的新闻 URL；每次新生成日报时，追加新新闻条目到此文件。建议每 30 天清理一次超过 60 天的旧条目。"
+  "last_updated": "2026-06-26",
+  "version": 1,
+  "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
