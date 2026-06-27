@@ -83,9 +83,51 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-06-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/instructor-longtime-commradio-manager-jeff-brown-retire",
+      "title_cn": "传媒学院 CommRadio 创始人 Jeff Brown 6月30日退休，结束25年教学生涯",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.arts-festival.com/",
+      "title_cn": "第60届中央宾州艺术节7月8-12日重返州学院与宾州州立大学校园",
+      "category": "演出预告",
+      "source": "Central PA Festival of the Arts",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/raise-bar-connects-penn-state-faculty-far-flung-alumni",
+      "title_cn": "校友协会首期"Raise the Bar"九城巡回系列落幕，教授走进酒吧与海外校友对话",
+      "category": "校友活动",
+      "source": "Penn State Alumni Association",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/basketball/penn-state-basketball-might-have-found-hidden-portal-gem-in-dasonte-bowen",
+      "title_cn": "宾州州立男篮在转会市场中"挖掘"潜力后卫 Dasonte Bowen",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/penn-state-renames-conferences-and-institutes-extended-learning-partnerships",
+      "title_cn": "宾州州立大学将"会议与研究所"更名为"扩展学习合作伙伴关系"部门",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619101349.htm",
+      "title_cn": "宾州州立医学院发现 DNA 修复基因 EXO1 过度活跃反致癌症，登《自然·通讯》",
+      "category": "科研成果",
+      "source": "ScienceDaily / Penn State College of Medicine",
+      "date": "2026-06-28"
     }
   ],
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-28",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
