@@ -41,9 +41,51 @@
       "category": "行政人事",
       "source": "Sports Illustrated",
       "date": "2026-06-26"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/busy-productive-communications-student-builds-foundation",
+      "title_cn": "传媒学院学生 Lindsay Luczak 以"勤奋、忙碌"开启职业奠基之旅",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://hersheysymphony.org/event/salute-to-america",
+      "title_cn": "Hershey 交响乐团6月26日在宾州州立Hershey医学中心举办第23届"美国颂"免费音乐会",
+      "category": "演出预告",
+      "source": "Hershey Symphony Orchestra",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/we-are-weekend-offers-summertime-fun-penn-staters",
+      "title_cn": "宾州州立大学"我们在一起"校友周末6月26-27日重返帕克校区",
+      "category": "校友活动",
+      "source": "Penn State Alumni Association",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-lands-major-2027-commitment-from-edge-elijah-guertin",
+      "title_cn": "2027届四星防守截锋 Elijah Guertin 承诺加盟宾州州立橄榄球",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://gopsusports.com/news/2026/06/8/brent-scott-elevated-to-associate-head-coach-to-highlight-mens-basketball-staff-updates",
+      "title_cn": "宾州州立男篮Brent Scott晋升副主教练，Mike Rhoades完成2026-27赛季教练组调整",
+      "category": "行政人事",
+      "source": "Penn State Athletics",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/artificial-eyes-could-bring-human-sight-self-driving-cars-robots",
+      "title_cn": "宾州州立大学团队研发仿人眼光电忆阻器，登《自然·通讯》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-06-27"
     }
   ],
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
