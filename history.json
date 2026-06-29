@@ -125,9 +125,51 @@
       "category": "科研成果",
       "source": "ScienceDaily / Penn State College of Medicine",
       "date": "2026-06-28"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/internship-nbc-news-dc-gives-journalism-major-peek",
+      "title_cn": "传媒学院学生 Jocelyn Bilker 暑期赴 NBC News DC 实习，新闻理想"先行一步"",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-announces-2026-27-rhapsody-series",
+      "title_cn": "音乐学院公布 2026-27 学年"狂想曲"Rhapsody 系列，8月30日揭幕六场演出",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-names-reggie-bustinza-new-ceo-alumni-association",
+      "title_cn": "Penn State 任命 Reynaldo "Reggie" Bustinza 为校友会新任 CEO，7月6日上任",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://onwardstate.com/2026/06/28/penn-state-wrestlings-mitchell-mesenbrink-nominated-for-best-male-college-athlete-at-2026-espys/",
+      "title_cn": "宾州州立摔跤选手 Mitchell Mesenbrink 获 2026 ESPY 最佳男大学生运动员提名",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://iee.psu.edu/news/kump-conclude-deanship-legacy-marked-new-presidential-award",
+      "title_cn": "地球与矿物科学学院院长 Lee Kump 6月30日结束九年任期，荣膺新设"校长卓越奖"",
+      "category": "行政人事",
+      "source": "Penn State EMS / IEE",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/plastic-bottles-could-find-new-life-batteries-graphite",
+      "title_cn": "宾州州立团队把 PET 塑料瓶升级为电池级石墨，登《Diamond and Related Materials》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-06-29"
     }
   ],
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
