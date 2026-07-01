@@ -209,9 +209,57 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-06-30"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-students-partner-associated-press-cover-fifa",
+      "title_cn": "15 名宾州州立学生与美联社合作报道 2026 FIFA 世界杯，Bellisario 学院「实战课堂」亮相多伦多",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/owencameros.jpeg?h=188fe646&itok=DPmuTFeA"
+    },
+    {
+      "url": "https://alumni.psu.edu/upcoming-events/hintzpiration",
+      "title_cn": "Hintzpiration 校友中心艺术展 7 月 10-11 日回归：设计师 Kappel「Simplism」主题献礼艺术节 60 周年",
+      "category": "演出预告",
+      "source": "Penn State Alumni Association",
+      "date": "2026-07-01",
+      "image_url": "https://alumni.psu.edu/files/2026/05/26-Hintzpiration-URL-Share-Image-1200x630-1.jpg"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-football-to-host-23rd-lift-for-life-event-in-july",
+      "title_cn": "宾州州立橄榄球队 7 月 1 日举办第 23 届「Lift For Life」公益赛，22 年累计筹款超 150 万美元",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-01",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4130,h_2323/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_penn_state/01kvvathfssdx0a4r0z6.jpg"
+    },
+    {
+      "url": "https://iee.psu.edu/news/la-porta-named-interim-dean-penn-state-college-engineering",
+      "title_cn": "Thomas La Porta 7 月 1 日出任宾州州立工程学院临时院长，结束 EECS 主任 10 年任期",
+      "category": "行政人事",
+      "source": "Penn State IEE",
+      "date": "2026-07-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/tom-laporta.jpg?h=21a94f77&itok=IKjMrbpm"
+    },
+    {
+      "url": "https://www.psu.edu/news/materials-research-institute/story/glass-cells-atoms-offer-new-path-smarter-cheaper-sensors",
+      "title_cn": "Penn State+NIST 团队研发玻璃原子气室微型传感器，量子导航芯片迈向量产，登《Nature Microsystems & Nanoengineering》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/rydbergatoms-chips-jmm96gem.png?h=6eb229a4&itok=n3SZgY0q"
+    },
+    {
+      "url": "https://alumni.psu.edu/2026/06/11/penn-staters-celebrate-corner-room-100/",
+      "title_cn": "「州学院地标」The Corner Room 7 月 3 日办「Corner Fest」街区聚会，庆祝 100 周年与社区传承",
+      "category": "校友活动",
+      "source": "Penn State Alumni Association",
+      "date": "2026-07-01",
+      "image_url": "https://alumni.psu.edu/files/2026/06/CornerRoom.jpg"
     }
   ],
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
