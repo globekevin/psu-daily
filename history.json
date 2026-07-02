@@ -257,9 +257,57 @@
       "source": "Penn State Alumni Association",
       "date": "2026-07-01",
       "image_url": "https://alumni.psu.edu/files/2026/06/CornerRoom.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-expands-five-summer-camps-weeklong",
+      "title_cn": "Bellisario 学院扩展至 5 个夏令营：播客营首登场，7 月 5-10 日面向 14-18 岁高中生开放",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/01/podcasting.jpeg?h=b8aae163&itok=ce0paYMc"
+    },
+    {
+      "url": "https://www.psu.edu/news/palmer-museum-art/story/palmer-museum-opens-juried-show-contemporary-art-usas-250th",
+      "title_cn": "Palmer 美术馆开馆「Dreaming American Futures」美国 250 周年特展，50 位本地艺术家作品展至 11 月 29 日",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/install_saw3016_web.jpg?h=f0b05773&itok=Dvqr4ycz"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/alumni-council-welcomes-new-leadership-cohort",
+      "title_cn": "14 名校友会新理事 7 月 1 日正式上任，7 名直选+7 名任命构成立法与战略指导团队",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/penn-state-gazebo-and-we-are-letters.jpg?h=67eabc4d&itok=B9_UcCNh"
+    },
+    {
+      "url": "https://onwardstate.com/2026/06/25/levi-haines-tessa-janecke-named-big-ten-medal-of-honor-recipients/",
+      "title_cn": "摔跤 Haines 与女冰 Janecke 获 2026 Big Ten 荣誉勋章，11 年 1,500+ 选手仅 36 人获此殊荣",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-02",
+      "image_url": "https://cdn.onwardstate.com/uploads/2023/02/Sophie-Yadzinski_Womens-Hockey-vs.-Lindenwood_-14-scaled.jpg"
+    },
+    {
+      "url": "https://www.acsa-arch.org/penn-state-50",
+      "title_cn": "Pinto Duarte 7 月 1 日出任宾州州立建筑系临时系主任，Stuckeman 设计计算中心创始人接管 2026-27 学年",
+      "category": "行政人事",
+      "source": "ACSA",
+      "date": "2026-07-02",
+      "image_url": "https://www.acsa-arch.org/wp-content/uploads/2026/06/JDuarte_PSnews.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-sciences-and-technology/story/ist-faculty-member-aron-laszka-receives-2026-nsf-career",
+      "title_cn": "IST 助理教授 Aron Laszka 获 2026 NSF CAREER Award，5 年 68.6 万美元研究 AI 管理大规模电网与交通系统",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/ist_laszka-aron_2026.jpg?h=3f44fa49&itok=GtTtKlvO"
     }
   ],
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
