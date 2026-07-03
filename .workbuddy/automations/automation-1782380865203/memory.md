@@ -110,3 +110,38 @@
 - **mri.psu.edu articles lack og:image** — they use in-body `<img src="...">` instead. Skip and find psu.edu `/news/research/...` article instead.
 - **Doctor GPT / AI health study is a reliable backup research slot** — published late May, well-cited, og:image on psu-gatsby-files S3.
 - **Steve Manuel retirement is well-timed** for any June 30 (last working day) — when 6/30 falls on a weekday, this is a perfect slot #1 (Bellisario).
+
+### 2026-07-02 (Thursday · 第 8 期)
+- 8th scheduled run. history.json had 36 entries (6/26-7/01 × 6); appended 6 new URLs (total 42). last_updated set to 2026-07-02.
+- Newswise Cloudflare block + 2 PSU redirects — gopsusports.com 404 on Levi Haines article (used Onward State mirror). ACSA arch article needed since iee.psu.edu already had La Porta in 7/1 set.
+- All 6 images successfully extracted (4 psu-gatsby-files S3, 1 cdn.onwardstate.com, 1 acsa-arch wp-content).
+- News selected for 2026-07-02:
+  - #1 传媒学院: Bellisario 学院 5 个高中夏令营 7/5-10 (psu.edu, 1/20)
+  - #2 演出预告: Palmer 美术馆开馆美国 250 周年当代艺术评审展 (psu.edu, 6/13) — **正好 250 周年社区日 7/2 开馆**
+  - #3 校友活动: 校友会欢迎 14 名新领导 7/1 上任三年任期 (psu.edu, 7/1) — **happens yesterday**
+  - #4 体育动态: Levi Haines (摔跤) + Tessa Janecke (女冰) 获 Big Ten 荣誉勋章 (Onward State, 6/25)
+  - #5 行政人事: Pinto Duarte 出任建筑系临时系主任 (ACSA, 6/10)
+  - #6 科研成果: IST 终身副教授 Aron Laszka 获 2026 NSF CAREER 奖 (psu.edu IST, 4/29)
+- Files: index.html (title→7/02, date→7/02 星期四, 6 cards replaced, lead-cn updated, stats fixed to 1/1/1/1/1/1), psu-news-2026-07-02.html (new), archive.html (7→8 期, new card top of June section), archive-catalog.html (counts: 7→8, 7→8, 7→8, 9→10, 7→8, 5→6; new item on top of each category).
+- Git: 5 files, +1274/-56, commit `545828b`, push c54eba3→545828b.
+- **Stream timeout recovered**: terminal output cut off during archive-catalog edit; restarted, verified all files updated, completed git push, memory writes.
+
+### 2026-07-03 (Friday · 第 9 期)
+- 9th scheduled run. Manually triggered (8:00 AM cron missed). history.json had 42 entries (6/26-7/02 × 6); appended 6 new URLs (total 48). last_updated set to 2026-07-03.
+- **science.psu.edu og:image pattern**: science.psu.edu uses `ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/<style>/...` instead of the standard PSU gatsby-files S3. No `og:image` meta tag — image lives in `<div class="story__hero-image-media"><img src="...">`. The `f_story_hero` style returns 2340x900 (close to 16:9). For 16:9 1000w, try `styles/16_9_1000w/...` substitution.
+- **Penn State Outreach news is a goldmine for admin slot**: `psu.edu/news/office-vice-president-commonwealth-campuses/...` is a separate index from `/news/administration/`. John Nauright dean announcement lived there (5/15, with og:image).
+- **Lee Ahern TLT Award (faculty-and-staff)**: perfect comm slot — Bellisario 学院教师获奖，`/news/faculty-and-staff/...` URL pattern. og:image is psu-gatsby-files 16:9 1000w style.
+- **Previous-version content retry**: Palmer "Dreaming American Futures" image (used on 7/2) came up in initial og:image for Arts Festival Images 2026 — replaced with `Huber_000022_079816_936262_14928-953x1024.jpg` from `seeing_america.php` page (it's the dedicated Photos page for the Central PA Arts Festival exhibit).
+- **Bustinza CEO announcement (5/18) was previously on 7/1 as "Corner Room 100"** — realized during review that the Bustinza article was already used 7/1 in some form. Verified the actual title_cn diff is OK: 7/1 used "州学院地标 The Corner Room 7 月 3 日办 Corner Fest 街区聚会" while 7/3 uses "Reggie Bustinza 7 月 6 日正式履新 Penn State 校友会 CEO" — distinct topics, no conflict. The 7/1 entry is at a different URL (`alumni.psu.edu/2026/06/11/...`) so no actual URL collision.
+- News selected for 2026-07-03:
+  - #1 传媒学院: Lee Ahern 获 TLT Impact Award, AI 时代新闻教育 (faculty-and-staff, 3/18)
+  - #2 演出预告: Arts Festival Images 2026 摄影展 Schlow Library 7/1-31 (arts-festival.com, 7/1)
+  - #3 校友活动: Reggie Bustinza 7/6 履新校友会 CEO (alumni-association, 5/18)
+  - #4 体育动态: Dhillon McGee 2027 届德州角卫承诺 (SI, 6/26)
+  - #5 行政人事: John Nauright 出任 University College 首任常驻院长 (office-vice-president-commonwealth-campuses, 5/15)
+  - #6 科研成果: Nitin Samarth 当选 AAAS 院士 (science.psu.edu, 4/22)
+- All 6 images successfully extracted (5 psu-gatsby-files S3, 1 arts-festival wp-content, 1 ecos-appdev-production S3).
+- Files: index.html (title→7/03, date→7/03 星期五, 6 cards replaced, lead-cn updated, stats fixed to 1/1/1/1/1/1), psu-news-2026-07-03.html (new), archive.html (8→9 期, new card top of June section), archive-catalog.html (counts: 8→9, 8→9, 8→9, 10→11, 8→9, 6→7; new item on top of each category).
+- Git: 6 files, +1306/-57, commit `c230801`, push 545828b→c230801.
+- **Manual run note**: User prompted "今天是不是没更新" → I confirmed 7/3 was missing → user "对啊，每天都要更新的" → executed the 9-step automation manually instead of waiting for 8 AM cron. Pattern: when user reports missing day, treat as backfill/execute-now.
+- **Today's lead-cn**: "聚焦传媒学院 · 校友领袖 · 体育招生 · 行政任命 · 科研成果" — emphasizes themes rather than category list.
