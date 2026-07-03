@@ -305,9 +305,57 @@
       "source": "Penn State News",
       "date": "2026-07-02",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/ist_laszka-aron_2026.jpg?h=3f44fa49&itok=GtTtKlvO"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/ahern-named-recipient-teaching-and-learning-technology-impact-award",
+      "title_cn": "Bellisario 学院 Lee Ahern 获 TLT Impact Award，将教学法引入 AI 时代新闻教育",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/leeahern-teaching_1.jpg?h=719d489f&itok=P8zazKLm"
+    },
+    {
+      "url": "https://www.arts-festival.com/seeing_america.php",
+      "title_cn": "中央宾州艺术节「Images 2026」摄影展 Schlow Library 揭幕 7/1-31，看当代美国风景",
+      "category": "演出预告",
+      "source": "Central PA Festival of the Arts",
+      "date": "2026-07-03",
+      "image_url": "https://arts-festival.com/wp-content/uploads/2025/06/Huber_000022_079816_936262_14928-953x1024.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-names-reggie-bustinza-new-ceo-alumni-association",
+      "title_cn": "Reggie Bustinza 7 月 6 日正式履新 Penn State 校友会 CEO：金融与城市事务老兵掌舵 80 万校友网络",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/bustinza-headshot.jpg"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-wins-commitment-from-3-star-texas-cornerback-dhillon-mcgee",
+      "title_cn": "2027 届三星德州角卫 Dhillon McGee 承诺加盟 Penn State，击败 SMU 与德州双雄",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-03",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_28,w_3432,h_1930/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_penn_state/01kvxvjjg48zvsj0wcdf.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/office-vice-president-commonwealth-campuses/story/john-nauright-named-dean-penn-states-university",
+      "title_cn": "John Nauright 7 月 1 日出任 Penn State University College 首任常驻院长，结束 5 年过渡期",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/john-nauright.jpg?h=3e544430&itok=59gCdR6G"
+    },
+    {
+      "url": "https://science.psu.edu/news/samarth-american-academy-arts-sciences",
+      "title_cn": "物理学家 Nitin Samarth 当选美国艺术与科学院院士，Eberly 学院物理系主席 36 年研究获肯定",
+      "category": "科研成果",
+      "source": "Penn State Eberly College of Science",
+      "date": "2026-07-03",
+      "image_url": "https://ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/f_story_hero/public/images/story/ge_nitin_samarth_1.jpg?h=3faea361&itok=_hHkx7z8"
     }
   ],
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
