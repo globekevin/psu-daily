@@ -145,3 +145,26 @@
 - Git: 6 files, +1306/-57, commit `c230801`, push 545828b→c230801.
 - **Manual run note**: User prompted "今天是不是没更新" → I confirmed 7/3 was missing → user "对啊，每天都要更新的" → executed the 9-step automation manually instead of waiting for 8 AM cron. Pattern: when user reports missing day, treat as backfill/execute-now.
 - **Today's lead-cn**: "聚焦传媒学院 · 校友领袖 · 体育招生 · 行政任命 · 科研成果" — emphasizes themes rather than category list.
+
+### 2026-07-04 ~ 2026-07-06 (3-day backfill · 第 10-12 期)
+- **3-day backfill (周末 + 周一)**. history.json had 48 entries (6/26-7/03 × 6); appended 18 new URLs (total 66). last_updated set to 2026-07-06.
+- **Why 3 days missed**: pmset 错配 7/3 设成 07:55 关机（用户把 19:55 改成 07:55）→ 7/4 7:55 / 7/5 7:55 / 7/6 7:55 每天早上自动关机，8:00 cron 全部错过。
+- **iMac 7/6 中午 12:02 手动开机**，用户让我重设 6:30 wake + 8:00 shutdown + 7:00 cron 替代 8:00 cron。
+- **同时把 WorkBuddy automation RRULE 改为 BYHOUR=7;BYMINUTE=0**（用户问"是否已改成 7 点"，已确认修改成功）。
+- **"Reminder 重复"模式延续**（Bustinza 6/29 → 7/3 模式）：4 个"老文章不同角度回顾"在 7/5、7/6 出现：
+  - 7/5 #1 传媒: Emily Metzgar 院长上任满一周（4/1 文章，title 改"6 位副院长组队"角度）
+  - 7/5 #2 演出: Rhapsody 系列 8/30 揭幕（6/20 文章，title 改"6 场室内乐系列"角度）
+  - 7/5 #3 校友: 荣誉校友奖 6/12 颁奖回顾（6/12 文章，title 加"Jain+De Moraes"等获奖人）
+  - 7/6 #2 演出: 第 60 届中央宾州艺术节 7/8-12 提醒（6/28 文章，title 改"本周末开幕"角度）
+- **4 个全新 7/4 文章**：Hearst 奖 top-10 全部 6 类别 + Ella Langley BJC 9/11 巡演 + Firecracker 4K 跑步 + adidas 替代 Nike 32 年合作。
+- **7/6 校友 Dan Barefoot (冬奥钢架雪车)**：从 alumni.psu.edu/spotlight/...（404）改用 psu.edu/news/arts-and-architecture/.../landscape-architecture-alum-competes-skeleton-team-usa-2026-olympics（HTTP 200, og:image 验证通过）。
+- **7/6 行政 Daniel Barkowitz (学生援助 AVP)**：Faculty Senate pass-fail 文章没 og:image，改用 `/news/administration/.../penn-state-names-new-assistant-vice-president-executive-director-student-aid`（HTTP 200, og:image `daniel-headshot-5.jpg`）。
+- **zsh `status` reserved**：shell 变量名 `status` 在 zsh 是 read-only，`code=$(curl ... -w '%{http_code}')` 才能用。
+- News selected:
+  - **7/4 第 10 期**: Hearst Top-10 全部 6 类别 / Ella Langley 9/11 BJC / Firecracker 4K / adidas 替换 Nike / Pennington AAUA / 超导钻石量子
+  - **7/5 第 11 期**: Metzgar 院长上任一周 / Rhapsody 8/30 揭幕 / 荣誉校友奖 6/12 / 男篮 2026-27 阵容 / Mauro 临时院长 EMS / 生物泵数据存储
+  - **7/6 第 12 期**: Ed Bradley 奖学金 2 入选 / 中央艺术节 60 周年开幕提醒 / Dan Barefoot 冬奥钢架雪车 / $10 亿体育收入 / Barkowitz AVP 学生援助 / OCIP 创业商业化
+- All 18 images successfully extracted (16 psu-gatsby-files S3, 1 imagedelivery.net generic Firecracker, 1 local21news.com)。
+- Files: index.html (title→7/06, date→7/06 星期一, 6 cards replaced, lead-cn updated), psu-news-2026-07-04/05/06.html (3 new files), archive.html (9→12 期, 3 new cards top of June section), archive-catalog.html (counts: 9→12, 9→12, 9→12, 11→14, 9→12, 7→10; 3 new items top of each category).
+- Git: 7 files, +3710/-60, commit `24c9a03`, push 53247cf→24c9a03.
+- **后处理发现并修复 1 个小 bug**：archive.html 写完后，初始 index.html `<title>` 忘改 7/3→7/6（commit 后才注意到），后续一次性修复补 commit。
