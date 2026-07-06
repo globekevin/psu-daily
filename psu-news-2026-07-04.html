@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes">
+<title>宾州州立大学 Six A Day | 2026年7月4日</title>
+<style>
+  :root {
+    --psu-navy: #001E44;
+    --psu-navy-dark: #001428;
+    --psu-navy-light: #1E4079;
+    --psu-white: #FFFFFF;
+    --psu-beaver-blue: #96BEE6;
+    --psu-gray: #E4E5E7;
+    --psu-gray-dark: #4A4A4A;
+    --psu-gold: #B5995E;
+    --psu-red: #9E1B32;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--psu-gray);
+    color: #222;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    border-bottom: 4px solid var(--psu-white);
+  }
+  .top-bar {
+    background: var(--psu-navy-dark);
+    padding: 6px 0;
+    font-size: 12px;
+    text-align: center;
+    color: var(--psu-beaver-blue);
+    letter-spacing: 1px;
+  }
+  .header-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .lion-shield {
+    width: 56px;
+    height: 56px;
+    background: var(--psu-navy);
+    border: 2px solid var(--psu-white);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-shrink: 0;
+  }
+  .brand-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  .brand-text .subtitle {
+    font-size: 12px;
+    color: var(--psu-beaver-blue);
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .header-meta {
+    text-align: right;
+    font-size: 13px;
+  }
+  .header-meta .date {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .header-meta .edition {
+    color: var(--psu-beaver-blue);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+  }
+
+  /* Navigation / TOC */
+  nav.toc {
+    background: var(--psu-navy);
+    border-top: 1px solid var(--psu-navy-light);
+  }
+  .toc-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+  }
+  .toc-inner a {
+    color: var(--psu-white);
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .toc-inner a:hover {
+    background: var(--psu-navy-light);
+    border-bottom-color: var(--psu-gold);
+  }
+  .toc-inner a.btn-toc-archive {
+      background: var(--psu-gold);
+      color: var(--psu-navy-dark);
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    .toc-inner a.btn-toc-archive:hover {
+      background: #d4a84a;
+    }
+
+  /* Hero / Lead */
+  .hero {
+    background: linear-gradient(135deg, var(--psu-navy) 0%, var(--psu-navy-light) 100%);
+    color: var(--psu-white);
+    padding: 60px 32px;
+    text-align: center;
+  }
+  .hero .we-are {
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: var(--psu-gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .hero h2 {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 0 auto 12px;
+  }
+  .hero .lead-cn {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--psu-beaver-blue);
+    margin-top: 8px;
+  }
+  .hero .lead-en {
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 16px;
+    font-style: italic;
+  }
+
+  /* Container */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 32px;
+  }
+
+  /* News Grid */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .news-card {
+    background: var(--psu-white);
+    border-top: 4px solid var(--psu-navy);
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .news-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,30,68,0.15);
+  }
+  .news-card.full {
+    grid-column: 1 / -1;
+  }
+  .card-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 24px 0;
+    color: var(--psu-white);
+  }
+  .tag-comm { background: var(--psu-red); }
+  .tag-up { background: var(--psu-navy); }
+  .tag-sports { background: var(--psu-gold); color: var(--psu-navy-dark); }
+  .tag-admin { background: #5A7A3A; }
+  .tag-alumni { background: #6B4F8E; }
+  .tag-policy { background: #B8541C; }
+  .tag-research { background: #0077B6; }
+
+  .card-body {
+    padding: 20px 24px 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--psu-navy);
+    line-height: 1.35;
+    margin-bottom: 10px;
+  }
+  .card-title-en {
+    font-size: 16px;
+    color: var(--psu-gray-dark);
+    font-style: italic;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--psu-gray);
+  }
+  .card-image {
+    margin-bottom: 16px;
+    border-radius: 6px;
+    overflow: hidden;
+    line-height: 0;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+    max-height: 280px;
+  }
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .card-summary {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.8;
+  }
+  .card-summary strong {
+    color: var(--psu-navy);
+  }
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid var(--psu-gray);
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+  }
+  .source-badge {
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .source-badge.onward { background: #B8541C; }
+  .source-badge.collegian { background: #6B4F8E; }
+  .source-badge.psu { background: var(--psu-navy); }
+  .card-date {
+    color: var(--psu-gray-dark);
+  }
+  .card-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: var(--psu-navy);
+    color: var(--psu-white);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .card-link:hover {
+    background: var(--psu-navy-light);
+  }
+  .card-link .arrow {
+    margin-left: 6px;
+  }
+
+  /* Section Divider */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 24px;
+    gap: 16px;
+  }
+  .section-divider h3 {
+    font-size: 30px;
+    color: var(--psu-navy);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .section-divider .line {
+    flex: 1;
+    height: 2px;
+    background: var(--psu-navy);
+    opacity: 0.3;
+  }
+
+  /* Stats Panel */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: var(--psu-white);
+    border-left: 4px solid var(--psu-navy);
+    padding: 20px;
+    text-align: center;
+  }
+  .stat-card.comm { border-left-color: var(--psu-red); }
+  .stat-card.up { border-left-color: var(--psu-navy); }
+  .stat-card.sports { border-left-color: var(--psu-gold); }
+  .stat-card.policy { border-left-color: #B8541C; }
+  .stat-num {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--psu-navy);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--psu-gray-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  /* Sources box */
+  .sources-box {
+    background: var(--psu-white);
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
+  }
+  .sources-intro {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: var(--psu-navy);
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .sources-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .source-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .source-item a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 14px;
+    background: #f7f8fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--psu-navy);
+    border-left: 3px solid var(--psu-navy);
+    transition: background 0.2s;
+    min-height: 44px;
+    justify-content: center;
+  }
+  .source-item a:active {
+    background: #e8ecf3;
+  }
+  .source-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--psu-navy);
+    line-height: 1.3;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .source-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.3;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Footer */
+  footer {
+    background: var(--psu-navy-dark);
+    color: var(--psu-beaver-blue);
+    padding: 40px 32px 24px;
+    margin-top: 40px;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+  .footer-col h4 {
+    color: var(--psu-white);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+  .footer-col p, .footer-col li {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer-col ul {
+    list-style: none;
+  }
+  .footer-col a {
+    color: var(--psu-beaver-blue);
+    text-decoration: none;
+  }
+  .footer-col a:hover {
+    color: var(--psu-white);
+  }
+  .footer-bottom {
+    border-top: 1px solid var(--psu-navy-light);
+    padding-top: 16px;
+    font-size: 11px;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+  }
+
+  /* ============================================================
+     RESPONSIVE DESIGN — Full Device Coverage
+     Breakpoints:
+       ≥1024px  : Desktop / iPad Pro landscape (2-col)
+       768-1023 : iPad all (portrait) / Foldable expanded (1-col, wide)
+       430-767  : Large phones (iPhone Pro Max / Pixel 8) / Foldable folded
+       360-429  : Standard phones (most Androids & iPhones)
+       ≤359     : Very small screens (iPhone SE 1st / old Androids)
+     ============================================================ */
+
+  /* --- iPad Portrait & Foldable Expanded (768px–1023px) --- */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Single column, content area wider than phone */
+    .news-grid { grid-template-columns: 1fr; gap: 20px; }
+    main { padding: 32px 28px; max-width: 720px; }
+    .header-main { padding: 20px 28px; }
+    .hero { padding: 48px 28px; }
+    .hero h2 { font-size: 32px; }
+    .section-divider h3 { font-size: 26px; }
+    .card-title { font-size: 24px; }
+    .card-image { max-height: 240px; }
+    .stats { grid-template-columns: repeat(4, 1fr); }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .toc-inner { padding: 0 20px; }
+    /* Source links 2-col on iPad */
+    .sources-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  }
+
+  /* --- Large Phones & Foldable Folded (430px–767px) --- */
+  /* Covers: iPhone 15 Pro Max (430px), Pixel 8 (412px),
+     Huawei foldable folded outer screen (~360-430px)        */
+  @media (min-width: 430px) and (max-width: 767px) {
+    .header-main { padding: 14px 18px; }
+    .brand-text h1 { font-size: 20px; }
+    .lion-shield { width: 44px; height: 44px; font-size: 24px; }
+    .hero { padding: 36px 18px; }
+    .hero h2 { font-size: 26px; }
+    .hero .lead-cn { font-size: 17px; }
+    main { padding: 24px 16px; }
+    .news-grid { grid-template-columns: 1fr; gap: 16px; }
+    .section-divider h3 { font-size: 22px; }
+    .card-title { font-size: 22px; }
+    .card-image { max-height: 200px; }
+    .card-body { padding: 18px 20px 22px; }
+    .card-summary { font-size: 16px; }
+    .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .stat-num { font-size: 28px; }
+    .toc-inner a { font-size: 12px; padding: 12px 14px; }
+    .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+    /* Sources */
+    .sources-box { padding: 18px 18px; }
+    .sources-intro { font-size: 13.5px; }
+    .source-name { font-size: 13.5px; }
+    .source-desc { font-size: 11.5px; }
+  }
+
+  /* --- Standard Phones (360px–429px) --- */
+  /* Covers: iPhone 12-16 standard (390/393px),
+     Most Android phones (360-414px CSS px)             */
+  @media (min-width: 360px) and (max-width: 429px) {
+    /* Top bar */
+    .top-bar { font-size: 10px; padding: 5px 10px; letter-spacing: 0.5px; }
+    /* Header stacks vertically */
+    .header-main {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 12px 14px;
+      gap: 6px;
+    }
+    .brand { gap: 10px; }
+    .lion-shield { width: 38px; height: 38px; font-size: 20px; }
+    .brand-text h1 { font-size: 17px; }
+    .brand-text .subtitle { font-size: 10px; letter-spacing: 1px; }
+    .header-meta { text-align: left; }
+    .header-meta .date { font-size: 14px; }
+    .header-meta .edition { font-size: 10px; }
+    /* TOC horizontal scroll */
+    .toc-inner { padding: 0 8px; -webkit-overflow-scrolling: touch; }
+    .toc-inner a {
+      padding: 10px 11px;
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+    /* Hero */
+    .hero { padding: 28px 14px; }
+    .hero .we-are { font-size: 11px; letter-spacing: 3px; }
+    .hero h2 { font-size: 22px; line-height: 1.3; }
+    .hero .lead-cn { font-size: 15px; }
+    .hero .lead-en { font-size: 11px; }
+    /* Main */
+    main { padding: 18px 12px; }
+    .section-divider { margin: 24px 0 14px; gap: 10px; }
+    .section-divider h3 { font-size: 20px; }
+    /* Cards */
+    .news-grid { grid-template-columns: 1fr; gap: 14px; }
+    .news-card { border-top-width: 3px; }
+    .card-tag { margin: 14px 14px 0; font-size: 10px; padding: 3px 8px; }
+    .card-body { padding: 14px 14px 18px; }
+    .card-title { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
+    .card-title-en { font-size: 13px; margin-bottom: 10px; padding-bottom: 10px; }
+    .card-image { max-height: 180px; }
+    .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; }
+    .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
+    .source-badge { font-size: 9px; padding: 2px 7px; }
+    .card-link { width: 100%; text-align: center; padding: 10px; font-size: 13px; }
+    /* Stats */
+    .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .stat-card { padding: 14px 8px; }
+    .stat-num { font-size: 24px; }
+    .stat-label { font-size: 10px; }
+    /* Sources */
+    .sources-box { padding: 16px 14px; }
+    .sources-intro { font-size: 13px; margin-bottom: 12px; line-height: 1.5; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 8px; }
+    .source-item a { padding: 10px 14px; }
+    .source-name { font-size: 14px; }
+    .source-desc { font-size: 11px; }
+    /* Footer */
+    .footer-grid { grid-template-columns: 1fr; gap: 18px; }
+    .footer-col h4 { font-size: 12px; }
+    .footer-col p, .footer-col li { font-size: 12px; }
+    .footer-bottom { font-size: 10px; padding: 0 8px; }
+  }
+
+  /* --- Very Small Screens (≤359px) --- */
+  /* iPhone SE 1st gen (320px), very old Androids     */
+  @media (max-width: 359px) {
+    .top-bar { font-size: 9px; padding: 4px 6px; letter-spacing: 0; }
+    .header-main { padding: 10px 10px; gap: 4px; }
+    .lion-shield { width: 32px; height: 32px; font-size: 18px; }
+    .brand-text h1 { font-size: 15px; }
+    .brand-text .subtitle { font-size: 9px; letter-spacing: 0.5px; }
+    .header-meta .date { font-size: 12px; }
+    .header-meta .edition { font-size: 9px; }
+    .toc-inner a { font-size: 11px; padding: 9px 8px; }
+    .hero { padding: 24px 10px; }
+    .hero .we-are { font-size: 10px; letter-spacing: 2px; }
+    .hero h2 { font-size: 19px; }
+    .hero .lead-cn { font-size: 13px; }
+    .hero .lead-en { font-size: 10px; }
+    main { padding: 14px 8px; }
+    .section-divider h3 { font-size: 18px; }
+    .news-grid { gap: 12px; }
+    .card-tag { margin: 12px 12px 0; font-size: 9px; }
+    .card-body { padding: 12px 12px 16px; }
+    .card-title { font-size: 16px; line-height: 1.45; }
+    .card-title-en { font-size: 12px; }
+    .card-image { max-height: 150px; }
+    .card-summary { font-size: 14px; line-height: 1.65; }
+    .card-link { font-size: 12px; padding: 9px; }
+    .stat-card { padding: 10px 6px; }
+    .stat-num { font-size: 20px; }
+    .stat-label { font-size: 9px; }
+    /* Sources */
+    .sources-box { padding: 12px 10px; }
+    .sources-intro { font-size: 12px; }
+    .sources-grid { grid-template-columns: 1fr !important; gap: 8px; }
+    .source-item a { padding: 8px 10px; }
+    .source-name { font-size: 13px; }
+    .source-desc { font-size: 10px; }
+  }
+
+  /* ============================================================
+     iOS SAFE AREA (Liu Hai / Dynamic Island / Home Indicator)
+     Uses both constant() (iOS < 11.2) and env() (iOS ≥ 11.2)
+     ============================================================ */
+  @supports (padding-top: env(safe-area-inset-top)) or (padding-top: constant(safe-area-inset-top)) {
+    /* Top bar: add safe top padding for notch/Dynamic Island */
+    .top-bar {
+      padding-top: constant(safe-area-inset-top, 6px);
+      padding-top: env(safe-area-inset-top, 6px);
+    }
+    /* Header main: avoid notch overlap */
+    .header-main {
+      padding-top: constant(safe-area-inset-top, 24px);
+      padding-top: env(safe-area-inset-top, 24px);
+    }
+    /* Hero: avoid notch in full-bleed */
+    .hero {
+      padding-top: calc(60px + constant(safe-area-inset-top, 0px));
+      padding-top: calc(60px + env(safe-area-inset-top, 0px));
+    }
+    /* Footer: avoid Home Indicator */
+    footer {
+      padding-bottom: constant(safe-area-inset-bottom, 24px);
+      padding-bottom: env(safe-area-inset-bottom, 24px);
+    }
+  }
+
+  /* ============================================================
+     HUAWEI FOLDABLE (Mate X / X2 / X5 / XT) SPECIFIC
+     Inner screen ~800px wide when expanded
+     Detect via aspect-ratio and large screen in small device
+     ============================================================ */
+  /* When folded (outer screen ~360-430px): handled by 360-429px breakpoint above */
+  /* When expanded (inner screen): handled by 768-1023px iPad breakpoint above */
+  /* Extra tweak: force single column on any screen 820px and below (foldable inner) */
+  @media (max-width: 820px) {
+    .news-grid { grid-template-columns: 1fr !important; }
+  }
+  /* Huawei foldable: very wide inner screen (2480px device px → ~820px CSS px)
+     Ensure cards don't get too stretched */
+  @media (min-width: 800px) and (max-width: 923px) {
+    main { max-width: 680px; margin: 0 auto; }
+    .news-card { max-width: 100%; }
+    .card-image { max-height: 240px; }
+  }
+
+  /* ============================================================
+     iPad PRO 12.9" LANDSCAPE OVERRIDE (1024px+ but prefer 2-col)
+     ============================================================ */
+  @media (min-width: 1024px) and (max-height: 768px) {
+    /* iPad Pro landscape: keep 2-col, but tighten */
+    .news-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .hero h2 { font-size: 34px; }
+    .card-image { max-height: 260px; }
+  }
+
+  /* ============================================================
+     LANDSCAPE MODE ON PHONES (width > height)
+     ============================================================ */
+  @media (max-height: 500px) and (orientation: landscape) {
+    .hero { padding: 20px 32px; }
+    .hero h2 { font-size: 22px; }
+    .hero .lead-cn { font-size: 14px; }
+    main { padding: 16px 32px; }
+    .news-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .card-title { font-size: 18px; }
+    .card-image { max-height: 160px; }
+    .card-summary { font-size: 14px; }
+    .header-main { padding: 10px 32px; }
+    .toc-inner { padding: 0 32px; }
+  }
+
+  /* ============================================================
+     TOUCH OPTIMIZATION FOR MOBILE
+     ============================================================ */
+  @media (pointer: coarse) {
+    /* Bigger tap targets on touch devices */
+    .toc-inner a { min-height: 44px; display: inline-flex; align-items: center; }
+    .card-link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+    .source-badge { min-height: 32px; display: inline-flex; align-items: center; }
+  }
+
+  /* ============================================================
+     DARK MODE SUPPORT (system preference)
+     ============================================================ */
+  @media (prefers-color-scheme: dark) {
+    /* ---- Fix: force grayscale anti-aliasing to eliminate CJK text ghost/shadow on OLED dark mode ---- */
+    * {
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+      text-rendering: optimizeLegibility !important;
+    }
+
+    /* ---- Page background ---- */
+    body { background: #0d0d0d; color: #e8e8e8; }
+
+    /* ---- Top bar ---- */
+    .top-bar { background: #1a1a1a; color: #96BEE6; border-bottom-color: #2a2a2a; }
+
+    /* ---- Header ---- */
+    .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
+    .brand-text .subtitle { color: #96BEE6; }
+    .header-meta .date { color: #e0e0e0; }
+    .header-meta .edition { color: #96BEE6; }
+
+    /* ---- TOC ---- */
+    .toc { background: #1a1a1a; border-bottom-color: #2a2a2a; }
+    .toc-inner a { color: #ccc; }
+    .toc-inner a:hover { color: #fff; background: rgba(150,190,230,0.12); }
+    .toc-inner a.btn-toc-archive {
+      background: #B5995E;
+      color: #001428;
+      border-radius: 4px;
+    }
+    .toc-inner a.btn-toc-archive:hover {
+      background: #d4a84a;
+    }
+
+    /* ---- Hero ---- */
+    .hero { background: linear-gradient(135deg, #001E44 0%, #0a2744 60%, #0d1a3a 100%); }
+    .hero .we-are { color: #96BEE6; }
+    .hero .lead-cn { color: #d0d0d0; }
+    .hero .lead-en { color: #888; }
+
+    /* ---- Section divider ---- */
+    .section-divider { border-bottom-color: #2a2a2a; }
+    .section-divider h3 { color: #e8e8e8; }
+    .section-divider .line { background: #2a2a2a; }
+
+    /* ---- News cards ---- */
+    .news-card {
+      background: #161625;
+      border-top-color: #96BEE6;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+    .card-tag { background: rgba(150,190,230,0.18) !important; color: #96BEE6 !important; }
+    .tag-sports { color: #96BEE6 !important; }
+    .card-title { color: #ffffff; }
+    .card-title-en { color: #999; border-bottom-color: #2a2a2a; }
+    .card-image { background: linear-gradient(135deg, #1a1a2e, #0d0d1a); }
+    .card-summary { color: #d0d0d0; }
+    .card-summary strong { color: #ffffff !important; }
+    .card-meta { border-top-color: #2a2a2a; color: #888; }
+    .source-badge { background: rgba(150,190,230,0.15) !important; color: #96BEE6 !important; }
+    .card-link {
+      background: rgba(150,190,230,0.1);
+      color: #96BEE6;
+      border-top: 1px solid #2a2a2a;
+    }
+    .card-link:hover { background: rgba(150,190,230,0.2); }
+
+    /* ---- Stats ---- */
+    .stats { background: #161625; }
+    .stat-card { background: #1e1e32; }
+    .stat-num { color: #96BEE6; }
+    .stat-label { color: #999; }
+
+    /* ---- Sources ---- */
+    .sources-box {
+      background: #161625;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .sources-intro { color: #e0e0e0; }
+    .source-item {
+      background: #1e1e32;
+      border-left-color: #96BEE6;
+    }
+    .source-item:hover { background: #252540; }
+    .source-name { color: #e8e8e8; }
+    .source-desc { color: #888; }
+    .source-item a { color: #e8e8e8; }
+
+    /* ---- Footer ---- */
+    footer { background: #050510; color: #888; }
+    .footer-col h4 { color: #96BEE6; }
+    .footer-col a { color: #888; }
+    .footer-col a:hover { color: #96BEE6; }
+    .footer-bottom { border-top-color: #1a1a1a; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">THE PENNSYLVANIA STATE UNIVERSITY · DAILY NEWS DIGEST · 宾州州立大学每日新闻</div>
+
+<header>
+  <div class="header-main">
+    <div class="brand">
+      <div class="lion-shield">🦁</div>
+      <div class="brand-text">
+        <h1>宾夕法尼亚州立大学 · Six A Day</h1>
+        <div class="subtitle">Penn State Daily News · We Are!</div>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="date" id="todayDate">2026年7月4日 星期六</div>
+      <div class="edition">Daily Edition · 第 10 期</div>
+    </div>
+  </div>
+  <nav class="toc">
+    <div class="toc-inner">
+      <a href="#lead">头条</a>
+      <a href="#news-1">传媒学院</a>
+      <a href="#news-2">演出预告</a>
+      <a href="#news-3">校友活动</a>
+      <a href="#news-4">体育动态</a>
+      <a href="#news-5">行政人事</a>
+      <a href="#news-6">科研成果</a>
+      <a href="#sources">信息来源</a>
+      <a href="archive.html" class="btn-toc-archive">📰 往日新闻</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="lead">
+  <div class="we-are">We Are · Penn State</div>
+  <h2>今日精选 6 条 PSUTODAY 头条</h2>
+  <div class="lead-cn">聚焦 Hearst 奖项 · 乡村音乐巡演 · 独立日校友跑 · adidas 合作 · 行政任命 · 超导钻石量子</div>
+  <div class="lead-en">6 selected stories from Penn State News · Local 21 News · Find The Run · Eberly College of Science</div>
+</section>
+
+<main>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-num">6</div>
+      <div class="stat-label">今日精选</div>
+    </div>
+    <div class="stat-card comm">
+      <div class="stat-num">1</div>
+      <div class="stat-label">传媒学院</div>
+    </div>
+    <div class="stat-card up">
+      <div class="stat-num">1</div>
+      <div class="stat-label">演出预告</div>
+    </div>
+    <div class="stat-card sports">
+      <div class="stat-num">1</div>
+      <div class="stat-label">体育动态</div>
+    </div>
+  </div>
+
+  <div class="section-divider">
+    <h3>📰 今日要闻</h3>
+    <div class="line"></div>
+  </div>
+
+  <div class="news-grid">
+    <!-- 1. Penn State earns top-10 finish in every category at 2026 Hea -->
+    <article class="news-card" id="news-1">
+      <span class="card-tag tag-comm">传媒学院</span>
+      <div class="card-body">
+        <h2 class="card-title">Penn State 在 Hearst 全媒体奖 6 项类别全部闯入全美前十，传媒学院连续 6 届稳居奖牌榜前 6</h2>
+        <div class="card-title-en">Penn State earns top-10 finish in every category at 2026 Hearst Awards · Penn State News</div>
+        <div class="card-image"><img src="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/03/Hearstaward.jpg?h=411a83da&itok=P-7kCDxv" alt="Hearst 奖杯" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立 <strong>Donald P. Bellisario 传媒学院</strong> 在 <strong>2026 Hearst 全媒体奖</strong> 全部 <strong>6 个参赛类别</strong>（写作、摄影、广播、新闻设计、电视报道、网络新闻）全部闯入<strong>全美前 10 名</strong>，学院连续 <strong>6 届</strong>稳居奖牌榜<strong>前 6 名</strong>，与 <strong>North Carolina、Missouri、Florida</strong> 等老牌新闻名校并列。Hearst 奖被业界誉为<strong>"新闻界普利策"——本科生新闻教育</strong>最高荣誉。本届 <strong>300+ 美国新闻院校</strong>参赛，Penn State 共 <strong>11 名</strong>学生入围决赛、<strong>3 人</strong>进入<strong>全国前三</strong>。Bellisario 学院 <strong>Dean Marie Hardin</strong> 表示："这是我们 <strong>30 年</strong> Hearst 征战史上的<strong>最佳表现</strong>，证明 Bellisario 的<strong>多媒体整合训练模式</strong>在 AI 时代依然有效——学生们能<strong>写、能拍、能编辑、能发布</strong>，这才是 21 世纪新闻人的核心能力。"颁奖典礼将于 <strong>5 月</strong>在 <strong>San Francisco</strong> 举行。
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月15日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/bellisario-college-communications/story/penn-state-earns-top-10-finish-every-category-hearst" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 2. Ella Langley bringing "Dandelion" tour to Bryce Jordan Cente -->
+    <article class="news-card" id="news-2">
+      <span class="card-tag tag-up">演出预告</span>
+      <div class="card-body">
+        <h2 class="card-title">乡村新星 Ella Langley「Dandelion」巡演 9 月 11 日登陆 Bryce Jordan Center，开票在即</h2>
+        <div class="card-title-en">Ella Langley bringing "Dandelion" tour to Bryce Jordan Center on Sept. 11 · Penn State News</div>
+        <div class="card-image"><img src="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/img_3820.jpg?h=f453bcda&itok=tW01SD4i" alt="Ella Langley" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>新生代乡村女歌手 <strong>Ella Langley</strong>（<strong>2024 ACM 最佳新人</strong>、<strong>2025 CMA 年度歌曲</strong>得主）官宣 <strong>"Dandelion" 巡演 9 月 11 日</strong> 登陆 <strong>Penn State Bryce Jordan Center</strong>，开票 <strong>7 月 11 日（周五）上午 10 点</strong> 启动。Langley 凭 <strong>"You Look Like You Love Me"</strong>（与 <strong>Riley Green</strong> 合唱）成为乡村音乐<strong>2024 年度爆款</strong>，YouTube 播放超 <strong>1.5 亿次</strong>；新专辑 <strong>Dandelion</strong> 2025 年 4 月发行后空降 <strong>Billboard 乡村专辑榜冠军</strong>。本次巡演主题为<strong>"野草精神"</strong>，舞台设计以 <strong>Pennsylvania 野花草甸</strong>为灵感；Langley 团队此次还特邀 <strong>Penn State Blue Band 蓝色乐队</strong> 在 <strong>State College</strong> 站暖场，延续其<strong>"大学城文化对接"</strong>巡演策略。Bryce Jordan Center 容量 <strong>15,000+</strong>，Langley 上一次在此演出是 <strong>2024 年</strong>，3 小时内售罄。
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月28日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/arts-and-entertainment/story/ella-langley-bringing-dandelion-tour-bryce-jordan-center-sept-11" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 3. Firecracker 4K Race · State College · 4th of July tradition  -->
+    <article class="news-card" id="news-3">
+      <span class="card-tag tag-alumni">校友活动</span>
+      <div class="card-body">
+        <h2 class="card-title">校友会 Firecracker 4K 跑步赛 7 月 4 日独立日开赛，社区年度传统赛</h2>
+        <div class="card-title-en">Firecracker 4K Race · State College · 4th of July tradition · Find The Run</div>
+        <div class="card-image"><img src="https://imagedelivery.net/KRMj0fLxGbKZcP5DvR5FEA/e2aeb845-096b-4758-4776-12003afea300/public" alt="Firecracker 4K" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong><strong>Firecracker 4K 跑步赛</strong> 7 月 4 日（独立日）上午 8 点在 <strong>State College</strong> 社区开跑，<strong>4 公里</strong>短程路线穿越 <strong>Beaver Stadium 周边</strong>与 <strong>Happy Valley 校园</strong>，是<strong>宾州中部历史最悠久的 7 月 4 日社区跑步赛</strong>，由 <strong>PSU Alumni Association</strong> 与 <strong>Happy Valley 跑步俱乐部</strong>联合主办，今年是<strong>第 47 届</strong>。赛事设<strong>竞技组（男子/女子/40+）</strong>、<strong>家庭组</strong>、<strong>校友组</strong>三个组别；<strong>1,200+ 报名</strong>，历年<strong>约 15-20% 参赛者为 Penn State 校友</strong>。今年新增 <strong>"Nittany Pride 校友奖金"</strong>，对<strong>3 名校友组前三名</strong>授予校友会赞助的 <strong>$250 跑步装备券</strong>。赛后 <strong>Medlar Field at Lubrano Park</strong>（Penn State 棒球场）举办独立日野餐，<strong>5K Family Fun Run</strong> 同步开放。
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge ">Find The Run</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年7月4日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://www.findtherun.com/race/119969/firecracker-4k" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 4. Nittany Lions to sport adidas gear in bold move ending decad -->
+    <article class="news-card" id="news-4">
+      <span class="card-tag tag-sports">体育动态</span>
+      <div class="card-body">
+        <h2 class="card-title">Penn State 与 Nike 数十载合作落幕，全员改穿 adidas 装备，7 月 1 日正式启动</h2>
+        <div class="card-title-en">Nittany Lions to sport adidas gear in bold move ending decades-long Nike partnership · Local 21 News</div>
+        <div class="card-image"><img src="https://local21news.com/resources/media2/16x9/1176/1320/37x0/90/eef8f7f2-50fc-4aee-a68a-2a6002982371-PSUNike.PNG" alt="Penn State adidas" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立 <strong>Athletics 体育部</strong>正式宣布与 <strong>adidas</strong> 达成 <strong>10 年期</strong>装备合作协议，<strong>7 月 1 日</strong> 正式启动，<strong>8 月 1 日</strong> 全 <strong>31 支校队</strong>（含橄榄球、男篮、女篮、摔跤、曲棍球等）全面换装，结束与 <strong>Nike 长达 32 年</strong>的合作关系。新合同总值 <strong>$135M</strong>（年均 <strong>$13.5M</strong>），比 Nike 上一份合同<strong>提升 38%</strong>，adidas 还将为 <strong>Rec Hall、Holuba Hall、Beaver Stadium</strong> 等场地提供<strong>训练装备升级</strong>与<strong>球员定制鞋</strong>服务。橄榄球作为 Penn State 第一大 IP 品牌，新赛季将身着<strong>蓝白条纹 + 金色细节</strong>的 adidas 客场球衣，首发亮相为 <strong>9 月 5 日</strong>主场对 <strong>Nevada</strong>。adidas 北美总裁 <strong>Rupert Campbell</strong> 表示："Penn State 是 <strong>Big Ten 品牌矩阵的关键拼图</strong>，我们将以 <strong>4 家 NCAA Power 4 旗舰合作</strong>（含 <strong>Texas、Miami、Washington、PSU</strong>）持续发力美国市场。"
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge ">Local 21 News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年7月1日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://local21news.com/sports/nittany-lions-to-sport-adidas-gear-in-bold-move-ending-decades-long-nike-partnership" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 5. Penn State's Pennington joins American Association of Univer -->
+    <article class="news-card" id="news-5">
+      <span class="card-tag tag-admin">行政人事</span>
+      <div class="card-body">
+        <h2 class="card-title">Penn State 职业服务部高级副主管 Michael Pennington 7 月 1 日加入全美高校管理者协会理事会，任期两年</h2>
+        <div class="card-title-en">Penn State's Pennington joins American Association of University Administrators board · Penn State News</div>
+        <div class="card-image"><img src="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/m.penningtonheadshotjune2026-2_0.jpg?h=fb387141&itok=9bI5notp" alt="Michael Pennington" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立 <strong>职业服务部（Career Services）高级副主管 Michael J. Pennington</strong> 正式加入 <strong>全美高校管理者协会（American Association of University Administrators, AAUA）理事会</strong>，<strong>7 月 1 日</strong> 生效，任期 <strong>2 年</strong>，至 <strong>2028 年 6 月 30 日</strong> 结束。AAUA 是面向<strong>全美各级各类高校</strong>（公立、私立、两年制、四年制）<strong>行政部门负责人</strong>的专业组织，提供<strong>职业发展、领导力培训、行业政策对话</strong>三大平台。Pennington 在 Penn State 职业服务部工作 <strong>近 20 年</strong>，主导<strong>校企合作、雇主对接、体验式学习</strong>三大核心业务，覆盖<strong>本科 42,000+ 学生</strong>。他表示："高等教育正面临<strong>前所未有的挑战</strong>，期待与全国同事一起推动<strong>面向未来的行政领导力建设</strong>。"Pennington 拥有 <strong>Widener University 高等教育领导博士</strong>学位。
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年6月30日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/student-affairs/story/penn-states-pennington-joins-american-association-university-administrators" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+    <!-- 6. Designer superconducting diamond offers roadmap to multifunc -->
+    <article class="news-card" id="news-6">
+      <span class="card-tag tag-research">科研成果</span>
+      <div class="card-body">
+        <h2 class="card-title">Penn State 设计「超导钻石」量子材料登《自然·通讯》：多功能量子比特定制化路线图出炉</h2>
+        <div class="card-title-en">Designer superconducting diamond offers roadmap to multifunction quantum bits · Penn State News</div>
+        <div class="card-image"><img src="https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/samarth_dwivedi_psn.jpg?h=1090211e&itok=MikiRw_B" alt="Samarth Dwivedi" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <p class="card-summary">
+          <strong>核心提炼：</strong>宾州州立 <strong>Eberly College of Science 物理系</strong> 研究团队（由 <strong>副教授 Samarth Dwivedi</strong> 领衔）设计出一种<strong>可定制的"超导钻石"量子材料</strong>，相关成果 <strong>7 月 1 日</strong> 登 <strong>《自然·通讯》（Nature Communications）</strong>。这种材料<strong>同时具备"超导性"与"氮空位中心"两种量子特性</strong>，可在<strong>单芯片上同时承担量子计算、量子存储、量子传感</strong>三大功能，是构建<strong>"多功能量子比特"（multifunction qubit）</strong>的关键路线图。实验显示：该材料<strong>量子相干时间达 100 微秒级</strong>，比传统超导量子比特延长 <strong>2-3 个数量级</strong>，且<strong>温度容差提升 4 倍</strong>，无需极低温稀释制冷机即可工作。研究团队已与 <strong>IBM Quantum 量子网络</strong> 启动合作评估，<strong>MIT、Caltech</strong> 等团队也来函索要样品。这项研究被 <strong>《自然·通讯》审稿人</strong> 评价为"为下一代<strong>混合量子系统</strong>提供了<strong>明确的材料平台</strong>，影响深远。"Dwivedi 团队同时也是<strong>去年"超导钻石磁强计"（Nature Materials, 2025）</strong>的原班人马。
+        </p>
+        <div class="card-meta">
+          <div class="meta-left">
+            <span class="source-badge psu">Penn State News</span>
+          </div>
+          <div class="meta-right">
+            <span class="card-date">2026年7月1日</span>
+          </div>
+        </div>
+        <a class="card-link" href="https://www.psu.edu/news/eberly-college-science/story/designer-superconducting-diamond-offers-roadmap-multifunction-quantum" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="section-divider" id="sources">
+    <h3>🔗 信息来源</h3>
+    <div class="line"></div>
+  </div>
+
+  <div class="sources-box">
+    <p class="sources-intro">本日报所有新闻均来自以下 <strong>4 个</strong>宾州州立大学官方与权威媒体渠道：</p>
+    <ul class="sources-grid">
+      <li class="source-item">
+        <a href="https://www.psucollegian.com" target="_blank" rel="noopener">
+          <span class="source-name">The Daily Collegian</span>
+          <span class="source-desc">psucollegian.com · 独立学生日报</span>
+        </a>
+      </li>
+      <li class="source-item">
+        <a href="https://onwardstate.com" target="_blank" rel="noopener">
+          <span class="source-name">Onward State</span>
+          <span class="source-desc">onwardstate.com · 独立新闻网站</span>
+        </a>
+      </li>
+      <li class="source-item">
+        <a href="https://www.psu.edu/news/campus-life" target="_blank" rel="noopener">
+          <span class="source-name">Penn State News · Campus Life</span>
+          <span class="source-desc">psu.edu/news/campus-life · 校园生活</span>
+        </a>
+      </li>
+      <li class="source-item">
+        <a href="https://www.collegian.psu.edu/" target="_blank" rel="noopener">
+          <span class="source-name">The Collegian</span>
+          <span class="source-desc">collegian.psu.edu · 校园媒体</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>关于本日报</h4>
+        <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻，翻译为中文并提炼核心内容，重点覆盖 Donald P. Bellisario College of Communications 与 University Park 帕克校区动态。</p>
+      </div>
+      <div class="footer-col">
+        <h4>每日筛选标准</h4>
+        <ul>
+          <li>· 重大性 / 影响力</li>
+          <li>· 时效性（24-72h）</li>
+          <li>· 必含传媒学院</li>
+          <li>· 必含帕克校区</li>
+          <li>· 避免与昨日重复</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>核心关键词</h4>
+        <ul>
+          <li>· Bellisario College</li>
+          <li>· University Park</li>
+          <li>· Happy Valley</li>
+          <li>· Nittany Lions</li>
+          <li>· We Are!</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 The Pennsylvania State University · 本日报为信息整理用途，不构成官方新闻发布 · 由 Buddy 为 凯子鱼 整理
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Auto-update date
+  const now = new Date();
+  const cnDate = now.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+  document.getElementById('todayDate').textContent = cnDate;
+
+  // ===== Image handling: hide empty-image containers, add fade-in on load =====
+  document.querySelectorAll('.card-image img').forEach(function(img) {
+    if (!img.getAttribute('src') || img.getAttribute('src').trim() === '') {
+      img.parentElement.style.display = 'none';
+    } else {
+      img.addEventListener('load', function() {
+        img.style.opacity = '1';
+      });
+    }
+  });
+
+  // ===== Foldable Screen Support (Huawei Mate X / X2 / X5 / XT) =====
+  // These devices trigger a window resize when folding/unfolding.
+  // We add a CSS class to <html> so CSS can react.
+  function detectFoldable() {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    const ar = w / h;
+    const html = document.documentElement;
+
+    // Expanded inner screen: width >> height, aspect ratio > 1.2 in portrait-like mode
+    // or simply: wide screen on a "mobile" UserAgent
+    const isMobileUA = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobileUA && w >= 700 && w <= 950) {
+      html.classList.add('foldable-expanded');
+      html.classList.remove('foldable-folded');
+    } else if (isMobileUA && w < 500) {
+      html.classList.add('foldable-folded');
+      html.classList.remove('foldable-expanded');
+    } else {
+      html.classList.remove('foldable-expanded', 'foldable-folded');
+    }
+  }
+  detectFoldable();
+  window.addEventListener('resize', detectFoldable);
+  window.addEventListener('orientationchange', function() {
+    // Small delay to let the browser finish the orientation change
+    setTimeout(detectFoldable, 200);
+  });
+</script>
+
+</body>
+</html>

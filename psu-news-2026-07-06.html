@@ -2,282 +2,212 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
-<title>宾州州立大学 · 今日六条 | 2026年7月6日</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes">
+<title>宾州州立大学 Six A Day | 2026年7月6日</title>
 <style>
-  /* ============================================================
-     PENN STATE OFFICIAL BRAND COLORS
-     Primary:  #041E42 Nittany Navy
-     Blue:     #1E407C Penn State Blue
-     Accent:   #FFC72C Penn State Gold
-     Cream:    #E9D8BC
-     White:    #FFFFFF
-     Dark Gray:#333333
-     ============================================================ */
   :root {
-    --psu-navy: #041E42;
-    --psu-navy-light: #1E407C;
-    --psu-blue: #0076A8;
-    --psu-gold: #FFC72C;
-    --psu-cream: #E9D8BC;
+    --psu-navy: #001E44;
+    --psu-navy-dark: #001428;
+    --psu-navy-light: #1E4079;
     --psu-white: #FFFFFF;
-    --psu-gray-100: #F5F5F5;
-    --psu-gray-200: #E8E8E8;
-    --psu-gray-300: #D0D0D0;
-    --psu-gray-600: #666666;
-    --psu-gray-700: #333333;
-    --psu-red: #C41230;
+    --psu-beaver-blue: #96BEE6;
+    --psu-gray: #E4E5E7;
+    --psu-gray-dark: #4A4A4A;
+    --psu-gold: #B5995E;
+    --psu-red: #9E1B32;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; min-width: 0; }
-  html {
-    overflow-x: hidden;
-    width: 100%;
-    max-width: 100vw;
-    -webkit-text-size-adjust: 100%;
-  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: "Roboto", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-    background: var(--psu-gray-100);
-    color: var(--psu-gray-700);
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--psu-gray);
+    color: #222;
     line-height: 1.6;
-    overflow-x: hidden;
-    width: 100%;
-    max-width: 100vw;
-    -webkit-overflow-scrolling: touch;
   }
 
-  /* ===== Header ===== */
+  /* Header */
   header {
     background: var(--psu-navy);
     color: var(--psu-white);
-    width: 100%;
-    overflow-x: hidden;
+    border-bottom: 4px solid var(--psu-white);
   }
-  /* Main header */
+  .top-bar {
+    background: var(--psu-navy-dark);
+    padding: 6px 0;
+    font-size: 12px;
+    text-align: center;
+    color: var(--psu-beaver-blue);
+    letter-spacing: 1px;
+  }
   .header-main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px 32px;
+    padding: 24px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
-    min-height: 90px;
   }
   .brand {
     display: flex;
     align-items: center;
     gap: 16px;
-    text-decoration: none;
-    color: var(--psu-white);
   }
-  .psu-shield {
+  .lion-shield {
     width: 56px;
     height: 56px;
-    background: var(--psu-white);
+    background: var(--psu-navy);
+    border: 2px solid var(--psu-white);
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
     flex-shrink: 0;
-    overflow: hidden;
   }
-  .psu-shield svg { width: 48px; height: 48px; }
   .brand-text h1 {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
-    letter-spacing: 0.3px;
-    line-height: 1.2;
-    color: var(--psu-white);
-  }
-  .brand-text .brand-date {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
-    color: var(--psu-gold);
-    margin-top: 2px;
     letter-spacing: 0.5px;
+    line-height: 1.2;
   }
-  .header-meta { display: none; }
-  .lion-shield {
-    height: 56px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+  .brand-text .subtitle {
+    font-size: 12px;
+    color: var(--psu-beaver-blue);
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
-  .psu-logo-img {
-    height: 56px;
-    width: auto;
-    object-fit: contain;
+  .header-meta {
+    text-align: right;
+    font-size: 13px;
+  }
+  .header-meta .date {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .header-meta .edition {
+    color: var(--psu-beaver-blue);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 4px;
   }
 
-  /* ===== Navigation / TOC ===== */
+  /* Navigation / TOC */
   nav.toc {
-    background: #031536;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    width: 100%;
+    background: var(--psu-navy);
+    border-top: 1px solid var(--psu-navy-light);
   }
   .toc-inner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
     display: flex;
-    align-items: center;
-    gap: 0;
-    flex-wrap: nowrap;
+    align-items: stretch;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
   }
-  .toc-inner::-webkit-scrollbar { display: none; }
   .toc-inner a {
-    color: rgba(255,255,255,0.85);
+    color: var(--psu-white);
     text-decoration: none;
     padding: 14px 18px;
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    font-weight: 600;
     border-bottom: 3px solid transparent;
     transition: all 0.2s;
     white-space: nowrap;
-    flex-shrink: 0;
   }
   .toc-inner a:hover {
-    color: var(--psu-gold);
+    background: var(--psu-navy-light);
     border-bottom-color: var(--psu-gold);
-    background: rgba(255,255,255,0.05);
   }
   .toc-inner a.btn-toc-archive {
       background: var(--psu-gold);
-      color: var(--psu-navy) !important;
-      border-radius: 0;
+      color: var(--psu-navy-dark);
+      border-radius: 4px;
       font-weight: 700;
-      border-bottom: none;
-      margin-left: auto;
     }
     .toc-inner a.btn-toc-archive:hover {
-      background: #e6b527;
-      color: var(--psu-navy) !important;
+      background: #d4a84a;
     }
-  /* TOC item with past-view sub-link */
-  .toc-inner .toc-item {
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-  }
-  .toc-inner .toc-item > a:not(.toc-past) {
-    padding-right: 4px;
-  }
-  .toc-inner .toc-past {
-    padding: 14px 10px 14px 2px !important;
-    font-size: 12px !important;
-    color: var(--psu-gold) !important;
-    border-bottom: none !important;
-    opacity: 0.75;
-  }
-  .toc-inner .toc-past:hover {
-    opacity: 1;
-    color: #fff !important;
-    border-bottom-color: var(--psu-gold) !important;
-  }
 
-  /* ===== Hero / Lead ===== */
+  /* Hero / Lead */
   .hero {
-    background: linear-gradient(160deg, var(--psu-navy) 0%, #0a2860 50%, var(--psu-navy-light) 100%);
+    background: linear-gradient(135deg, var(--psu-navy) 0%, var(--psu-navy-light) 100%);
     color: var(--psu-white);
-    padding: 56px 32px;
+    padding: 60px 32px;
     text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(255,199,44,0.06) 0%, transparent 70%);
-    pointer-events: none;
   }
   .hero .we-are {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
-    letter-spacing: 5px;
+    font-size: 14px;
+    letter-spacing: 6px;
     color: var(--psu-gold);
     text-transform: uppercase;
-    margin-bottom: 10px;
-    font-weight: 700;
+    margin-bottom: 12px;
   }
   .hero h2 {
-    font-family: "Roboto Condensed", "Helvetica Neue", "PingFang SC", Arial, sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1px;
     line-height: 1.2;
     max-width: 800px;
-    margin: 0 auto 10px;
+    margin: 0 auto 12px;
   }
   .hero .lead-cn {
-    font-size: 18px;
-    font-weight: 400;
-    color: rgba(255,255,255,0.85);
-    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--psu-beaver-blue);
+    margin-top: 8px;
+  }
+  .hero .lead-en {
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 16px;
+    font-style: italic;
   }
 
-  /* ===== Container ===== */
+  /* Container */
   main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 32px 60px;
+    padding: 40px 32px;
   }
 
-  /* ===== News Grid ===== */
+  /* News Grid */
   .news-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
-    margin-bottom: 48px;
+    gap: 24px;
+    margin-bottom: 40px;
   }
   .news-card {
     background: var(--psu-white);
-    border-top: 4px solid var(--psu-navy-light);
-    box-shadow: 0 1px 4px rgba(4,30,66,0.08), 0 4px 16px rgba(4,30,66,0.04);
+    border-top: 4px solid var(--psu-navy);
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
   }
   .news-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 20px rgba(4,30,66,0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,30,68,0.15);
   }
   .news-card.full {
     grid-column: 1 / -1;
   }
   .card-tag {
     display: inline-block;
-    padding: 4px 14px;
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 10px;
+    padding: 4px 12px;
+    font-size: 11px;
     font-weight: 700;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin: 20px 24px 0;
     color: var(--psu-white);
-    border-radius: 2px;
   }
   .tag-comm { background: var(--psu-red); }
-  .tag-up { background: var(--psu-navy-light); }
-  .tag-sports { background: var(--psu-gold); color: var(--psu-navy); }
+  .tag-up { background: var(--psu-navy); }
+  .tag-sports { background: var(--psu-gold); color: var(--psu-navy-dark); }
   .tag-admin { background: #5A7A3A; }
   .tag-alumni { background: #6B4F8E; }
   .tag-policy { background: #B8541C; }
@@ -288,26 +218,21 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
   }
   .card-title {
-    font-family: "Roboto", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     color: var(--psu-navy);
     line-height: 1.35;
     margin-bottom: 10px;
-    word-break: break-word;
-    overflow-wrap: break-word;
   }
   .card-title-en {
-    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
-    font-size: 15px;
-    color: var(--psu-gray-600);
+    font-size: 16px;
+    color: var(--psu-gray-dark);
     font-style: italic;
     margin-bottom: 14px;
     padding-bottom: 14px;
-    border-bottom: 1px solid var(--psu-gray-200);
+    border-bottom: 1px solid var(--psu-gray);
   }
   .card-image {
     margin-bottom: 16px;
@@ -327,18 +252,13 @@
     transition: opacity 0.4s ease;
   }
   .card-summary {
-    font-size: 16px;
-    color: var(--psu-gray-700);
+    font-size: 17px;
+    color: #333;
     margin-bottom: 16px;
-    line-height: 1.75;
-    text-align: justify;
-    text-justify: inter-ideograph;
-    text-align-last: left;
-    -moz-text-align-last: left;
+    line-height: 1.8;
   }
   .card-summary strong {
-    color: inherit;
-    font-weight: 400;
+    color: var(--psu-navy);
   }
   .card-meta {
     display: flex;
@@ -346,134 +266,106 @@
     align-items: center;
     margin-top: auto;
     padding-top: 16px;
-    border-top: 1px solid var(--psu-gray-200);
+    border-top: 1px solid var(--psu-gray);
     font-size: 12px;
-    color: var(--psu-gray-600);
-    gap: 8px;
-  }
-  .card-meta .meta-left {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-  }
-  .card-meta .meta-right {
-    flex-shrink: 0;
-    white-space: nowrap;
+    color: var(--psu-gray-dark);
   }
   .source-badge {
     background: var(--psu-navy);
     color: var(--psu-white);
     padding: 3px 10px;
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 10px;
     font-weight: 700;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-    border-radius: 2px;
   }
   .source-badge.onward { background: #B8541C; }
   .source-badge.collegian { background: #6B4F8E; }
-  .source-badge.psu { background: var(--psu-navy-light); }
+  .source-badge.psu { background: var(--psu-navy); }
   .card-date {
-    color: var(--psu-gray-600);
+    color: var(--psu-gray-dark);
   }
   .card-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     margin-top: 12px;
     padding: 10px 20px;
     background: var(--psu-navy);
     color: var(--psu-white);
     text-decoration: none;
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
+    text-align: center;
     transition: background 0.2s;
-    width: 100%;
   }
   .card-link:hover {
-    background: #031536;
+    background: var(--psu-navy-light);
   }
   .card-link .arrow {
     margin-left: 6px;
   }
 
-  /* ===== Section Divider ===== */
+  /* Section Divider */
   .section-divider {
     display: flex;
     align-items: center;
-    margin: 48px 0 28px;
-    gap: 20px;
+    margin: 40px 0 24px;
+    gap: 16px;
   }
   .section-divider h3 {
-    font-family: "Roboto Condensed", "Helvetica Neue", "PingFang SC", Arial, sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     color: var(--psu-navy);
-    font-weight: 700;
-    letter-spacing: 0.3px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
     white-space: nowrap;
   }
   .section-divider .line {
     flex: 1;
-    height: 1px;
-    background: var(--psu-gray-300);
+    height: 2px;
+    background: var(--psu-navy);
+    opacity: 0.3;
   }
 
-  /* ===== Stats Panel ===== */
+  /* Stats Panel */
   .stats {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-bottom: 48px;
+    gap: 16px;
+    margin-bottom: 40px;
   }
   .stat-card {
     background: var(--psu-white);
-    border-top: 3px solid var(--psu-navy-light);
-    padding: 24px 20px;
+    border-left: 4px solid var(--psu-navy);
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 1px 4px rgba(4,30,66,0.06);
-    transition: transform 0.2s;
   }
-  .stat-card:hover { transform: translateY(-2px); }
-  .stat-card.comm { border-top-color: var(--psu-red); }
-  .stat-card.up { border-top-color: var(--psu-navy-light); }
-  .stat-card.sports { border-top-color: var(--psu-gold); }
-  .stat-card.policy { border-top-color: #B8541C; }
+  .stat-card.comm { border-left-color: var(--psu-red); }
+  .stat-card.up { border-left-color: var(--psu-navy); }
+  .stat-card.sports { border-left-color: var(--psu-gold); }
+  .stat-card.policy { border-left-color: #B8541C; }
   .stat-num {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--psu-navy);
     line-height: 1;
   }
   .stat-label {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 11px;
-    color: var(--psu-gray-600);
+    font-size: 12px;
+    color: var(--psu-gray-dark);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 8px;
+    margin-top: 6px;
   }
 
-  /* ===== Sources Box ===== */
+  /* Sources box */
   .sources-box {
     background: var(--psu-white);
-    padding: 28px 32px;
-    box-shadow: 0 1px 4px rgba(4,30,66,0.06);
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0,30,68,0.08);
   }
   .sources-intro {
-    margin-bottom: 18px;
-    font-size: 15px;
+    margin-bottom: 14px;
+    font-size: 14px;
     color: var(--psu-navy);
     font-weight: 600;
     line-height: 1.6;
@@ -482,7 +374,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
+    gap: 12px;
   }
   .source-item {
     display: flex;
@@ -492,26 +384,21 @@
   .source-item a {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 14px 18px;
-    background: var(--psu-gray-100);
-    border-left: 3px solid var(--psu-navy-light);
-    border-radius: 2px;
+    gap: 2px;
+    padding: 10px 14px;
+    background: #f7f8fa;
+    border-radius: 8px;
     text-decoration: none;
     color: var(--psu-navy);
-    transition: background 0.2s, border-color 0.2s;
+    border-left: 3px solid var(--psu-navy);
+    transition: background 0.2s;
     min-height: 44px;
     justify-content: center;
   }
-  .source-item a:hover {
-    background: var(--psu-gray-200);
-    border-left-color: var(--psu-gold);
-  }
   .source-item a:active {
-    background: var(--psu-gray-300);
+    background: #e8ecf3;
   }
   .source-name {
-    font-family: "Roboto", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--psu-navy);
@@ -521,107 +408,56 @@
   }
   .source-desc {
     font-size: 12px;
-    color: var(--psu-gray-600);
+    color: #666;
     line-height: 1.3;
     word-break: break-word;
     overflow-wrap: break-word;
   }
 
-  /* ===== Footer ===== */
+  /* Footer */
   footer {
-    background: #031536;
-    color: rgba(255,255,255,0.7);
-    padding: 48px 32px 0;
-    margin-top: 60px;
+    background: var(--psu-navy-dark);
+    color: var(--psu-beaver-blue);
+    padding: 40px 32px 24px;
+    margin-top: 40px;
   }
   .footer-inner {
     max-width: 1200px;
     margin: 0 auto;
   }
   .footer-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 36px;
-    margin-bottom: 32px;
-    text-align: center;
-  }
-  .footer-col {
-    min-width: 0;
-    max-width: 600px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 24px;
   }
   .footer-col h4 {
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
     color: var(--psu-white);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size: 14px;
     text-transform: uppercase;
-    margin-bottom: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
   }
-  .footer-toggle {
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    margin-bottom: 0;
-    font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--psu-white);
-  }
-  .footer-toggle:hover {
-    color: var(--psu-gold) !important;
-  }
-  .footer-arrow {
-    display: inline-block;
-    transition: transform 0.25s ease;
-    font-size: 12px;
-  }
-  .footer-toggle.open .footer-arrow {
-    transform: rotate(90deg);
-  }
-  .footer-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease, opacity 0.25s ease;
-    opacity: 0;
-    margin-top: 0;
-  }
-  .footer-content.show {
-    max-height: 400px;
-    opacity: 1;
-    margin-top: 14px;
-  }
-  .footer-col p,
-  .footer-col li {
+  .footer-col p, .footer-col li {
     font-size: 13px;
     line-height: 1.8;
-    color: rgba(255,255,255,0.7);
-    margin-bottom: 6px;
   }
   .footer-col ul {
     list-style: none;
   }
   .footer-col a {
-    color: rgba(255,255,255,0.7);
+    color: var(--psu-beaver-blue);
     text-decoration: none;
-    transition: color 0.2s;
   }
   .footer-col a:hover {
-    color: var(--psu-gold);
+    color: var(--psu-white);
   }
   .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.1);
-    padding: 20px 0;
+    border-top: 1px solid var(--psu-navy-light);
+    padding-top: 16px;
     font-size: 11px;
     text-align: center;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.5);
   }
 
   /* ============================================================
@@ -639,14 +475,14 @@
     /* Single column, content area wider than phone */
     .news-grid { grid-template-columns: 1fr; gap: 20px; }
     main { padding: 32px 28px; max-width: 720px; }
-    .header-main { padding: 40px 28px; }
+    .header-main { padding: 20px 28px; }
     .hero { padding: 48px 28px; }
     .hero h2 { font-size: 32px; }
     .section-divider h3 { font-size: 26px; }
     .card-title { font-size: 24px; }
     .card-image { max-height: 240px; }
     .stats { grid-template-columns: repeat(4, 1fr); }
-    .footer-grid { gap: 28px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
     .toc-inner { padding: 0 20px; }
     /* Source links 2-col on iPad */
     .sources-grid { grid-template-columns: repeat(2, 1fr) !important; }
@@ -656,9 +492,9 @@
   /* Covers: iPhone 15 Pro Max (430px), Pixel 8 (412px),
      Huawei foldable folded outer screen (~360-430px)        */
   @media (min-width: 430px) and (max-width: 767px) {
-    .header-main { padding: 32px 18px; }
+    .header-main { padding: 14px 18px; }
     .brand-text h1 { font-size: 20px; }
-    .lion-shield { width: 44px; height: 44px; }
+    .lion-shield { width: 44px; height: 44px; font-size: 24px; }
     .hero { padding: 36px 18px; }
     .hero h2 { font-size: 26px; }
     .hero .lead-cn { font-size: 17px; }
@@ -668,16 +504,11 @@
     .card-title { font-size: 22px; }
     .card-image { max-height: 200px; }
     .card-body { padding: 18px 20px 22px; }
-    .card-summary { font-size: 16px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
+    .card-summary { font-size: 16px; }
     .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
-    /* Footer: single column centered on phones */
-    .footer-grid {
-      gap: 28px;
-    }
-    .footer-col { max-width: 100%; }
-    .footer-col:first-child { max-width: none; }
+    .footer-grid { grid-template-columns: 1fr; gap: 20px; }
     /* Sources */
     .sources-box { padding: 18px 18px; }
     .sources-intro { font-size: 13.5px; }
@@ -689,23 +520,27 @@
   /* Covers: iPhone 12-16 standard (390/393px),
      Most Android phones (360-414px CSS px)             */
   @media (min-width: 360px) and (max-width: 429px) {
+    /* Top bar */
+    .top-bar { font-size: 10px; padding: 5px 10px; letter-spacing: 0.5px; }
     /* Header stacks vertically */
     .header-main {
       flex-direction: column;
       align-items: flex-start;
-      padding: 28px 14px;
+      padding: 12px 14px;
       gap: 6px;
     }
     .brand { gap: 10px; }
-    .lion-shield { width: 38px; height: 38px; }
+    .lion-shield { width: 38px; height: 38px; font-size: 20px; }
     .brand-text h1 { font-size: 17px; }
-    .brand-text .brand-date { font-size: 12px; }
-    .header-meta { display: none; }
+    .brand-text .subtitle { font-size: 10px; letter-spacing: 1px; }
+    .header-meta { text-align: left; }
+    .header-meta .date { font-size: 14px; }
+    .header-meta .edition { font-size: 10px; }
     /* TOC horizontal scroll */
-    .toc-inner { padding: 0 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .toc-inner { padding: 0 8px; -webkit-overflow-scrolling: touch; }
     .toc-inner a {
-      padding: 10px 9px;
-      font-size: 11px;
+      padding: 10px 11px;
+      font-size: 12px;
       flex-shrink: 0;
     }
     /* Hero */
@@ -713,6 +548,7 @@
     .hero .we-are { font-size: 11px; letter-spacing: 3px; }
     .hero h2 { font-size: 22px; line-height: 1.3; }
     .hero .lead-cn { font-size: 15px; }
+    .hero .lead-en { font-size: 11px; }
     /* Main */
     main { padding: 18px 12px; }
     .section-divider { margin: 24px 0 14px; gap: 10px; }
@@ -725,10 +561,10 @@
     .card-title { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
     .card-title-en { font-size: 13px; margin-bottom: 10px; padding-bottom: 10px; }
     .card-image { max-height: 180px; }
-    .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
+    .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; }
     .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
     .source-badge { font-size: 9px; padding: 2px 7px; }
-    .card-link { padding: 10px; font-size: 13px; }
+    .card-link { width: 100%; text-align: center; padding: 10px; font-size: 13px; }
     /* Stats */
     .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .stat-card { padding: 14px 8px; }
@@ -741,30 +577,29 @@
     .source-item a { padding: 10px 14px; }
     .source-name { font-size: 14px; }
     .source-desc { font-size: 11px; }
-    /* Footer: single column centered on small phones */
-    .footer-grid {
-      gap: 24px;
-    }
-    .footer-col { max-width: 100%; }
-    .footer-toggle { font-size: 12px; }
+    /* Footer */
+    .footer-grid { grid-template-columns: 1fr; gap: 18px; }
+    .footer-col h4 { font-size: 12px; }
     .footer-col p, .footer-col li { font-size: 12px; }
-    .footer-col .footer-content p, .footer-col .footer-content li { font-size: 12px; }
     .footer-bottom { font-size: 10px; padding: 0 8px; }
   }
 
   /* --- Very Small Screens (≤359px) --- */
   /* iPhone SE 1st gen (320px), very old Androids     */
   @media (max-width: 359px) {
-    .header-main { padding: 24px 10px; gap: 4px; }
-    .lion-shield { width: 32px; height: 32px; }
+    .top-bar { font-size: 9px; padding: 4px 6px; letter-spacing: 0; }
+    .header-main { padding: 10px 10px; gap: 4px; }
+    .lion-shield { width: 32px; height: 32px; font-size: 18px; }
     .brand-text h1 { font-size: 15px; }
-    .brand-text .brand-date { font-size: 11px; }
-    .header-meta { display: none; }
-    .toc-inner a { font-size: 10px; padding: 9px 7px; }
+    .brand-text .subtitle { font-size: 9px; letter-spacing: 0.5px; }
+    .header-meta .date { font-size: 12px; }
+    .header-meta .edition { font-size: 9px; }
+    .toc-inner a { font-size: 11px; padding: 9px 8px; }
     .hero { padding: 24px 10px; }
     .hero .we-are { font-size: 10px; letter-spacing: 2px; }
     .hero h2 { font-size: 19px; }
     .hero .lead-cn { font-size: 13px; }
+    .hero .lead-en { font-size: 10px; }
     main { padding: 14px 8px; }
     .section-divider h3 { font-size: 18px; }
     .news-grid { gap: 12px; }
@@ -773,7 +608,7 @@
     .card-title { font-size: 16px; line-height: 1.45; }
     .card-title-en { font-size: 12px; }
     .card-image { max-height: 150px; }
-    .card-summary { font-size: 14px; line-height: 1.65; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
+    .card-summary { font-size: 14px; line-height: 1.65; }
     .card-link { font-size: 12px; padding: 9px; }
     .stat-card { padding: 10px 6px; }
     .stat-num { font-size: 20px; }
@@ -785,11 +620,6 @@
     .source-item a { padding: 8px 10px; }
     .source-name { font-size: 13px; }
     .source-desc { font-size: 10px; }
-    /* Footer: single column centered on very small screens */
-    .footer-grid {
-      gap: 20px;
-    }
-    .footer-col { max-width: 100%; }
   }
 
   /* ============================================================
@@ -797,10 +627,15 @@
      Uses both constant() (iOS < 11.2) and env() (iOS ≥ 11.2)
      ============================================================ */
   @supports (padding-top: env(safe-area-inset-top)) or (padding-top: constant(safe-area-inset-top)) {
+    /* Top bar: add safe top padding for notch/Dynamic Island */
+    .top-bar {
+      padding-top: constant(safe-area-inset-top, 6px);
+      padding-top: env(safe-area-inset-top, 6px);
+    }
     /* Header main: avoid notch overlap */
     .header-main {
-      padding-top: constant(safe-area-inset-top, 44px);
-      padding-top: env(safe-area-inset-top, 44px);
+      padding-top: constant(safe-area-inset-top, 24px);
+      padding-top: env(safe-area-inset-top, 24px);
     }
     /* Hero: avoid notch in full-bleed */
     .hero {
@@ -854,8 +689,8 @@
     .news-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
     .card-title { font-size: 18px; }
     .card-image { max-height: 160px; }
-    .card-summary { font-size: 14px; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
-    .header-main { padding: 24px 32px; }
+    .card-summary { font-size: 14px; }
+    .header-main { padding: 10px 32px; }
     .toc-inner { padding: 0 32px; }
   }
 
@@ -865,7 +700,7 @@
   @media (pointer: coarse) {
     /* Bigger tap targets on touch devices */
     .toc-inner a { min-height: 44px; display: inline-flex; align-items: center; }
-    .card-link { min-height: 44px; }
+    .card-link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
     .source-badge { min-height: 32px; display: inline-flex; align-items: center; }
   }
 
@@ -883,9 +718,14 @@
     /* ---- Page background ---- */
     body { background: #0d0d0d; color: #e8e8e8; }
 
+    /* ---- Top bar ---- */
+    .top-bar { background: #1a1a1a; color: #96BEE6; border-bottom-color: #2a2a2a; }
+
     /* ---- Header ---- */
     .header-main { background: linear-gradient(135deg, #001E44 0%, #0a2744 100%); }
-    .brand-text .brand-date { color: #96BEE6; }
+    .brand-text .subtitle { color: #96BEE6; }
+    .header-meta .date { color: #e0e0e0; }
+    .header-meta .edition { color: #96BEE6; }
 
     /* ---- TOC ---- */
     .toc { background: #1a1a1a; border-bottom-color: #2a2a2a; }
@@ -904,6 +744,7 @@
     .hero { background: linear-gradient(135deg, #001E44 0%, #0a2744 60%, #0d1a3a 100%); }
     .hero .we-are { color: #96BEE6; }
     .hero .lead-cn { color: #d0d0d0; }
+    .hero .lead-en { color: #888; }
 
     /* ---- Section divider ---- */
     .section-divider { border-bottom-color: #2a2a2a; }
@@ -921,8 +762,8 @@
     .card-title { color: #ffffff; }
     .card-title-en { color: #999; border-bottom-color: #2a2a2a; }
     .card-image { background: linear-gradient(135deg, #1a1a2e, #0d0d1a); }
-    .card-summary { color: #d0d0d0; text-align: justify; text-justify: inter-ideograph; text-align-last: left; }
-    .card-summary strong { color: inherit; font-weight: 400; }
+    .card-summary { color: #d0d0d0; }
+    .card-summary strong { color: #ffffff !important; }
     .card-meta { border-top-color: #2a2a2a; color: #888; }
     .source-badge { background: rgba(150,190,230,0.15) !important; color: #96BEE6 !important; }
     .card-link {
@@ -948,79 +789,58 @@
       background: #1e1e32;
       border-left-color: #96BEE6;
     }
-    .source-item a {
-      background: #1e1e32;
-      color: #e8e8e8;
-    }
     .source-item:hover { background: #252540; }
-    .source-item a:hover { background: #252540; }
-    .source-item a:active { background: #2a2a4a; }
     .source-name { color: #e8e8e8; }
-    .source-desc { color: #aaa; }
+    .source-desc { color: #888; }
+    .source-item a { color: #e8e8e8; }
 
     /* ---- Footer ---- */
     footer { background: #050510; color: #888; }
-    .footer-col h4, .footer-toggle { color: #96BEE6; }
+    .footer-col h4 { color: #96BEE6; }
     .footer-col a { color: #888; }
     .footer-col a:hover { color: #96BEE6; }
     .footer-bottom { border-top-color: #1a1a1a; }
-  }
-
-  /* ============================================================
-     iOS SAFARI SPECIFIC FIXES
-     Fix horizontal overflow bug on iOS Safari
-     ============================================================ */
-  @supports (-webkit-touch-callout: none) {
-    .card-summary {
-      text-align: justify !important;
-      -webkit-hyphens: none !important;
-    }
-    html, body {
-      overflow-x: hidden !important;
-      width: 100% !important;
-      max-width: 100% !important;
-    }
-    header, nav, .hero, main {
-      max-width: 100% !important;
-      overflow-x: hidden !important;
-    }
-    footer { max-width: 100% !important; }
   }
 </style>
 </head>
 <body>
 
+<div class="top-bar">THE PENNSYLVANIA STATE UNIVERSITY · DAILY NEWS DIGEST · 宾州州立大学每日新闻</div>
+
 <header>
   <div class="header-main">
-      <div class="brand">
-        <div class="lion-shield">
-          <img src="psu-mark.svg" alt="Penn State" class="psu-logo-img"/>
-        </div>
-        <div class="brand-text">
-          <h1>宾夕法尼亚州立大学</h1>
-          <div class="brand-date" id="todayDate">2026年7月6日 星期一</div>
-        </div>
+    <div class="brand">
+      <div class="lion-shield">🦁</div>
+      <div class="brand-text">
+        <h1>宾夕法尼亚州立大学 · Six A Day</h1>
+        <div class="subtitle">Penn State Daily News · We Are!</div>
       </div>
+    </div>
+    <div class="header-meta">
+      <div class="date" id="todayDate">2026年7月6日 星期一</div>
+      <div class="edition">Daily Edition · 第 12 期</div>
+    </div>
   </div>
   <nav class="toc">
     <div class="toc-inner">
       <a href="#lead">头条</a>
-      <span class="toc-item"><a href="#news-1">传媒学院</a><a href="archive-catalog.html#cat-传媒学院" class="toc-past" title="查看传媒学院往期">📚</a></span>
-      <span class="toc-item"><a href="#news-2">演出预告</a><a href="archive-catalog.html#cat-演出预告" class="toc-past" title="查看演出预告往期">📚</a></span>
-      <span class="toc-item"><a href="#news-3">校友活动</a><a href="archive-catalog.html#cat-校友活动" class="toc-past" title="查看校友活动往期">📚</a></span>
-      <span class="toc-item"><a href="#news-4">体育动态</a><a href="archive-catalog.html#cat-体育动态" class="toc-past" title="查看体育动态往期">📚</a></span>
-      <span class="toc-item"><a href="#news-5">行政人事</a><a href="archive-catalog.html#cat-行政人事" class="toc-past" title="查看行政人事往期">📚</a></span>
-      <span class="toc-item"><a href="#news-6">科研成果</a><a href="archive-catalog.html#cat-科研成果" class="toc-past" title="查看科研成果往期">📚</a></span>
+      <a href="#news-1">传媒学院</a>
+      <a href="#news-2">演出预告</a>
+      <a href="#news-3">校友活动</a>
+      <a href="#news-4">体育动态</a>
+      <a href="#news-5">行政人事</a>
+      <a href="#news-6">科研成果</a>
       <a href="#sources">信息来源</a>
-      <a href="archive-catalog.html" class="btn-toc-archive">📰 往日新闻</a>
+      <a href="archive.html" class="btn-toc-archive">📰 往日新闻</a>
     </div>
   </nav>
 </header>
 
 <section class="hero" id="lead">
   <div class="we-are">We Are · Penn State</div>
-  <h2>PSU · 今日六条</h2>
+  <h2>今日精选 6 条 PSUTODAY 头条</h2>
   <div class="lead-cn">聚焦传媒学院 · 中央艺术节 60 周年 · 校友冬奥钢架雪车 · 体育收入破纪录 · 学生援助任命 · 科研商业化</div>
+  <div class="lead-en">6 selected stories from Penn State News · Central PA Festival of the Arts · Sports Illustrated · Penn State Research</div>
 </section>
 
 <main>
@@ -1181,6 +1001,7 @@
         <a class="card-link" href="https://www.psu.edu/news/research/story/new-entrepreneurship-commercialization-structure-grow-research-impact" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
     </article>
+
   </div>
 
   <div class="section-divider" id="sources">
@@ -1224,33 +1045,28 @@
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4 class="footer-toggle" onclick="toggleFooter(this)">关于本日报 <span class="footer-arrow">▸</span></h4>
-        <div class="footer-content">
-          <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻。</p>
-        </div>
+        <h4>关于本日报</h4>
+        <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻，翻译为中文并提炼核心内容，重点覆盖 Donald P. Bellisario College of Communications 与 University Park 帕克校区动态。</p>
       </div>
       <div class="footer-col">
-        <h4 class="footer-toggle" onclick="toggleFooter(this)">每日筛选标准 <span class="footer-arrow">▸</span></h4>
-        <div class="footer-content">
-          <ul>
-            <li>· 重大性 / 影响力</li>
-            <li>· 时效性（24-72h）</li>
-            <li>· 必含传媒学院</li>
-            <li>· 必含帕克校区</li>
-            <li>· 避免与昨日重复</li>
-          </ul>
-        </div>
+        <h4>每日筛选标准</h4>
+        <ul>
+          <li>· 重大性 / 影响力</li>
+          <li>· 时效性（24-72h）</li>
+          <li>· 必含传媒学院</li>
+          <li>· 必含帕克校区</li>
+          <li>· 避免与昨日重复</li>
+        </ul>
       </div>
       <div class="footer-col">
-        <h4 class="footer-toggle" onclick="toggleFooter(this)">核心关键词 <span class="footer-arrow">▸</span></h4>
-        <div class="footer-content">
-          <ul>
-            <li>· Bellisario College</li>
-            <li>· University Park</li>
-            <li>· Happy Valley</li>
-            <li>· Nittany Lions</li>
-          </ul>
-        </div>
+        <h4>核心关键词</h4>
+        <ul>
+          <li>· Bellisario College</li>
+          <li>· University Park</li>
+          <li>· Happy Valley</li>
+          <li>· Nittany Lions</li>
+          <li>· We Are!</li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
@@ -1304,20 +1120,6 @@
     // Small delay to let the browser finish the orientation change
     setTimeout(detectFoldable, 200);
   });
-
-  // ===== Footer toggle (expand/collapse) =====
-  function toggleFooter(el) {
-    const content = el.nextElementSibling;
-    if (!content) return;
-    const isOpen = el.classList.contains('open');
-    if (isOpen) {
-      el.classList.remove('open');
-      content.classList.remove('show');
-    } else {
-      el.classList.add('open');
-      content.classList.add('show');
-    }
-  }
 </script>
 
 </body>

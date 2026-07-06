@@ -353,9 +353,153 @@
       "source": "Penn State Eberly College of Science",
       "date": "2026-07-03",
       "image_url": "https://ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/f_story_hero/public/images/story/ge_nitin_samarth_1.jpg?h=3faea361&itok=_hHkx7z8"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-earns-top-10-finish-every-category-hearst",
+      "title_cn": "Penn State 在 Hearst 全媒体奖 6 项类别全部闯入全美前十，传媒学院连续 6 届稳居奖牌榜前 6",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/03/Hearstaward.jpg?h=411a83da&itok=P-7kCDxv"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/ella-langley-bringing-dandelion-tour-bryce-jordan-center-sept-11",
+      "title_cn": "乡村新星 Ella Langley「Dandelion」巡演 9 月 11 日登陆 Bryce Jordan Center，开票在即",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/img_3820.jpg?h=f453bcda&itok=tW01SD4i"
+    },
+    {
+      "url": "https://www.findtherun.com/race/119969/firecracker-4k",
+      "title_cn": "校友会 Firecracker 4K 跑步赛 7 月 4 日独立日开赛，社区年度传统赛",
+      "category": "校友活动",
+      "source": "Find The Run",
+      "date": "2026-07-04",
+      "image_url": "https://imagedelivery.net/KRMj0fLxGbKZcP5DvR5FEA/e2aeb845-096b-4758-4776-12003afea300/public"
+    },
+    {
+      "url": "https://local21news.com/sports/nittany-lions-to-sport-adidas-gear-in-bold-move-ending-decades-long-nike-partnership",
+      "title_cn": "Penn State 与 Nike 数十载合作落幕，全员改穿 adidas 装备，7 月 1 日正式启动",
+      "category": "体育动态",
+      "source": "Local 21 News",
+      "date": "2026-07-04",
+      "image_url": "https://local21news.com/resources/media2/16x9/1176/1320/37x0/90/eef8f7f2-50fc-4aee-a68a-2a6002982371-PSUNike.PNG"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/penn-states-pennington-joins-american-association-university-administrators",
+      "title_cn": "Penn State 职业服务部高级副主管 Michael Pennington 7 月 1 日加入全美高校管理者协会理事会，任期两年",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/m.penningtonheadshotjune2026-2_0.jpg?h=fb387141&itok=9bI5notp"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/designer-superconducting-diamond-offers-roadmap-multifunction-quantum",
+      "title_cn": "Penn State 设计「超导钻石」量子材料登《自然·通讯》：多功能量子比特定制化路线图出炉",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/samarth_dwivedi_psn.jpg?h=1090211e&itok=MikiRw_B"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/emily-metzgar-named-dean-penn-state-bellisario-college",
+      "title_cn": "传媒学院 Emily Metzgar 上任满一周，6 位副院长组队「合作优先」回应数字时代挑战",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/emily-metzgar.jpg?h=67eabc4d&itok=vctXzFX5"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-announces-2026-27-rhapsody-series",
+      "title_cn": "「狂想曲」Rhapsody 系列 8 月 30 日揭幕：6 场演出探索室内乐与独奏家新维度",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/20d5360a-4341-44ef-8738-552c4a9d7e3e.jpg?h=faaaeb7d&itok=42AhBsqZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/three-penn-staters-receive-2026-honorary-alumni-award",
+      "title_cn": "2026 荣誉校友奖 6/12 颁奖回顾：物理学家 Jain、昆虫学家 Ragsdale 等三人获终身荣誉",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/honoraryalums-psnews.png?h=67eabc4d&itok=8pxaDV11"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/basketball/projecting-penn-state-new-look-basketball-lineup-for-the-2026-27-season",
+      "title_cn": "Penn State 男篮 2026-27 阵容前瞻：Bowen 与 Tuzon 等新生加入，外线火力升级",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-05",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_3050,h_1715/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_penn_state/01kv6h7tn8mq2my07f2z.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/mauro-named-interim-dean-penn-state-college-earth-and-mineral-sciences",
+      "title_cn": "John Mauro 7 月 1 日出任地球与矿物科学学院临时院长，材料科学教授接棒 Lee Kump",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/john-mauro-news-hero.jpg?h=ab7b9906&itok=-0ySaVqp"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/borrowing-biology-power-next-gen-data-storage",
+      "title_cn": "Penn State 借力「生物泵」机制研发下一代数据存储，登《自然·通讯》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/02/poudel_microscopy_4x3.jpg?h=e43dff8f&itok=SVhCTVHr"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/two-communications-graduates-earn-spots-highly-competitive",
+      "title_cn": "两名传媒学院毕业生入选全美新闻界「黄铜王奖学金」，Ed Bradley Fellowship 竞争激烈",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/edbradleyfellows.jpg?h=19ad3fdd&itok=N81_6NJl"
+    },
+    {
+      "url": "https://www.arts-festival.com/",
+      "title_cn": "第 60 届中央宾州艺术节 7 月 8-12 日回归州学院，「本周末开幕」60 周年盛大庆典",
+      "category": "演出预告",
+      "source": "Central PA Festival of the Arts",
+      "date": "2026-07-06",
+      "image_url": "https://arts-festival.com/wp-content/uploads/2023/04/banners-with-good-crowd-2022.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/landscape-architecture-alum-competes-skeleton-team-usa-2026-olympics",
+      "title_cn": "景观建筑系校友 Dan Barefoot 入选美国冬奥钢架雪车队 2026 冬奥会，PSU 技能赛场外开花",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/02/img_6971_0.jpeg?h=c6980913&itok=iuLVCpmX"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-says-it-has-guaranteed-more-than-1-billion-in-future-athletics-revenue",
+      "title_cn": "Penn State 锁定逾 10 亿美元未来体育收入，新 Beaver Stadium 创收合同与 Big Ten 协议加持",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-06",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_177,w_3653,h_2054/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_penn_state/01kwf6arqzvcefrbt82f.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-names-new-assistant-vice-president-executive-director-student-aid",
+      "title_cn": "Daniel Barkowitz 出任宾州州立学生援助部新 AVP 与执行主任，9 月 8 日生效",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/daniel-headshot-5.jpg?h=9e3dbbfd&itok=1WYvdnn4"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/new-entrepreneurship-commercialization-structure-grow-research-impact",
+      "title_cn": "Penn State 设立全新「创业与商业化」架构，扩大科研影响力与产业转化通道",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/05/old-main.jpg?h=19ad3fdd&itok=Gclw7x2r"
     }
   ],
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-06",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
