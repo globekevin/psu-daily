@@ -497,9 +497,57 @@
       "source": "Penn State News",
       "date": "2026-07-06",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/05/old-main.jpg?h=19ad3fdd&itok=Gclw7x2r"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-scholars-present-research-ica-conference",
+      "title_cn": "Bellisario 学院学者亮相 ICA 年会：南非开普敦传播学盛会 PSU 声音",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/bellisarioatica26.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/2026-central-pennsylvania-festival-arts-be-held-july-8-12",
+      "title_cn": "第 60 届艺术节 7 月 8-12 日回归，交通管制与停车指南发布",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/07/thurs_banners_artsfest_lw.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/new-members-appointed-earth-and-mineral-sciences-alumni-boards",
+      "title_cn": "地球与矿物科学学院 GEMS 董事会迎新：Siddharth Pandey 等新成员加入",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/11/collage-hero_0.jpg"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/how-penn-state-plans-to-become-the-most-violent-team-in-college-football",
+      "title_cn": "Reid Kagy 提出「最暴力球队」愿景，Lift For Life 公益赛后 Penn State 橄榄球训练营升温",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-07",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4130,h_2323/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_penn_state/01kwm0cewstf4j88j3s0.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/dan-murphy-named-senior-director-administration-chief-staff-student-affairs",
+      "title_cn": "Dan Murphy 出任学生事务部高级行政主任兼幕僚长，30 年校园运营经验加盟",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-07",
+      "image_url": null
+    },
+    {
+      "url": "https://science.psu.edu/news/re-engineering-cancerous-tumors-self-destruct-and-kill-drug-resistant-cells",
+      "title_cn": "PSU 团队研发癌症「特洛伊木马」基因驱动疗法，登《Nature Biotechnology》",
+      "category": "科研成果",
+      "source": "Penn State Eberly College of Science",
+      "date": "2026-07-07",
+      "image_url": "https://ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/f_story_hero/public/2024-07/psn-pritchard-header.jpg"
     }
   ],
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-07",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
