@@ -545,9 +545,57 @@
       "source": "Penn State Eberly College of Science",
       "date": "2026-07-07",
       "image_url": "https://ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/f_story_hero/public/2024-07/psn-pritchard-header.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking",
+      "title_cn": "Bellisario 学生 Paige Rishel 暑期赴国会图书馆实习，双修广告公关与历史",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/paigerishelloc.jpg"
+    },
+    {
+      "url": "https://ento.psu.edu/news/20260622-penn-state-master-gardeners-support-pollinator-research-across-pennsylvania",
+      "title_cn": "艺术节特供：Penn State 木偶音乐剧「POLLINATORS!」7月8日首演，科普传粉昆虫",
+      "category": "演出预告",
+      "source": "Penn State Entomology",
+      "date": "2026-07-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/butterfly_steve-williams.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/schreyer-honors-college/story/former-schreyer-honors-college-associate-dean-officially-becomes",
+      "title_cn": "Schreyer 荣誉学院前副院长 Mitch Kirsch 正式成为 Nittany Lion 校友大家庭一员",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/mitch-desk-photo-2.jpg"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-receives-new-5-million-gift-toward-beaver-stadium-renovation",
+      "title_cn": "校友 Bob & Sandy Poole 再捐 500 万美元助力 Beaver Stadium 7 亿美元改造项目",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-08",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_752,y_0,w_4557,h_2563/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/all_penn_state/01jkzywmr9ey349acj27.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/academics/story/penn-state-announces-non-tenure-line-faculty-promotions-effective-july-1-2026",
+      "title_cn": "Penn State 公布 2026 年度非 tenure-line 教职晋升名单，7 月 1 日生效覆盖全校各学院",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/09/22%208%203-Hintz%20Lawn.jpg?h=84071268&itok=afoYmNKb"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/newly-discovered-corn-trait-may-help-improve-crop-drought-tolerance",
+      "title_cn": "PSU 农学院团队发现玉米「伸展表型」耐旱新机制，登《Crop Science》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/loading-truck-strock-at-right-low-rez.jpg"
     }
   ],
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
