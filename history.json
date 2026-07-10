@@ -593,9 +593,104 @@
       "source": "Penn State News",
       "date": "2026-07-08",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/loading-truck-strock-at-right-low-rez.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/two-communications-graduates-earn-spots-highly-competitive",
+      "title_cn": "两名 Bellisario 毕业生入选 Ed Bradley 学者项目，进军全国顶级新闻培训",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/edbradleyfellows.jpg?h=19ad3fdd&itok=N81_6NJl"
+    },
+    {
+      "url": "https://alumni.psu.edu/2026/07/06/hintzpiration-collaboration",
+      "title_cn": "三代 Penn State 校友共创「Dear Old State」，Hintzpiration 艺术展 7/10-11 揭幕",
+      "category": "演出预告",
+      "source": "Penn State Alumni Association",
+      "date": "2026-07-09",
+      "image_url": "https://alumni.psu.edu/files/2026/06/Dear-Old-State-Insider.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni/story/ten-penn-state-alumni-receive-distinguished-alumni-awards-2026",
+      "title_cn": "Penn State 公布 2026 杰出校友奖十位得主，校董会最高荣誉",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/penn-state-seal.jpg"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-football-week-in-review-a-pivotal-recruiting-moment",
+      "title_cn": "PSU 橄榄球招募迎来关键时刻：2028 届四星 QB James Armstrong 加盟在即",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-09",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/all_penn_state/01jty0y9bq3dr3s2hj4a.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/jon-paul-maria-named-interim-head-materials-science-and",
+      "title_cn": "Jon-Paul Maria 出任材料科学与工程系临时主任，7 月 1 日起生效",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/jp-maria-1500x1125.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/huck-institutes-life-sciences/story/postdoctoral-fellow-earns-nih-award-study-neurological-effects",
+      "title_cn": "Huck 研究所博士后获 NIH 大奖，探索酒精对大脑神经回路的长期影响",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/geb5484.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-ready-content-creation-reporting-experience-all",
+      "title_cn": "Bellisario 学院学生赴 MLB 全明星赛参与内容创作与实战报道",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/allstarbaseball.jpeg?h=b8aae163&itok=3HXfm2_b"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/hub-robeson-galleries-present-darla-jacksons-dreams",
+      "title_cn": "HUB-Robeson 画廊推出 Darla Jackson「In Dreams」装置展：百只兔雕配面具与歌曲",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/pr-past-lives-2026-darla-jackson-2.jpg?h=99cfa63e&itok=67zWvmiU"
+    },
+    {
+      "url": "https://alumni.psu.edu/2026/07/06/hintzpiration-collaboration",
+      "title_cn": "Hintzpiration 三代联展：Kappel 家族祖孙三代校友共创「Dear Old State」艺术品，拍卖资助奖学金",
+      "category": "校友活动",
+      "source": "Penn State Alumni Association",
+      "date": "2026-07-10",
+      "image_url": "https://alumni.psu.edu/files/2026/06/Dear-Old-State-Insider.jpg"
+    },
+    {
+      "url": "https://nittanylionswire.usatoday.com/story/sports/college/nittany-lions/football/2026/07/07/penn-state-nittany-lions-football-2027-recruiting-class-rankings-4-star/90840118007/",
+      "title_cn": "Penn State 2027 届招募排名从第 12 跌至第 24：四星跑卫 Gibson 转投 Rutgers",
+      "category": "体育动态",
+      "source": "Nittany Lions Wire",
+      "date": "2026-07-10"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/harper-named-senior-associate-vice-provost-planning-assessment-and",
+      "title_cn": "Betty Harper 出任宾州州立规划评估与研究高级副教务长，7 月 1 日生效",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/betty-harper.jpg?h=913430ea&itok=M-DHsp7x"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/quantum-material-opens-new-path-studying-unusual-electronic-behavior",
+      "title_cn": "Penn State 团队研发量子反常霍尔绝缘体实现非厄米动力学，登《Science Advances》",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/quantum-device.jpg?h=84071268&itok=IeXfYWAY"
     }
   ],
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-10",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
