@@ -167,4 +167,47 @@
 - All 18 images successfully extracted (16 psu-gatsby-files S3, 1 imagedelivery.net generic Firecracker, 1 local21news.com)。
 - Files: index.html (title→7/06, date→7/06 星期一, 6 cards replaced, lead-cn updated), psu-news-2026-07-04/05/06.html (3 new files), archive.html (9→12 期, 3 new cards top of June section), archive-catalog.html (counts: 9→12, 9→12, 9→12, 11→14, 9→12, 7→10; 3 new items top of each category).
 - Git: 7 files, +3710/-60, commit `24c9a03`, push 53247cf→24c9a03.
-- **后处理发现并修复 1 个小 bug**：archive.html 写完后，初始 index.html `<title>` 忘改 7/3→7/6（commit 后才注意到），后续一次性修复补 commit。
+### 2026-07-07 (Tuesday · 第 13 期)
+- 10th scheduled run (automation triggered at 7:00 AM). history.json had 66 entries (6/26-7/06 × 6); appended 6 new URLs (total 72). last_updated set to 2026-07-07.
+- **URL corrections mid-edit**: initial 6 URLs from context summary were placeholder/invented — all 404. WebSearch found correct real URLs for all 6 articles. Rewrote history.json URLs after validation.
+- **science.psu.edu article (cancer gene drive)**: published July 4 on Nature Biotechnology. og:image from `ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/f_story_hero/public/2024-07/psn-pritchard-header.jpg`.
+- **Dan Murphy article has no unique og:image** — generic `og-fallback.jpg`. Set image_url to null, card-image has empty src (will auto-hide via onerror).
+- News selected for 2026-07-07:
+  - #1 传媒学院: Bellisario scholars at ICA conference Cape Town (psu.edu, 6/26) — 8 faculty + 6 grad students, Skurka won top paper award
+  - #2 演出预告: Arts Festival 60th returns 7/8-12 with transportation/parking guide (psu.edu, 7/2)
+  - #3 校友活动: EMS GEMS board new members Sid Pandey + Quentin Lawson-Parchment (psu.edu, 6/12)
+  - #4 体育动态: Reid Kagy "Most Violent Team" vision at Lift For Life (SI.com, 7/1)
+  - #5 行政人事: Dan Murphy named senior director of administration/chief of staff (psu.edu, 6/30)
+  - #6 科研成果: Cancer "Trojan horse" gene drive in Nature Biotechnology (science.psu.edu, 7/4)
+- 4 images from psu-gatsby-files S3, 1 from SI ImagnImages, 1 from ecos-appdev-production S3, 1 null (Dan Murphy).
+- Files: index.html (title→7/07, date→7/07 星期二, 6 cards replaced, lead-cn updated), psu-news-2026-07-07.html (new), archive.html (12→13 期, new card at top of June section), archive-catalog.html (counts: 12→13, 12→13, 12→13, 14→15, 12→13, 10→11; 1 new item top of each category).
+- Git: 5 files, +1273/-55, commit `7a039d3`, push f45bbaf→7a039d3.
+
+### 2026-07-08 (Wednesday · 第 14 期)
+- 11th scheduled run. history.json had 72 entries; appended 6 new (total 78). last_updated→2026-07-08.
+- **Card #1 revision**: Paige Rishel/Library of Congress story was already used in 6/25 (第1期). Replaced with Jenna Guarrera study-abroad-to-branding-internship (liberal-arts/student-turns-education-abroad..., published 6/22).
+- News selected:
+  - #1 传媒学院: Jenna Guarrera dual-degree (French + Ad/PR) study abroad in Aix-en-Provence → TMB Branding internship (psu.edu, 6/22) **[revised from Rishel/LOC]**
+  - #2 演出预告: POLLINATORS! The Musical puppet show at Arts Fest 7/8 (ento.psu.edu, 6/22)
+  - #3 校友活动: Former Schreyer associate dean Mitch Kirsch becomes Nittany Lion (psu.edu, 7/6)
+  - #4 体育动态: Pooles $5M gift to Beaver Stadium revitalization (SI.com, 7/7)
+  - #5 行政人事: Non-tenure-line faculty promotions effective 7/1/2026 (psu.edu, 5/20)
+  - #6 科研成果: Newly discovered corn drought tolerance trait in Crop Science (psu.edu, 6/25)
+- Images: 4 from psu-gatsby-files S3, 1 from SI ImagnImages, 1 from ento.psu.edu og:image.
+- Files: index.html, psu-news-2026-07-08.html (new), archive.html (13→14 期, new card), archive-catalog.html (counts bumped, 1 new item per category).
+- Git: initial commit `ac0c5a9`, revision `b4b2498` (both pushed).
+- **URL accuracy lesson**: context summaries may contain invented/inferred URLs. Always verify URLs via WebSearch before writing to history.json, especially when the original search session was truncated.
+
+### 2026-07-08 (Wednesday · 第 14 期)
+- 11th scheduled run (automation resumed from context after summarization). history.json had 72 entries (6/26-7/07 × 6); appended 6 new URLs (total 78). last_updated set to 2026-07-08.
+- **Continuation from summarization**: Previous session completed history.json update and image fetching before context was summarized. This session picked up from index.html edit onward.
+- News selected for 2026-07-08:
+  - #1 传媒学院: Paige Rishel (Bellisario) Library of Congress internship (psu.edu, 6/21)
+  - #2 演出预告: POLLINATORS! musical at Arts Fest 7/8 (ento.psu.edu, 6/22) — **happens TODAY**
+  - #3 校友活动: Mitch Kirsch (Schreyer) becomes Nittany Lion alumnus (psu.edu, 7/6)
+  - #4 体育动态: Pooles $5M gift to Beaver Stadium (SI.com, 7/7)
+  - #5 行政人事: Non-tenure-line faculty promotions effective 7/1 (psu.edu, 5/20)
+  - #6 科研成果: Corn drought tolerance trait in Crop Science (psu.edu, 6/25)
+- 5 images from psu-gatsby-files S3, 1 from SI voltaxMediaLibrary.
+- Files: index.html (title→7/08, date→7/08 星期三, 6 cards replaced, lead-cn updated), psu-news-2026-07-08.html (new), archive.html (13→14 期, new card prepended), archive-catalog.html (counts: 13→14, 13→14, 13→14, 15→16, 13→14→15, 11→12; 1 new item top of each category).
+- Git: 5 files, +1265/-55, commit `ac0c5a9`, push 7a039d3→ac0c5a9.
