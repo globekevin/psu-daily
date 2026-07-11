@@ -688,9 +688,57 @@
       "source": "Penn State News",
       "date": "2026-07-10",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/quantum-device.jpg?h=84071268&itok=IeXfYWAY"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/patience-and-persistence-lead-bellisario-college-student",
+      "title_cn": "Bellisario 学院大四广播新闻生 Jezenia Marrero 暑期赴亚特兰大 11Alive 体育部实习",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/jezenia-bellisariocollege26-summerinterns.jpg?h=fce3b3e0&itok=Lr39ppXK"
+    },
+    {
+      "url": "https://science.psu.edu/news/astrofest-2026-offers-four-nights-stargazing-astronomy-activities-july-8-11",
+      "title_cn": "AstroFest 2026 第27届天文节在 Davey Lab 举办四夜免费观星与天文活动（7月8-11日）",
+      "category": "演出预告",
+      "source": "Penn State Eberly College of Science",
+      "date": "2026-07-11",
+      "image_url": "https://ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/ckeditor_medium_large_500px_/public/2026-01/2025astrofestplanitariumevent.jpg?itok=NmHYfrh9"
+    },
+    {
+      "url": "https://www.psu.edu/news/nese-college-nursing/story/nese-college-nursing-alumnus-honored-leadership-advocacy-and-mentorship",
+      "title_cn": "Donald Bucher 获 Nese 护理学院最高校友荣誉：从 ICU 护工到副院长的传承之路",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/ff5fec6a8854160be053c90d1dac58b2.jpg?h=2a9a018f&itok=eQ9GtUfO"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/what-james-armstrong-s-commitment-means-for-penn-state-2028-recruiting-class",
+      "title_cn": "四星 2028 届四分卫 James Armstrong 承诺加盟 Penn State：「Best in PA stay in PA, WE ARE」",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-11",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_143,w_2800,h_1575/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_penn_state/01kwjx156brxyxf7tkyt.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/scranton/story/enrico-mastroianni-named-director-athletics-and-recreation-scranton",
+      "title_cn": "Enrico Mastroianni 被任命为 Penn State Scranton 体育与休闲主任，7月底上任",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/enrico-psusn-athletics-headshot-sized-for-news.png?h=439d9a26&itok=1tytq3FV"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/team-led-penn-state-researcher-receives-national-biopharmaceutical-award",
+      "title_cn": "Andrew Zydney 团队获 NIIMBL 首届「最具影响力项目奖」：连续生物制药病毒清除验证突破",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/zydney-andrew-niimbl-most-impactful-project-award.jpg?h=19ad3fdd&itok=6gOcVQux"
     }
   ],
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
