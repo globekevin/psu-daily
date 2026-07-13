@@ -5,7 +5,7 @@
 - **Workspace**: `/Users/mac/WorkBuddy/2026-06-25-12-43-57/psu-news-daily/`
 - **Owner**: 凯子鱼 (Buddy compiles on his behalf)
 - **Publishing**: GitHub Pages at `https://globekevin.github.io/psu-daily/`
-- **Automation**: Scheduled daily at 8:00 AM (RRULE `FREQ=DAILY;BYHOUR=8;BYMINUTE=0`)
+- **Automation**: Scheduled daily at 7:00 AM (RRULE `FREQ=DAILY;BYHOUR=7;BYMINUTE=0`)
 - **Automation ID**: `automation-1782380865203`
 
 ## File Layout
@@ -92,3 +92,11 @@ Before committing any new URL, verify against `history.json` `shown_news_history
 
 ## Index Page Stats
 4 stat cards: 今日精选 (6), 传媒学院 (1), 演出预告 (1), 体育动态 (1) — note: only 3 categories shown, but the 6-card grid has all 6.
+
+## iMac Power Schedule
+- **开机**: 每天 6:40 AM (`wakepoweron` — 自动开机/唤醒)
+- **关机**: 每天 8:30 AM (`shutdown`)
+- **自动化触发**: 每天 7:00 AM（在开机和关机之间）
+- **缓冲**: 开机后有 20 分钟系统准备时间；任务执行窗口最长 1 小时 30 分钟
+- **设置命令**: `sudo pmset repeat wakeorpoweron MTWRFSU 06:40:00 shutdown MTWRFSU 08:30:00`
+- ⚠️ 调整原因：原 6:55-8:00 窗口过紧，开机仅 5 分钟缓冲导致 7/9 漏触发

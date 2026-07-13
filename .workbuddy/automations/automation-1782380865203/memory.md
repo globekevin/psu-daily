@@ -2,6 +2,45 @@
 
 ## Execution History
 
+### 2026-07-11 (via automation trigger)
+- **Status**: ✅ Success
+- **Edition**: 第 17 期
+- **6 News**: Jezenia Marrero 11Alive实习 | AstroFest 天文节 | Donald Bucher 校友奖 | James Armstrong QB 承诺 | Mastroianni 体育主任 | Zydney NIIMBL 奖
+- **Files**: history.json (96 entries) | index.html | psu-news-2026-07-11.html | archive.html | archive-catalog.html
+- **Git**: committed & pushed to origin/main
+- **Image notes**: Yahoo Sports #4 无 og:image（JS渲染），改用 SI 版本
+
+### 2026-07-10 (iMac Power Schedule Optimized)
+- User asked to verify tomorrow's automation reliability. Checked: automation config OK (DAILY 7:00 AM, ACTIVE), but iMac power schedule had two issues:
+  - **Boot gap too short**: wake 6:55 → automation 7:00 = only 5 min, caused 7/9 miss
+  - **Shutdown too early**: 8:00 shutdown could kill task mid-run (~15-30 min needed)
+- **Fixed**: `sudo pmset repeat wakeorpoweron MTWRFSU 06:40:00 shutdown MTWRFSU 08:30:00`
+  - Wake: 6:55 → **6:40** (20 min boot buffer)
+  - Shutdown: 8:00 → **8:30** (1.5 hr execution window)
+- Updated MEMORY.md: corrected automation time (was 8:00 → 7:00), added Power Schedule section
+
+### 2026-07-09 & 2026-07-10 (Manual Backfill)
+- **Backfilled 2 missed editions** (7/9 第15期 + 7/10 第16期). User reported "今天为什么有没有更新" → backfill triggered.
+- history.json 7/10 entries were already present from prior session; inserted 6 new 7/9 entries between 7/8 and 7/10.
+- index.html was in mixed state (7/10 metadata + 7/8 cards); fixed to 7/9 first, then overwritten with 7/10 content from existing psu-news-2026-07-10.html.
+- **7/9 edition (第15期)**:
+  - #1 传媒学院: Two Bellisario grads earn Ed Bradley Fellowships (psu.edu, 6/5)
+  - #2 演出预告: Dear Old State multi-generational art at Hintzpiration 7/10-11 (alumni.psu.edu, 7/6)
+  - #3 校友活动: Ten alumni receive Distinguished Alumni Award 2026 (psu.edu)
+  - #4 体育动态: Pivotal recruiting moment — James Armstrong 2028 QB (SI.com, 7/7)
+  - #5 行政人事: Jon-Paul Maria named interim head of MatSE (psu.edu, 7/2)
+  - #6 科研成果: Postdoc earns NIH award for alcohol neurological effects (psu.edu, 7/6)
+  - Git: commit `5a3d792`, push b4b2498→5a3d792.
+- **7/10 edition (第16期)**: content already existed in repo from prior session (commit `7e67982e`, already pushed). Fixed edition number from 15→16 in psu-news-2026-07-10.html, updated archive-catalog counts (each +1), archive.html count 15→16 and added 7/10 archive card.
+  - #1 传媒学院: Bellisario students at MLB All-Star Game (psu.edu)
+  - #2 演出预告: Darla Jackson "In Dreams" 100-rabbit installation at HUB (psu.edu)
+  - #3 校友活动: Kappel 3-gen Hintzpiration art auction for scholarship (alumni.psu.edu)
+  - #4 体育动态: 2027 recruiting rank drops #12→#24, 4-star RB to Rutgers (Nittany Lions Wire)
+  - #5 行政人事: Betty Harper named senior associate vice provost (psu.edu)
+  - #6 科研成果: Quantum anomalous Hall insulator in Science Advances (psu.edu)
+- Files: index.html (7/9→7/10), archive.html (15→16期), archive-catalog.html (counts bumped), psu-news-2026-07-09/10.html, history.json (7/9 entries inserted).
+- **Key lesson**: When backfilling, always verify the target date metadata matches the card content before committing. The existing index.html had 7/10 title but 7/8 cards — systemic check needed.
+
 ### 2026-06-26 (First Run)
 - Initial automation run. history.json did not exist, created fresh.
 - Selected 6 news items covering all 6 categories.

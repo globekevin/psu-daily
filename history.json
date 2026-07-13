@@ -736,9 +736,99 @@
       "source": "Penn State News",
       "date": "2026-07-11",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/zydney-andrew-niimbl-most-impactful-project-award.jpg?h=19ad3fdd&itok=6gOcVQux"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/users-trust-ai-and-human-fact-checkers-equally-different",
+      "title_cn": "Bellisario 学院研究：用户对 AI 与人工事实核查信任度相当，但各有偏好",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://animalscience.psu.edu/news/20260701-from-gentle-giants-to-miniature-horses-ag-progress-days-equine-events-planned",
+      "title_cn": "Ag Progress Days 马术活动预告：从巨型役马到迷你马，8月11-13日免费开放",
+      "category": "演出预告",
+      "source": "Penn State Animal Science",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/development-and-alumni-relations-awards-recognize-smeal-leaders-and",
+      "title_cn": "发展与校友关系部颁奖表彰 Smeal 商学院校友领袖与志愿者",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://gopsusports.com/news/2026/06/25/penn-state-athletics-to-celebrate-a-new-chapter-with-exclusive-fan-experiences-beginning-july-1",
+      "title_cn": "Penn State 体育部 Pegula 快闪店今最后一天：adidas 新装备 + 冠军奖杯展，WE ARE 新纪元开启",
+      "category": "体育动态",
+      "source": "Penn State Athletics",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/college-medicine-appoints-indira-mysorekar-vice-dean-role",
+      "title_cn": "Indira Mysorekar 7月1日出任医学院科研副校长，从 Baylor 引进传染病与女性健康权威",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://www.psu.edu/news/health-and-human-development/story/unmedicated-women-depression-do-not-tolerate-heat-well-those",
+      "title_cn": "PSU 运动机能学研究发现：未服药抑郁症女性耐热能力低于服药者，SSRI 或恢复体温调节",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/centre-county-report-selected-nations-best-student-produced",
+      "title_cn": "「Centre County Report」获 SPJ 全美最佳学生新闻节目奖，Piazza 家庭专访成打动人心的独家报道",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/02/ccr-april42025.jpg?h=3373c2b8&itok=cc_OVarJ"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/undergraduate-admissions-gearing-spend-summer-day",
+      "title_cn": "Penn State 年度最大招生盛事「Spend a Summer Day」7 月 20-27 日回归，帕克校区连办五天开放日",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/dscf5088-copy.jpg?h=9c876fe1&itok=NouaTeMJ"
+    },
+    {
+      "url": "https://www.psu.edu/news/nese-college-nursing/story/525-million-grant-expands-conway-scholars-program-nese-college-nursing",
+      "title_cn": "Bedford Falls 基金会捐赠 525 万美元扩展 Nese 护理学院 Conway Scholars 项目，五年惠及 150+ 护理生",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/05/ross-and-carol-nese-college-of-nursing-sign_2000x1500.jpg?h=966fdbe1&itok=c3PKiwDf"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/what-espns-fpi-projections-say-about-penn-states-2026-season",
+      "title_cn": "ESPN FPI 季前排名 Penn State 第 17：预测 9-3，轻松赛程指向季后赛之路",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-13",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4496,h_2529/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_penn_state/01kx6sxe239cv7355h7w.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-technology/story/workday-enhancements-safeguard-employee-data-will-be-implemented-july",
+      "title_cn": "Workday 安全增强今起生效：更改工资直存须验证银行账户，访问社保号及 W-2 需双因素认证",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-13",
+      "image_url": null
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/dynamic-black-holes-explained-simple-thermodynamics",
+      "title_cn": "Penn State 物理学家突破 50 年霍金范式：动态黑洞热力学定律首度扩展至并合与蒸发，登 PRL",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/abhay_blackhole_psn.jpg?h=96a96008&itok=G0Tf9Mse"
     }
   ],
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-13",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
