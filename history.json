@@ -826,9 +826,57 @@
       "source": "Penn State News",
       "date": "2026-07-13",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/abhay_blackhole_psn.jpg?h=96a96008&itok=G0Tf9Mse"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/discovery-grants-awarded-31-students-research-support",
+      "title_cn": "31 名 Bellisario 本科生获 Discovery Grants 暑期研究资助，探索学术创新",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/2020_psu_universitypark_summer66.jpg?h=2a71c125&itok=fdw7mXrR"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/don-toliver-brings-nitrous-octane-world-tour-bjc-sept-2",
+      "title_cn": "说唱巨星 Don Toliver「NITROUS – OCTANE」世界巡演 9 月 2 日登陆 BJC，今秋最大校园演出",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/don-toliver-2-lead-press-img.jpg?h=8009f875&itok=hhmTNztZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/two-pillars-wall-street-success-penn-state-smeal-retire",
+      "title_cn": "Smeal 商学院两位华尔街「定海神针」教授宣布退休，数十年投行教育贡献获赞",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/smeal-stevens-and-woolridge.jpg?h=9db9b22b&itok=bqtUxeOb"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/penn-state-s-tony-rojas-gets-positive-progress-report-toward-2026-return-01kwmyf1ewvk",
+      "title_cn": "Penn State 线卫 Tony Rojas ACL 伤后恢复超预期，力量教练盛赞「进步显著」",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-14",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_4396,h_2472/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_penn_state/01kwmyhf13f370698trf.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-board-trustees-meet-july-16-17-penn-college",
+      "title_cn": "宾州州立校董会 7 月 16-17 日在 Penn College 召开，审议全校战略与预算",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/Lion%20Shrine%20claw.jpg?h=c63721b7&itok=HwTKSi0T"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/gap-funding-awarded-12-penn-state-research-commercialization-projects",
+      "title_cn": "Penn State 颁发 12 项 GAP 基金各 $75K，推动校园科研成果商业化转化",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/2023-psu-universitypark-miancampus-18-1.jpg?h=f559eeaa&itok=hzz_J7EM"
     }
   ],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-14",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
