@@ -16,12 +16,22 @@
     --psu-gold: #B5995E;
     --psu-red: #9E1B32;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+  }
   body {
     font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
     background: var(--psu-gray);
     color: #222;
     line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+  /* Force all grid/flex children to honor container width (prevents intrinsic min-content overflow) */
+  .news-grid, .sources-grid, .stats, .footer-grid, .toc-inner, .header-main {
+    min-width: 0;
   }
 
   /* Header */
@@ -256,6 +266,8 @@
     color: #333;
     margin-bottom: 16px;
     line-height: 1.8;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   .card-summary strong {
     color: var(--psu-navy);
@@ -883,7 +895,7 @@
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="psu" class="source-badge">Penn State News</span>
+            <span class="psu source-badge">Penn State News</span>
           </div>
           <div class="meta-right">
             <span class="card-date">2026年7月13日</span>
@@ -905,7 +917,7 @@
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="psu" class="source-badge">Penn State News</span>
+            <span class="psu source-badge">Penn State News</span>
           </div>
           <div class="meta-right">
             <span class="card-date">2026年6月23日</span>
@@ -927,7 +939,7 @@
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="psu" class="source-badge">Penn State News</span>
+            <span class="psu source-badge">Penn State News</span>
           </div>
           <div class="meta-right">
             <span class="card-date">2026年6月26日</span>
@@ -971,7 +983,7 @@
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="psu" class="source-badge">Penn State News</span>
+            <span class="psu source-badge">Penn State News</span>
           </div>
           <div class="meta-right">
             <span class="card-date">2026年6月15日</span>
@@ -993,7 +1005,7 @@
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="psu" class="source-badge">Penn State News</span>
+            <span class="psu source-badge">Penn State News</span>
           </div>
           <div class="meta-right">
             <span class="card-date">2026年6月22日</span>
