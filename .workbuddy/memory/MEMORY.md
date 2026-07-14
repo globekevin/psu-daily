@@ -130,3 +130,51 @@ body {
 - This bug existed in 5 source-badge spans per day → daily pages before 2026-07-14 all have it
 
 **Files fixed in commit c7a57d6**: `index.html`, `psu-news-2026-07-14.html`, `build_20260714.py`.
+
+## Footer Accordion (added 2026-07-14, 11:07)
+**User request**: 底部 3 列说明（关于本日报 / 每日筛选标准 / 核心关键词）改成 3 行手风琴 — 默认只显示标题，点击才展开内容。
+
+**Pattern** (所有 daily 页面 footer 必须实现):
+```html
+<div class="footer-col">
+  <button class="footer-toggle" type="button" aria-expanded="false" aria-controls="fc-1">
+    <h4>关于本日报</h4>
+    <span class="toggle-icon" aria-hidden="true">▸</span>
+  </button>
+  <div class="footer-content" id="fc-1" hidden>
+    <p>...</p>
+  </div>
+</div>
+```
+
+```css
+.footer-grid {
+  display: flex; flex-direction: column;  /* 永远单列堆叠，不要再 2fr 1fr 1fr */
+  border-top: 1px solid rgba(150,190,230,0.15);
+}
+.footer-col { border-bottom: 1px solid rgba(150,190,230,0.15); }
+.footer-toggle {
+  width: 100%; display: flex; justify-content: space-between;
+  background: transparent; border: none; padding: 16px 4px;
+  cursor: pointer;  /* 全宽点击区 */
+}
+.footer-toggle[aria-expanded="true"] .toggle-icon { transform: rotate(90deg); }
+.footer-content[hidden] { display: none; }
+.footer-content { animation: fadeIn 0.3s ease; }
+```
+
+```js
+document.querySelectorAll('.footer-toggle').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    var panel = document.getElementById(this.getAttribute('aria-controls'));
+    if (panel) panel.toggleAttribute('hidden');
+  });
+});
+```
+
+**Why this design**: 微信 WebView viewport 不可靠，桌面布局可能在手机渲染，但内容又必须保留 → 用 `aria-expanded + hidden` 而不是 `:target` 或 `:checked`，确保无 JS 时也只显示标题（`hidden` 属性是浏览器原生支持）。
+
+**Files fixed in commit c15afd0**: `index.html`, `psu-news-2026-07-14.html`.
+**Future daily pages**: build script 从 `psu-news-<latest>.html` 复制 CSS，因此会自动继承 — 无需额外修改。
