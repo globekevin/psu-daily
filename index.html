@@ -438,17 +438,63 @@
     margin: 0 auto;
   }
   .footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     margin-bottom: 24px;
+    border-top: 1px solid rgba(150, 190, 230, 0.15);
   }
-  .footer-col h4 {
+  .footer-col {
+    border-bottom: 1px solid rgba(150, 190, 230, 0.15);
+  }
+  .footer-toggle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 16px 4px;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    -webkit-tap-highlight-color: rgba(150, 190, 230, 0.15);
+  }
+  .footer-toggle:hover {
+    color: var(--psu-white);
+  }
+  .footer-toggle h4 {
     color: var(--psu-white);
     font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-bottom: 12px;
+    margin: 0;
+    line-height: 1.3;
+    flex: 1;
+  }
+  .toggle-icon {
+    color: var(--psu-beaver-blue);
+    font-size: 14px;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .footer-toggle[aria-expanded="true"] .toggle-icon {
+    transform: rotate(90deg);
+  }
+  .footer-content {
+    padding: 0 4px 16px;
+    animation: fadeIn 0.3s ease;
+  }
+  .footer-content[hidden] {
+    display: none;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
   }
   .footer-col p, .footer-col li {
     font-size: 13px;
@@ -494,7 +540,6 @@
     .card-title { font-size: 24px; }
     .card-image { max-height: 240px; }
     .stats { grid-template-columns: repeat(4, 1fr); }
-    .footer-grid { grid-template-columns: 1fr 1fr; }
     .toc-inner { padding: 0 20px; }
     /* Source links 2-col on iPad */
     .sources-grid { grid-template-columns: repeat(2, 1fr) !important; }
@@ -520,7 +565,6 @@
     .stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .stat-num { font-size: 28px; }
     .toc-inner a { font-size: 12px; padding: 12px 14px; }
-    .footer-grid { grid-template-columns: 1fr; gap: 20px; }
     /* Sources */
     .sources-box { padding: 18px 18px; }
     .sources-intro { font-size: 13.5px; }
@@ -590,8 +634,7 @@
     .source-name { font-size: 14px; }
     .source-desc { font-size: 11px; }
     /* Footer */
-    .footer-grid { grid-template-columns: 1fr; gap: 18px; }
-    .footer-col h4 { font-size: 12px; }
+    .footer-toggle h4 { font-size: 12px; }
     .footer-col p, .footer-col li { font-size: 12px; }
     .footer-bottom { font-size: 10px; padding: 0 8px; }
   }
@@ -808,7 +851,11 @@
 
     /* ---- Footer ---- */
     footer { background: #050510; color: #888; }
-    .footer-col h4 { color: #96BEE6; }
+    .footer-grid { border-top-color: #1a1a1a; }
+    .footer-col { border-bottom-color: #1a1a1a; }
+    .footer-toggle h4 { color: #96BEE6; }
+    .footer-toggle:hover h4 { color: #fff; }
+    .toggle-icon { color: #96BEE6; }
     .footer-col a { color: #888; }
     .footer-col a:hover { color: #96BEE6; }
     .footer-bottom { border-top-color: #1a1a1a; }
@@ -1052,28 +1099,43 @@
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>关于本日报</h4>
-        <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻，翻译为中文并提炼核心内容，重点覆盖 Donald P. Bellisario College of Communications 与 University Park 帕克校区动态。</p>
+        <button class="footer-toggle" type="button" aria-expanded="false" aria-controls="fc-1">
+          <h4>关于本日报</h4>
+          <span class="toggle-icon" aria-hidden="true">▸</span>
+        </button>
+        <div class="footer-content" id="fc-1" hidden>
+          <p>本页面由 Buddy 自动生成，每日从 Penn State 官方与权威校园媒体精选 6 条要闻，翻译为中文并提炼核心内容，重点覆盖 Donald P. Bellisario College of Communications 与 University Park 帕克校区动态。</p>
+        </div>
       </div>
       <div class="footer-col">
-        <h4>每日筛选标准</h4>
-        <ul>
-          <li>· 重大性 / 影响力</li>
-          <li>· 时效性（24-72h）</li>
-          <li>· 必含传媒学院</li>
-          <li>· 必含帕克校区</li>
-          <li>· 避免与昨日重复</li>
-        </ul>
+        <button class="footer-toggle" type="button" aria-expanded="false" aria-controls="fc-2">
+          <h4>每日筛选标准</h4>
+          <span class="toggle-icon" aria-hidden="true">▸</span>
+        </button>
+        <div class="footer-content" id="fc-2" hidden>
+          <ul>
+            <li>· 重大性 / 影响力</li>
+            <li>· 时效性（24-72h）</li>
+            <li>· 必含传媒学院</li>
+            <li>· 必含帕克校区</li>
+            <li>· 避免与昨日重复</li>
+          </ul>
+        </div>
       </div>
       <div class="footer-col">
-        <h4>核心关键词</h4>
-        <ul>
-          <li>· Bellisario College</li>
-          <li>· University Park</li>
-          <li>· Happy Valley</li>
-          <li>· Nittany Lions</li>
-          <li>· We Are!</li>
-        </ul>
+        <button class="footer-toggle" type="button" aria-expanded="false" aria-controls="fc-3">
+          <h4>核心关键词</h4>
+          <span class="toggle-icon" aria-hidden="true">▸</span>
+        </button>
+        <div class="footer-content" id="fc-3" hidden>
+          <ul>
+            <li>· Bellisario College</li>
+            <li>· University Park</li>
+            <li>· Happy Valley</li>
+            <li>· Nittany Lions</li>
+            <li>· We Are!</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
@@ -1126,6 +1188,24 @@
   window.addEventListener('orientationchange', function() {
     // Small delay to let the browser finish the orientation change
     setTimeout(detectFoldable, 200);
+  });
+
+  // ===== Footer Accordion =====
+  // Each .footer-toggle button expands/collapses the next .footer-content panel.
+  // Default: collapsed (only title shown). Click title to reveal content.
+  document.querySelectorAll('.footer-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      var panel = document.getElementById(this.getAttribute('aria-controls'));
+      if (panel) {
+        if (expanded) {
+          panel.setAttribute('hidden', '');
+        } else {
+          panel.removeAttribute('hidden');
+        }
+      }
+    });
   });
 </script>
 
