@@ -100,3 +100,33 @@ Before committing any new URL, verify against `history.json` `shown_news_history
 - **缓冲**: 开机后有 20 分钟系统准备时间；任务执行窗口最长 1 小时 30 分钟
 - **设置命令**: `sudo pmset repeat wakeorpoweron MTWRFSU 06:40:00 shutdown MTWRFSU 08:30:00`
 - ⚠️ 调整原因：原 6:55-8:00 窗口过紧，开机仅 5 分钟缓冲导致 7/9 漏触发
+
+## Mobile Responsive — Required CSS (added 2026-07-14)
+**User reported**: iPhone 13 Pro 截图显示页面底板超出屏幕宽度，左右滑动露出黑色背景。
+
+**Root cause**: 微信 WebView viewport 报告不可靠（"请求桌面版"或缩放状态），原本期望触发的 `@media (max-width: 429px)` 没生效，按桌面布局渲染；同时 `html/body` 没有 `overflow-x:hidden` 兜底，导致任何子元素（toc-inner、stats、sources、footer 网格）都能把 body 撑宽。
+
+**Mandatory CSS for all daily pages** (top of style block, after `*` reset):
+```css
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+}
+body {
+  ...
+  -webkit-text-size-adjust: 100%;
+}
+.news-grid, .sources-grid, .stats, .footer-grid, .toc-inner, .header-main {
+  min-width: 0;  /* prevent intrinsic min-content overflow */
+}
+.card-summary { word-break: break-word; overflow-wrap: break-word; }
+```
+
+**HTML bug to watch for in build script** (fixed in `build_20260714.py` line 152):
+- ❌ `<span{source_class} class="source-badge">` produces **two `class` attributes** (browser uses only first, breaking styles)
+- ✅ Combine into single attribute: `classes = ["source-badge"]; [classes.insert(0, c) for c in source_class.split()]; f' class="{" ".join(classes)}"'`
+- This bug existed in 5 source-badge spans per day → daily pages before 2026-07-14 all have it
+
+**Files fixed in commit c7a57d6**: `index.html`, `psu-news-2026-07-14.html`, `build_20260714.py`.
