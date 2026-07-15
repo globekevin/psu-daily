@@ -874,9 +874,57 @@
       "source": "Penn State News",
       "date": "2026-07-14",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/2023-psu-universitypark-miancampus-18-1.jpg?h=f559eeaa&itok=hzz_J7EM"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/commagency-videos-campus-partners-earn-awards-international",
+      "title_cn": "CommAgency 学生团队五奖横扫 2026 Telly Awards，含最高荣誉 Gold Telly",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/tellyawards-general.jpg?h=c3635fa2&itok=ZapfSQAk"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/lil-wayne-bring-2026-tour-bryce-jordan-center-sept-18-football-weekend",
+      "title_cn": "格莱美说唱传奇 Lil Wayne 9 月 18 日橄榄球周末登陆 BJC，特约嘉宾 2 Chainz 同台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/lil-wayne-press-photo.jpeg?h=63bf57a8&itok=uTaQz_Y1"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/faststart-program-seeking-mentors-2026-27-academic-year",
+      "title_cn": "校友会 FastStart 导师计划招募 2026-27 学年导师，双导师制助力新生适应校园",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/26-faststart-psn-2000x1500-final.jpg?h=84071268&itok=9JAoqkbT"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/the-hits-and-misses-of-penn-state-2027-recruiting-class-so-far",
+      "title_cn": "SI 深度分析：Penn State 2027 届橄榄球招募「成绩单」——6 名四星领衔，排名从 Big Ten 第一跌至第七",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-15",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_75,w_4304,h_2421/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_penn_state/01kx1rrtn0bgcg1f0v3r.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-sciences-and-technology/story/roderick-lee-receives-sloan-higher-education-professional",
+      "title_cn": "IST 副教授 Roderick Lee 获 Sloan 基金会 2026「高等教育年度专业人士奖」",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/ist_lee-roderick_2026.jpg?h=19ad3fdd&itok=dx0vyw4P"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/paintable-electrodes-could-power-creative-and-colorful-wearable-sensors",
+      "title_cn": "PNAS 重磅：Penn State 团队研发「可涂鸦电极墨水」，在皮肤上直接画出心电/脑电/肌电传感器",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/header_0.jpg?h=84071268&itok=_bYEFYdh"
     }
   ],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
