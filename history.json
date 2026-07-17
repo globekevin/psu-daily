@@ -922,9 +922,51 @@
       "source": "Penn State News",
       "date": "2026-07-15",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/header_0.jpg?h=84071268&itok=_bYEFYdh"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-professor-rethinks-ais-role-advertising",
+      "title_cn": "Bellisario 助理教授 Yujin Heo 重新思考 AI 在广告中的角色",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-professor-featured-new-palmer-museum-art-exhibition",
+      "title_cn": "Palmer 美术馆「Dreaming American Futures」群展",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni/story/nominations-sought-2027-distinguished-alumni-awards",
+      "title_cn": "2027 杰出校友奖提名正式开放",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/the-hits-and-misses-of-penn-state-2027-recruiting-class-so-far",
+      "title_cn": "SI 复盘 Penn State 2027 橄榄球招募",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/jungwoo-ryoo-named-associate-dean-adult-education-penn-state-altoona",
+      "title_cn": "Jungwoo Ryoo 出任 Altoona 成人教育副院长",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://science.psu.edu/news/skeleton-gatekeeper-lining-brain-cells-could-guard-against-alzheimers",
+      "title_cn": "Science Advances：MPS 骨架守门人抗阿尔茨海默",
+      "category": "科研成果",
+      "source": "Penn State Eberly College of Science",
+      "date": "2026-07-17"
     }
   ],
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-17",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
