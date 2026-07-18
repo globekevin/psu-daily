@@ -964,9 +964,51 @@
       "category": "科研成果",
       "source": "Penn State Eberly College of Science",
       "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/professors-documentary-make-international-debut-17th",
+      "title_cn": "Bellisario副教授Boaz Dvir纪录片「To Kill a Nazi」克罗地亚国际电影节首映",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/ag-progress-days-showcases-college-research-ai-tool-and-animal-health",
+      "title_cn": "2026 Ag Progress Days 8/11-13免费开展：TILVA AI农业助手首秀",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/penn-state-breaks-fundraising-records-accelerates-campaign",
+      "title_cn": "Penn State年度筹款突破6.63亿美元创历史新高",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/meet-the-new-penn-state-freshman-who-could-contend-for-starting-spot-in-2026",
+      "title_cn": "SI：瑞典弃踢手Lucas Tenbrock正式入队，八月竞逐先发",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-receive-performance-based-funding-2026-27-state-budget",
+      "title_cn": "宾州2026-27预算首推绩效拨款：PSU获追加400万+美元",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/new-design-approach-helps-slash-price-ultra-durable-concrete",
+      "title_cn": "Cement and Concrete Composites：UHPC降本75%新设计路径",
+      "category": "科研成果",
+      "source": "Penn State Research",
+      "date": "2026-07-18"
     }
   ],
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-18",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
