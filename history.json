@@ -1006,9 +1006,57 @@
       "category": "科研成果",
       "source": "Penn State Research",
       "date": "2026-07-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/ai-disagreement-may-shake-patient-trust-doctors",
+      "title_cn": "Bellisario 学院 Sundar 教授团队发现：AI 对医生诊断「第二意见」——同意则增信、反对则引发不信任",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/gettyimages-2274592130.jpg?h=119335f7&itok=-WSq7MdF"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/student-farm-and-food-systems-host-annual-summer-plant-sale-july-23-24",
+      "title_cn": "PSU 学生农场夏季植物义卖 7/23-24：番茄、黄瓜、生菜、香草应有尽有，现摘现卖现金结算",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/_dsc1634.jpg?h=4521fff0&itok=KZ2B_kSe"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/landmark-gift-build-program-promoting-empathy-and-compassion",
+      "title_cn": "Charlene Friedman 里程碑捐赠创建「Friedman PEACE 计划」：推动同理心与共情科研从实验室走向社区实践",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/friedman-image-2.jpg?h=04ed459f&itok=yHNT2d1U"
+    },
+    {
+      "url": "https://www.si.com/college/pennstate/football/how-penn-state-offense-grades-out-in-the-big-ten-and-national-rankings",
+      "title_cn": "Phil Steele 季前分析：PSU 跑卫组 Big Ten 第 5、全国第 16 ——三头马车 Hansen/Peoples/Martin 各司其职，进攻组整体「可期但缺精英」",
+      "category": "体育动态",
+      "source": "Sports Illustrated",
+      "date": "2026-07-19",
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_36,w_4421,h_2486/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_penn_state/01kvqzzvp2aq041tgdjg.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/board-trustees-approves-2027-28-budget-and-tuition-plan",
+      "title_cn": "校董会通过 2027-28 预算与学费方案：Commonwealth Campuses 宾州本科生学费连续第 5 年冻结，UP 涨 2.5%",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/2026-psu-universitypark-1884.jpg?h=13e6b738&itok=f2trShuv"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/metals-atomic-arrangement-can-create-corrosion-highways-nuclear-reactors",
+      "title_cn": "《Corrosion Science》：PSU 团队发现金属原子排列可形成「腐蚀高速公路」——为先进核反应堆材料设计提供原子级指南",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/lro-resized.jpg?h=84071268&itok=t16aMQ69"
     }
   ],
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
