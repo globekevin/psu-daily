@@ -217,7 +217,7 @@ def fetch_rss(url, max_items=15):
         pub_date = pub_m.group(1).strip() if pub_m else ""
 
         if title and link:
-            title = html.unescape(title)  # Fix HTML entities
+            title = html_module.unescape(title)  # Fix HTML entities
             results.append({
                 "title": title,
                 "url": link,
