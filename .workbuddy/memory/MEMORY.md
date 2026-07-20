@@ -3,209 +3,70 @@
 ## Project Overview
 - **Project**: Penn State University 每日新闻日报 (PSU Daily News)
 - **Workspace**: `/Users/mac/WorkBuddy/2026-06-25-12-43-57/psu-news-daily/`
-- **Owner**: 凯子鱼 (Buddy compiles on his behalf)
+- **Owner**: 凯子鱼
 - **Publishing**: GitHub Pages at `https://globekevin.github.io/psu-daily/`
-- **Automation**: Scheduled daily at 7:00 AM (RRULE `FREQ=DAILY;BYHOUR=7;BYMINUTE=0`), includes git commit + push as Step 5
-- **Automation ID**: `automation-1782380865203`
+- **Original Automation**: `automation-1782380865203` (now **PAUSED** — replaced by GitHub Actions)
 
 ## File Layout
-- `index.html` — Main daily landing page (today's 6 news)
-- `psu-news-YYYY-MM-DD.html` — Per-day archive pages (one per edition)
-- `archive.html` — All past editions, chronological list
-- `archive-catalog.html` — Categorical index (6 categories: 传媒学院/演出预告/校友活动/体育动态/行政人事/科研成果)
-- `history.json` — Shown-news dedup list (`shown_news_history` array, `last_updated` field)
-- `.workbuddy/automations/automation-1782380865203/memory.md` — Automation execution log
-- `.workbuddy/memory/YYYY-MM-DD.md` — Daily project work log
+- `index.html` — Main daily landing page
+- `psu-news-YYYY-MM-DD.html` — Per-day archive pages
+- `archive.html` — All past editions, chronological; insert before `<!-- AUTO-APPEND-MARKER -->`
+- `archive-catalog.html` — Categorical index (cat IDs: `cat-传媒学院`, `cat-演出预告`, `cat-校友活动`, `cat-体育动态`, `cat-行政人事`, `cat-科研成果`)
+- `history.json` — URL dedup list (`shown_news_history` array)
+- `build_auto.py` — GitHub Actions auto-build script (Bing Search + DeepSeek)
+- `.github/workflows/daily-build.yml` — CI schedule (UTC 23:00 = Beijing 7:00 AM)
+
+## GitHub Actions Automation (NEW — 2026-07-20)
+- **Workflow**: `.github/workflows/daily-build.yml` — cron `0 23 * * *` (UTC) + `workflow_dispatch`
+- **Script**: `build_auto.py` — Bing Search API → find articles → fetch content → DeepSeek summary → build all HTML
+- **Secrets needed in GitHub repo**: `BING_API_KEY`, `DEEPSEEK_API_KEY`
+- **Bing API free tier**: 1,000 searches/month — we use ~6/day = ~180/month
+- **DeepSeek model**: `deepseek-chat`, ~$0.001/1K tokens — estimated ~$0.02/day
+- **Requirements**: `requirements.txt` (just `requests`)
 
 ## Core Conventions
 
-### 1. The 6-Category Structure
-Every day picks **exactly 6 news items**, one per category, in this order:
-1. 传媒学院 (Bellisario College) — MANDATORY
+### 6-Category Structure (MANDATORY order)
+1. 传媒学院 (Bellisario College) — mandatory
 2. 演出预告 (events/art)
 3. 校友活动 (alumni)
-4. 体育动态 (sports; may be recruiting/policy/awards)
+4. 体育动态 (sports/recruiting)
 5. 行政人事 (admin appointments, deans, policies)
-6. 科研成果 (research, science) — MANDATORY
+6. 科研成果 (research, science) — mandatory
 
-### 2. Image Fetching (CRITICAL)
-- **Primary method**: `curl -s -L -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "<url>" -o /tmp/x.html && grep -oE '<meta property="og:image" content="[^"]+"' /tmp/x.html`
-- **Always verify the image actually exists** by opening the URL.
-- **PSU gatsby-files URL pattern** (most common): `https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/<year>/<month>/<filename>.jpg?h=<hash>&itok=<token>`
-- **SI / Onward State / College media** use `images2.minutemediacdn.com/image/upload/...` (Imagn CDN) or `cdn.onwardstate.com/uploads/...`
-- **science.psu.edu exception**: uses `ecos-appdev-production.s3.amazonaws.com/science_site/s3fs-public/styles/<style>/...` and has NO `og:image` meta tag — image is in `<div class="story__hero-image-media">` directly
-- **mri.psu.edu articles lack og:image** — use in-body `<img src="...">` if no choice, or skip
+### Image Handling (CRITICAL — 2026-07-20 triple-redundancy)
+- **Inline `style="opacity:1"` on every img tag** — bypasses CSS cache issues
+- **CSS default `opacity: 1`** — fail-safe
+- **JS check**: `naturalWidth === 0` for broken images
+- **Image sources**: PSU Gatsby CDN (`psu-gatsby-files-prod.s3.amazonaws.com`), SI/Minute Media CDN (`images2.minutemediacdn.com`), Eberly Science CDN (`ecos-appdev-production.s3.amazonaws.com`)
+- **Avoid**: Gannett CDN (`usatoday.com/gcdn/`) — returns 406
 
-### 3. Image Fallback
-If no unique og:image, skip the article. Always have backup candidates.
+### URL Dedup
+Check against ALL URLs in `history.json` `shown_news_history` array before using.
 
-### 4. URL Dedup
-Before committing any new URL, verify against `history.json` `shown_news_history` array. Last 12-18 entries are most important (within 2-3 days).
+### JSON Quote Safety
+- NEVER raw `"` in `title_cn` — use `"`/`"` (Chinese curly quotes)
+- Verify: `python3 -c "import json; json.load(open('history.json'))"`
 
-### 5. JSON Quote Safety
-- **NEVER** write raw `"` (English double quote) inside any `title_cn` value
-- Always use `"`/`"` (Chinese curly quotes) or `「」` for quotation marks
-- After editing, verify with: `python3 -c "import json; json.load(open('history.json'))"`
+### Git Workflow
+Commit: `Daily news update YYYY-MM-DD: <keywords>` → push to `origin main`
 
-### 6. Git Workflow
-- `git add history.json index.html archive.html archive-catalog.html psu-news-YYYY-MM-DD.html .workbuddy/memory/YYYY-MM-DD.md`
-- Commit message: `Daily news update YYYY-MM-DD: <keyword1>, <keyword2>, ...`
-- Push to `origin main` (auto-deploys to GitHub Pages)
+### Design System
+- `--psu-navy: #001E44`, `--psu-navy-light: #1E4079`, `--psu-gold: #B5995E`
+- Category tag colors: 传媒=red, 演出=navy, 校友=purple, 体育=gold, 行政=green, 研究=blue
+- Mobile: `html, body { overflow-x: hidden; max-width: 100%; }` + grid children `min-width: 0`
+- Footer: Accordion pattern — `aria-expanded` + `hidden` attribute (works without JS)
+- Source badge classes: `psu` (navy), `onward` (orange), `collegian` (purple) — combine in single `class` attr, never double
 
-## File Update Patterns
-
-### index.html updates
-- `<title>` line: change date
-- `id="todayDate"` div: change "YYYY年M月D日 星期X"
-- `.lead-cn` div: replace with today's themes
-- 6 news cards (entire `<article class="news-card" id="news-1">` ... `id="news-6">`)
-- `history.json` last_updated field
-
-### archive.html
-- Prepend new card BEFORE the `<!-- AUTO-APPEND-MARKER - DO NOT REMOVE -->` comment
-- Update `共 N 期` count (N+1)
-
-### archive-catalog.html
-- For each of 6 `cat-section` blocks:
-  - Update count (X → X+1)
-  - Prepend new `<a class="news-item">` entry to the top of `news-list`
-
-### psu-news-YYYY-MM-DD.html (new file)
-- `cp` from previous day's file
-- Edit 4 places: `<title>`, todayDate div, edition number, lead-cn/lead-en
-- Replace all 6 news cards
+## Anti-Scraping Notes
+- Onward State / Collegian / StateCollege.com: Cloudflare → prefer SI mirror or psu.edu source
+- Gannett CDN: 406 on all requests → use SI Minute Media CDN instead
+- Bing Search API: works reliably from GitHub Actions (no Cloudflare for search results)
 
 ## Past Manual Triggers
-- 2026-06-29 (was aborted cron; user prompted re-run)
-- 2026-07-03 (8:00 AM cron missed; user reported, executed manually)
+- 2026-06-29 (aborted cron; re-run manually)
+- 2026-07-03 (8 AM cron missed; manual)
 
-## Cloudflare & Anti-Scraping Workarounds
-- **Onward State / Collegian / StateCollege.com**: blocked by Cloudflare → use SI mirror or alternative source
-- **Newswise**: blocked → use original PSU source (psu.edu/news/...) directly
-- **WebFetch tool**: unreliable, prefer curl
-
-## Design System (PSU Brand)
-- `--psu-navy: #041E42` (Nittany Navy)
-- `--psu-navy-light: #1E407C` (Penn State Blue)
-- `--psu-gold: #FFC72C` (Penn State Gold)
-- Category tag colors: 传媒=red, 演出=navy, 校友=purple, 体育=gold, 行政=green, 研究=blue
-
-## Index Page Stats
-4 stat cards: 今日精选 (6), 传媒学院 (1), 演出预告 (1), 体育动态 (1) — note: only 3 categories shown, but the 6-card grid has all 6.
-
-## Image Loading — Triple-Redundancy (added 2026-07-20 12:00)
-**Root cause of "no images" on 7/20:**
-1. CSS `.card-image img { opacity: 0 }` + JS `load` event flakiness
-2. GitHub Pages CDN caches HTML for ~30s after `git push`
-3. `onerror="display:none"` hid broken images completely (silent failure)
-
-**Mandatory triple fix for ALL daily pages:**
-```html
-<!-- inline opacity:1 on every img tag, no onerror, no loading=lazy for hero imgs -->
-<div class="card-image"><img style="opacity:1" src="..." alt=""></div>
-```
-
-```css
-.card-image img { opacity: 1; transition: opacity 0.4s ease; }  /* default visible */
-.card-image img.is-loading { opacity: 0; }                       /* JS toggles this */
-```
-
-```js
-document.querySelectorAll('.card-image img').forEach(function(img) {
-  if (!img.complete || img.naturalWidth === 0) {
-    img.classList.add('is-loading');
-    img.addEventListener('load', function() {
-      img.classList.remove('is-loading');
-      img.classList.add('is-loaded');
-    });
-  } else { img.classList.add('is-loaded'); }
-});
-```
-
-**Rule of thumb for this project:** when a critical visual depends on CSS, **always add inline `style="..."` fallback**. GitHub Pages CDN may not reflect CSS-only fixes for 1-2 minutes.
-
-## iMac Power Schedule
-- **开机**: 每天 6:40 AM (`wakepoweron` — 自动开机/唤醒)
-- **关机**: 每天 8:30 AM (`shutdown`)
-- **自动化触发**: 每天 7:00 AM（在开机和关机之间）
-- **缓冲**: 开机后有 20 分钟系统准备时间；任务执行窗口最长 1 小时 30 分钟
-- **设置命令**: `sudo pmset repeat wakeorpoweron MTWRFSU 06:40:00 shutdown MTWRFSU 08:30:00`
-- ⚠️ 调整原因：原 6:55-8:00 窗口过紧，开机仅 5 分钟缓冲导致 7/9 漏触发
-
-## Mobile Responsive — Required CSS (added 2026-07-14)
-**User reported**: iPhone 13 Pro 截图显示页面底板超出屏幕宽度，左右滑动露出黑色背景。
-
-**Root cause**: 微信 WebView viewport 报告不可靠（"请求桌面版"或缩放状态），原本期望触发的 `@media (max-width: 429px)` 没生效，按桌面布局渲染；同时 `html/body` 没有 `overflow-x:hidden` 兜底，导致任何子元素（toc-inner、stats、sources、footer 网格）都能把 body 撑宽。
-
-**Mandatory CSS for all daily pages** (top of style block, after `*` reset):
-```css
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
-  width: 100%;
-}
-body {
-  ...
-  -webkit-text-size-adjust: 100%;
-}
-.news-grid, .sources-grid, .stats, .footer-grid, .toc-inner, .header-main {
-  min-width: 0;  /* prevent intrinsic min-content overflow */
-}
-.card-summary { word-break: break-word; overflow-wrap: break-word; }
-```
-
-**HTML bug to watch for in build script** (fixed in `build_20260714.py` line 152):
-- ❌ `<span{source_class} class="source-badge">` produces **two `class` attributes** (browser uses only first, breaking styles)
-- ✅ Combine into single attribute: `classes = ["source-badge"]; [classes.insert(0, c) for c in source_class.split()]; f' class="{" ".join(classes)}"'`
-- This bug existed in 5 source-badge spans per day → daily pages before 2026-07-14 all have it
-
-**Files fixed in commit c7a57d6**: `index.html`, `psu-news-2026-07-14.html`, `build_20260714.py`.
-
-## Footer Accordion (added 2026-07-14, 11:07)
-**User request**: 底部 3 列说明（关于本日报 / 每日筛选标准 / 核心关键词）改成 3 行手风琴 — 默认只显示标题，点击才展开内容。
-
-**Pattern** (所有 daily 页面 footer 必须实现):
-```html
-<div class="footer-col">
-  <button class="footer-toggle" type="button" aria-expanded="false" aria-controls="fc-1">
-    <h4>关于本日报</h4>
-    <span class="toggle-icon" aria-hidden="true">▸</span>
-  </button>
-  <div class="footer-content" id="fc-1" hidden>
-    <p>...</p>
-  </div>
-</div>
-```
-
-```css
-.footer-grid {
-  display: flex; flex-direction: column;  /* 永远单列堆叠，不要再 2fr 1fr 1fr */
-  border-top: 1px solid rgba(150,190,230,0.15);
-}
-.footer-col { border-bottom: 1px solid rgba(150,190,230,0.15); }
-.footer-toggle {
-  width: 100%; display: flex; justify-content: space-between;
-  background: transparent; border: none; padding: 16px 4px;
-  cursor: pointer;  /* 全宽点击区 */
-}
-.footer-toggle[aria-expanded="true"] .toggle-icon { transform: rotate(90deg); }
-.footer-content[hidden] { display: none; }
-.footer-content { animation: fadeIn 0.3s ease; }
-```
-
-```js
-document.querySelectorAll('.footer-toggle').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    var expanded = this.getAttribute('aria-expanded') === 'true';
-    this.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    var panel = document.getElementById(this.getAttribute('aria-controls'));
-    if (panel) panel.toggleAttribute('hidden');
-  });
-});
-```
-
-**Why this design**: 微信 WebView viewport 不可靠，桌面布局可能在手机渲染，但内容又必须保留 → 用 `aria-expanded + hidden` 而不是 `:target` 或 `:checked`，确保无 JS 时也只显示标题（`hidden` 属性是浏览器原生支持）。
-
-**Files fixed in commit c15afd0**: `index.html`, `psu-news-2026-07-14.html`.
-**Future daily pages**: build script 从 `psu-news-<latest>.html` 复制 CSS，因此会自动继承 — 无需额外修改。
+## iMac Power Schedule (legacy — replaced by GitHub Actions)
+- Wake: 6:40 AM, Shutdown: 8:30 AM
+- `sudo pmset repeat wakeorpoweron MTWRFSU 06:40:00 shutdown MTWRFSU 08:30:00`

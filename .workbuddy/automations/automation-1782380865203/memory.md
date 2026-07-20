@@ -2,12 +2,49 @@
 
 ## Execution History
 
+### 2026-07-20 (via automation · 第 25 期)
+- **Status**: ✅ Success
+- **6 News**: Greg Finberg 跻身 Hearst 新闻竞赛决赛 (Bellisario) | Berkey Creamery 8/1 起无现金化 | 2026 Roar Tour 校友巡游报名 | 两名 2026 防守新秀加入橄榄球 (Nittany Lions Wire) | 校董会批准 2027-28 住餐费率 (UP 涨幅九年来最低) | 能源价格冲击研究（「创造性破坏」效应）
+- **Images**: 5 psu-gatsby-files S3 + 1 Gannett CDN. All 6 verified with curl og:image extraction.
+- **history.json**: 138 → 144 entries, last_updated = 2026-07-20
+- **Git**: commit 5e5e109 + push to origin main ✅
+- **Edition numbering**: 7/19=24期, 7/20=25期 ✅
+- **Build script**: `build_20260720.py`, templated from 7/19. Fixed `class="date"` corruption (missing `>` tag — was `<div class="date" P26年...`), and archive-catalog category IDs (Chinese `cat-传媒学院` not English `cat-comm`) and count class (`count` not `cat-count`).
+- **Resolved**: Original #5 (Fortunato Award) and #6 (AI Cancer intern) had no og:image → switched to Housing/Dining rates and Energy Price Shocks. Audit found 7/19's budget article was already used → further switch to housing-only article. All dedup verified with `grep` against history.json.
+
+### 2026-07-19 (via automation · 第 24 期)
+- **Status**: ✅ Success
+- **6 News**: AI 第二意见撼动医生信任 (Bellisario) | Student Farm 夏季植物义卖 7/23-24 | Charlene Friedman 里程碑捐赠 PEACE 计划 | Phil Steele PSU 进攻组季前排名 | 校董会通过 2027-28 预算学费方案 | 核反应堆「腐蚀高速公路」(Corrosion Science)
+- **Images**: 5 psu-gatsby-files S3 + 1 SI minutemediacdn. All 6 verified.
+- **history.json**: 132 → 138 entries, last_updated = 2026-07-19
+- **Git**: commit 6bb7e1a + push to origin main ✅
+- **Bug fix**: build_20260719.py archive-catalog section used English cat IDs (cat-comm) but file uses Chinese (cat-传媒学院). Additionally counts use `class="count"` not `class="cat-count"`. Manually fixed with 12 Edit tool calls (6 news-item prepends + 6 count increments).
+- **Edition numbering**: 7/18=23期, 7/19=24期 ✅
+
+### 2026-07-18 (via automation · 第 23 期)
+- **Status**: ✅ Success
+- **6 News**: Bellisario 副教授 Boaz Dvir 纪录片克罗地亚首映 | Ag Progress Days TILVA AI 农业助手 8/11-13 免费开展 | 年度筹款 6.63 亿美元创历史新高 | SI Lucas Tenbrock 瑞典弃踢手竞逐先发 | 宾州预算首推绩效拨款 PSU 获 400 万+ | UHPC 降本 75% 新设计路径 (Cement and Concrete Composites)
+- **Images**: 5 psu-gatsby-files S3 + 1 SI minutemediacdn. All 6 verified.
+- **history.json**: 126 → 132 entries, last_updated = 2026-07-18
+- **Git**: commit 0e71143 + push to origin main ✅
+- **Key notes**: #1 candidate (patience-internship) lacked og:image → switched to Boaz Dvir documentary (7/16). #5 candidate (Mastroianni AD) was already used 7/11 → switched to performance-based funding (7/12). All dedup verified.
+
+### 2026-07-17 (via manual recovery · 第 22 期)
+- **Status**: ✅ Success (manual rebuild after 7:00 AM cron missed due to network errors)
+- **6 News**: Yujin Heo AI 广告伦理 | Palmer 美术馆 Dreaming American Futures | 2027 杰出校友奖提名 | SI 橄榄球招募中期复盘 | Jungwoo Ryoo Altoona 成人教育副院长 | MPS 骨架守门人抗阿尔茨海默 (Science Advances)
+- **Images**: 4 psu-gatsby-files S3 + 1 SI minutemediacdn + 1 ecos-appdev (science.psu.edu in-body exception). All 6 verified 200 OK.
+- **history.json**: 120 → 126 entries, last_updated = 2026-07-17
+- **Edition numbering**: 7/14=19期, 7/15=21期, 7/16 缺失, 7/17=22期
+- **Key findings**: BJC State Games page no og:image → used Palmer Museum Altoona professor article for 演出预告. science.psu.edu no og:image → used in-body ecos image per MEMORY.md exception. SI article not blocked by Cloudflare this time.
+- **Git**: commit cd9f125 + push to origin main ✅
+- **Issues**: build script failed on archive-catalog update (wrong cat IDs) → manually fixed with inline Python. 3 tool calls for catalog fix.
+
 ### 2026-07-15 (via automation trigger · 第 21 期)
 - **Status**: ✅ Success
 - **6 News**: CommAgency Telly 五奖 | Lil Wayne BJC 橄榄球周末 | FastStart 导师招募 | 2027 招募行情分析 | Roderick Lee Sloan 教育奖 | PNAS 可涂鸦电极传感器
 - **history.json**: 114 → 120 entries, last_updated = 2026-07-15
 - **Image verification**: 5 psu-gatsby-files S3 (Cards 1/2/3/5/6) + 1 minutemediacdn (Card 4). All 6 have images.
-- **Git**: NOT committed (separate automation at 7:30 AM)
+- **Git**: 13:41 手动修复 — git commit 603361f + push（用户反馈站点未更新）。根因：7:30 AM 独立 git push 自动化从未被创建。自动化 prompt 已更新为包含 Step 5 git commit+push。
 - **Efficiency**: 30+ tool calls due to session disconnect mid-build. Recovered from checkpoint. BJC State Games page lacked og:image → switched to Lil Wayne article. archive-catalog marker IDs were in Chinese → manually edited.
 
 ### 2026-07-14 (via automation trigger · 第 24 期)
