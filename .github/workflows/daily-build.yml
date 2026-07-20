@@ -1,0 +1,48 @@
+name: PSU Daily News Build
+
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build daily news
+        run: python build_auto.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "PSU Daily Bot"
+          git config user.email "bot@psu-daily.local"
+          git add history.json index.html archive.html archive-catalog.html psu-news-*.html || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            TODAY=$(TZ='Asia/Shanghai' date +%Y-%m-%d)
+            git commit -m "Daily news update ${TODAY} [auto]"
+            git push
+            echo "Pushed successfully"
+          fi
