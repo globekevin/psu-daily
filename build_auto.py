@@ -13,7 +13,8 @@ Required env vars:
   GITHUB_TOKEN  — GitHub Actions 自动注入，用于 GitHub Models API
 """
 
-import os, sys, json, re, datetime, time, textwrap, hashlib, traceback, html
+import os, sys, json, re, datetime, time, textwrap, hashlib, traceback
+import html as html_module
 import requests
 
 # ═══════════════════════════════════════════════════
@@ -130,7 +131,7 @@ def scrape_psu_category(url, max_items=12):
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
         resp.raise_for_status()
-        html = resp.text
+        page_html = resp.text
     except Exception as e:
         log(f"  ✗ scrape failed {url}: {e}")
         return results
@@ -139,14 +140,14 @@ def scrape_psu_category(url, max_items=12):
     # Pattern: <a ... href="/news/xxx/story/yyy" ...>Title Text</a>
     links = re.findall(
         r'<a\s[^>]*href="(/news/(?:[^/]+/)?story/[^"]+)"[^>]*>([^<]+)</a>',
-        html
+        page_html
     )
 
     seen = set()
     for href, title in links:
         full_url = "https://www.psu.edu" + href
         title = title.strip()
-        title = html.unescape(title)  # Fix &#x27; → ', &amp; → &
+        title = html_module.unescape(title)  # Fix &#x27; → ', &amp; → &
         if not title or len(title) < 10:
             continue
         # Skip navigation/category links
