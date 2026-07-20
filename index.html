@@ -1000,21 +1000,21 @@
     <article class="news-card" id="news-4">
       <span class="card-tag tag-sports">体育动态</span>
       <div class="card-body">
-        <h2 class="card-title">两名 2026 届防守新秀正式加入 PSU 橄榄球大名单：DE Hurst 与 LB Murphy 将为 Nittany Lions 防线注入新鲜血液</h2>
-        <div class="card-title-en">Two key defensive 2026 prospects join football roster: DE Jordan Hurst and LB Marcus Murphy bolster Nittany Lions' defensive depth · Nittany Lions Wire</div>
-        <div class="card-image"><img src="https://nittanylionswire.usatoday.com/gcdn/authoring/authoring-images/2026/07/16/SPSU/90940745007-usatsi-26847331.jpg?crop=4040,2273,x0,y363&width=3200&height=1801&format=pjpg&auto=webp" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+        <h2 class="card-title">Campbell「隐藏宝石」兑现：防守端锋 Elijah Reeder 与线卫 Keian Kaiser 正式加入 PSU 2026 大名单</h2>
+        <div class="card-title-en">Matt Campbell's 'hidden gem' arrives: DE Elijah Reeder (4-star, NJ #4) and LB Keian Kaiser (NE top-5) officially join Penn State 2026 roster · Sports Illustrated</div>
+        <div class="card-image"><img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_800,f_auto,q_auto/images/ReutersImages/mmsport/all_penn_state/01kxk1z5ydmshahwdy3k.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
         <p class="card-summary">
-<strong>核心提炼：</strong>Penn State 橄榄球队在<strong> 2026 赛季前</strong>迎来两名高潜力防守新秀：<strong>防守端锋 Jordan Hurst</strong>（DE）和<strong>线卫 Marcus Murphy</strong>（LB），二人已正式加入球队大名单，将参与<strong>夏季训练营</strong>备战 9 月 5 日对阵 Marshall 的赛季揭幕战。Hurst 身高 6 尺 4 寸、体重 250 磅，以<strong>爆发力与冲传技巧</strong>著称，在高中最后一季交出<strong> 12 次擒杀</strong>的亮眼成绩单。Murphy 则是全面型线卫，兼具<strong>防跑直觉与覆盖能力</strong>，被教练组视为可即插即用的<strong>轮换力量</strong>。防守协调员 <strong>Tom Allen</strong> 在春季训练中强调需要补充<strong>前线深度</strong>，这两名新秀的到来将有效缓解防守组在<strong>高强度 Big Ten 赛程</strong>中的轮换压力。PSU 防守组上赛季排名 Big Ten <strong>前五</strong>，新赛季目标冲击<strong>大学橄榄球季后赛</strong>。
+<strong>核心提炼：</strong>Penn State 橄榄球主帅 <strong>Matt Campbell</strong> 的 2026 新生招募班<strong>全员到齐</strong>：最后两名新生——防守端锋 <strong>Elijah Reeder</strong>（新泽西州第 4、全国 DE 第 26）和线卫 <strong>Keian Kaiser</strong>（内布拉斯加州前 5）——正式加入大名单，随队备战<strong> 8 月初训练营</strong>。Reeder 身高 6 尺 6 寸（198cm），高中最后一季交出<strong> 8 次擒杀、19 次线后擒抱</strong>，被 Campbell 称为上届招募班的「<strong>隐藏宝石</strong>」——教练特地保留奖学金名额等他在<strong>高四赛季爆发</strong>后才锁定。Kaiser 则是 6 尺 4 寸（193cm）的<strong>三栖运动员</strong>：橄榄球 111 次擒抱 + 38 次接球 9 达阵、篮球场均 13.9 分 9.3 篮板、田径州跳高亚军。两人均随 Campbell<strong>从 Iowa State 转投</strong> PSU，是首批完全由 Campbell 团队招募的<strong> 15 人新生班</strong>中最晚报到的成员。PSU 2026 赛季将于 <strong>9 月 5 日主场对阵 Marshall</strong> 揭幕。
         </p>
         <div class="card-meta">
           <div class="meta-left">
-            <span class="source-badge">Nittany Lions Wire</span>
+            <span class="source-badge">Sports Illustrated</span>
           </div>
           <div class="meta-right">
-            <span class="card-date">2026年7月16日</span>
+            <span class="card-date">2026年7月15日</span>
           </div>
         </div>
-        <a class="card-link" href="https://nittanylionswire.usatoday.com/story/sports/college/nittany-lions/football/2026/07/16/two-key-defensive-2026-prospects-join-football-roster/90940636007/" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
+        <a class="card-link" href="https://www.si.com/college/pennstate/football/penn-state-officially-adds-freshman-hidden-gem-to-2026-roster" target="_blank" rel="noopener">阅读原文<span class="arrow">→</span></a>
       </div>
     </article>
 
@@ -1155,9 +1155,13 @@
     if (!img.getAttribute('src') || img.getAttribute('src').trim() === '') {
       img.parentElement.style.display = 'none';
     } else {
-      img.addEventListener('load', function() {
+      if (img.complete) {
         img.style.opacity = '1';
-      });
+      } else {
+        img.addEventListener('load', function() {
+          img.style.opacity = '1';
+        });
+      }
     }
   });
 
