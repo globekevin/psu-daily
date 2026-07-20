@@ -1054,9 +1054,57 @@
       "source": "Penn State News",
       "date": "2026-07-19",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/lro-resized.jpg?h=84071268&itok=t16aMQ69"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/recent-journalism-graduate-among-competitors-national",
+      "title_cn": "Bellisario 学院应届毕业生 Greg Finberg 跻身 Hearst 新闻竞赛全国决赛——作品聚焦校园枪击受害者家属",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/gregfinberg-hearst_0.jpg?h=fa3a8807&itok=EUQUIIcA"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/penn-state-berkey-creamery-go-cashless-aug-1",
+      "title_cn": "PSU Berkey Creamery 8 月 1 日起全面无现金化：只接受信用卡、借记卡与移动支付，现金与支票退出历史",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/03/150813_Creamery_Misc-1_1.jpg?h=a1e1a043&itok=rW6nff6w"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-staters-invited-sign-2026-roar-tour",
+      "title_cn": "Penn State 2026「Roar Tour」校友巡游开放报名：校长 Bendapudi 将亲赴全美多城与校友面对面交流",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/roar-tour_penn-state-news-2000x1500-copy.jpg?h=10229ec2&itok=FcNMo7VS"
+    },
+    {
+      "url": "https://nittanylionswire.usatoday.com/story/sports/college/nittany-lions/football/2026/07/16/two-key-defensive-2026-prospects-join-football-roster/90940636007/",
+      "title_cn": "两名 2026 届防守新秀正式加入 PSU 橄榄球大名单：DE Hurst 与 LB Murphy 将为 Nittany Lions 防线注入新鲜血液",
+      "category": "体育动态",
+      "source": "Nittany Lions Wire",
+      "date": "2026-07-20",
+      "image_url": "https://nittanylionswire.usatoday.com/gcdn/authoring/authoring-images/2026/07/16/SPSU/90940745007-usatsi-26847331.jpg?crop=4040,2273,x0,y363&width=3200&height=1801&format=pjpg&auto=webp"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/board-trustees-approves-housing-and-dining-rates-2027-28-academic-year",
+      "title_cn": "校董会批准 2027-28 住餐费率：UP 综合涨幅 2.5% 为九年来最低，白楼研究生公寓连续第七年不涨价",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/IMG_4618.jpeg?h=71976bb4&itok=2SEhLSNa"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/energy-price-shocks-slow-state-economies-spur-energy-efficiency",
+      "title_cn": "能源价格冲击：短期拖慢州经济，长期倒逼能效提升——PSU 农学院揭示能源危机中的「创造性破坏」效应",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/adobestock_1957530938_web.jpeg?h=53aeb022&itok=ytNRGgNp"
     }
   ],
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
