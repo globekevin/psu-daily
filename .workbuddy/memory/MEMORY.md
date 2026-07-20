@@ -5,7 +5,7 @@
 - **Workspace**: `/Users/mac/WorkBuddy/2026-06-25-12-43-57/psu-news-daily/`
 - **Owner**: 凯子鱼 (Buddy compiles on his behalf)
 - **Publishing**: GitHub Pages at `https://globekevin.github.io/psu-daily/`
-- **Automation**: Scheduled daily at 7:00 AM (RRULE `FREQ=DAILY;BYHOUR=7;BYMINUTE=0`)
+- **Automation**: Scheduled daily at 7:00 AM (RRULE `FREQ=DAILY;BYHOUR=7;BYMINUTE=0`), includes git commit + push as Step 5
 - **Automation ID**: `automation-1782380865203`
 
 ## File Layout
@@ -92,6 +92,37 @@ Before committing any new URL, verify against `history.json` `shown_news_history
 
 ## Index Page Stats
 4 stat cards: 今日精选 (6), 传媒学院 (1), 演出预告 (1), 体育动态 (1) — note: only 3 categories shown, but the 6-card grid has all 6.
+
+## Image Loading — Triple-Redundancy (added 2026-07-20 12:00)
+**Root cause of "no images" on 7/20:**
+1. CSS `.card-image img { opacity: 0 }` + JS `load` event flakiness
+2. GitHub Pages CDN caches HTML for ~30s after `git push`
+3. `onerror="display:none"` hid broken images completely (silent failure)
+
+**Mandatory triple fix for ALL daily pages:**
+```html
+<!-- inline opacity:1 on every img tag, no onerror, no loading=lazy for hero imgs -->
+<div class="card-image"><img style="opacity:1" src="..." alt=""></div>
+```
+
+```css
+.card-image img { opacity: 1; transition: opacity 0.4s ease; }  /* default visible */
+.card-image img.is-loading { opacity: 0; }                       /* JS toggles this */
+```
+
+```js
+document.querySelectorAll('.card-image img').forEach(function(img) {
+  if (!img.complete || img.naturalWidth === 0) {
+    img.classList.add('is-loading');
+    img.addEventListener('load', function() {
+      img.classList.remove('is-loading');
+      img.classList.add('is-loaded');
+    });
+  } else { img.classList.add('is-loaded'); }
+});
+```
+
+**Rule of thumb for this project:** when a critical visual depends on CSS, **always add inline `style="..."` fallback**. GitHub Pages CDN may not reflect CSS-only fixes for 1-2 minutes.
 
 ## iMac Power Schedule
 - **开机**: 每天 6:40 AM (`wakepoweron` — 自动开机/唤醒)
