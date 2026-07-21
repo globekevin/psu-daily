@@ -665,10 +665,6 @@ def update_html_files(cards, edition_str):
     )
     daily = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', daily)
     daily = re.sub(
-        r'<div class="lead-cn">.*?</div>',
-        f'<div class="lead-cn">{lead_cn}</div>', daily, flags=re.DOTALL
-    )
-    daily = re.sub(
         r'<div class="lead-en">.*?</div>',
         f'<div class="lead-en">Today\'s Focus · {lead_en}</div>', daily, flags=re.DOTALL
     )
@@ -699,10 +695,6 @@ def update_html_files(cards, edition_str):
         f'\\1{TODAY_CN} {WEEKDAY}', index_html
     )
     index_html = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', index_html)
-    index_html = re.sub(
-        r'<div class="lead-cn">.*?</div>',
-        f'<div class="lead-cn">{lead_cn}</div>', index_html, flags=re.DOTALL
-    )
     index_html = re.sub(
         r'<div class="lead-en">.*?</div>',
         f'<div class="lead-en">Today\'s Focus · {lead_en}</div>', index_html, flags=re.DOTALL
