@@ -656,18 +656,14 @@ def update_html_files(cards, edition_str):
     # ── 1. Daily page: psu-news-{TODAY}.html ──
     daily = template
     daily = re.sub(
-        r'<title>宾州州立大学 Six A Day \| \d{4}年\d{1,2}月\d{1,2}日</title>',
-        f'<title>宾州州立大学 Six A Day | {TODAY_CN}</title>', daily
+        r'<title>宾州州立大学每日新闻 \| \d{4}年\d{1,2}月\d{1,2}日</title>',
+        f'<title>宾州州立大学每日新闻 | {TODAY_CN}</title>', daily
     )
     daily = re.sub(
         r'(id="todayDate">)\d{4}年\d{1,2}月\d{1,2}日 星期.',
         f'\\1{TODAY_CN} {WEEKDAY}', daily
     )
     daily = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', daily)
-    daily = re.sub(
-        r'<div class="lead-en">.*?</div>',
-        f'<div class="lead-en">Today\'s Focus · {lead_en}</div>', daily, flags=re.DOTALL
-    )
 
     # Replace news grid
     grid_start = daily.find('<div class="news-grid">')
@@ -687,18 +683,14 @@ def update_html_files(cards, edition_str):
     # ── 2. index.html ──
     index_html = template
     index_html = re.sub(
-        r'<title>宾州州立大学 Six A Day \| \d{4}年\d{1,2}月\d{1,2}日</title>',
-        f'<title>宾州州立大学 Six A Day | {TODAY_CN}</title>', index_html
+        r'<title>宾州州立大学每日新闻 \| \d{4}年\d{1,2}月\d{1,2}日</title>',
+        f'<title>宾州州立大学每日新闻 | {TODAY_CN}</title>', index_html
     )
     index_html = re.sub(
         r'(id="todayDate">)\d{4}年\d{1,2}月\d{1,2}日 星期.',
         f'\\1{TODAY_CN} {WEEKDAY}', index_html
     )
     index_html = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', index_html)
-    index_html = re.sub(
-        r'<div class="lead-en">.*?</div>',
-        f'<div class="lead-en">Today\'s Focus · {lead_en}</div>', index_html, flags=re.DOTALL
-    )
 
     grid_start = index_html.find('<div class="news-grid">')
     section_div = index_html.find('\n\n  <div class="section-divider"', grid_start)
