@@ -636,9 +636,6 @@ def build_card_html(card):
 {clean_summary}
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            {source_span}
-          </div>
           <div class="meta-right">
             <span class="card-date">{card["date_cn"]}</span>
           </div>
@@ -699,6 +696,7 @@ def update_html_files(cards, edition_str):
         last_close = before.rfind('</div>')
         if last_close != -1:
             daily = daily[:grid_start] + '<div class="news-grid">\n\n' + all_cards_html + '\n\n  </div>' + daily[last_close:]
+
 
     daily_path = os.path.join(BASE, f"psu-news-{TODAY}.html")
     with open(daily_path, "w", encoding="utf-8") as f:

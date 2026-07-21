@@ -287,7 +287,7 @@
   }
   .card-meta {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin-top: auto;
     padding-top: 16px;
@@ -295,18 +295,6 @@
     font-size: 12px;
     color: var(--psu-gray-dark);
   }
-  .source-badge {
-    background: var(--psu-navy);
-    color: var(--psu-white);
-    padding: 3px 10px;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  .source-badge.onward { background: #B8541C; }
-  .source-badge.collegian { background: #6B4F8E; }
-  .source-badge.psu { background: var(--psu-navy); }
   .card-date {
     color: var(--psu-gray-dark);
   }
@@ -633,7 +621,6 @@
     .card-image { max-height: 180px; }
     .card-summary { font-size: 15px; line-height: 1.7; margin-bottom: 12px; }
     .card-meta { font-size: 11px; flex-wrap: wrap; gap: 6px; }
-    .source-badge { font-size: 9px; padding: 2px 7px; }
     .card-link { width: 100%; text-align: center; padding: 10px; font-size: 13px; }
     /* Stats */
     .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; }
@@ -770,7 +757,6 @@
     /* Bigger tap targets on touch devices */
     .toc-inner a { min-height: 44px; display: inline-flex; align-items: center; }
     .card-link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
-    .source-badge { min-height: 32px; display: inline-flex; align-items: center; }
   }
 
   /* ============================================================
@@ -834,7 +820,6 @@
     .card-summary { color: #d0d0d0; }
     .card-summary strong { color: #ffffff !important; }
     .card-meta { border-top-color: #2a2a2a; color: #888; }
-    .source-badge { background: rgba(150,190,230,0.15) !important; color: #96BEE6 !important; }
     .card-link {
       background: rgba(150,190,230,0.1);
       color: #96BEE6;
@@ -946,9 +931,6 @@
 <strong>核心提炼：</strong>宾州州立大学社会科学研究所的社区参与研究、行动与合作单位近期授予六项种子基金，旨在支持跨学科的社区参与研究。此项资金将帮助建立或加强与社区合作伙伴的研究关系，促进公平合作。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="psu source-badge">Penn State News</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
@@ -968,9 +950,6 @@
 <strong>核心提炼：</strong>宾州州立大学阿尔图纳校区的哲学副教授<strong>布莱恩·奥尼希</strong>与英语及性别研究副教授<strong>杰夫·斯托亚诺夫</strong>发布了最新一期播客《恐怖与快乐》，专访恐怖作家<strong>乔什·汉森</strong>，探讨恐怖与快乐之间的关系。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="psu source-badge">Penn State News</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
@@ -990,9 +969,6 @@
 <strong>核心提炼：</strong><宾州州立大学校友<strong>帕特·洛夫图斯</strong>通过<strong>科科齐埃洛房地产创新研究所</strong>的未来创新者基金，捐赠5万美元并获得匹配支持，致力于推动学生实际问题解决能力。该基金支持跨学科、教授主导的项目，鼓励学生与行业合作解决现实挑战。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="psu source-badge">Penn State News</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
@@ -1012,9 +988,6 @@
 <strong>核心提炼：</strong><strong>宾州州立大学</strong>董事会在威廉斯波特的会议上批准了2027-28学年的预算方案，决定连续第七年<strong>提高学费</strong>、费用、住宿和餐饮价格。尽管州内本科生的学费保持不变，但州外本科生的学费将增加4%，州内研究生学费也有2%的涨幅。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="onward source-badge">Onward State</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
@@ -1034,9 +1007,6 @@
 <strong>核心提炼：</strong><strong>宾州州立大学</strong>的研究高级副校长<strong>安德鲁·里德</strong>在7月16日的董事会会议上强调，非STEM领域的研究对于技术的伦理与实用发展至关重要。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="psu source-badge">Penn State News</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
@@ -1056,9 +1026,6 @@
 <strong>核心提炼：</strong>宾州州立大学电气工程与计算机科学副教授<strong>Abhronil Sengupta</strong>被邀请参加2026年全国工程院<strong>Grainger Foundation</strong>工程前沿研讨会，时间为9月21日至24日，地点在德克萨斯大学奥斯汀分校。
         </p>
         <div class="card-meta">
-          <div class="meta-left">
-            <span class="psu source-badge">Penn State News</span>
-          </div>
           <div class="meta-right">
             <span class="card-date">2026年7月21日</span>
           </div>
