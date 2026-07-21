@@ -600,6 +600,10 @@ def build_card_html(card):
     else:
         img_block = ""
 
+    # Normalize summary: strip outer <span> wrappers, keep inner <strong>/<br> intact
+    clean_summary = re.sub(r'^\s*<span[^>]*>\s*', '', card["summary"])
+    clean_summary = re.sub(r'\s*</span>\s*$', '', clean_summary)
+
     return f'''        <!-- {card["category_cn"]} -->
     <article class="news-card" id="{card["id"]}">
       <span class="card-tag {card["tag_class"]}">{card["category_cn"]}</span>
@@ -608,7 +612,7 @@ def build_card_html(card):
         <div class="card-title-en">{card["title_en"]}</div>
         {img_block}
         <p class="card-summary">
-{card["summary"]}
+{clean_summary}
         </p>
         <div class="card-meta">
           <div class="meta-left">
