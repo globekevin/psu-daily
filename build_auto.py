@@ -316,12 +316,13 @@ def call_llm(article_title, article_content, category_name):
 TITLE_CN: <中文新闻标题，10-18字。要求：凝练、有新闻意境——参考《纽约时报》标题风格：用主动语态、用动词制造张力、避免堆砌名词、留给读者想象空间>
 TITLE_EN: <英文原标题>
 SUMMARY:
-<strong>核心提炼：</strong><一段中文新闻导语，140字左右。要求：
+<strong>核心提炼：</strong><一段中文新闻导语。要求（这是硬性约束，违反即不合格）：
+- 全文连标点在内**严格控制在130-150字之间**，不得超过150字（数清楚后再输出）
 - 模仿《纽约时报》导语风格：开门见山，用最精炼的句子交代5W1H（谁、发生了什么、何时、何地、为什么重要）
 - 只写一段，不分段。首句就抛出最有新闻价值的事实
 - 用<strong>标签加粗2-3处关键信息（人名、数据、机构名）
 - 如需补充美国大学文化背景，融入句中而非单独解释
-- 不要用markdown格式，只输出纯HTML片段（p, strong, br标签）>
+- 不要用markdown格式，只输出纯HTML片段（p, strong, br标签）
 
 【英文新闻内容】
 标题: {article_title}
@@ -379,6 +380,26 @@ SUMMARY:
 
         if "核心提炼" not in summary:
             summary = "<strong>核心提炼：</strong>" + summary
+
+        # ── Enforce 150-character hard limit on summary body ──
+        # Strip the leading <strong>核心提炼：</strong> tag to count pure body chars
+        body_match = re.match(r'^(<strong>核心提炼：</strong>)(.*)$', summary, re.DOTALL)
+        if body_match:
+            prefix, body = body_match.group(1), body_match.group(2)
+            body = body.strip()
+            if len(body) > 150:
+                log(f"  ⚠ Summary too long ({len(body)} chars), trimming to 150")
+                # Trim at the nearest sentence boundary
+                truncated = body[:150]
+                # Try to keep the last full stop for readability
+                for punct in ['。', '；', '，']:
+                    last = truncated.rfind(punct)
+                    if last > 80:  # Don't cut too aggressively
+                        truncated = truncated[:last + 1]
+                        break
+                summary = prefix + truncated
+            else:
+                log(f"  ✓ Summary length OK ({len(body)} chars)")
 
         return {"title_cn": title_cn, "title_en": title_en, "summary": summary}
 
