@@ -286,15 +286,19 @@ def extract_og_image(url, timeout=10):
 # ═══════════════════════════════════════════════════
 
 def call_llm(article_title, article_content, category_name):
-    """Call GitHub Models (GPT-4o-mini) for Chinese summary. FREE tier included with GitHub."""
-    if not GITHUB_TOKEN:
-        log("⚠ GITHUB_TOKEN not set — using plain snippet as summary")
-        return {
-            "title_cn": article_title,
-            "title_en": article_title,
-            "summary": f'<strong>核心提炼：</strong>{article_content[:400]}'
-        }
+    """Call GitHub Models for Chinese summary — dual-model fallback strategy.
 
+    Strategy:
+      1. Try GPT-4o-mini first (fast, free tier)
+      2. If output is NOT Chinese → retry with Llama-3.1-70B (much better Chinese)
+      3. If both fail → return a clear fallback message (NOT raw English)
+    """
+    # ── Token check ──
+    if not GITHUB_TOKEN:
+        log("⚠ GITHUB_TOKEN not set — using placeholder summary")
+        return _fallback(article_title, article_content, "GITHUB_TOKEN 未配置")
+
+    # ── Prompt (shared across models) ──
     prompt = textwrap.dedent(f"""\
 你是一位宾州州立大学（Penn State University）新闻编辑，负责把英文新闻改写为中文日报摘要。
 
@@ -302,6 +306,11 @@ def call_llm(article_title, article_content, category_name):
 阅读以下英文新闻内容，生成符合格式的中文摘要。
 
 【新闻类别】{category_name}
+
+【重要——必须遵守】
+- TITLE_CN 和 SUMMARY 字段的正文部分必须全部使用中文书写，禁止出现英文。
+- TITLE_EN 字段才允许使用英文。
+- 如果你不确定某个术语的中文翻译，请使用中文描述替代。
 
 【输出格式——严格按以下结构生成，不要多也不要少】
 TITLE_CN: <精炼的中文标题，15-40字>
@@ -320,7 +329,9 @@ SUMMARY:
 
 请只输出上述格式的内容，不要有任何多余的解释。""")
 
-    try:
+    # ── Helpers ──
+    def _call_api(model_name):
+        """Single API call to GitHub Models."""
         resp = requests.post(
             GH_MODELS_URL,
             headers={
@@ -328,7 +339,7 @@ SUMMARY:
                 "Content-Type": "application/json",
             },
             json={
-                "model": "gpt-4o-mini",
+                "model": model_name,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.7,
                 "max_tokens": 2048,
@@ -336,40 +347,92 @@ SUMMARY:
             timeout=120,
         )
         resp.raise_for_status()
-        result = resp.json()
-        raw = result["choices"][0]["message"]["content"].strip()
+        return resp.json()["choices"][0]["message"]["content"].strip()
+
+    def _is_chinese(text):
+        """Rough check: Chinese characters ratio > 15% of (Chinese + Latin) chars."""
+        if not text:
+            return False
+        cn = sum(1 for c in text if '\u4e00' <= c <= '\u9fff')
+        alpha = sum(1 for c in text if c.isalpha() and c.isascii())
+        total = cn + alpha
+        return total > 0 and cn / total > 0.15
+
+    def _parse(raw):
+        """Parse LLM output into structured fields."""
+        title_cn = article_title
+        title_en = article_title
+        summary = article_content[:400]
+
+        m_tcn = re.search(r"TITLE_CN:\s*(.+?)(?:\n|$)", raw)
+        m_ten = re.search(r"TITLE_EN:\s*(.+?)(?:\n|$)", raw)
+        m_sum = re.search(r"SUMMARY:\s*\n?(.*)", raw, re.DOTALL)
+
+        if m_tcn:
+            title_cn = m_tcn.group(1).strip()
+        if m_ten:
+            title_en = m_ten.group(1).strip()
+        if m_sum:
+            summary = m_sum.group(1).strip()
+
+        title_cn = title_cn.replace('"', '\u201c').replace('"', '\u201d')
+
+        if "核心提炼" not in summary:
+            summary = "<strong>核心提炼：</strong>" + summary
+
+        return {"title_cn": title_cn, "title_en": title_en, "summary": summary}
+
+    # ── Step 1: Try GPT-4o-mini ──
+    try:
+        raw = _call_api("gpt-4o-mini")
+        result = _parse(raw)
+
+        if _is_chinese(result["summary"]) and _is_chinese(result["title_cn"]):
+            log("  ✓ GPT-4o-mini → Chinese OK")
+            return result
+
+        # Not Chinese — try Llama
+        log("  ⚠ GPT-4o-mini returned non-Chinese, switching to Llama-3.1-70B...")
     except Exception as e:
-        log(f"  ✗ LLM API error: {e}")
-        return {
-            "title_cn": article_title,
-            "title_en": article_title,
-            "summary": f'<strong>核心提炼：</strong>{article_content[:300]}'
-        }
+        status = getattr(e, 'response', None)
+        if status is not None:
+            log(f"  ✗ GPT-4o-mini API error HTTP {status.status_code}: {e}")
+        else:
+            log(f"  ✗ GPT-4o-mini API error: {e}")
 
-    # Parse response
-    title_cn = article_title
-    title_en = article_title
-    summary = article_content[:400]
+    # ── Step 2: Fall back to Llama-3.1-70B (much stronger at Chinese) ──
+    try:
+        raw2 = _call_api("Meta-Llama-3.1-70B-Instruct")
+        result2 = _parse(raw2)
 
-    m_tcn = re.search(r"TITLE_CN:\s*(.+?)(?:\n|$)", raw)
-    m_ten = re.search(r"TITLE_EN:\s*(.+?)(?:\n|$)", raw)
-    m_sum = re.search(r"SUMMARY:\s*\n?(.*)", raw, re.DOTALL)
+        if _is_chinese(result2["summary"]):
+            log("  ✓ Llama-3.1-70B → Chinese OK")
+            return result2
 
-    if m_tcn:
-        title_cn = m_tcn.group(1).strip()
-    if m_ten:
-        title_en = m_ten.group(1).strip()
-    if m_sum:
-        summary = m_sum.group(1).strip()
+        # Still not Chinese — return what we have with a warning
+        log("  ✗ Llama-3.1-70B also returned non-Chinese")
+        return _fallback(article_title, article_content, "AI 模型输出非中文")
+    except Exception as e:
+        status = getattr(e, 'response', None)
+        if status is not None:
+            log(f"  ✗ Llama-3.1-70B API error HTTP {status.status_code}")
+        else:
+            log(f"  ✗ Llama-3.1-70B API error: {e}")
+        return _fallback(article_title, article_content, "API 调用失败")
 
-    # Ensure title_cn quotes are safe for JSON
-    title_cn = title_cn.replace('"', '\u201c').replace('"', '\u201d')
 
-    if "核心提炼" not in summary:
-        summary = "<strong>核心提炼：</strong>" + summary
-
-    return {"title_cn": title_cn, "title_en": title_en, "summary": summary}
-
+def _fallback(article_title, article_content, reason):
+    """Generate a clean fallback summary when LLM is unavailable."""
+    snippet = article_content[:300].strip()
+    return {
+        "title_cn": article_title[:60],
+        "title_en": article_title[:120],
+        "summary": (
+            f"<strong>核心提炼：</strong>"
+            f"（{reason}，以下为原文片段供参考）<br><br>"
+            f"{snippet}"
+        )
+    }
 
 # ═══════════════════════════════════════════════════
 #  SOURCE DETECTION
@@ -761,7 +824,34 @@ def main():
     log("=" * 60)
     log("PSU Daily News Auto-Builder (v2 — Scrape + GitHub Models)")
     log(f"Date: {TODAY_CN} {WEEKDAY}")
-    log(f"GitHub Models: {'✓ configured' if GITHUB_TOKEN else '✗ MISSING'}")
+
+    # ── Token diagnostic: test if GITHUB_TOKEN can actually call GitHub Models ──
+    if GITHUB_TOKEN:
+        token_preview = GITHUB_TOKEN[:8] + "..." if len(GITHUB_TOKEN) > 8 else GITHUB_TOKEN
+        log(f"GitHub Models token: {token_preview} (len={len(GITHUB_TOKEN)})")
+        try:
+            test_resp = requests.post(
+                GH_MODELS_URL,
+                headers={
+                    "Authorization": f"Bearer {GITHUB_TOKEN}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": "gpt-4o-mini",
+                    "messages": [{"role": "user", "content": "Say OK"}],
+                    "max_tokens": 5,
+                },
+                timeout=30,
+            )
+            if test_resp.status_code == 200:
+                log("✓ GitHub Models API reachable — token OK")
+            else:
+                body = test_resp.text[:200]
+                log(f"✗ GitHub Models API returned HTTP {test_resp.status_code}: {body}")
+        except Exception as e:
+            log(f"✗ GitHub Models API unreachable: {e}")
+    else:
+        log("✗ GITHUB_TOKEN MISSING — LLM summaries disabled")
     log("=" * 60)
 
     cards, edition_str, history_data = process_all_categories()
