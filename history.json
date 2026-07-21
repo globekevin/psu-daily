@@ -1246,9 +1246,57 @@
       "source": "Penn State News",
       "date": "2026-07-20",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/ai-biomedical-research-4x3.jpg?h=84071268&amp;itok=pVs09mPm"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunity-library-congress-feels-perfect-hardworking",
+      "title_cn": "Opportunity at Library of Congress 'feels perfect' for hardw",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/paigerishelloc.jpg?h=b8daf442&amp;itok=x5-pSijE"
+    },
+    {
+      "url": "https://www.psu.edu/news/lehigh-valley/story/lehigh-valley-art-collection-joins-college-arts-and-architectures-digital",
+      "title_cn": "Lehigh Valley art collection joins College of Arts and Archi",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/archives_workbench.png?h=0bd91eda&amp;itok=Pjl_DGEY"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/registration-open-2026-penn-state-alumni-volunteer-awards-livestream",
+      "title_cn": "Registration open for the 2026 Penn State Alumni Volunteer A",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/volunteer-awards_news.jpg?h=76b83309&amp;itok=Hb9_RGX9"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/20/penn-state-baseball-loses-two-2026-signees-to-mlb-organizations/",
+      "title_cn": "Penn State Baseball Loses Two 2026 Signees To MLB Organizati",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-21",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260419280-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/happy-valley-penn-state-host-2026-state-games-america",
+      "title_cn": "Happy Valley, Penn State to host 2026 State Games of America",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/state-games.jpg?h=3e16b80a&amp;itok=3M1Zf8PS"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/severe-flooding-linked-increased-deaths-opioid-use-rural-appalachia",
+      "title_cn": "Severe flooding linked to increased deaths from opioid use i",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/cristina-anne-costello-on-unsplash.png?h=6eb229a4&amp;itok=SUMNgX2l"
     }
   ],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
