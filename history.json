@@ -1627,9 +1627,57 @@
       "source": "Penn State News",
       "date": "2026-07-21",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/lamaute-japan-2.jpg?h=84071268&amp;itok=ooZqo45x"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-students-earn-top-finishes-statewide-journalism",
+      "title_cn": "宾州州立大学学生在全州新闻竞赛中获佳绩",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/afterthewhistle.jpg?h=b8aae163&amp;itok=ID86qAzs"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-schools-landscape-architecture-department-adds-faculty",
+      "title_cn": "宾州州立大学迎新景观建筑教授",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/tangsu_psnews.jpg?h=c7ea0d58&amp;itok=4eW0BJt0"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "宾州州立大学校友捐资助力未来创新者",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/22/penn-state-hoops-working-on-building-chemistry-to-become-stronger-competitors/",
+      "title_cn": "宾州州立大学男篮重塑团队化学反应",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-22",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/Mens-Hoops-vs-Iowa-Cooper-Hill-2-28-26-18-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/board-trustees-hears-how-non-stem-research-improves-technology-well-being",
+      "title_cn": "非STEM研究推动技术与社会福祉进步",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/12/damen-green-line-opening-08.jpg?h=06ac0d8c&amp;itok=vUHK-xx8"
+    },
+    {
+      "url": "https://www.psu.edu/news/institute-computational-and-data-sciences/story/ai-hub-honors-14-individuals-penn-state-ai-awards",
+      "title_cn": "宾州州立大学表彰14位人工智能领域杰出贡献者",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/ai-awards-3.png?h=6eb229a4&amp;itok=lHmX8XbS"
     }
   ],
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
