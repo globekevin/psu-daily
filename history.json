@@ -1675,9 +1675,56 @@
       "source": "Penn State News",
       "date": "2026-07-22",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/ai-awards-3.png?h=6eb229a4&amp;itok=lHmX8XbS"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "贝利萨里奥学院学生获得全球实习机会",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/abington/story/abington-students-land-career-launching-art-debut-thanks-faculty-mentor",
+      "title_cn": "宾州州立大学学生艺术展迎职业启航",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/adubon-exhibit.jpg?h=f153e5d3&amp;itok=r-HuGj5Y"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "宾州州立大学校友投资未来创新者基金",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/23/former-penn-state-football-defensive-lineman-jordan-hill-named-director-of-penn-state-football-letterman-club/",
+      "title_cn": "乔丹·希尔担任宾州州立大学橄榄球校友会主任",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-23",
+      "image_url": "https://cdn.onwardstate.com/uploads/2021/11/FBvsMichiganNov13Brungo-51-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/eligible-faculty-staff-receive-annual-salary-increase-september-pay",
+      "title_cn": "宾州州立大学员工将获年度薪资增长",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/penn-state-awarded-20m-lead-nsf-programmable-cloud-laboratory",
+      "title_cn": "宾州州立大学获2000万美元推进可编程云实验室",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/07/old-main-summer-morning.jpg?h=9c0abf10&amp;itok=68DS5qKV"
     }
   ],
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
