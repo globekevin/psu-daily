@@ -1722,9 +1722,57 @@
       "source": "Penn State News",
       "date": "2026-07-23",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/07/old-main-summer-morning.jpg?h=9c0abf10&amp;itok=68DS5qKV"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "贝利萨里奥学院学生的全球实习之路",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-present-free-music-gardens-concert-sept-10",
+      "title_cn": "宾州州立大学音乐学院邀您共赏免费音乐会",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/h.o._smith_botanical_gardens_in_the_arboretum_at_penn_state.png?h=1a273285&amp;itok=dhKrJzqG"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "宾州州立大学校友资助未来创新者",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/24/penn-state-football-receiving-immense-doubt-from-mgm-bettors/",
+      "title_cn": "宾州州立大学足球队面临巨大的怀疑",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-24",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/10/penn-state-football-vs-iowa-by-ericka-apolskis-83-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-college/story/penn-college-introduces-online-hvac-technician-engineer-pathway",
+      "title_cn": "宾州学院推出在线HVAC工程师学位路径",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/hvac-25_091025_70615.jpg?h=8b7966f8&amp;itok=yvIo5ocZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/college-ag-sciences-student-receives-future-leaders-fellow-scholarship",
+      "title_cn": "宾州州立大学学生获未来领袖奖学金",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/graceheader.png?h=f3f0a9e5&amp;itok=N_WGO582"
     }
   ],
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
