@@ -1864,9 +1864,55 @@
       "source": "Penn State News",
       "date": "2026-07-26",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/wearable-antenna.jpg?h=6a4eee1a&amp;itok=zboQv3Dx"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "贝利萨里奥学院学生开启全球实习之路",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/behrend/story/behrend-alumna-publishes-first-half-two-book-series",
+      "title_cn": "毕业生长篇小说首发引关注",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/alexandria-long.jpg?h=9c9ff8c9&amp;itok=5o8469vY"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "宾州州立大学校友助力未来创新者",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/07/former-penn-state-dt-signs-with-arizona-cardinals/",
+      "title_cn": "前宾州州立大学球员加盟亚利桑那红雀队",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/town-hall-discusses-research-security-global-collaboration-shifting-world",
+      "title_cn": "宾州州立大学研讨会聚焦研究安全与国际合作",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/health-and-human-development/story/benefits-middle-school-program-trickle-down-next-generation",
+      "title_cn": "中学项目的益处惠及下一代",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/3-generations-2022871084-ozgurcankaya.jpg?h=b1a91ebe&amp;itok=ASK2w5PC"
     }
   ],
-  "last_updated": "2026-07-26",
+  "last_updated": "2026-07-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
