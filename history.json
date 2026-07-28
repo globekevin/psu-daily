@@ -1910,9 +1910,57 @@
       "source": "Penn State News",
       "date": "2026-07-27",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/3-generations-2022871084-ozgurcankaya.jpg?h=b1a91ebe&amp;itok=ASK2w5PC"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "本科生实习助力全球传媒生涯",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-theatre-alumna-builds-community-through-senior-living-drama-club",
+      "title_cn": "老年剧团：凯瑟琳·贝克的社区建设之路",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/beck_2026.jpg?h=b7d7b70e&amp;itok=FpVdhwrt"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/rebecca-moran-named-altoonas-director-development-and-alumni-relations",
+      "title_cn": "莉贝卡·莫兰担任阿尔图纳校区校友事务主任",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/rebecca-moran.jpg?h=05074998&amp;itok=5OST0ry2"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/28/penn-state-football-jersey-sponsor-patch-appears-imminent/",
+      "title_cn": "宾州州立大学足球队或将增设赞助补丁",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-28",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/07/Penn-State-2026-adidas-football-uniform-by-Julia-Romankow-2-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/behrend/story/new-members-join-board-directors-behrends-council-fellows",
+      "title_cn": "贝伦德学院新董事会成员任命",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/psb-beauty-shots-first-round_014.jpg?h=35dda18a&amp;itok=RHK19oxU"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/penn-state-researchers-evaluating-biomass-gasoline-startup-northern-pa",
+      "title_cn": "宾州州立大学评估生物质转汽油创业项目",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/pile-of-biomass-low-rez-pandolfi.jpg?h=47850bc0&amp;itok=juaIRkvZ"
     }
   ],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
