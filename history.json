@@ -1958,9 +1958,56 @@
       "source": "Penn State News",
       "date": "2026-07-28",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/pile-of-biomass-low-rez-pandolfi.jpg?h=47850bc0&amp;itok=juaIRkvZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "贝利萨里奥学院学生收获全球实习机会",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-07-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-professor-publishes-collected-works-poetry",
+      "title_cn": "威斯利教授诗集发布，展现非洲与美国的对话",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/03/Patricia-Jabbeh-Wesley.jpg?h=78bb0bac&amp;itok=AM77VTjv"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/rebecca-moran-named-altoonas-director-development-and-alumni-relations",
+      "title_cn": "莫兰出任宾州州立大学阿尔图纳校区发展与校友关系主任",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-07-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/rebecca-moran.jpg?h=05074998&amp;itok=5OST0ry2"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/07/penn-state-football-all-105-kicker-of-the-future-matthew-parker/",
+      "title_cn": "宾州州立大学新星踢球手帕克崭露头角",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://www.psu.edu/news/hershey/story/penn-state-health-celebrates-naming-golisano-childrens-hospital",
+      "title_cn": "宾州州立大学庆祝戈利萨诺儿童医院命名",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/chi-jp-072426-golisano-naming-7_1200x900.jpg?h=ab93c069&amp;itok=4wIQNc1A"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/drone-cameras-can-measure-pigments-indicating-surface-health-drylands-soils",
+      "title_cn": "无人机摄像头助力干旱土壤健康监测",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/researcher-with-drone-low-rez.jpg?h=fe59f8bd&amp;itok=p3TDei1A"
     }
   ],
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
