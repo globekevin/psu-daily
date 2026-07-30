@@ -558,8 +558,8 @@ def process_all_categories():
                 break
 
         if not chosen:
-            log(f"  ⚠ All candidates are duplicates, using first anyway")
-            chosen = candidates[0]
+            log(f"  ⚠ All candidates are duplicates, skipping [{cat_name}]")
+            continue
 
         log(f"  ✓ Selected: {chosen['title'][:80]}")
         log(f"    URL: {chosen['url'][:80]}")
@@ -686,6 +686,7 @@ def update_html_files(cards, edition_str):
         f'\\1{TODAY_CN} {WEEKDAY}', daily
     )
     daily = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', daily)
+    daily = re.sub(r'(<div class="stat-num">)\d+(</div>)', f'\\1{len(cards)}\\2', daily, count=1)
 
     # Replace news grid
     grid_start = daily.find('<div class="news-grid">')
@@ -714,6 +715,7 @@ def update_html_files(cards, edition_str):
         f'\\1{TODAY_CN} {WEEKDAY}', index_html
     )
     index_html = re.sub(r'第\s*\d+\s*期', f'第{edition_str}期', index_html)
+    index_html = re.sub(r'(<div class="stat-num">)\d+(</div>)', f'\\1{len(cards)}\\2', index_html, count=1)
 
     grid_start = index_html.find('<div class="news-grid">')
     section_div = index_html.find('\n\n  <div class="section-divider"', grid_start)
