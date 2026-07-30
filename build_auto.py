@@ -501,6 +501,7 @@ def process_all_categories():
 
     # Build a pool: all scraped + RSS articles, indexed by keyword
     all_pool = []
+    cat_candidates = {}   # cache all candidates per category for fill-up
 
     for cat_name in CATEGORY_ORDER:
         meta = CATEGORY_META[cat_name]
@@ -550,6 +551,9 @@ def process_all_categories():
 
         log(f"  Total candidates: {len(candidates)}")
 
+        # Cache for fill-up phase
+        cat_candidates[cat_name] = list(candidates)
+
         # ── Pick first non-duplicate ──
         chosen = None
         for c in candidates:
@@ -558,7 +562,7 @@ def process_all_categories():
                 break
 
         if not chosen:
-            log(f"  ⚠ All candidates are duplicates, skipping [{cat_name}]")
+            log(f"  ⚠ All candidates are duplicates, skipping [{cat_name}] — will fill from other categories")
             continue
 
         log(f"  ✓ Selected: {chosen['title'][:80]}")
@@ -601,6 +605,65 @@ def process_all_categories():
 
         # Mark URL as used for this run
         known_urls.add(chosen["url"])
+
+    # ── Fill-up: if some categories were skipped, pick extra from others ──
+    while len(cards) < 6:
+        added_this_round = False
+        for cat_name in CATEGORY_ORDER:
+            if len(cards) >= 6:
+                break
+            meta = CATEGORY_META[cat_name]
+            reserved = cat_candidates.get(cat_name, [])
+            chosen = None
+            for c in reserved:
+                if not is_dup(c["url"], known_urls):
+                    chosen = c
+                    break
+            if not chosen:
+                continue
+
+            log(f"\n{'─'*50}")
+            log(f"🔄 Fill-up from [{cat_name}]: {chosen['title'][:80]}")
+
+            content = fetch_content(chosen["url"])
+            if not content:
+                content = chosen.get("snippet", chosen["title"])
+                log(f"  Using snippet as content ({len(content)} chars)")
+
+            log(f"  🤖 Calling GitHub Models (GPT-4o-mini)...")
+            ds = call_llm(chosen["title"], content, cat_name)
+
+            image_url = extract_og_image(chosen["url"])
+            if image_url:
+                log(f"  🖼 og:image: {image_url[:70]}...")
+
+            src_label, src_class = detect_source(chosen["url"], meta)
+
+            card = {
+                "id": meta["id"],
+                "category_cn": cat_name,
+                "tag_class": meta["tag"],
+                "title_cn": ds["title_cn"],
+                "title_en": ds["title_en"],
+                "image": image_url or "",
+                "summary": ds["summary"],
+                "source": src_label,
+                "source_class": src_class,
+                "date_cn": TODAY_CN,
+                "url": chosen["url"],
+                "cat_id": meta["cat_id"],
+            }
+            cards.append(card)
+            known_urls.add(chosen["url"])
+            added_this_round = True
+
+        if not added_this_round:
+            log(f"\n⚠ Fill-up exhausted all candidates, stopping at {len(cards)} cards")
+            break
+
+    # ── Re-assign sequential IDs to avoid duplicates ──
+    for i, card in enumerate(cards):
+        card["id"] = f"news-{i+1}"
 
     return cards, edition_str, history_data
 
