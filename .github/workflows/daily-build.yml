@@ -7,8 +7,7 @@ on:
 
 permissions:
   contents: write
-  id-token: write
-  models: read
+ 
 
 jobs:
   build:
@@ -32,7 +31,7 @@ jobs:
       - name: Build daily news
         run: python build_auto.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: Commit and push
         run: |
