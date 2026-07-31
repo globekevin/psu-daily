@@ -261,7 +261,13 @@ def fetch_content(url, timeout=12):
 # ═══════════════════════════════════════════════════
 
 def extract_og_image(url, timeout=10):
-    """Extract og:image from article page."""
+    """Extract og:image from article page.
+
+    直接信任页面里的 og:image，不再做探图。
+    NSN/WP-VIP 图床对 HEAD/Range/GET 都会触发 429/403 限流，
+    强行验证反而把可用图也过滤掉。
+    浏览器本身有 fallback，破图不影响整体布局。
+    """
     try:
         resp = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
         resp.raise_for_status()
@@ -270,21 +276,7 @@ def extract_og_image(url, timeout=10):
             resp.text, re.IGNORECASE
         )
         if match:
-            img = match.group(1)
-            # 探图改用 Range 1 字节：NSN/WP-VIP 对 HEAD 和完整 GET 返 429
-            # 但对 Range 请求正常返 206，能穿透限流
-            try:
-                ir = requests.get(
-                    img,
-                    headers={**HEADERS, "Range": "bytes=0-0"},
-                    timeout=8,
-                    stream=True,
-                )
-                # 200 (full ok) 或 206 (partial ok) 都算通过
-                if ir.status_code in (200, 206):
-                    return img
-            except Exception:
-                pass
+            return match.group(1)
         return None
     except Exception:
         return None
