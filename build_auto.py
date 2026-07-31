@@ -13,7 +13,7 @@ Required env vars:
   DEEPSEEK_API_KEY  — DeepSeek API 密钥，在 platform.deepseek.com 获取
 """
 
-import os, sys, json, re, datetime, time, textwrap, hashlib, traceback
+import os, sys, json, re, datetime, textwrap
 import html as html_module
 from datetime import date, timedelta
 import requests
@@ -79,8 +79,7 @@ SPORTS_RSS_FEEDS = [
     "https://onwardstate.com/feed/",
 ]
 
-# Also scrape Onward State for general campus news (补演出/校友)
-ONWARD_RSS = "https://onwardstate.com/feed/"
+# Onward State articles come from SPORTS_RSS_FEEDS above (no separate fetch needed)
 
 CATEGORY_META = {
     "传媒学院": {"id": "news-1", "tag": "tag-comm", "cat_id": "cat-传媒学院", "source": "Penn State News", "source_class": "psu"},
@@ -483,8 +482,7 @@ def process_all_categories():
         log(f"  {feed_url.split('/')[2]}: {len(items)} articles")
         sports_articles.extend(items)
 
-    onward_articles = fetch_rss(ONWARD_RSS)
-    log(f"  onwardstate.com: {len(onward_articles)} articles")
+    onward_articles = [a for a in sports_articles if "onwardstate.com" in a.get("url", "")]
 
     # Build a pool: all scraped + RSS articles, indexed by keyword
     all_pool = []
@@ -660,12 +658,6 @@ def process_all_categories():
 # ═══════════════════════════════════════════════════
 
 def build_card_html(card):
-    source_class = card.get("source_class", "")
-    if source_class:
-        source_span = f'<span class="{source_class} source-badge">{card["source"]}</span>'
-    else:
-        source_span = f'<span class="source-badge">{card["source"]}</span>'
-
     if card.get("image"):
         img_block = f'<div class="card-image"><img style="opacity:1" src="{card["image"]}" alt="" loading="lazy"></div>'
     else:
@@ -868,11 +860,6 @@ def update_html_files(cards, edition_str):
     with open(hist_path, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
     log(f"[OK] history.json ({len(history['shown_news_history'])} total)")
-
-    # Verify
-    with open(hist_path, "r", encoding="utf-8") as f:
-        json.load(f)
-    log(f"[OK] history.json valid JSON")
 
 
 # ═══════════════════════════════════════════════════
