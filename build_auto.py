@@ -4,13 +4,13 @@ PSU Daily News Auto-Builder for GitHub Actions
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 psu.edu/news 直接抓取 → 按分类精准获取新闻
 Onward State + NSN RSS  → 补充体育/校园动态
-GitHub Models (GPT-4o-mini) → 免费中文摘要
+DeepSeek API (deepseek-chat) → 中文摘要
 
-Zero外部API依赖 — 只需要 GitHub Actions 自带的 GITHUB_TOKEN
+需要 DEEPSEEK_API_KEY（在 GitHub Secrets 中配置）
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Required env vars:
-  GITHUB_TOKEN  — GitHub Actions 自动注入，用于 GitHub Models API
+  DEEPSEEK_API_KEY  — DeepSeek API 密钥，在 platform.deepseek.com 获取
 """
 
 import os, sys, json, re, datetime, time, textwrap, hashlib, traceback
@@ -21,8 +21,9 @@ import requests
 #  CONFIGURATION
 # ═══════════════════════════════════════════════════
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GH_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
+DEEPSEEK_MODEL = "deepseek-chat"  # DeepSeek-V3, 最佳性价比
 
 # US Eastern time (Penn State's timezone)
 ET = datetime.timezone(datetime.timedelta(hours=-4))
@@ -282,23 +283,20 @@ def extract_og_image(url, timeout=10):
 
 
 # ═══════════════════════════════════════════════════
-#  GITHUB MODELS API (GPT-4o-mini, FREE)
+#  DEEPSEEK API (deepseek-chat / DeepSeek-V3)
 # ═══════════════════════════════════════════════════
 
 def call_llm(article_title, article_content, category_name):
-    """Call GitHub Models for Chinese summary — dual-model fallback strategy.
+    """Call DeepSeek API for Chinese summary.
 
-    Strategy:
-      1. Try GPT-4o-mini first (fast, free tier)
-      2. If output is NOT Chinese → retry with Llama-3.1-70B (much better Chinese)
-      3. If both fail → return a clear fallback message (NOT raw English)
+    DeepSeek-V3 is natively excellent at Chinese — no fallback needed.
     """
     # ── Token check ──
-    if not GITHUB_TOKEN:
-        log("⚠ GITHUB_TOKEN not set — using placeholder summary")
-        return _fallback(article_title, article_content, "GITHUB_TOKEN 未配置")
+    if not DEEPSEEK_API_KEY:
+        log("⚠ DEEPSEEK_API_KEY not set — using placeholder summary")
+        return _fallback(article_title, article_content, "DEEPSEEK_API_KEY 未配置")
 
-    # ── Prompt (shared across models) ──
+    # ── Prompt ──
     prompt = textwrap.dedent(f"""\
 你是一位宾州州立大学（Penn State University）新闻编辑，负责把英文新闻改写为中文日报摘要。
 
@@ -331,25 +329,6 @@ SUMMARY:
 请只输出上述格式的内容，不要有任何多余的解释。""")
 
     # ── Helpers ──
-    def _call_api(model_name):
-        """Single API call to GitHub Models."""
-        resp = requests.post(
-            GH_MODELS_URL,
-            headers={
-                "Authorization": f"Bearer {GITHUB_TOKEN}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": model_name,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.7,
-                "max_tokens": 2048,
-            },
-            timeout=120,
-        )
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip()
-
     def _is_chinese(text):
         """Rough check: Chinese characters ratio > 15% of (Chinese + Latin) chars."""
         if not text:
@@ -381,20 +360,17 @@ SUMMARY:
         if "核心提炼" not in summary:
             summary = "<strong>核心提炼：</strong>" + summary
 
-        # ── Enforce 150-character hard limit on summary body ──
-        # Strip the leading <strong>核心提炼：</strong> tag to count pure body chars
+        # ── Enforce 140-character hard limit on summary body ──
         body_match = re.match(r'^(<strong>核心提炼：</strong>)(.*)$', summary, re.DOTALL)
         if body_match:
             prefix, body = body_match.group(1), body_match.group(2)
             body = body.strip()
             if len(body) > 140:
                 log(f"  ⚠ Summary too long ({len(body)} chars), trimming to 140")
-                # Trim at the nearest sentence boundary
                 truncated = body[:140]
-                # Try to keep the last full stop for readability
                 for punct in ['。', '；', '，']:
                     last = truncated.rfind(punct)
-                    if last > 80:  # Don't cut too aggressively
+                    if last > 80:
                         truncated = truncated[:last + 1]
                         break
                 summary = prefix + truncated
@@ -403,43 +379,39 @@ SUMMARY:
 
         return {"title_cn": title_cn, "title_en": title_en, "summary": summary}
 
-    # ── Step 1: Try GPT-4o-mini ──
+    # ── Call DeepSeek ──
     try:
-        raw = _call_api("gpt-4o-mini")
+        resp = requests.post(
+            DEEPSEEK_URL,
+            headers={
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": DEEPSEEK_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7,
+                "max_tokens": 2048,
+            },
+            timeout=120,
+        )
+        resp.raise_for_status()
+        raw = resp.json()["choices"][0]["message"]["content"].strip()
         result = _parse(raw)
 
         if _is_chinese(result["summary"]) and _is_chinese(result["title_cn"]):
-            log("  ✓ GPT-4o-mini → Chinese OK")
+            log("  ✓ DeepSeek → Chinese OK")
             return result
 
-        # Not Chinese — try Llama
-        log("  ⚠ GPT-4o-mini returned non-Chinese, switching to Llama-3.1-70B...")
-    except Exception as e:
-        status = getattr(e, 'response', None)
-        if status is not None:
-            log(f"  ✗ GPT-4o-mini API error HTTP {status.status_code}: {e}")
-        else:
-            log(f"  ✗ GPT-4o-mini API error: {e}")
-
-    # ── Step 2: Fall back to Llama-3.1-70B (much stronger at Chinese) ──
-    try:
-        raw2 = _call_api("Meta-Llama-3.1-70B-Instruct")
-        result2 = _parse(raw2)
-
-        if _is_chinese(result2["summary"]):
-            log("  ✓ Llama-3.1-70B → Chinese OK")
-            return result2
-
-        # Still not Chinese — return what we have with a warning
-        log("  ✗ Llama-3.1-70B also returned non-Chinese")
+        log("  ⚠ DeepSeek returned non-Chinese output")
         return _fallback(article_title, article_content, "AI 模型输出非中文")
     except Exception as e:
         status = getattr(e, 'response', None)
         if status is not None:
-            log(f"  ✗ Llama-3.1-70B API error HTTP {status.status_code}")
+            log(f"  ✗ DeepSeek API error HTTP {status.status_code}: {e}")
         else:
-            log(f"  ✗ Llama-3.1-70B API error: {e}")
-        return _fallback(article_title, article_content, "API 调用失败")
+            log(f"  ✗ DeepSeek API error: {e}")
+        return _fallback(article_title, article_content, f"API 调用失败 ({str(e)[:80]})")
 
 
 def _fallback(article_title, article_content, reason):
@@ -484,7 +456,7 @@ def process_all_categories():
     history_data, known_urls, edition_num = load_history()
     edition_str = str(edition_num)
     log(f"Edition #{edition_str} | {TODAY_CN} {WEEKDAY} | {len(known_urls)} known URLs")
-    log(f"GitHub Models: {'✓ configured' if GITHUB_TOKEN else '✗ MISSING (dry-run)'}")
+    log(f"DeepSeek API: {'✓ configured' if DEEPSEEK_API_KEY else '✗ MISSING (dry-run)'}")
 
     cards = []
 
@@ -575,7 +547,7 @@ def process_all_categories():
             log(f"  Using snippet as content ({len(content)} chars)")
 
         # ── LLM summary ──
-        log(f"  🤖 Calling GitHub Models (GPT-4o-mini)...")
+        log(f"  🤖 Calling DeepSeek API...")
         ds = call_llm(chosen["title"], content, cat_name)
 
         # ── og:image ──
@@ -630,7 +602,7 @@ def process_all_categories():
                 content = chosen.get("snippet", chosen["title"])
                 log(f"  Using snippet as content ({len(content)} chars)")
 
-            log(f"  🤖 Calling GitHub Models (GPT-4o-mini)...")
+            log(f"  🤖 Calling DeepSeek API...")
             ds = call_llm(chosen["title"], content, cat_name)
 
             image_url = extract_og_image(chosen["url"])
@@ -894,36 +866,36 @@ def update_html_files(cards, edition_str):
 
 def main():
     log("=" * 60)
-    log("PSU Daily News Auto-Builder (v2 — Scrape + GitHub Models)")
+    log("PSU Daily News Auto-Builder (v3 — Scrape + DeepSeek API)")
     log(f"Date: {TODAY_CN} {WEEKDAY}")
 
-    # ── Token diagnostic: test if GITHUB_TOKEN can actually call GitHub Models ──
-    if GITHUB_TOKEN:
-        token_preview = GITHUB_TOKEN[:8] + "..." if len(GITHUB_TOKEN) > 8 else GITHUB_TOKEN
-        log(f"GitHub Models token: {token_preview} (len={len(GITHUB_TOKEN)})")
+    # ── Token diagnostic: test DeepSeek API connectivity ──
+    if DEEPSEEK_API_KEY:
+        token_preview = DEEPSEEK_API_KEY[:8] + "..." if len(DEEPSEEK_API_KEY) > 8 else DEEPSEEK_API_KEY
+        log(f"DeepSeek API key: {token_preview} (len={len(DEEPSEEK_API_KEY)})")
         try:
             test_resp = requests.post(
-                GH_MODELS_URL,
+                DEEPSEEK_URL,
                 headers={
-                    "Authorization": f"Bearer {GITHUB_TOKEN}",
+                    "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "gpt-4o-mini",
+                    "model": DEEPSEEK_MODEL,
                     "messages": [{"role": "user", "content": "Say OK"}],
                     "max_tokens": 5,
                 },
                 timeout=30,
             )
             if test_resp.status_code == 200:
-                log("✓ GitHub Models API reachable — token OK")
+                log("✓ DeepSeek API reachable — key OK")
             else:
                 body = test_resp.text[:200]
-                log(f"✗ GitHub Models API returned HTTP {test_resp.status_code}: {body}")
+                log(f"✗ DeepSeek API returned HTTP {test_resp.status_code}: {body}")
         except Exception as e:
-            log(f"✗ GitHub Models API unreachable: {e}")
+            log(f"✗ DeepSeek API unreachable: {e}")
     else:
-        log("✗ GITHUB_TOKEN MISSING — LLM summaries disabled")
+        log("✗ DEEPSEEK_API_KEY MISSING — LLM summaries disabled")
     log("=" * 60)
 
     cards, edition_str, history_data = process_all_categories()
