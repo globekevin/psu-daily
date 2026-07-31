@@ -15,6 +15,7 @@ Required env vars:
 
 import os, sys, json, re, datetime, time, textwrap, hashlib, traceback
 import html as html_module
+from datetime import date, timedelta
 import requests
 
 # ═══════════════════════════════════════════════════
@@ -24,6 +25,9 @@ import requests
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"  # DeepSeek-V3, 最佳性价比
+
+# 去重窗口：只把近 N 天的文章视为"已推过"，避免 history 越长越无新文可推
+DEDUP_WINDOW = 14
 
 # US Eastern time (Penn State's timezone)
 ET = datetime.timezone(datetime.timedelta(hours=-4))
@@ -65,7 +69,7 @@ CATEGORY_SCRAPE = {
     "科研成果": [
         "https://www.psu.edu/news/research/",
         "https://www.psu.edu/news/engineering/",
-        "https://www.psu.edu/news/science-and-technology/",
+        "https://www.psu.edu/news/agricultural-sciences/",
     ],
 }
 
@@ -98,17 +102,28 @@ def log(msg):
     print(f"[{ts}] {msg}", flush=True)
 
 def load_history():
+    """Load history, but only return URLs from the last DEDUP_WINDOW days for dedup.
+
+    全量 history 还保留用于 build_index/archive，但去重只看近 14 天，
+    避免 history 越长越没新文章可推。
+    """
     path = os.path.join(BASE, "history.json")
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    urls = set()
     dates = set()
+    recent_urls = set()
+    cutoff = date.today() - timedelta(days=DEDUP_WINDOW)
     for e in data.get("shown_news_history", []):
-        urls.add(e.get("url", ""))
         if e.get("date"):
             dates.add(e["date"])
+            try:
+                d = date.fromisoformat(e["date"])
+                if d >= cutoff:
+                    recent_urls.add(e.get("url", ""))
+            except Exception:
+                pass
     edition = len(dates) + 1
-    return data, urls, edition
+    return data, recent_urls, edition
 
 def is_dup(url, known_urls):
     return url in known_urls
