@@ -1,0 +1,37 @@
+<!-- 文章详情页 — 点击卡片后展示更多信息 -->
+<view class="detail-page">
+  <!-- 返回按钮 -->
+  <view class="detail-header">
+    <text class="back-btn" bindtap="goBack">← 返回</text>
+    <text class="detail-category {{tag_class}}">{{category}}</text>
+  </view>
+
+  <!-- 标题 -->
+  <view class="detail-title-section">
+    <text class="detail-title">{{titleCN}}</text>
+    <text class="detail-title-en">{{titleEN}}</text>
+  </view>
+
+  <!-- 配图 -->
+  <image
+    wx:if="{{image}}"
+    class="detail-image"
+    src="{{image}}"
+    mode="aspectFill"
+    show-menu-by-longpress
+  />
+
+  <!-- 摘要 -->
+  <view class="detail-summary">
+    <rich-text nodes="{{summaryNodes}}"></rich-text>
+  </view>
+
+  <!-- 来源 & 日期 -->
+  <view class="detail-meta">
+    <text class="meta-source">{{source}}</text>
+    <text class="meta-date">{{dateCN}}</text>
+  </view>
+
+  <!-- 打开原文按钮 -->
+  <button class="open-btn" bindtap="openOriginal">🔗 在浏览器中查看原文</button>
+</view>

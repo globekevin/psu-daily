@@ -1,0 +1,64 @@
+<!-- PSU Daily News 首页 — 6 卡片新闻列表 -->
+<view class="page">
+  <!-- 顶部 -->
+  <view class="hero">
+    <text class="hero-title">宾州州立大学</text>
+    <text class="hero-sub">每日新闻</text>
+    <view class="hero-meta">
+      <text class="hero-date">{{dateCN}} · {{weekday}}</text>
+      <text class="hero-edition">第{{edition}}期</text>
+    </view>
+  </view>
+
+  <!-- 加载中 -->
+  <view class="loading" wx:if="{{loading}}">
+    <view class="loading-spinner"></view>
+    <text>正在加载...</text>
+  </view>
+
+  <!-- 新闻卡片列表 -->
+  <scroll-view scroll-y class="card-list" wx:else>
+    <view
+      class="news-card"
+      wx:for="{{cards}}"
+      wx:key="id"
+      bindtap="onTapCard"
+      data-index="{{index}}"
+      data-url="{{item.url}}"
+    >
+      <!-- 分类标签 -->
+      <view class="card-tag {{item.tag_class}}">{{item.category_cn}}</view>
+
+      <!-- 标题 -->
+      <view class="card-body">
+        <text class="card-title">{{item.title_cn}}</text>
+        <text class="card-title-en">{{item.title_en}}</text>
+      </view>
+
+      <!-- 配图 -->
+      <image
+        wx:if="{{item.image}}"
+        class="card-image"
+        src="{{item.image}}"
+        mode="aspectFill"
+        lazy-load
+      />
+
+      <!-- 中文摘要 -->
+      <view class="card-summary">
+        <rich-text nodes="{{item.summaryNodes}}"></rich-text>
+      </view>
+
+      <!-- 底部元信息 -->
+      <view class="card-footer">
+        <text class="card-source">{{item.source}}</text>
+        <text class="card-arrow">查看原文 →</text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 底部提示 -->
+  <view class="footer" wx:if="{{!loading}}">
+    <text class="footer-text">数据来源: Penn State News · Nittany Sports Now · Onward State</text>
+  </view>
+</view>

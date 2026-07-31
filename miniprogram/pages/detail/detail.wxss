@@ -1,0 +1,72 @@
+/* ── 文章详情页样式 ── */
+.detail-page {
+  background: #fff;
+  min-height: 100vh;
+  padding-bottom: 80rpx;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  padding: 24rpx 32rpx;
+  border-bottom: 1rpx solid #F0F0F0;
+  gap: 16rpx;
+}
+.back-btn {
+  font-size: 28rpx;
+  color: #1E3A5F;
+  font-weight: 600;
+}
+.detail-category {
+  font-size: 20rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 8rpx;
+}
+
+.detail-title-section {
+  padding: 40rpx 32rpx 24rpx;
+}
+.detail-title {
+  display: block;
+  font-size: 38rpx;
+  font-weight: 700;
+  color: #1A1A2E;
+  line-height: 1.5;
+}
+.detail-title-en {
+  display: block;
+  font-size: 26rpx;
+  color: #888;
+  margin-top: 12rpx;
+}
+
+.detail-image {
+  width: 100%;
+  height: 450rpx;
+  background: #F5F5F5;
+}
+
+.detail-summary {
+  padding: 32rpx;
+  font-size: 28rpx;
+  color: #444;
+  line-height: 1.8;
+}
+
+.detail-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32rpx 32rpx;
+  border-bottom: 1rpx solid #F0F0F0;
+}
+.meta-source { font-size: 24rpx; color: #999; }
+.meta-date   { font-size: 24rpx; color: #999; }
+
+.open-btn {
+  margin: 48rpx 32rpx;
+  background: #1E3A5F;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 12rpx;
+  padding: 24rpx 0;
+}

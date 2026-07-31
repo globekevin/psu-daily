@@ -1,0 +1,17 @@
+/* ── PSU Daily News 全局样式 ── */
+
+page {
+  background: #F5F5F5;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ── 通用工具类 ── */
+.container {
+  padding: 24rpx;
+}
+
+.mt-16 { margin-top: 16rpx; }
+.mt-24 { margin-top: 24rpx; }
