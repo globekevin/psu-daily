@@ -2005,9 +2005,56 @@
       "source": "Penn State News",
       "date": "2026-07-29",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/researcher-with-drone-low-rez.jpg?h=fe59f8bd&amp;itok=p3TDei1A"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/center-performing-arts-announces-2026-27-season",
+      "title_cn": "Center for the Performing Arts announces 2026–27 season",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-07-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/cpa-season-peoplecollage08.jpg?h=27175dd2&amp;itok=Cxr_Rkrt"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/30/report-penn-state-football-legend-michael-mauti-to-join-matt-campbells-staff/",
+      "title_cn": "Report: Penn State Football Legend Michael Mauti To Join Mat",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-31",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/02/DSC_2040.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/navigating-change-enterprise-change-and-transformation-introduces-framework",
+      "title_cn": "Navigating change: Enterprise Change and Transformation intr",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/mechanical-engineering-professor-receives-early-career-manufacturing-award",
+      "title_cn": "Mechanical engineering professor receives early career manuf",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/260321-psn-guha-manogharan.jpg?h=18e3004a&amp;itok=CBrhMBg5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/30/former-penn-state-football-wide-receiver-liam-clifford-signs-with-indianapolis-colts/",
+      "title_cn": "Former Penn State Football Wide Receiver Liam Clifford Signs",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-07-31",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/09/Football-vs.-Kent-State-Stutzman-05126-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/qa-why-does-irregular-heart-beat-show-40-years-early-some-people",
+      "title_cn": "Q&A: Why does an irregular heart beat show up 40 years early",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-07-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/early-onset-afib.jpg?h=2684e39d&amp;itok=Bxq59u7y"
     }
   ],
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
