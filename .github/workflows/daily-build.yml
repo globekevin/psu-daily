@@ -33,10 +33,11 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      - name: Commit and push
+            - name: Commit and push
         run: |
           git config user.name "PSU Daily Bot"
           git config user.email "bot@psu-daily.local"
+          git pull --rebase origin main || true
           git add history.json index.html archive.html archive-catalog.html psu-news-*.html || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -46,3 +47,4 @@ jobs:
             git push
             echo "Pushed successfully"
           fi
+
