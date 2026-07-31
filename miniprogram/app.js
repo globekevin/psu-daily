@@ -22,6 +22,6 @@ App({
   },
 
   globalData: {
-    apiBase: 'https://your-domain.com'  // 改成你的服务器域名
+    apiBase: 'https://api.kaiziyu.cn/psunews'  // PSU Daily News API
   }
 })
