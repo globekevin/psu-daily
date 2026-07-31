@@ -28,7 +28,8 @@ echo "================================================"
 # ── 1. 系统依赖 ──
 echo "[1/6] 安装系统依赖..."
 apt-get update -qq
-apt-get install -y -qq python3 python3-venv python3-pip nginx certbot python3-certbot-nginx cron
+apt-get install -y -qq python3 python3-venv python3-pip nginx certbot python3-certbot-nginx cron 2>&1 | tail -3
+echo "  ✓ 系统依赖就绪"
 
 # ── 2. Python 虚拟环境 ──
 echo "[2/6] 创建 Python 虚拟环境..."
@@ -106,14 +107,25 @@ nginx -t && systemctl reload nginx
 echo "  ✓ Nginx 配置完成 (HTTP)"
 
 # ── 6. HTTPS 证书 (Let's Encrypt) ──
-echo "[6/6] 申请 HTTPS 证书..."
-# 注意：域名必须已解析到本机 IP，且 80 端口可公网访问
-certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos --email "admin@$DOMAIN" --redirect || echo "  ⚠ SSL 证书申请失败，请手动执行: sudo certbot --nginx -d $DOMAIN"
+echo "[6/7] 申请 HTTPS 证书..."
+# 先检查 DNS 是否已解析到本机
+SERVER_IP=$(curl -s ifconfig.me 2>/dev/null || echo "unknown")
+DNS_IP=$(dig +short "$DOMAIN" 2>/dev/null | head -1 || echo "unknown")
+
+if [ "$SERVER_IP" != "unknown" ] && [ "$DNS_IP" = "$SERVER_IP" ]; then
+    echo "  DNS 已解析: $DOMAIN → $SERVER_IP"
+    certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos --email "admin@$DOMAIN" --redirect && echo "  ✓ HTTPS 证书申请成功" || echo "  ⚠ SSL 证书申请失败，请手动执行: sudo certbot --nginx -d $DOMAIN"
+else
+    echo "  ⚠ 域名 $DOMAIN 尚未解析到本机 IP ($SERVER_IP)"
+    echo "    请先在 DNS 中添加 A 记录: $DOMAIN → $SERVER_IP"
+    echo "    然后手动执行: sudo certbot --nginx -d $DOMAIN"
+fi
 
 # ── 7. Crontab 每日定时刷新 ──
 echo ""
-echo "配置 crontab 每日定时刷新..."
-CRON_JOB="0 8 * * * source $APP_DIR/env.sh && cd $APP_DIR && $VENV_DIR/bin/python news_engine.py >> $APP_DIR/cron.log 2>&1"
+echo "[7/7] 配置 crontab 每日定时刷新..."
+# 注意：cron 用 /bin/sh，不能用 source；用 env 注入环境变量
+CRON_JOB="0 8 * * * DEEPSEEK_API_KEY='$DEEPSEEK_API_KEY' REFRESH_TOKEN='$REFRESH_TOKEN' cd $APP_DIR && $VENV_DIR/bin/python news_engine.py >> $APP_DIR/cron.log 2>&1"
 (crontab -l 2>/dev/null | grep -v "psu-news" ; echo "$CRON_JOB") | crontab -
 echo "  ✓ Crontab: 每天 08:00 (UTC) → 美东凌晨 04:00"
 
