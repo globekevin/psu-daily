@@ -2330,9 +2330,56 @@
       "source": "Penn State News",
       "date": "2026-07-31",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/bellisarioatica26.png?h=38d368d7&amp;itok=t-LAWAIJ"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-professor-rethinks-ais-role-advertising",
+      "title_cn": "广告学教授颠覆AI认知，探索社会责任新路径",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/yujinheo-bellisariocollege26.jpg?h=f16d09b5&amp;itok=obokKHm7"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/01/why-cant-penn-state-hoops-be-competitive-in-the-big-ten/",
+      "title_cn": "资金困局难破，宾州州立男篮何日争雄？",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-01",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/11/DSC_1947.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/chemical-engineering-professor-honored-work-plant-based-tissue-scaffolds",
+      "title_cn": "植物基支架获国际大奖，宾州州立教授破解组织工程难题",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/260273-psn-amir-sheikhi.jpg?h=173ee000&amp;itok=iwnB4m50"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/01/defenseman-kohyn-eshkawkogan-commits-to-penn-state-hockey/",
+      "title_cn": "冰球新星承诺加盟宾州州立，冲击NHL选秀",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-01",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/IMG_6910-768x549.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/computer-science-and-engineering-major-named-college-engineering-marshal",
+      "title_cn": "双学位荣膺执旗手，宾州学子启程IBM",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-01"
+    },
+    {
+      "url": "https://onwardstate.com/2026/07/31/jackson-smith/",
+      "title_cn": "去年被裁今朝雪耻，史密斯冲击加拿大国家队",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-01",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/DSC05784.jpg"
     }
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
