@@ -2377,9 +2377,57 @@
       "source": "Onward State",
       "date": "2026-08-01",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/02/DSC05784.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/professors-documentary-make-international-debut-17th",
+      "title_cn": "杀纳粹纪录片亮相克罗地亚古堡",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/boaddvir-redcarpet.jpg?h=b8aae163&amp;itok=CGGg4dF4"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/penn-state-breaks-fundraising-records-accelerates-campaign",
+      "title_cn": "宾州州立募款破纪录，逾6.6亿创历史新高",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/09/22%208%203-Hintz%20Lawn.jpg?h=84071268&amp;itok=afoYmNKb"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/08/penn-state-lands-top-2027-ohl-defenseman-eshawkogan/",
+      "title_cn": "尼塔尼雄狮锁定2027届OHL顶级后卫",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-08-02",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2025/11/ZIyzFgi6bDy5CiP3ZctBCpv7gmNyf8WXodLFl3R6.webp"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/qa-colored-conventions-and-supreme-courts-birthright-citizenship-ruling",
+      "title_cn": "最高法院引黑人集会史，宾州学者解码正义",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/02/gabrielle-1-.jpg?h=a0dacee0&amp;itok=LLcJw9HE"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/08/rocco-becht-is-in-search-of-penn-states-missing-1000-yard-receiver/",
+      "title_cn": "贝赫特欲助霍华德冲破千码大关",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-08-02",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/04/DSC04881-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/lets-hear-we-are-these-penn-staters-july-30",
+      "title_cn": "二十二人获赞，宾州州立致敬奉献者",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-3.jpg?h=6d86927c&amp;itok=EX0Pgo_F"
     }
   ],
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
