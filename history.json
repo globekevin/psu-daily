@@ -2521,9 +2521,57 @@
       "source": "Penn State News",
       "date": "2026-08-04",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/adobestock_275476607.jpg?h=40fb7835&amp;itok=rtUDCf8d"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-student-journalists-earn-14-nominations-college",
+      "title_cn": "宾州学生记者斩获十四项大奖提名",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ccrfeb132026.jpg?h=19ad3fdd&amp;itok=1NuVYawM"
+    },
+    {
+      "url": "https://www.psu.edu/news/social-science-research-institute/story/community-engaged-research-unit-awards-seed-grants",
+      "title_cn": "宾州州立种子基金赋能社区共创研究",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/b41acc64-e291-4181-9446-1ff616bd2b77_1_102_o.jpg?h=2d13afc3&amp;itok=2psoGQvW"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-sciences-and-technology/story/ist-intern-uses-ai-help-streamline-alumni-and-donor",
+      "title_cn": "数据科学实习生用AI重塑校友联络体系",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-05",
+      "image_url": "https://sc-cms.psu.edu/s3/files/styles/16_9_1000w/public/2026/08/joowvc8g9fo.jpg?h=dd7781cc&amp;itok=15i2BO5Y"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/08/five-penn-state-legends-land-spots-on-sporting-by-news-all-decade-teams/",
+      "title_cn": "五雄跨五秩，宾州州立荣光映全美",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-08-05",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/07/penn-state-1986-feature-image-1200x630-1.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/penn-state-smeal-college-business-sets-new-fundraising-record-fiscal",
+      "title_cn": "宾州州立斯米尔商学院创募款新纪录",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/Business%20Building%202.jpg?h=799148dd&amp;itok=E4f9NhZF"
+    },
+    {
+      "url": "https://www.psu.edu/news/education/story/college-educations-scope-sees-its-first-second-generation-student",
+      "title_cn": "母女跨越廿载同入宾州教育夏令营",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2nd-gen-scope.jpeg?h=7652de0f&amp;itok=ShWQ56_B"
     }
   ],
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
