@@ -2617,9 +2617,56 @@
       "source": "Penn State News",
       "date": "2026-08-06",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/cteqgroup.png?h=6eb229a4&amp;itok=bvOg0c_e"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/busy-film-production-major-embraces-one-opportunity-after",
+      "title_cn": "机遇如多米诺，电影学子步步为营",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/derekporterportrait.jpg?h=015b9a40&amp;itok=qalt42Kq"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/board-trustees-hears-how-non-stem-research-improves-technology-well-being",
+      "title_cn": "人文艺术研究，科技伦理之锚",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/12/damen-green-line-opening-08.jpg?h=06ac0d8c&amp;itok=vUHK-xx8"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/seven-figure-gift-endows-directorship-real-estate",
+      "title_cn": "七位数捐赠设立房地产研究院院长基金",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/cocoziello.jpg?h=25e2784d&amp;itok=0R6qaK5I"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/08/penn-state-hc-explains-significance-of-adding-michael-mauti-to-staff/",
+      "title_cn": "坎贝尔妙招迎毛蒂，线卫室注入老将魂",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/27-penn-state-employees-recognized-achieving-25-years-service-july",
+      "title_cn": "二十七人廿五载，宾州州立致敬坚守",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/penn-state-days-adj_0.png?h=eba2f25f&amp;itok=5_lXglga"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/social-bonds-recognition-linked-reduced-suicidal-thoughts-teens",
+      "title_cn": "社会纽带与认可，降低青少年自杀风险",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/gettyimages-2224386265.jpg?h=4fd5f0df&amp;itok=fdxbDwwT"
     }
   ],
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
