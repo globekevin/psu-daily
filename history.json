@@ -2664,9 +2664,57 @@
       "source": "Penn State News",
       "date": "2026-08-07",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/gettyimages-2224386265.jpg?h=4fd5f0df&amp;itok=fdxbDwwT"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-students-earn-top-finishes-statewide-journalism",
+      "title_cn": "宾州州立学生新闻作品力压职业同行夺七奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/afterthewhistle.jpg?h=b8aae163&amp;itok=ID86qAzs"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-present-free-music-gardens-concert-sept-10",
+      "title_cn": "花园奏响交响乐，宾州州立免费音乐会迎秋",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/h.o._smith_botanical_gardens_in_the_arboretum_at_penn_state.png?h=1a273285&amp;itok=dhKrJzqG"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/memorial-map-reflects-bob-myers-support-penn-state-geographics-lab",
+      "title_cn": "纪念地图牵起兄弟情，宾州州立制图赠加州剧院",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/bob-myers-geographics-lab-visit.jpg?h=6eb229a4&amp;itok=LeRuepog"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/08/selfless-explosive-tough-penn-state-football-wide-receiver-room-poised-to-change-the-negative-narrative/",
+      "title_cn": "狮子新翼欲破接球手困局",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-08",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/Koby-Howard-6-Interview-2026-Football-Media-Day-my-Julia-Romakow-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/industrial-noise-may-alter-bluebird-behavior-not-cognitive-ability",
+      "title_cn": "噪音扰蓝鸟行为，认知未损",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bluebird-approacing-box-keagy.jpg?h=0de3d783&amp;itok=i4-Zg20Y"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/longtime-friends-and-business-partners-thrive-architecture-grad",
+      "title_cn": "挚友携手，建筑学研途共绽光芒",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/yasama-setareh-1_psnews.jpg?h=b78320da&amp;itok=0KyDhlpQ"
     }
   ],
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
