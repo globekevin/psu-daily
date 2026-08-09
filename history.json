@@ -2712,9 +2712,57 @@
       "source": "Penn State News",
       "date": "2026-08-08",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/yasama-setareh-1_psnews.jpg?h=b78320da&amp;itok=0KyDhlpQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/matson-museum-director-james-doyle-awarded-fulbright-book-project",
+      "title_cn": "富布莱特奖助潘州学者，探秘巴拿马千年金艺",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/doyle-fulbright-2-.jpg?h=92452972&amp;itok=Frm99yBt"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/07/penn-state-defense-embracing-multiplicity-through-summer-training-camp/",
+      "title_cn": "防守多面手重塑阵型，尼塔尼雄狮夏训求变",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-09",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260414080-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/soilless-farming-system-design-can-determine-microbial-growth-impact-crops",
+      "title_cn": "无土栽培设计左右微生物生态与作物安全",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/auja-seffrin-bokchoy-greenhouse-low-rez.jpg?h=ec447a25&amp;itok=3FhZysnV"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-english-professors-latest-poetry-volume-earns-praise",
+      "title_cn": "墨菲诗集获赞，宾州州立桂冠诗人再添新作",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/03/erin-murphy-2025.jpg?h=010a432c&amp;itok=5GxUffVR"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/07/penn-state-hoops-guard-jay-rodgers-charged-with-dui/",
+      "title_cn": "宾州大篮球队后卫酒驾被控，前程蒙尘",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-09",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/01/Penn-state-mens-basketball-hoops-vs.-Oregon-Aidan-Conrad-1-21-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/college-ag-sciences-grad-students-receive-fox-graduate-school",
+      "title_cn": "福克斯奖学金嘉奖农学双星，科研新锐瞄准人畜健康",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/foxscholarshipheader.png?h=bc39c2a7&amp;itok=eh9i4y8n"
     }
   ],
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
