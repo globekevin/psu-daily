@@ -2760,9 +2760,56 @@
       "source": "Penn State News",
       "date": "2026-08-09",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/foxscholarshipheader.png?h=bc39c2a7&amp;itok=eh9i4y8n"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/college-arts-and-architecture-summer-commencement-student-marshal",
+      "title_cn": "艺术生扛旗毕业典礼，史密森尼实习启程",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/student-marshal-summer-2026.jpg?h=7bc13585&amp;itok=XZxlZUb9"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/10/penn-state-womens-volleyball-no-10-in-first-avca-poll/",
+      "title_cn": "宾州女排跻身全美前十，新星马丁引领征程",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-10",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/11/DSC06552.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/gov-shapiro-issues-proclamation-celebrating-penn-states-one-millionth-degree",
+      "title_cn": "宾州州长公告庆贺百年学府百万学位里程碑",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-10"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/qa-inaugural-michael-micci-early-career-professor-aerospace-engineering",
+      "title_cn": "太空推进新星加盟宾州州立",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/260336-coe-news.jpg?h=401f4476&amp;itok=wMY904CQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-faculty-discuss-friday-13th-horror-joy-podcast",
+      "title_cn": "哲学教授拆解黑色星期五恐怖镜像",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/10/horror-joy-with-background-4x3.jpg?h=773c9735&amp;itok=fMLaaimS"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/10/quarterback-alex-manske-quickly-becoming-a-major-piece-of-penn-state-footballs-future-despite-puzzling-injury/",
+      "title_cn": "曼斯克伤愈归来，成尼塔尼雄狮未来核心",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-10",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260421022-1-scaled.jpg"
     }
   ],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-10",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
