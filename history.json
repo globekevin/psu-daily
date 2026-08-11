@@ -2807,9 +2807,57 @@
       "source": "Onward State",
       "date": "2026-08-10",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260421022-1-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/page-center-seeks-research-proposals-navigating-trust",
+      "title_cn": "诚信危机研究：宾州州大征提案",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-facultys-horror-joy-podcast-features-spider-one-and-krsy-fox",
+      "title_cn": "恐怖与欢愉交织：教授播客对话电影人",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/10/horror-joy-with-background-4x3.jpg?h=773c9735&amp;itok=fMLaaimS"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "校友捐赠催生创新基金，赋能学子跨界实战",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/11/penn-state-police-will-conduct-active-attacker-training-exercise-on-sunday/",
+      "title_cn": "宾州州立大学周日举行反恐演练",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-11",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/10/palestine-protest-gaza-jack-anderson-jussen-17.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/sarah-j-williams-named-interim-dean-penn-state-dickinson-law",
+      "title_cn": "威廉姆斯接掌狄金森法学院临时院长",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/headshot-professor-sarah-williams-078_1-final.jpg?h=698b704a&amp;itok=pX7nLRVN"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/qa-why-amish-population-growing-so-fast-america",
+      "title_cn": "阿米什人口激增之谜：宾州州立学者揭示六大生育真相",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/amish-gathering.png?h=a78084f4&amp;itok=Li0j0VKf"
     }
   ],
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
