@@ -2855,9 +2855,57 @@
       "source": "Penn State News",
       "date": "2026-08-11",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/amish-gathering.png?h=a78084f4&amp;itok=Li0j0VKf"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni/story/qa-one-mother-six-children-10-degrees-one-proud-penn-state-family-legacy",
+      "title_cn": "六子十学位，母亲见证宾州州立传承",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/mullin-family-photo2_0.png?h=9a2aa1f9&amp;itok=wYcZld8V"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/tickets-are-sale-now-center-performing-arts-2026-27-season-events",
+      "title_cn": "宾州州立演艺中心开票，六洲艺术家齐聚新季",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/cpa-season-peoplecollage08.jpg?h=27175dd2&amp;itok=Cxr_Rkrt"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/donors-richard-and-jeane-v-singer-celebrated-altoona-engineering-program",
+      "title_cn": "百万馈赠铸名廊，工程薪火映宾州",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/dsc_6841_0.jpg?h=6eb229a4&amp;itok=PErvpGaj"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/12/content-creator-clavicular-is-coming-to-state-college-this-month/",
+      "title_cn": "网红“锁骨”八月访宾州州立，校园首日引热议",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-12",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/05/DSC_9014.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/2026-penn-state-renaissance-fund-celebration-mark-50th",
+      "title_cn": "文艺复兴基金五十载，宾州州立续写助学篇章",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ren-fund-release-image.png?h=d65882c7&amp;itok=lSyejSze"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/parents-who-run-stroller-have-lower-risk-overuse-injury",
+      "title_cn": "推婴儿车跑步，父母受伤风险大降",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/getty-images_lsophoto.png?h=50a4a10f&amp;itok=HSIkSoPd"
     }
   ],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
