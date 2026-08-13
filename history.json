@@ -2903,9 +2903,57 @@
       "source": "Penn State News",
       "date": "2026-08-12",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/getty-images_lsophoto.png?h=50a4a10f&amp;itok=HSIkSoPd"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/opportunities-pave-pathway-global-internship-bellisario",
+      "title_cn": "借力校园机遇，宾州州立学子叩开英伦流媒体实习之门",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/bjordan-bellisario_internship26.jpg?h=92941339&amp;itok=yxaTBPmX"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-theatre-alumna-builds-community-through-senior-living-drama-club",
+      "title_cn": "五十年戏剧路，银发社区再启幕",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/beck_2026.jpg?h=b7d7b70e&amp;itok=FpVdhwrt"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/rebecca-moran-named-altoonas-director-development-and-alumni-relations",
+      "title_cn": "莫兰掌舵阿图纳发展，校友关系迎新章",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/rebecca-moran.jpg?h=05074998&amp;itok=5OST0ry2"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/13/penn-state-womens-soccer-announces-2026-promotional-schedule/",
+      "title_cn": "尼塔尼雄狮主场九大主题点燃新赛季",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-13",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/10/Womens-Soccer-vs-Ohio-State-10.26.25-by-Christian-Gresko-53-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/penn-state-award-one-millionth-degree-aug-15",
+      "title_cn": "宾州州立大学将颁授第一百万个学位",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/1mkey-wrdm-16x9-dark-large-4-3.jpg?h=96a96008&amp;itok=oBjAwcGR"
+    },
+    {
+      "url": "https://www.psu.edu/news/beaver/story/neuropsychology-lab-beaver-offers-community-service-student-learning-experience",
+      "title_cn": "小小实验室，铺就学生职业路",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/psbr-neuropsych-lab.jpg?h=71976bb4&amp;itok=zkILvQXI"
     }
   ],
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
