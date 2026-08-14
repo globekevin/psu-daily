@@ -2951,9 +2951,57 @@
       "source": "Penn State News",
       "date": "2026-08-13",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/psbr-neuropsych-lab.jpg?h=71976bb4&amp;itok=zkILvQXI"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/journalism-student-solidifies-career-choice-during-tv-news",
+      "title_cn": "新闻实习点燃职业梦，宾州学子坚定前行",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/chager_bellisario_internship26.jpg?h=c739e04a&amp;itok=tGUd4229"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-hold-auditions-fall-production-macbeth",
+      "title_cn": "阿宾顿学院试镜《麦克白》 叛逆学生暗演莎翁禁忌剧",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/07/wolf-kuhn-theatre.jpg?h=6eb229a4&amp;itok=JbVoGgXZ"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/14/former-penn-state-mens-soccer-player-aaron-molloy-named-usl-player-of-the-month/",
+      "title_cn": "前宾州州立球星莫洛伊获美足联盟月最佳",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-14",
+      "image_url": "https://cdn.onwardstate.com/uploads/2019/10/Lily-Whitmoyer-MSOC-vs.-Appalachian-State-Aaron-Molloy-1738x1160.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-board-trustees-meet-sept-17-18-university-park",
+      "title_cn": "宾州州立董事会九月聚首，公开会议引关注",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5191-copy.jpg?h=abe9b284&amp;itok=PvFBIlAY"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/cell-invisibility-cloaks-could-offer-side-effect-free-diabetes-treatment",
+      "title_cn": "细胞隐身衣为糖尿病治疗开辟无副作用新路",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/diabetes-header.jpg?h=84071268&amp;itok=G9WbAtab"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/mccourtney-institute-mark-9-11-anniversary-film-screening-discussion",
+      "title_cn": "民主对话纪念九一一，纪录片回望归零地抉择",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/911_vertical.jpeg?h=8f951680&amp;itok=Qgl4p55g"
     }
   ],
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
