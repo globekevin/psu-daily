@@ -2999,9 +2999,56 @@
       "source": "Penn State News",
       "date": "2026-08-14",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/911_vertical.jpeg?h=8f951680&amp;itok=Qgl4p55g"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/penn-state-university-press-appoints-new-editors-eisenbrauns-series",
+      "title_cn": "宾州大学出版社委任黎凡特系列新主编",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/development-and-alumni-relations-awards-recognize-smeal-leaders-and",
+      "title_cn": "校友服务获表彰，斯米尔三杰展风采",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/smeal-ddar-hartsock.jpg?h=b9ab0a0d&amp;itok=3_cvFq0n"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/15/penn-state-awards-one-millionth-degree-at-summer-commencement-ceremonies/",
+      "title_cn": "宾州州立授予百万学位 铸就历史丰碑",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-15",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260409016-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/director-named-technologies-agriculture-and-living-systems-initiative",
+      "title_cn": "植物科学家掌舵农业技术新倡议",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/armen-kemanian-casual-copy.jpg?h=154509e1&amp;itok=xPdCQfQX"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/12m-grant-build-animal-inspired-sensing-autonomous-drones-and-robots",
+      "title_cn": "昆虫灵感赋能无人机自主决策",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/saptarshi-headshot.jpg?h=9b535a95&amp;itok=RCePqHPa"
+    },
+    {
+      "url": "https://www.psu.edu/news/dubois/story/penn-state-dubois-host-2026-27-penn-state-laureate-erin-murphy",
+      "title_cn": "桂冠诗人墨菲携诗作走进杜博斯分校",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2026-08-12-penn-state-laureate-visit-hero.jpg?h=7b02ef3a&amp;itok=EYM5WtyY"
     }
   ],
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-15",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
