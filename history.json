@@ -3046,9 +3046,57 @@
       "source": "Penn State News",
       "date": "2026-08-15",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2026-08-12-penn-state-laureate-visit-hero.jpg?h=7b02ef3a&amp;itok=EYM5WtyY"
+    },
+    {
+      "url": "https://www.psu.edu/news/schuylkill/story/inaugural-schuylkill-scarecrow-festival-be-held-penn-state-schuylkill",
+      "title_cn": "废料变身稻草人，舒基尔秋日盛宴开锣",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/pennstateschuylkill-scarecrowfestival.jpg?h=1a0c5fa7&amp;itok=OMqY4Vmq"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/16/penn-state-womens-soccer-draws-no-2-notre-dame-2-2-in-season-opener/",
+      "title_cn": "尼塔尼雄狮客场逼平圣母院，达姆巴赫执教第300胜延后",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-16",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/10/Womens-Soccer-Emma-Bannister548-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/great-valley/story/two-great-valley-students-receive-10000-fox-scholarships-academic-achievement",
+      "title_cn": "福克斯奖学金花落两位学子，十万美金助力科研梦",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/fox-scholars.jpg?h=00cffbef&amp;itok=oMfauqWs"
+    },
+    {
+      "url": "https://www.psu.edu/news/materials-research-institute/story/printable-hydrogel-enables-wearable-health-sensors-multitask",
+      "title_cn": "水凝胶贴片让健康监测多线并行",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/hydrogel-story.png?h=5c19163d&amp;itok=x0lzQlmc"
+    },
+    {
+      "url": "https://www.psu.edu/news/schuylkill/story/penn-state-schuylkill-art-space-presents-jon-bonds-beyond-ridge",
+      "title_cn": "山脊之外：五十年画笔下的宾州梦境",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/jon-bond-artwork_0.jpg?h=97a0d997&amp;itok=Qg48gzqG"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/15/forward-justin-larose-commits-to-penn-state-mens-hockey/",
+      "title_cn": "拉罗斯转投宾州州立，冰球强援加盟",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-16",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/IMG_6910-768x549.png"
     }
   ],
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-16",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
