@@ -3094,9 +3094,57 @@
       "source": "Onward State",
       "date": "2026-08-16",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/02/IMG_6910-768x549.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/student-produced-video-honoring-penn-state-tradition-earns-four-national",
+      "title_cn": "学生短片致敬传统，揽获四项全美大奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/08/shakers.jpg?h=c6980913&amp;itok=rNxoHCuL"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-professor-honored-liberia-poetry",
+      "title_cn": "利比里亚诗人获祖国勋章，诗歌铭记流亡与希望",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/pjw-award.jpg?h=6eb229a4&amp;itok=KwiqhP13"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-alumni-association-invites-alumni-home-2026-black-alumni",
+      "title_cn": "宾州州大邀校友重返2026黑人聚会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/bar-2000x1500.jpg?h=84071268&amp;itok=mqFmNtjs"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/17/14-charged-in-cocaine-trafficking-investigation-tied-to-penn-state-fraternities/",
+      "title_cn": "宾州州立兄弟会涉毒案 十四人被控贩毒",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-17",
+      "image_url": "https://cdn.onwardstate.com/uploads/2023/03/Sophie-Yadzinski_Stock-photos-21-1740x1160.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/penn-state-community-challenged-make-one-million-gifts",
+      "title_cn": "百万学位里程碑，宾州州立邀百万馈赠",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/1mkey-wrdm-16x9-dark-large-4-3.jpg?h=a13d4e41&amp;itok=oBjAwcGR"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/qa-nsf-career-award-reinvent-modern-operating-system-design-and-education",
+      "title_cn": "重塑操作系统，宾州州立学者获NSF大奖",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/260358-psn-ruslan-nikolaev.jpg?h=19ad3fdd&amp;itok=vmbZu6eH"
     }
   ],
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-17",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
