@@ -3190,9 +3190,56 @@
       "source": "Penn State News",
       "date": "2026-08-18",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ashleyshay.jpg?h=8dc0a33d&amp;itok=vCfPkgy1"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/ai-disagreement-may-shake-patient-trust-doctors",
+      "title_cn": "AI意见相左，医患信任动摇",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/gettyimages-2274592130.jpg?h=119335f7&amp;itok=-WSq7MdF"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/terry-watson-carmin-wong-lead-social-justice-and-disability-poetry",
+      "title_cn": "双诗人领衔，以诗探寻正义与残障",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/poetry-reading-stock-image_0.jpg?h=f70f904b&amp;itok=EpGCy1gp"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/penn-state-breaks-fundraising-records-accelerates-campaign",
+      "title_cn": "宾州州立创纪录募款近七亿",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/09/22%208%203-Hintz%20Lawn.jpg?h=84071268&amp;itok=afoYmNKb"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/08/rocco-becht-earns-spot-on-unitas-award-watch-list/",
+      "title_cn": "贝希特入选尤尼塔斯奖观察名单",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://www.psu.edu/news/institute-energy-and-environment/story/penn-state-alumni-turn-hands-learning-research-expertise",
+      "title_cn": "校友反哺实验室，实践铸就科研路",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/andrew-ross-08.jpg?h=6eb229a4&amp;itok=7hM4kXPi"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/pinto-duarte-named-interim-head-department-architecture",
+      "title_cn": "皮尼奥·杜阿尔特接掌建筑系临时教鞭",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/jduarte_psnews.jpg?h=bb2b40fc&amp;itok=0brKrBcx"
     }
   ],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-19",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
