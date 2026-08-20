@@ -3237,9 +3237,57 @@
       "source": "Penn State News",
       "date": "2026-08-19",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/jduarte_psnews.jpg?h=bb2b40fc&amp;itok=0brKrBcx"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-students-earn-eight-nominations-national",
+      "title_cn": "宾州州立学子横扫八项广播提名",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/cbiawards.jpg?h=19ad3fdd&amp;itok=hOgSvktp"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-centre-stage-announces-2026-27-show-season",
+      "title_cn": "宾州州立舞台启幕新季，五剧连台待君来",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2602-morrisessex-line-previews-7d9a7977_0.jpg?h=e0a06cc7&amp;itok=bAFNRUNs"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-sciences-and-technology/story/ist-intern-uses-ai-help-streamline-alumni-and-donor",
+      "title_cn": "数据学子以AI革新校友配对流程",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/joowvc8g9fo.jpg?h=dd7781cc&amp;itok=15i2BO5Y"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/20/three-penn-state-football-players-named-to-comeback-player-of-the-year-award-watch-list/",
+      "title_cn": "三名尼塔尼雄狮入选年度复出奖观察名单",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-20",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/0X2A3590-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/leadership-insights-president-bendapudi-reflects-one-million-degrees",
+      "title_cn": "百万学位里程碑，宾州州立校长反思高等教育使命",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2026-psu-universitypark-1msummercommencement-0163-large_0.jpg?h=03e97d18&amp;itok=8eHV0HTa"
+    },
+    {
+      "url": "https://www.psu.edu/news/education/story/researchers-identify-factors-build-trust-student-voice",
+      "title_cn": "信任非天成，教育者如何赢得学生心声",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/adobestock_942300199.jpg?h=06598dd8&amp;itok=L_N55OI8"
     }
   ],
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-20",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
