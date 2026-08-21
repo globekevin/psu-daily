@@ -3285,9 +3285,57 @@
       "source": "Penn State News",
       "date": "2026-08-20",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/adobestock_942300199.jpg?h=06598dd8&amp;itok=L_N55OI8"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/commagency-seeks-clients-fall-2026-communications-work",
+      "title_cn": "学生传媒机构广纳秋季客户",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/edited-photo.png?h=e2786cb2&amp;itok=oxH1lgev"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-schools-landscape-architecture-department-adds-faculty",
+      "title_cn": "宾州州大景观系迎清华才俊，唐红兵加盟执教",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/tangsu_psnews.jpg?h=c7ea0d58&amp;itok=4eW0BJt0"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/penn-state-smeal-college-business-sets-new-fundraising-record-fiscal",
+      "title_cn": "斯米尔商学院募款破纪录 剑指前五",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/Business%20Building%202.jpg?h=799148dd&amp;itok=E4f9NhZF"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/21/lars-zeepvat-intends-to-plead-not-guilty-in-alleged-penn-state-fraternity-drug-trafficking-ring/",
+      "title_cn": "涉贩毒案宾州州立学生拒不认罪",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-21",
+      "image_url": "https://cdn.onwardstate.com/uploads/2023/03/Sophie-Yadzinski_Stock-photos-21-1740x1160.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/new-cohort-penn-state-emerging-academic-leaders-announced-fall-2026",
+      "title_cn": "宾州州立遴选二十七名学术领袖新锐",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/09/22%208%203-Hintz%20Lawn.jpg?h=84071268&amp;itok=afoYmNKb"
+    },
+    {
+      "url": "https://www.psu.edu/news/fox-graduate-school/story/graduate-students-encouraged-attend-aug-27-welcome-engagement-fair",
+      "title_cn": "宾州州大迎新展，研究生共赴社区之约",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/54767309365_eb90d03faf_k-1.jpg?h=e309c6ee&amp;itok=0iBlr52u"
     }
   ],
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-21",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
