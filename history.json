@@ -3333,9 +3333,56 @@
       "source": "Penn State News",
       "date": "2026-08-21",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/54767309365_eb90d03faf_k-1.jpg?h=e309c6ee&amp;itok=0iBlr52u"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-scholars-showcase-research-win-awards",
+      "title_cn": "贝利萨里奥学院学者全国会议载誉而归",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/img_9484-copy.jpg?h=b6f04840&amp;itok=5ucd7QGC"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/board-trustees-hears-how-non-stem-research-improves-technology-well-being",
+      "title_cn": "人文研究何以驱动技术向善",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/12/damen-green-line-opening-08.jpg?h=06ac0d8c&amp;itok=vUHK-xx8"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/registration-open-2026-penn-state-alumni-volunteer-awards-livestream",
+      "title_cn": "校友志愿奖直播报名开启，荣耀时刻待见证",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/volunteer-awards_news.jpg?h=76b83309&amp;itok=Hb9_RGX9"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/21/neighborhood-association-wants-forum-with-penn-state-local-officials-after-cocaine-ring-bust-at-fraternity-houses/",
+      "title_cn": "兄弟会贩毒案惊扰社区，居民促请宾州州立公开对话",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-22",
+      "image_url": "https://cdn.onwardstate.com/uploads/2023/02/Delta-Upsilon-Stutzman-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/academics/story/student-disability-resources-introduces-new-exam-scheduling-tool-registerblast-five",
+      "title_cn": "宾州州立五校区启用新考试预约系统",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/thunderquakes-new-way-image-earths-subsurface",
+      "title_cn": "雷暴地震波开辟地下成像新路径",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/pixabaythunderstorm.jpg?h=84071268&amp;itok=-AEb_hVM"
     }
   ],
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
