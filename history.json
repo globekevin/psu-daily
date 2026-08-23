@@ -3380,9 +3380,57 @@
       "source": "Penn State News",
       "date": "2026-08-22",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/pixabaythunderstorm.jpg?h=84071268&amp;itok=-AEb_hVM"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-student-journalists-earn-14-nominations-college",
+      "title_cn": "宾州学生记者斩获14项学院制作奖提名",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ccrfeb132026.jpg?h=19ad3fdd&amp;itok=1NuVYawM"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-present-free-music-gardens-concert-sept-10",
+      "title_cn": "花园音乐会免费奏响，宾州州立秋日献礼",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/h.o._smith_botanical_gardens_in_the_arboretum_at_penn_state.png?h=1a273285&amp;itok=dhKrJzqG"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/landmark-gift-build-program-promoting-empathy-and-compassion",
+      "title_cn": "弗里德曼巨额捐赠，共情研究启新程",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/friedman-image-2.jpg?h=04ed459f&amp;itok=yHNT2d1U"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/23/penn-state-wrestler-jayden-james-takes-silver-at-u20-world-championships-in-bratislava/",
+      "title_cn": "詹姆斯两秒之差憾失金牌，摘得U20银牌",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-23",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/03/cael-sanderson-penn-state-wrestling-ncaa-wrestling-national-championships-Aidan-Conrad-1-2-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/behrend/story/kupchella-family-gifts-1-million-support-strategic-initiatives-behrend",
+      "title_cn": "库普切拉家族百万美元捐赠助力贝伦德战略创新",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/pamela-and-brian-kupchella.jpeg?h=a17d7a41&amp;itok=6vR8Nxlv"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/hidden-stars-suggest-distant-galaxies-are-more-massive-they-appear",
+      "title_cn": "暗藏恒星揭示早期星系远超预期",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/d700xvar-sized.jpeg?h=19ad3fdd&amp;itok=Y18mEtIr"
     }
   ],
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
