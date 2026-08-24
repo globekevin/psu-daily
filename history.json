@@ -3428,9 +3428,57 @@
       "source": "Penn State News",
       "date": "2026-08-23",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/d700xvar-sized.jpeg?h=19ad3fdd&amp;itok=Y18mEtIr"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/college-media-association-selects-15-penn-state-entries",
+      "title_cn": "宾州州立十五项学生作品入围全国传媒奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/manbehindmural.jpg?h=97f0edea&amp;itok=binCCxlG"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/centre-stage-kick-2026-27-season-annual-sneak-preview-celebration",
+      "title_cn": "宾州州立中心舞台揭幕新季，预演庆典邀观众先睹为快",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/sneak-preview-previews-2509-maciejczyk-11.jpg?h=0b835bc1&amp;itok=JthT3Nc1"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/24/goaltender-mason-courville-commits-to-penn-state-mens-hockey/",
+      "title_cn": "门将库维尔加盟宾州州立，冰球新星锁定未来",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-24",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/IMG_6910-768x549.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/alumna-named-bellisario-college-director-development-and",
+      "title_cn": "校友丽莎·马尔兹卡执掌贝利萨里奥学院发展事务",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/lisamarzka-headshot.jpg?h=ae443678&amp;itok=m6UiD1U0"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/soilless-farming-system-design-can-determine-microbial-growth-impact-crops",
+      "title_cn": "无土栽培系统设计影响微生物生长与作物安全",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/auja-seffrin-bokchoy-greenhouse-low-rez.jpg?h=ec447a25&amp;itok=3FhZysnV"
+    },
+    {
+      "url": "https://www.psu.edu/news/social-science-research-institute/story/community-engaged-research-unit-awards-seed-grants",
+      "title_cn": "宾州州立种子基金赋能社区合作研究",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/b41acc64-e291-4181-9446-1ff616bd2b77_1_102_o.jpg?h=2d13afc3&amp;itok=2psoGQvW"
     }
   ],
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-24",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
