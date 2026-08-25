@@ -3476,9 +3476,57 @@
       "source": "Penn State News",
       "date": "2026-08-24",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/b41acc64-e291-4181-9446-1ff616bd2b77_1_102_o.jpg?h=2d13afc3&amp;itok=2psoGQvW"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/college-arts-and-architecture-summer-commencement-student-marshal",
+      "title_cn": "艺术史学霸担纲毕业典礼领旗手",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/student-marshal-summer-2026.jpg?h=7bc13585&amp;itok=XZxlZUb9"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/qa-liberal-arts-roots-ground-penn-state-alums-rise-ai",
+      "title_cn": "文科根基助宾州州立校友引领AI治理",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/branch_jb.jpg?h=ddb1ad0c&amp;itok=60sMdiEn"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/25/a-wrestler-a-business-owner-and-a-goat-farmer-the-life-of-tyler-kasak-outside-the-wrestling-room/",
+      "title_cn": "从摔跤房到山羊农场：卡萨克的双面人生",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-25",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/03/DSC07789-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/faculty-promotion-and-tenure-workshop-series-offered-2026-27",
+      "title_cn": "宾州州立推出晋升终身教职系列工作坊",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/06/2020_psu_universitypark_summer240.jpg?h=ff7e8ddf&amp;itok=JHhPwmX4"
+    },
+    {
+      "url": "https://www.psu.edu/news/behrend/story/biology-professor-michael-campbell-ends-32-year-career-penn-state-behrend",
+      "title_cn": "退休教授三十二载，为学子点亮方向",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/mike-campbell-at-grape-research-station.jpg?h=d136856b&amp;itok=IPXZISUf"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/everybody-walk-across-pennsylvania-extension-offers-free-virtual",
+      "title_cn": "宾州州立推免费步行计划，邀全州共赴健康之旅",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/08/active-transportation_pexels-samson-katt.jpg?h=896aae73&amp;itok=hTwqMU80"
     }
   ],
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
