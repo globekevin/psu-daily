@@ -3524,9 +3524,57 @@
       "source": "Penn State News",
       "date": "2026-08-25",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/08/active-transportation_pexels-samson-katt.jpg?h=896aae73&amp;itok=hTwqMU80"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/lets-give-we-are-these-penn-staters-aug-26",
+      "title_cn": "十九位宾州州立人获“我们同在”致敬",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-5.jpg?h=1a5e4c9b&amp;itok=IT4TIYzE"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/tickets-are-sale-now-center-performing-arts-2026-27-season-events",
+      "title_cn": "演艺中心新季开票，全球艺术家汇聚宾州",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/cpa-season-peoplecollage08.jpg?h=27175dd2&amp;itok=Cxr_Rkrt"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/donors-richard-and-jeane-v-singer-celebrated-altoona-engineering-program",
+      "title_cn": "辛格夫妇百万馈赠，工程套房冠名致敬",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/dsc_6841_0.jpg?h=6eb229a4&amp;itok=PErvpGaj"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/26/former-penn-state-football-running-back-miles-sanders-arrested-for-dui/",
+      "title_cn": "前宾州州立跑卫桑德斯因酒驾被捕",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-27",
+      "image_url": "https://cdn.onwardstate.com/uploads/2018/11/IMG_7632.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/leadership-insights-provost-sotiropoulos-amplifying-human-talent-age-ai",
+      "title_cn": "索蒂罗普洛斯谈AI时代如何放大人类才能",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/2024-psu-universitypark-healthhumandevelopment-42.jpg?h=85c5210f&amp;itok=NlVlQq3w"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/new-approach-cuts-sepsis-diagnosis-days-hours-researchers-report",
+      "title_cn": "败血症诊断从数天缩短至数小时",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/blood-stream-infection-resized-credit-urzine.jpg?h=84071268&amp;itok=stJpWH7S"
     }
   ],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
