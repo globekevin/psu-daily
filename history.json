@@ -3667,9 +3667,57 @@
       "source": "Penn State News",
       "date": "2026-08-28",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/jonas-rubenson.jpg?h=8d596c05&amp;itok=BbCxuZ8k"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/page-center-seeks-research-proposals-navigating-trust",
+      "title_cn": "诚信危机研究：宾州州大征提案",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/lehigh-valley/story/light-exhibition-explores-art-learning-and-ways-we-see-world",
+      "title_cn": "光影之间，宾州州立邀你重识世界",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/psu_lv_light_gallery_sep2026.png?h=53d3e97a&amp;itok=u3RhMCfo"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/rebecca-moran-named-altoonas-director-development-and-alumni-relations",
+      "title_cn": "莫兰履新，执掌宾州州大发展事务",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/rebecca-moran.jpg?h=05074998&amp;itok=5OST0ry2"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/29/penn-state-mens-soccer-cancels-september-1-matchup-against-bucknell/",
+      "title_cn": "宾州州立男足取消对阵巴克内尔",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-29",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/CMG_20260820015-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/faculty-named-2026-27-ai-aware-faculty-leaders-program",
+      "title_cn": "十六名教员入选AI引领计划",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2023-psu-universitypark-nittanylion.jpg?h=7097d234&amp;itok=7t2AAsc8"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/barbara-rolls-reflects-career-transformed-nutritional-sciences",
+      "title_cn": "营养科学先驱退休，改写饮食行为研究",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/rolls-feature-image.png?h=a62eea5b&amp;itok=abO_6EmK"
     }
   ],
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-29",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
