@@ -3715,9 +3715,56 @@
       "source": "Penn State News",
       "date": "2026-08-29",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/rolls-feature-image.png?h=a62eea5b&amp;itok=abO_6EmK"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni/story/qa-one-mother-six-children-10-degrees-one-proud-penn-state-family-legacy",
+      "title_cn": "六子女同承母校衣钵，宾州州立一家十学位",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/mullin-family-photo2_0.png?h=9a2aa1f9&amp;itok=wYcZld8V"
+    },
+    {
+      "url": "https://www.psu.edu/news/berks/story/penn-state-berks-celebrates-national-hispanic-heritage-month-free-events",
+      "title_cn": "宾州州立柏克斯分校以免费活动致敬西语传统月",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/fiesta-latina_0.jpg?h=b3bef15b&amp;itok=DiEbCgJl"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/penn-state-alumna-invests-future-innovators",
+      "title_cn": "校友捐资百万元，助力宾州州立创新教育",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1784229764184.jpeg?h=29234840&amp;itok=xAAUzQt5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/30/no-10-penn-state-womens-volleyball-sweeps-hofstra-goes-undefeated-in-penn-state-invitational/",
+      "title_cn": "宾州州立女排横扫霍夫斯特拉，主场邀请赛全胜夺冠",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-30",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/DSC05907-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/finance-ost-survey-shows-progress-culture-support-and-areas-growth",
+      "title_cn": "财务转型初显成效，宾州州立稳步前行",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-30"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/libraries-offers-zotero-training-workshops-office-hours-through-fall",
+      "title_cn": "宾州州立图书馆开设引用工具研习班",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ul_zoterows_1200x900-psn.jpg?h=79bbf46d&amp;itok=pr7nSnYr"
     }
   ],
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-30",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
