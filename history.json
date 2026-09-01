@@ -3762,9 +3762,57 @@
       "source": "Penn State News",
       "date": "2026-08-30",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/ul_zoterows_1200x900-psn.jpg?h=79bbf46d&amp;itok=pr7nSnYr"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/award-winning-journalist-and-podcaster-participate-public",
+      "title_cn": "电台记者来访，畅谈播客新声",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-08-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/04/katiethornton2025-headshot.jpg?h=b78320da&amp;itok=y6TLlEeS"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-faculty-interview-neil-williamson-horror-joy-podcast",
+      "title_cn": "恐怖与欢愉交织，教授播客对话格拉斯哥作家",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-08-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/10/horror-joy-with-background-4x3.jpg?h=773c9735&amp;itok=fMLaaimS"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-alumni-association-invites-alumni-home-2026-black-alumni",
+      "title_cn": "宾州州大邀校友归家 共庆黑人校友重聚",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-08-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/bar-2000x1500.jpg?h=84071268&amp;itok=mqFmNtjs"
+    },
+    {
+      "url": "https://onwardstate.com/2026/08/31/penn-state-wrestling-to-host-northern-colorado-on-february-19/",
+      "title_cn": "狮子迎战熊队，二月上演历史首遇",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-08-31",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/11/Cael-Sanderson-Penn-state-wrestling-Aidan-Conrad-1-2-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/office-vice-president-commonwealth-campuses/story/simon-jones-nesbitt-appointed-associate-deans",
+      "title_cn": "两位学术领袖履新，宾州州立大学学院迎新锐",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-08-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/university-seal.jpg?h=9ff38888&amp;itok=t8HBVjXT"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/sept-4-talk-focus-training-neural-networks-improve-volcano",
+      "title_cn": "神经网络助火山监测降噪",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-08-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/rebecca-bussard-news.jpg?h=eab38018&amp;itok=IrKGHvp7"
     }
   ],
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
