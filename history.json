@@ -3810,9 +3810,57 @@
       "source": "Penn State News",
       "date": "2026-08-31",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/rebecca-bussard-news.jpg?h=eab38018&amp;itok=IrKGHvp7"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/dean-emily-t-metzgar-bellisario-college-just-always-rises",
+      "title_cn": "贝利萨里奥学院何以始终卓越",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/metzgarqa-psunews.jpg?h=87b090cb&amp;itok=Hp_f7TUp"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/college-arts-and-architecture-honor-alumni-award-winners-oct-1",
+      "title_cn": "宾州州立艺院颁校友奖，九杰同获殊荣",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/aa_alumni-award-winners-2026.jpg?h=677c281b&amp;itok=_t4ubyk_"
+    },
+    {
+      "url": "https://www.psu.edu/news/greater-allegheny/story/anton-and-joan-egner-student-travel-fund-endowed-greater-allegheny",
+      "title_cn": "加伍德夫妇捐资设立学生旅行基金",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/pennstatenews_2026_06_22_victoriaarticle_03.png?h=40a39e4c&amp;itok=K3De4GPC"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/01/second-chance-student-ticket-pass-available-for-purchase-sept-3/",
+      "title_cn": "落选学生再获购票机会，宾州州立补售季票",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-01",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/11/Penn-State-Football-vs.-Indiana-Sophie-Yadzinski-28-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/lion-caucus-gives-students-voice-their-peers-through-hands-leadership",
+      "title_cn": "狮子党团以行动引领学生发声",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/dsc_4040.jpg?h=8c1344d8&amp;itok=i3bz0yUO"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/center-socially-responsible-ai-invites-2027-seed-funding-proposals",
+      "title_cn": "宾州州立AI中心开放2027种子基金申请",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/ai-icons.jpg?h=2f83cd36&amp;itok=_KCtI23e"
     }
   ],
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
