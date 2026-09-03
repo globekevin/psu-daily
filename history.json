@@ -3858,9 +3858,57 @@
       "source": "Penn State News",
       "date": "2026-09-01",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/ai-icons.jpg?h=2f83cd36&amp;itok=_KCtI23e"
+    },
+    {
+      "url": "https://www.psu.edu/news/fox-graduate-school/story/fox-graduate-school-expands-ombudsperson-program-seven-new-members",
+      "title_cn": "福克斯研究生院扩员监察员，护航学子学术之路",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dsc06389_02-3_downsized.png?h=fa12a5ab&amp;itok=eBxVaZhe"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/kikora-franklin-centre-stage-2026-27-reveals-how-theater-connects",
+      "title_cn": "多元舞台连接人心，宾州州立揭晓新季",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/detroit-3.jpg?h=4515477e&amp;itok=_H_sHJNF"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/penn-state-development-projects-win-two-internationally",
+      "title_cn": "蓝带体验与包容对话，宾州州立斩获双奖",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/blue-band-1_resized.jpg?h=87eaa9ca&amp;itok=6g0NtWU5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/02/agostino-abbatiello-allegedly-sold-cocaine-to-penn-state-fraternity-members-for-popularity/",
+      "title_cn": "宾州州立兄弟会毒品案：嫌犯卖可卡因只为“出名”",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-02",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/coke-suspect-2.jpeg"
+    },
+    {
+      "url": "https://www.psu.edu/news/brandywine/story/penn-state-brandywine-appoints-interim-campus-chief-academic-officer",
+      "title_cn": "布兰迪万校区迎来临时学术官",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/holly-ryan.jpg?h=e5c84a0c&amp;itok=HdMw03Gs"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/students-take-advantage-experiential-learning-opportunities",
+      "title_cn": "盛夏实践育人，地矿学子遍全球",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/lamaute-japan-1.jpg?h=84071268&amp;itok=iTT6Dx06"
     }
   ],
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
