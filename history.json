@@ -3906,9 +3906,57 @@
       "source": "Penn State News",
       "date": "2026-09-02",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/lamaute-japan-1.jpg?h=84071268&amp;itok=iTT6Dx06"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-students-earn-eight-nominations-national",
+      "title_cn": "宾州州立学生广播赛事获八项提名",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/cbiawards.jpg?h=19ad3fdd&amp;itok=hOgSvktp"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/centre-stage-sneak-preview-sept-17-will-explore-theme-out-many-one",
+      "title_cn": "宾州州立剧季前瞻：多元之声汇聚一堂",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/sneak-preview-previews-2509-maciejczyk-11.jpg?h=0b835bc1&amp;itok=JthT3Nc1"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/penn-state-community-challenged-make-one-million-gifts",
+      "title_cn": "百万校友同心，共筑宾州大未来",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/1mkey-wrdm-16x9-dark-large-4-3.jpg?h=a13d4e41&amp;itok=oBjAwcGR"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/03/penn-state-womens-soccer-draws-virginia-tech-1-1/",
+      "title_cn": "雄狮晚节不保，85分钟遭扳平憾平霍基",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-03",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/LEC_6876.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/spark-leadership-series-expands-all-academic-administrators-and-faculty",
+      "title_cn": "SPARK领导力系列扩至全员，九月首课开放注册",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/07/old-main-summer-morning.jpg?h=9c0abf10&amp;itok=68DS5qKV"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-climate-consortium/story/prepare-pa-host-webinar-statewide-climate-resilience-network",
+      "title_cn": "宾州州立牵头建气候韧性网络",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/preparepa-press-release-asset.jpg?h=6eb229a4&amp;itok=3dLJahnK"
     }
   ],
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
