@@ -3954,9 +3954,56 @@
       "source": "Penn State News",
       "date": "2026-09-03",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/preparepa-press-release-asset.jpg?h=6eb229a4&amp;itok=3dLJahnK"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/commagency-seeks-clients-fall-2026-communications-work",
+      "title_cn": "学生传媒社秋季招揽客户，助力校园视觉传播",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/edited-photo.png?h=e2786cb2&amp;itok=oxH1lgev"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-architecture-student-wins-2026-corbelletti-design-charrette",
+      "title_cn": "宾州州立学子手绘铁皮叙事，摘得设计桂冠",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/corbwinner_psnews.jpg?h=c60fc5e9&amp;itok=sLfA2btH"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-sciences-and-technology/story/ist-intern-uses-ai-help-streamline-alumni-and-donor",
+      "title_cn": "校友匹配从三周缩至数秒，AI实习生重塑宾州州立联络体系",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/joowvc8g9fo.jpg?h=dd7781cc&amp;itok=15i2BO5Y"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/04/penn-state-field-hockey-takes-tight-match-2-0-against-villanova/",
+      "title_cn": "尼塔尼雄狮主场两球擒野猫，曲棍球赛季渐入佳境",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-04",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/PMW_0943-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-joins-national-initiative-strengthen-manufacturing-workforce",
+      "title_cn": "宾州州立跻身八校联盟，锻造制造业新血",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/1788477501453.jpg?h=52d3fcb6&amp;itok=NyahS1qQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/center-plant-excellence-award-130000-grant-funding",
+      "title_cn": "植物卓越中心拨款十三万，助推宾州产业创新",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-04"
     }
   ],
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
