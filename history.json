@@ -4001,9 +4001,56 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-09-04"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/student-produced-video-honoring-penn-state-tradition-earns-four-national",
+      "title_cn": "学生短片致敬传统，斩获四项全国大奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/08/shakers.jpg?h=c6980913&amp;itok=rNxoHCuL"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/woskob-family-gallery-host-closing-reception-sept-4-winking-old-ladies",
+      "title_cn": "沃斯科布画廊闭幕展：向衰老与消逝致敬",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/woskob-winking-at-ol-2026.jpg?h=677c281b&amp;itok=ORIQPlUz"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/penn-state-smeal-college-business-sets-new-fundraising-record-fiscal",
+      "title_cn": "斯米尔商学院创募款新高",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/Business%20Building%202.jpg?h=799148dd&amp;itok=E4f9NhZF"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/05/no-18-penn-state-shuts-out-marshall-45-0-in-season-opener/",
+      "title_cn": "尼塔尼雄狮主场狂胜，新赛季首战展现统治力",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-05",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Marshall-4-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/faculty-senate-holds-first-meeting-2026-27-academic-year",
+      "title_cn": "教师评议会扩席，迎人工智能素养课",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/marker-lectures-physics-set-sept-30-oct-1",
+      "title_cn": "量子光钟照亮物理前沿，叶军宾州开讲",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jun-ye-2021-e.png?h=b6cb1cc9&amp;itok=yZ3dSrYf"
     }
   ],
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
