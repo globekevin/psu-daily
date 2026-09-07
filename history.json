@@ -4048,9 +4048,57 @@
       "source": "Penn State News",
       "date": "2026-09-05",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jun-ye-2021-e.png?h=b6cb1cc9&amp;itok=yZ3dSrYf"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/exhibit-features-9-11-memorial-designs-architecture-students-honoring",
+      "title_cn": "建筑学子设计九一一纪念碑致敬罹难校友",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/richpadula_psnews.jpg?h=b78320da&amp;itok=Hp8SIMHV"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/06/penn-state-field-hockey-beats-delaware-2-1/",
+      "title_cn": "加坦双响炮，宾州州立力克特拉华",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-06",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/J27A0811-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/registration-closes-soon-academic-advising-conference-september",
+      "title_cn": "学术咨询大会廿五载，报名通道即将关闭",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dusconference2024-026.jpg?h=5c2f2c4c&amp;itok=petsRAWn"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/hidden-stars-suggest-distant-galaxies-are-more-massive-they-appear",
+      "title_cn": "早期星系暗藏群星，质量远超预期",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/d700xvar-sized.jpeg?h=19ad3fdd&amp;itok=Y18mEtIr"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/terry-watson-carmin-wong-lead-poetry-events-sept-9-and-16",
+      "title_cn": "诗歌疗愈心灵，两场活动探寻正义",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/poetry-reading-stock-image_0.jpg?h=f70f904b&amp;itok=EpGCy1gp"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/05/the-skys-the-limit-penn-state-football-wide-receiver-koby-howard-explodes-in-season-opener/",
+      "title_cn": "蛰伏一季终爆发，霍华德首战震撼全场",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-06",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Marshall-2-scaled.jpg"
     }
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
