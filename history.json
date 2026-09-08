@@ -4096,9 +4096,56 @@
       "source": "Onward State",
       "date": "2026-09-06",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Marshall-2-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/college-media-association-selects-15-penn-state-entries",
+      "title_cn": "宾州学生媒体十五项入围全国决赛",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/manbehindmural.jpg?h=97f0edea&amp;itok=binCCxlG"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/centre-stage-kick-2026-27-season-annual-sneak-preview-celebration",
+      "title_cn": "宾州州立中心舞台揭幕新季，预演庆典邀社区共赏",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/sneak-preview-previews-2509-maciejczyk-11.jpg?h=0b835bc1&amp;itok=JthT3Nc1"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/07/no-12-penn-state-womens-volleyball-defeats-depaul-3-0/",
+      "title_cn": "狮子横扫蓝魔，客场逆转夺四连胜",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-07",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/ACH9915.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-reminds-employees-policy-fn22-relationships-education-loan-lenders",
+      "title_cn": "宾州州立重申贷款伦理，约束员工与贷方关系",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-07"
+    },
+    {
+      "url": "https://www.psu.edu/news/materials-research-institute/story/tiny-mirror-controls-light-3d-could-make-microscopes-smaller-and",
+      "title_cn": "微型镜片实现三维光控，或促显微镜更小更快",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/img20260427140704_1.jpg?h=e33e004b&amp;itok=D_PMrDZn"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/alumna-named-bellisario-college-director-development-and",
+      "title_cn": "校友丽莎·马尔兹卡执掌贝利萨里奥学院发展事务",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/lisamarzka-headshot.jpg?h=ae443678&amp;itok=m6UiD1U0"
     }
   ],
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
