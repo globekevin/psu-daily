@@ -4143,9 +4143,56 @@
       "source": "Penn State News",
       "date": "2026-09-07",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/lisamarzka-headshot.jpg?h=ae443678&amp;itok=m6UiD1U0"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-other-arts-ensemble-celebrate-morton-feldmans-centenary",
+      "title_cn": "百年回响：费尔德曼音乐遗产宾州奏响",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/688824598_1545223580939053_823426941458547333_n.jpg?h=4521fff0&amp;itok=tPLCVPy5"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/qa-liberal-arts-roots-ground-penn-state-alums-rise-ai",
+      "title_cn": "文理根基助宾州州立校友执掌AI治理",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/branch_jb.jpg?h=ddb1ad0c&amp;itok=60sMdiEn"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/08/penn-state-football-defensive-tackle-siale-taupaki-reflects-on-family-ideals-in-unique-college-football-journey/",
+      "title_cn": "八载追梦，家庭为先：陶帕基的宾州州立新征程",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-08",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/04/CMG_20260421098-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/nominations-sought-faculty-scholar-medal-0",
+      "title_cn": "宾州州立大学启动最高教师荣誉提名",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/05/old-main-armillary-sphere.jpg?h=19ad3fdd&amp;itok=QjP9A3FG"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/ai-streamlines-search-new-ceramics-generate-electricity",
+      "title_cn": "人工智能加速压电陶瓷材料发现",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/photo-ai-human-energy-harvesting-applications.jpg?h=75af2f5d&amp;itok=ft7NufQh"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-selected-new-host-imagining-america-national-consortium",
+      "title_cn": "宾州州大接掌全美人文艺术联盟",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-08"
     }
   ],
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
