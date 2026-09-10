@@ -4190,9 +4190,56 @@
       "category": "演出预告",
       "source": "Penn State News",
       "date": "2026-09-08"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-school-showcase-innovations-design-research-open-house",
+      "title_cn": "斯图克曼学院开放日将展示设计研究新成果",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/oh-op1_psnews.jpg?h=b78320da&amp;itok=Fk7m1bII"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/09/big-ten-network-adds-enhanced-replay-review-insight-for-football-broadcasts/",
+      "title_cn": "十大联盟网络推出橄榄球回放透明化新举措",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-09",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/05/J27A1598-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/fcc-approves-transfer-wpsu-whyy",
+      "title_cn": "联邦通信委员会放行，WPSU并入WHYY",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-09"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/fish-dads-offer-new-insight-behavioral-effects-receiving-paternal-care",
+      "title_cn": "鱼爸爸带娃改变大脑基因",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/threespine-sticklebacks-ryan-hagerty-us-fish-and-wildlife-service-public-domain-low-res.jpg?h=14867ade&amp;itok=Vd63DJGT"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-school-host-ny-based-design-studio-lecture-and-exhibit-series",
+      "title_cn": "布鲁克林设计双人组携欢乐包装亮相宾州州立",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/yj_psnews.jpg?h=b78320da&amp;itok=XYoqJ6Rn"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/09/lady-lions-add-marlo-davis-in-player-development-role/",
+      "title_cn": "宾州州立女篮添强援，加拿大名帅戴维斯入主球员发展",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-09",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/03/3.21-4.jpg"
     }
   ],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-09",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
