@@ -4237,9 +4237,57 @@
       "source": "Onward State",
       "date": "2026-09-09",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/03/3.21-4.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/students-strengthened-steel-city-and-their-futures-through-city-semester",
+      "title_cn": "六名学子暑期深入匹兹堡，在服务中淬炼职业未来",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/img_5083.jpeg?h=6dade3ba&amp;itok=EL71Iu9w"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-sustainability/story/penn-state-sustainabilitys-2026-27-public-events-season-kicks-sept",
+      "title_cn": "宾州州立大学推出“看见人的尺度”系列活动",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/britt_kevin.png?h=ca630958&amp;itok=_yw9gqlr"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/new-professorship-fuel-research-intersection-finance-and-ai",
+      "title_cn": "校友捐赠三百万，助推金融与人工智能交叉研究",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/smeal-ken-kulju-4x3.jpg?h=c929d9be&amp;itok=OVjbBLFQ"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/10/penn-state-blue-band-to-perform-at-giants-cowboys-halftime-at-metlife-stadium/",
+      "title_cn": "宾州州立蓝带乐队将登巨人牛仔中场秀",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-10",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/10/DSC_6250.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/applications-open-new-equity-discovery-grant-excellence-seed-grant-program",
+      "title_cn": "宾州州立大学推出公平探索种子基金",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/old-main-golden-hour_2.jpg?h=d8d90ae1&amp;itok=4RkFcL60"
+    },
+    {
+      "url": "https://www.psu.edu/news/harrisburg/story/discovery-grant-helps-harrisburg-student-pursue-criminal-justice-research",
+      "title_cn": "探索资助助学生调研地铁安全感知",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/katenews26.jpg?h=a3388810&amp;itok=NTW-w6zX"
     }
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
