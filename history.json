@@ -4333,9 +4333,57 @@
       "source": "Penn State News",
       "date": "2026-09-11",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/love-data-week-btaa-graphic-adobe-stock-image-1181898592.png?h=6eb229a4&amp;itok=rVW9wDyQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-scholar-helps-update-influential",
+      "title_cn": "宾州州立学者参与修订新闻伦理准则",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/patrick_plaisance_bellisario26.jpg?h=b0acffbc&amp;itok=Syvhp-C8"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/ex-utero-project-uses-art-science-explore-regenerative-medicine",
+      "title_cn": "艺术与科学交汇，探索子宫外生育未来",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/placen-tech-2.jpg?h=677c281b&amp;itok=tt1GTDTK"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/donors-richard-and-jeane-v-singer-celebrated-altoona-engineering-program",
+      "title_cn": "百万捐赠点亮工科未来 宾州州立大学阿尔图纳命名工程套间",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/dsc_6841_0.jpg?h=6eb229a4&amp;itok=PErvpGaj"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/12/no-12-penn-state-womens-volleyball-sweeps-ohio-3-0/",
+      "title_cn": "宾州州立女排横扫俄亥俄取连胜",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-12",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/CMG_20260912010-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/nsf-stair-curriculum-expands-penn-states-aces-research-administration-program",
+      "title_cn": "宾州州立研究管理项目引入联邦课程",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/07/old-main-summer-morning.jpg?h=9c0abf10&amp;itok=68DS5qKV"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/library-discovery-hour-sept-17-highlights-penn-state-university-press",
+      "title_cn": "宾州州立大学出版社七十年学术路将亮相图书馆发现时刻",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/psupress-librarydiscoveryhour260917-1200x900.png?h=6eb229a4&amp;itok=ASFGhAGJ"
     }
   ],
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-12",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
