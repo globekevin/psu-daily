@@ -4427,9 +4427,56 @@
       "source": "Penn State News",
       "date": "2026-09-13",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/color-view-from-camera-low-rez.jpg?h=e9ece645&amp;itok=HVj6noXS"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-faculty-present-altoona-reel-film-festival",
+      "title_cn": "宾州州立教师揭幕阿尔图纳电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/filmfestival.jpg?h=19ad3fdd&amp;itok=anqWaIrX"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/penn-states-nature-and-art-rx-initiative-host-kick-week-sept-14-18",
+      "title_cn": "宾州州立大学推出自然与艺术处方周",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-14"
+    },
+    {
+      "url": "https://www.psu.edu/news/harrisburg/story/alumni-couple-establishes-endowment-penn-state-harrisburg",
+      "title_cn": "校友夫妇捐资百万设奖学金",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/ritters-news-size.jpg?h=d668221c&amp;itok=KLugcxz3"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/14/penn-state-student-killed-in-fatal-car-crash-on-blue-course-drive/",
+      "title_cn": "宾州州立学生车祸身亡 摩托车路口遭追尾",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-14",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/01/old-main1-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/new-faculty-senate-chair-stephen-snyder-begins-term-2026-27-academic-year",
+      "title_cn": "新任教师参议院主席誓言守护动荡中的同事",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dscf8020-copy-2-1.jpg?h=47c52919&amp;itok=zEjTLM9v"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/materials-science-professor-receives-international-research-honor",
+      "title_cn": "宾州州立教授获国际焊接科学大奖",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/debroy-psn.png?h=3000d65f&amp;itok=QKIqvd5f"
     }
   ],
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-14",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
