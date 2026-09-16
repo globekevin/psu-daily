@@ -4474,9 +4474,57 @@
       "source": "Penn State News",
       "date": "2026-09-14",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/debroy-psn.png?h=3000d65f&amp;itok=QKIqvd5f"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/professors-acclaimed-documentary-set-screen-festivals",
+      "title_cn": "宾州州立大学教授纪录片将巡展全球影展",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/11/boaz-dvir-outside-willard-by-bill-cardoni.jpg?h=f353d671&amp;itok=MRu-LtAm"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-school-names-inaugural-immersive-environments-lab-fellow",
+      "title_cn": "斯图克曼学院迎来首位沉浸实验室研究员",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/meganyoung_headshot_psnews.jpg?h=b78320da&amp;itok=fklXC1qB"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/sending-we-are-these-penn-staters-16",
+      "title_cn": "宾州州立大学表彰二十位杰出员工",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-2.jpg?h=6d86927c&amp;itok=Dk4OKNsX"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/15/matt-campbell-taylor-mouser-reflect-on-penn-state-footballs-early-rushing-struggles-ahead-of-buffalo/",
+      "title_cn": "宾州州立跑球乏力，进攻协调员揽责",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-15",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Temple-109-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/nese-college-nursing/story/inaugural-conway-scholars-enter-final-year-nese-college-nursing-0",
+      "title_cn": "康威学者首届班迎来毕业年",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/untitled-september-15-2026-at-15.04.45.png?h=84071268&amp;itok=oml4SfNf"
+    },
+    {
+      "url": "https://www.psu.edu/news/fox-graduate-school/story/graduate-students-invited-participate-three-minute-thesis-competition",
+      "title_cn": "三分钟讲清研究，宾州州立研究生挑战赛报名开启",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/55209798631_3b2a6b7974_k.jpg?h=3fabdafb&amp;itok=Etw7cN2w"
     }
   ],
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
