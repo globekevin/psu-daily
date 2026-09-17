@@ -4522,9 +4522,57 @@
       "source": "Penn State News",
       "date": "2026-09-15",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/55209798631_3b2a6b7974_k.jpg?h=3fabdafb&amp;itok=Etw7cN2w"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/fifteen-penn-staters-named-2026-alumni-fellows",
+      "title_cn": "十五位宾州州立人获选2026年度校友院士",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/alumni-fellows-1000x666.jpg?h=d57a69f2&amp;itok=dweyBMA4"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/seven-students-earn-university-nominations-competitive-uk-scholarships",
+      "title_cn": "七学子获宾州州立提名 角逐英国顶尖奖学金",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/union-jack-unsplash_0.jpg?h=b85c596d&amp;itok=pZrA60S9"
+    },
+    {
+      "url": "https://www.psu.edu/news/greater-allegheny/story/anton-and-joan-egner-student-travel-fund-endowed-greater-allegheny",
+      "title_cn": "夫妇捐资设基金 助学生走出课堂看世界",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/pennstatenews_2026_06_22_victoriaarticle_03.png?h=40a39e4c&amp;itok=K3De4GPC"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/16/penn-state-hoops-announces-2026-27-big-ten-schedule/",
+      "title_cn": "宾州州立男篮公布新赛季大十联盟赛程",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-16",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/10/IMG_5509-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/message-president-bendapudi-penn-state-community-invited-state-state",
+      "title_cn": "宾州州立校长邀全校共话未来",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/UP-West%20Campus%20Gate.jpg?h=7a193779&amp;itok=Qr9UNTwZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/recycled-concrete-aggregate-may-help-treat-acid-mine-drainage",
+      "title_cn": "废弃混凝土或可治理酸性矿井水",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-16",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/batch-reactor-test.jpg?h=6eb229a4&amp;itok=9MKRqLFP"
     }
   ],
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
