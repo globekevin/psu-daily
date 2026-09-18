@@ -4570,9 +4570,56 @@
       "source": "Penn State News",
       "date": "2026-09-16",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/batch-reactor-test.jpg?h=6eb229a4&amp;itok=9MKRqLFP"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/2026-faculty-engagement-award-recipients-explore-ai-enabled-smart",
+      "title_cn": "宾州州立大学21位教师获资助，探索AI眼镜教学",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/26-27-fea-announcement-article_anonymous_image1.jpg?h=66f48909&amp;itok=p35CkZ8D"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/gift-distinguished-alumnus-renames-school-theatres-playhouse-theatre",
+      "title_cn": "媒体巨擘捐资宾州州立 剧院冠名致敬艺术初心",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jimirro-2_2026_0.jpg?h=5681f646&amp;itok=MCVCj9-N"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/penn-state-development-projects-win-two-internationally",
+      "title_cn": "宾州州立校友项目摘得两项国际大奖",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/blue-band-1_resized.jpg?h=87eaa9ca&amp;itok=6g0NtWU5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/17/alleged-ringleader-thomas-robinson-allegedly-made-pledges-sign-nda-before-helping-with-cocaine-distribution/",
+      "title_cn": "宾州州立兄弟会涉毒案：新成员被逼签保密协议",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-17",
+      "image_url": "https://cdn.onwardstate.com/uploads/2023/02/Delta-Upsilon-Stutzman-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/trustees-committee-advances-proposals-appropriations-request-renovations-real",
+      "title_cn": "宾州州立大学董事会推进多项重大提案",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/IMG_5424.jpeg?h=71976bb4&amp;itok=mVdR7q-u"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/piazza-center-share-research-during-national-hazing-prevention-week",
+      "title_cn": "宾州州立大学反霸凌中心将分享研究成果",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-17"
     }
   ],
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
