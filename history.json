@@ -4617,9 +4617,56 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-09-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/pockrass-lecture-address-medias-power-political",
+      "title_cn": "媒体如何点燃政治极化，又能否催人投票？",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/hernandorojas.jpeg?h=06b3fe5d&amp;itok=QDfAUOFV"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/actors-down-syndrome-take-center-stage-hamlet-oct-13",
+      "title_cn": "唐氏演员挑大梁，哈姆雷特十月登台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/hamlet.jpg?h=82f92a78&amp;itok=n2TPcs4K"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-alumni-association-invites-alumni-home-2026-black-alumni",
+      "title_cn": "宾州州立校友返校共聚黑人校友团圆会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/bar-2000x1500.jpg?h=84071268&amp;itok=mqFmNtjs"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/18/no-9-penn-state-womens-volleyball-sweeps-usf-3-0-in-penn-state-classic/",
+      "title_cn": "宾州州立女排横扫南佛罗里达，豪取经典赛胜利",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-18",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/PMW_0819-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/trustees-approve-plans-19-million-penn-state-behrend-manufacturing-center",
+      "title_cn": "宾州州立大学批准1900万建制造中心",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/2026-5-20_entry.jpg?h=c74750f6&amp;itok=cw5zyJvr"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/lecture-will-explore-how-journalists-can-rebuild-audience-trust",
+      "title_cn": "新闻界如何重建读者信任？宾州州立大学开讲",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-18"
     }
   ],
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
