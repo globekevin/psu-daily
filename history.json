@@ -4664,9 +4664,55 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/chatty-chatbots-can-mislead-users-verification-tools-help",
+      "title_cn": "聊天越像人越易信，验证工具破迷障",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/sundar_bellisario_chatverifystudy_0.jpg?h=3af4c7d1&amp;itok=YajjZgHU"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/joyfull-feast-edition-oct-12-feature-dakota-sioux-rapper-stuart-james",
+      "title_cn": "达科他苏族说唱歌手将登台献艺",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/penn-state-community-challenged-make-one-million-gifts",
+      "title_cn": "百万学位之后，宾州州立邀校友再捐百万份",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/1mkey-wrdm-16x9-dark-large-4-3.jpg?h=a13d4e41&amp;itok=oBjAwcGR"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/19/another-day-in-the-office-penn-state-football-wide-receiver-zay-robinson-making-presence-known-on-special-teams/",
+      "title_cn": "罗宾逊特勤组闪耀，宾州州立大胜布法罗",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-19",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/UNIFORMPRE-1-5-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/employee-health-plans-remain-unchanged-2027-contributions-increase",
+      "title_cn": "宾州州立大学医保计划不变，员工缴费上涨",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/tiny-wrinkles-bend-physics-change-how-electricity-moves-through-graphene",
+      "title_cn": "石墨烯微皱褶改写电学规则",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/graphene-graphic.jpg?h=84071268&amp;itok=QrU0G9K0"
     }
   ],
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-19",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
