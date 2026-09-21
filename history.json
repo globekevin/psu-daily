@@ -4710,9 +4710,57 @@
       "source": "Penn State News",
       "date": "2026-09-19",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/graphene-graphic.jpg?h=84071268&amp;itok=QrU0G9K0"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/dropped-calls-broadband-issues-hinder-pennsylvania-first",
+      "title_cn": "信号盲区威胁宾州乡村急救人员",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/pafirstresponders.jpg?h=b78320da&amp;itok=4Ddhjuch"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-school-host-interdisciplinary-symposium-ai-use-arts-design",
+      "title_cn": "斯图克曼学院将办AI艺术设计研讨会",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/aisymposium_psnews.jpg?h=b78320da&amp;itok=XS9yBh2H"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/20/penn-state-football-safety-marcus-neal-jr-named-to-pff-national-team-of-the-week/",
+      "title_cn": "宾州州立安全卫尼尔入选PFF周最佳阵容",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-20",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/02/0X2A3465-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/att-upgrade-cellular-connectivity-experience-beaver-stadium",
+      "title_cn": "宾州州立大学携手AT&T升级球场信号",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/05/beaver-stadium-west-exterior-shot-5-17.jpg?h=ae146383&amp;itok=SMmtoXQx"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/can-steelmaking-waste-help-solar-power-store-energy",
+      "title_cn": "炼钢废渣或成太阳能储热新解",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/adobestock_slagcroppednews.jpg?h=84071268&amp;itok=xu-Dc0ZH"
+    },
+    {
+      "url": "https://www.psu.edu/news/fox-graduate-school/story/fox-graduate-school-expands-ombudsperson-program-seven-new-members",
+      "title_cn": "福克斯研究生院增设八位申诉专员",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dsc06389_02-3_downsized.png?h=fa12a5ab&amp;itok=eBxVaZhe"
     }
   ],
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-20",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
