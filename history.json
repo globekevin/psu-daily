@@ -4758,9 +4758,57 @@
       "source": "Penn State News",
       "date": "2026-09-20",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dsc06389_02-3_downsized.png?h=fa12a5ab&amp;itok=eBxVaZhe"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/digital-ethics-symposium-features-free-campus-lectures-oct",
+      "title_cn": "数字伦理峰会设免费讲座，探讨媒体与数字繁荣",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/davisethics-opt1.jpg?h=723deae0&amp;itok=r99K8r5N"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-relaunches-alumni-interview-series",
+      "title_cn": "艺术与建筑学院重启校友访谈，奥运选手与陶艺家亮相",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/movers-shakers-logo.jpg?h=7b7ba87c&amp;itok=E7x5oM6u"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/joe-abraham-joins-penn-state-smeal-real-estate-advisory-board",
+      "title_cn": "校友阿伯拉罕加盟房地产顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/joe-abraham-4x3.jpg?h=798193db&amp;itok=Xn5S1Mgc"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/21/penn-state-womens-volleyball-falls-to-no-14-in-latest-avca-poll/",
+      "title_cn": "宾州州立女排负于田纳西，排名跌至第十四",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-21",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/CMG_20260920107-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-requests-increased-state-investment-students-mission",
+      "title_cn": "宾州州立大学请求州府加大投入",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5191-copy.jpg?h=abe9b284&amp;itok=PvFBIlAY"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/watch-new-vetted-podcast-series-launches-asks-what-university-press",
+      "title_cn": "宾州州立推出播客，揭开大学出版社神秘面纱",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/vetted-intro-and-outro-1200x900-psulibs.png?h=6eb229a4&amp;itok=bAgo0Dds"
     }
   ],
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-21",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
