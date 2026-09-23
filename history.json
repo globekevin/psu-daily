@@ -4806,9 +4806,57 @@
       "source": "Penn State News",
       "date": "2026-09-21",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/vetted-intro-and-outro-1200x900-psulibs.png?h=6eb229a4&amp;itok=bAgo0Dds"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/award-winning-journalist-and-podcaster-participate-public",
+      "title_cn": "获奖播客记者走进宾州州立 畅谈新闻变革",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/04/katiethornton2025-headshot.jpg?h=b78320da&amp;itok=y6TLlEeS"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-dean-host-book-talk-art-and-media-design",
+      "title_cn": "院长对谈教授新书 拆解艺术混搭之道",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/navas-head-shot_2026.jpg?h=604e0bf3&amp;itok=5bgfo_zs"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/gregory-maugeri-joins-penn-state-smeal-real-estate-advisory-board",
+      "title_cn": "校友马杰里回归母校，助力地产教育",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/smeal-gregory-maugeri-4x3.jpg?h=636f5f42&amp;itok=VvbHKAoy"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/22/penn-state-football-set-to-encounter-familiar-face-in-wisconsin-backfield/",
+      "title_cn": "故人重逢威斯康星后场，宾州州立迎旧将考验",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-22",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Temple-19-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/educational-equity-opens-its-doors-second-annual-fall-open-house",
+      "title_cn": "宾州州立大学教育公平办公室将办秋季开放日",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/picture3.png?h=9ff38888&amp;itok=-qXhifi0"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/sept-30-talk-discuss-variability-online-nutrition-labels",
+      "title_cn": "线上营养标签位置影响健康选择",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/zhifeng-gao-news.jpg?h=75dba238&amp;itok=vMSvJW3v"
     }
   ],
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
