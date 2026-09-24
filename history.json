@@ -4854,9 +4854,55 @@
       "source": "Penn State News",
       "date": "2026-09-22",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/zhifeng-gao-news.jpg?h=75dba238&amp;itok=vMSvJW3v"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-trust-passion-preparation-strong-homecoming-parade",
+      "title_cn": "学生团队直播返校节游行",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/paradeteam2026.jpg?h=5026784e&amp;itok=IkislHCC"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/pennsylvania-quintet-performs-flight-93-25th-anniversary-observance",
+      "title_cn": "宾州五重奏赴93号航班纪念仪式献演",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-23"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/qa-liberal-arts-roots-ground-penn-state-alums-rise-ai",
+      "title_cn": "文科根基托举校友跻身AI治理核心",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/branch_jb.jpg?h=ddb1ad0c&amp;itok=60sMdiEn"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/23/nine-players-listed-as-out-for-penn-state-football-against-wisconsin-on-wednesday-availability-report/",
+      "title_cn": "宾州州立九将缺阵威斯康星之战",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-23",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/11/Penn-State-Football-vs.-Nebraska-Sophie-Yadzinski-36-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/schreyer-institute-announces-recipients-curriculum-renewal-grants",
+      "title_cn": "施赖尔学院公布课程革新资助名单",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/03/MicrosoftTeams-image%20%288%29.png?h=6eb229a4&amp;itok=sS8aU0Wd"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/liver-gut-bacteria-alter-food-molecules-influence-bodys-biological",
+      "title_cn": "肝与肠道菌联手改造食物分子，激活人体基因开关",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-23"
     }
   ],
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
