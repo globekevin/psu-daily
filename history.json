@@ -4900,9 +4900,55 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-09-23"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/students-strengthened-steel-city-and-their-futures-through-city-semester",
+      "title_cn": "六名学子暑期扎根匹兹堡，以实习淬炼城市未来",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/img_5083.jpeg?h=6dade3ba&amp;itok=EL71Iu9w"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/wiz-eases-down-road-eisenhower-auditorium-oct-22",
+      "title_cn": "百老汇经典音乐剧《新绿野仙踪》十月巡演抵宾州州立",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-24"
+    },
+    {
+      "url": "https://www.psu.edu/news/hershey/story/anonymous-donor-honors-four-diamonds-thon-permanent-signage-beaver-stadium",
+      "title_cn": "匿名捐赠者让四钻与THON永驻比弗体育场",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/09/img_7962.jpg?h=85d7385e&amp;itok=1fSbdcpC"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/09/exclusive-steve-jones-mount-rushmore-of-penn-state-basketball/",
+      "title_cn": "四十五载解说声，琼斯评出宾州州立篮球总统山",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-09-24"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-announces-interim-leadership-new-student-success-office",
+      "title_cn": "宾州州立设学生成功办公室 临时挂帅启动全国选聘",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/lance-kennedy-phillips-omsquare-226_0.jpg?h=d08f423e&amp;itok=TPY243i8"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/history-department-holds-day-america-250-themed-programming",
+      "title_cn": "宾州州立大学历史系举办“美国250”主题日活动",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/_k3_9943.jpg?h=7b79b75a&amp;itok=u8qoKgxa"
     }
   ],
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
