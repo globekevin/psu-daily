@@ -4994,9 +4994,57 @@
       "source": "Penn State News",
       "date": "2026-09-25",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/blue-band-3gen_2026.jpg?h=677c281b&amp;itok=zzDsIZW1"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/page-center-webinar-highlight-strategies-building-engaged",
+      "title_cn": "佩奇中心将办网络研讨会，探讨如何打造高参与度职场",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/university-libraries-host-banned-books-read-oct-6",
+      "title_cn": "宾州州立大学图书馆将举办禁书阅读活动",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/2d8fe81a-ddba-42dd-bbd4-31de274e5087_0.jpg?h=6eb229a4&amp;itok=kpWfadMp"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/new-professorship-fuel-research-intersection-finance-and-ai",
+      "title_cn": "校友捐资设讲席教授，助推金融与人工智能交叉研究",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/smeal-ken-kulju-4x3.jpg?h=c929d9be&amp;itok=OVjbBLFQ"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/26/no-13-penn-state-football-defeated-by-wisconsin-24-20/",
+      "title_cn": "宾州州立大学橄榄球队遭威斯康星逆转",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-26",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Wisco-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/how-quickly-people-age-during-midlife-predicted-memory-lapses-10-years-later",
+      "title_cn": "中年衰老快，十年后记忆更易“掉链子”",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/lost-keys-1499033230-tatiana-stepanishcheva-crop.jpg?h=a998d743&amp;itok=a39rXuY9"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-professor-featured-palmer-museum-exhibit",
+      "title_cn": "宾州州立大学阿尔图纳教授画作入选帕尔默博物馆特展",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/install_saw3016_web.jpg?h=f0b05773&amp;itok=Dvqr4ycz"
     }
   ],
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
