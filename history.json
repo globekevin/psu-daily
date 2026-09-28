@@ -5042,9 +5042,57 @@
       "source": "Penn State News",
       "date": "2026-09-26",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/06/install_saw3016_web.jpg?h=f0b05773&amp;itok=Dvqr4ycz"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/things-do-penn-state-sept-24-oct-1",
+      "title_cn": "宾州州立大学一周文化活动精彩纷呈",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/marathon-read-.jpg?h=d048d717&amp;itok=dgwXbA9B"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/fathers-inspire-couples-volunteerism-and-philanthropy-penn",
+      "title_cn": "父女接力，宾州州立大学比弗校区校友设奖学金回馈母校",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/becker-collage_0.jpg?h=84071268&amp;itok=gVxPmsMm"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/27/no-9-penn-state-womens-volleyball-upset-by-michigan-state-3-1/",
+      "title_cn": "第九名宾州州立女排遭密歇根州立逆转",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-27",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/CMG_20260920132-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/age-not-feed-additives-affects-antimicrobial-resistance-genes-chickens",
+      "title_cn": "鸡龄而非饲料添加剂塑造耐药基因",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/gettyimages-1069879174.-low-rez.jpg?h=810b210d&amp;itok=JcD7wWIp"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-professor-honored-brown-university-poetry-event",
+      "title_cn": "宾州州立教授诗集首发，布朗大学献演",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/02/patricia-jabbeh-wesley-2026.jpg?h=0106b6b9&amp;itok=f9e9El-h"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/27/penn-state-womens-soccer-beats-usc-1-0/",
+      "title_cn": "宾州州立女足雨战一球力克南加大",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-27",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/PMW_0359-scaled.jpg"
     }
   ],
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
