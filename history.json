@@ -5090,9 +5090,57 @@
       "source": "Onward State",
       "date": "2026-09-27",
       "image_url": "https://cdn.onwardstate.com/uploads/2026/08/PMW_0359-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-faculty-present-altoona-reel-film-festival",
+      "title_cn": "宾州州立教师揭幕阿尔图纳电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/filmfestival.jpg?h=19ad3fdd&amp;itok=anqWaIrX"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-visual-arts-continue-anderson-lecture-series-oct-7-0",
+      "title_cn": "跨学科艺术家崔元正将开讲视觉艺术系列讲座",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/anderson-26-choi.jpg?h=604e0bf3&amp;itok=HtWd1FhB"
+    },
+    {
+      "url": "https://www.psu.edu/news/harrisburg/story/alumni-couple-establishes-endowment-penn-state-harrisburg",
+      "title_cn": "校友夫妇捐百万设基金助学子",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/ritters-news-size.jpg?h=d668221c&amp;itok=KLugcxz3"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/09/penn-state-football-the-road-gets-tougher-from-here/",
+      "title_cn": "宾州州立输球后迎魔鬼赛程",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-09-28",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/09/DSC07440-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/state-state-bendapudi-outlines-road-ahead-penn-state-urges-community-get-involved",
+      "title_cn": "宾州州立校长发表州情咨文，呼吁共赴变革",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/dscf5596.jpg?h=9cb395da&amp;itok=TBNJdItf"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/lactose-intolerant-consumers-pay-more-lactose-free-ice-cream-study",
+      "title_cn": "无乳糖冰淇淋，乳糖不耐者愿多掏钱",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/grace-lewis-in-lab-low-rez.jpg?h=f02e949e&amp;itok=nJX_tyA7"
     }
   ],
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
