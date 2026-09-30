@@ -5138,9 +5138,57 @@
       "source": "Penn State News",
       "date": "2026-09-28",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/grace-lewis-in-lab-low-rez.jpg?h=f02e949e&amp;itok=nJX_tyA7"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/three-penn-state-entries-earn-top-finishes-college-student",
+      "title_cn": "宾州州立大学三作品斩获地区艾美奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/sarahgrosch.jpeg?h=3751da6c&amp;itok=M0d10lWQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-centre-stage-present-musical-comedy-sister-act",
+      "title_cn": "夜店歌手变身修女合唱团指挥",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/centre-stage-sister-act-blurb-pic.jpg?h=e21a2d3b&amp;itok=Wl0ZYOqI"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/zeta-phi-beta-sorority-inc-chapter-marks-50-years-honors-paul-robeson",
+      "title_cn": "姐妹会五十载致敬文化中心",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/4v1a1485.jpeg?h=a57d4ebb&amp;itok=7PddNFPC"
+    },
+    {
+      "url": "https://onwardstate.com/2026/09/29/penn-state-football-cornerback-daryus-dixson-listed-as-questionable-on-tuesday-availability-report/",
+      "title_cn": "宾州州立后防告急 四将出战成疑",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-09-29",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/09/Ericka-Apolskis-Penn-State-vs-Wisconsin-114-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/beaver/story/gray-family-named-penn-state-beavers-2026-outstanding-alumni",
+      "title_cn": "格雷家族获评宾州州立大学比弗校区2026年度杰出校友",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/gray-family.jpg?h=4521fff0&amp;itok=GIDZWNUz"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/nature-society-panel-discuss-environmental-change-energy-and-land",
+      "title_cn": "三位地理学家聚首宾州州立，共话环境变迁与能源未来",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/nature-and-society-keynote-panel-web.png?h=6eb229a4&amp;itok=Jud0xHbJ"
     }
   ],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-29",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
