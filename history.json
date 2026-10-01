@@ -5186,9 +5186,56 @@
       "source": "Penn State News",
       "date": "2026-09-29",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/nature-and-society-keynote-panel-web.png?h=6eb229a4&amp;itok=Jud0xHbJ"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/fifteen-penn-staters-honored-2026-alumni-fellows",
+      "title_cn": "十五位宾州州立人获母校最高荣誉",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-09-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/af26_1.jpg?h=618554cb&amp;itok=loK4-5Vl"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/whodunit-hilarious-new-stage-play-clue-will-visit-penn-state-oct-29",
+      "title_cn": "悬疑喜剧《线索》首登宾州州立舞台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-09-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1-the-company-of-the-second-north-american-tour-of-clue-photo-by-evan-zimmerman-for-murphymade.jpg?h=82f92a78&amp;itok=jmSjwBxa"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/weitzel-and-furnisses-named-2026-fundraising-volunteers-year",
+      "title_cn": "宾州州立大学表彰三位年度募捐志愿者",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-09-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/52868268113_778afc8637_c.jpg?h=79c7cc79&amp;itok=12eIyRc-"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/09/penn-state-db-earns-highest-pff-grade-of-any-freshman/",
+      "title_cn": "宾州州立新秀防守后卫闪耀全场",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/new-ai-grants-support-instructional-innovation-penn-state",
+      "title_cn": "宾州州立设AI教学资助，两项计划十一月截止申请",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-09-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/old-main-in-fall-colors-2013_1.jpg?h=b8aae163&amp;itok=nivyGxMh"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/zi-kui-liu-receives-theory-award-materials-research-society",
+      "title_cn": "宾州州立大学刘梓葵荣获材料研究学会理论奖",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-09-30",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/zi-kui-award-photo.jpg?h=69c62f5c&amp;itok=JLHwVt7p"
     }
   ],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
