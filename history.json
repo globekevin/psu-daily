@@ -5233,9 +5233,57 @@
       "source": "Penn State News",
       "date": "2026-09-30",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/zi-kui-award-photo.jpg?h=69c62f5c&amp;itok=JLHwVt7p"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/filmmaker-will-thwaites-visit-screening-qa-around-crime",
+      "title_cn": "获奖导演携讽刺纪录片走进宾州州立",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/willthwaites.jpg?h=b8aae163&amp;itok=6V9s2jBg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/using-assessment-enhance-digital-arts-certificate-programs-capstone-experience",
+      "title_cn": "宾州州立数字艺术项目以评估打磨毕业创作",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/digital-arts-1.png?h=0d009469&amp;itok=HYQJJCMR"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/gift-distinguished-alumnus-renames-school-theatres-playhouse-theatre",
+      "title_cn": "传媒巨擘捐赠百万，宾州州立剧场冠其名",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jimirro-2_2026_0.jpg?h=5681f646&amp;itok=MCVCj9-N"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/recruiting-exclusive-penn-state-near-top-of-list-for-2028-te/",
+      "title_cn": "宾州州立紧追佐治亚三星近端锋",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-01",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/10/Faraji-Tucker.jpg-e1790891707541.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/nominations-now-being-accepted-2026-27-rosemary-schraer-mentoring-award",
+      "title_cn": "宾州州立大学启动2026-27年度导师奖提名",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5134-copy.jpg?h=190f44cc&amp;itok=X5Do4ODy"
+    },
+    {
+      "url": "https://www.psu.edu/news/harrisburg/story/public-policy-professor-present-undocumented-migration-us",
+      "title_cn": "宾州州立教授开讲无证移民议题",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/04/-newssizegeneric-1.jpg?h=2ea6fbd1&amp;itok=JQIpXAUT"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
