@@ -5281,9 +5281,57 @@
       "source": "Penn State News",
       "date": "2026-10-01",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/04/-newssizegeneric-1.jpg?h=2ea6fbd1&amp;itok=JQIpXAUT"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/faculty-members-award-winning-documentary-screen-its-50th",
+      "title_cn": "宾州州立大学教授纪录片入围第50个电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/04/classofherown_0.jpg?h=67eabc4d&amp;itok=A9rUiaWR"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-announces-sixth-cohort-sustainability-fellows",
+      "title_cn": "艺术学院公布第六批可持续发展研究员",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/2026-27-sustainability-fellows-composite.jpg?h=74c6825a&amp;itok=a04sIg_R"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/fifteen-penn-staters-named-2026-alumni-fellows",
+      "title_cn": "十五位宾州州立人获选2026校友院士",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/alumni-fellows-1000x666.jpg?h=d57a69f2&amp;itok=dweyBMA4"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/02/penn-state-mens-soccer-drops-2-1-heartbreaker-to-ohio-state/",
+      "title_cn": "宾州州立男足遭俄亥俄州立终场前绝杀",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-02",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/DSC5476-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/24-penn-state-employees-recognized-achieving-25-years-service-september",
+      "title_cn": "宾州州立大学表彰24位服务满25年员工",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/penn-state-days-adj_0.png?h=eba2f25f&amp;itok=5_lXglga"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/university-libraries-launches-penn-state-behrend-student-psychology",
+      "title_cn": "宾州州立大学将学生心理学研究推向数字开放",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/behrendpsyoajournal_cover_issue_1_en_us.jpg?h=d08f423e&amp;itok=Kc6_-J8Y"
     }
   ],
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
