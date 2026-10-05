@@ -5376,9 +5376,57 @@
       "source": "Penn State News",
       "date": "2026-10-03",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/junk-food-gettyimages-1384617341-jenifoto-crop.jpg?h=23d97ce3&amp;itok=JrDNjV5r"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/pockrass-lecture-address-medias-power-political",
+      "title_cn": "媒体如何撕裂美国？学者开讲政治极化与投票率",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/hernandorojas.jpeg?h=06b3fe5d&amp;itok=QDfAUOFV"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/alumnis-gift-school-music-aims-promote-student-wellness",
+      "title_cn": "校友捐资设音乐 wellness 空间",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/poblete-1_2026.jpg?h=677c281b&amp;itok=UsXwPV1Z"
+    },
+    {
+      "url": "https://www.psu.edu/news/nese-college-nursing/story/inaugural-conway-scholars-enter-final-year-nese-college-nursing-0",
+      "title_cn": "康威学者首届学生迎来护理学业最后一年",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/untitled-september-15-2026-at-15.04.45.png?h=84071268&amp;itok=oml4SfNf"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/04/penn-state-field-hockey-upsets-no-19-lafayette-3-2-in-overtime-on-senior-day/",
+      "title_cn": "宾州州立曲棍球加时绝杀拉法叶",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-04",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/Feild-Hockey-v.-Lafayette-10.4.26-Jess-Farhat-1.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/1m-doe-grant-explore-three-elements-used-nuclear-fuel",
+      "title_cn": "美能源部拨款百万，探究核废料三元素",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/header-matse-hojong-kim-lab-4503.jpg?h=6eb229a4&amp;itok=pglrn4LE"
+    },
+    {
+      "url": "https://www.psu.edu/news/fox-graduate-school/story/graduate-students-invited-participate-three-minute-thesis-competition",
+      "title_cn": "三分钟讲清研究，宾州州立研究生挑战表达极限",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-04",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/55209798631_3b2a6b7974_k.jpg?h=3fabdafb&amp;itok=Etw7cN2w"
     }
   ],
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
