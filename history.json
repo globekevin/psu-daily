@@ -5424,9 +5424,57 @@
       "source": "Penn State News",
       "date": "2026-10-04",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/55209798631_3b2a6b7974_k.jpg?h=3fabdafb&amp;itok=Etw7cN2w"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/2026-27-teaching-and-learning-technologies-faculty-advisory-committee",
+      "title_cn": "宾州州立大学组建教学技术教师顾问委员会",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/advisorycommittee2026-2027.jpg?h=84071268&amp;itok=HlzSHWgq"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-students-win-award-connecting-health-and-environment-through",
+      "title_cn": "宾州州立学生用游戏联结健康与环境摘得大奖",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/asla03_psnews.jpg?h=b78320da&amp;itok=DB7Bzl1w"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/college-ag-sciences-clubs-get-philanthropy-boost-visiting-ag-company",
+      "title_cn": "农企回馈母校，三大社团获捐赠",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/homecomingdonation.png?h=6eb229a4&amp;itok=aXhdd07a"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/05/groove-cartel-to-perform-at-spa-discovery-concert-october-7/",
+      "title_cn": "本地乐队Groove Cartel将登台SPA探索音乐会",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-05",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/12/PW2_0271-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/qa-how-can-marketers-use-ai-effectively-without-losing-human-judgment",
+      "title_cn": "人工智能营销提速，人的判断仍不可替代",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/marketing-brainstorm.jpg?h=a61fd2e2&amp;itok=Qj0ykSZ7"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/scholar-practitioner-collaborations-shape-latest-page",
+      "title_cn": "学者与从业者联手，破解传播新难题",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
     }
   ],
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
