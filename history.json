@@ -5472,9 +5472,56 @@
       "source": "Penn State News",
       "date": "2026-10-05",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/award-winning-journalist-ml-elrick-featured-free-public",
+      "title_cn": "普利策奖得主埃里克将赴宾州州立大学开讲",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/mlelrick.jpg?h=b78320da&amp;itok=QlZ6VMcQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-welcomes-families-family-weekend-performances",
+      "title_cn": "宾州州立音乐学院家庭周末献演",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/20d5360a-4341-44ef-8738-552c4a9d7e3e.jpg?h=faaaeb7d&amp;itok=ygz3mcf3"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/gregory-maugeri-joins-penn-state-smeal-real-estate-advisory-board",
+      "title_cn": "校友马杰里重返母校 执掌地产顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/smeal-gregory-maugeri-4x3.jpg?h=636f5f42&amp;itok=VvbHKAoy"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/06/u-s-supreme-court-declines-to-hear-appeal-of-man-convicted-in-1995-penn-state-student-rape/",
+      "title_cn": "三十年前校园性侵案终局，最高法院拒绝再审",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-06",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/11/IMG_9557-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/linse-retire-after-20-years-leading-schreyer-institute-teaching-excellence",
+      "title_cn": "执教卓越廿载，林赛将于十二月荣休",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/linse_blkgold_0.jpg?h=a2169593&amp;itok=dVmqj5t0"
+    },
+    {
+      "url": "https://www.psu.edu/news/clinical-and-translational-science-institute/story/penn-state-ctsi-launches-four-fellowship",
+      "title_cn": "宾州州立大学设四项研究奖学金",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-06"
     }
   ],
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
