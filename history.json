@@ -5519,9 +5519,57 @@
       "category": "科研成果",
       "source": "Penn State News",
       "date": "2026-10-06"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/blue-white-society-president-penn-states-millionth-degree-alumni-connections",
+      "title_cn": "百万学位背后，她搭起校友桥梁",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/gorja-yadav-2-crop.jpg?h=b1f188ec&amp;itok=2ycf6lc5"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/indigenous-people-modern-world-theme-reflects-modern-representation",
+      "title_cn": "印第安文化走出历史橱窗，说唱与喜剧登上舞台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/stuart-raooer.jpg?h=7fb6e434&amp;itok=7_NIxkjG"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-college/story/lenfest-foundation-gift-help-penn-college-students-overcome-financial-barriers",
+      "title_cn": "两百万捐款助力寒门学子圆梦",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/26_092926_70002.jpg?h=8f587bef&amp;itok=YwDWxT3Z"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/without-koby-howard-rocco-becht-has-fallen-adrift-heres-where-he-can-find-his-game/",
+      "title_cn": "霍华德伤退后 贝赫特迷失传球方向",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-07",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/10/10-2-2026-Penn-State-@-Northweastern-7606-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/penn-state-launches-new-office-bolster-academic-integrity",
+      "title_cn": "宾州州立大学设新办公室，严管学术诚信",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/FallCampusExterior2020-100.png?h=76c7c60b&amp;itok=kooTmowb"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/penn-state-pda-break-ground-animal-diagnostic-laboratory-expansion",
+      "title_cn": "宾州州立大学动检实验室扩建破土",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-07",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/groundbreaking_4x3.png?h=67eabc4d&amp;itok=U5pcSDBj"
     }
   ],
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
