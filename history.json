@@ -5567,9 +5567,57 @@
       "source": "Penn State News",
       "date": "2026-10-07",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/groundbreaking_4x3.png?h=67eabc4d&amp;itok=U5pcSDBj"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/experts-set-discuss-how-broadband-gap-hampers-rural",
+      "title_cn": "宽带鸿沟困住宾州乡村，专家齐聚求解",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/kathryndewit.jpg?h=2226670d&amp;itok=vAuBNWF_"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/ten-thousand-hours-ode-peak-form-oct-27-eisenhower-auditorium",
+      "title_cn": "澳洲杂技团携《一万小时》登台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/gravity-and-other-myths-ten-thousand-hours-darcy-grant.jpg?h=be915d7b&amp;itok=XzwQosEc"
+    },
+    {
+      "url": "https://www.psu.edu/news/hershey/story/anonymous-donor-honors-four-diamonds-thon-permanent-signage-beaver-stadium",
+      "title_cn": "匿名捐赠者让“四钻”与THON永驻比弗体育场",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/09/img_7962.jpg?h=85d7385e&amp;itok=1fSbdcpC"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/penn-state-basketball-rhoades-juric-byers-in-chicago-for-big-ten-media-day/",
+      "title_cn": "宾州州立男篮芝加哥亮相媒体日",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-08",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/10/RhoadesJuricByers.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/starfish-midsemester-progress-surveys-remain-open-until-oct-28",
+      "title_cn": "期中进度调查开放，教师可标记学生学业隐忧",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/dus-academic-advising.jpg?h=7978f316&amp;itok=iFzDcQzs"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/how-does-atmospheric-turbulence-impact-tornado-formation",
+      "title_cn": "湍流如何触发龙卷风？百万美元研究探秘",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/tornado-alley.jpg?h=6eb229a4&amp;itok=ACBLlI20"
     }
   ],
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
