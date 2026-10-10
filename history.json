@@ -5615,9 +5615,55 @@
       "source": "Penn State News",
       "date": "2026-10-08",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/tornado-alley.jpg?h=6eb229a4&amp;itok=ACBLlI20"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-trust-passion-preparation-strong-homecoming-parade",
+      "title_cn": "学生团队直播返校节游行",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/paradeteam2026.jpg?h=5026784e&amp;itok=IkislHCC"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-dean-host-talk-landscape-architecture-professor",
+      "title_cn": "宾州州立大学院长对谈景观建筑教授 共话数字时代社区韧性",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/mainzer_2026.jpg?h=44684468&amp;itok=Fugx6jQP"
+    },
+    {
+      "url": "https://www.psu.edu/news/world-campus/story/lonsteins-continue-support-world-campus-smart-track-success-program",
+      "title_cn": "校友夫妇续捐奖学金，助线上新生走稳第一年",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/penn-state-injury-update-key-linebacker-ruled-out-meanwhile-key-dl-upgraded-against-usc/",
+      "title_cn": "宾州州立后防告急 白城之战一人缺阵一人回归",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/metlife-legal-insurance-benefit-offers-expert-guidance-employees-family",
+      "title_cn": "宾州州立大学推出法律援助保险福利",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/gettyimages-2181507297.jpg?h=497b6a4e&amp;itok=-V5326PO"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/19m-nih-award-fund-study-how-mechanical-signals-control-cell-fate",
+      "title_cn": "宾州州立大学获190万美元研究细胞命运",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-09",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/260418-psn-esther-gomez.jpg?h=87b090cb&amp;itok=KXqlxeLw"
     }
   ],
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
