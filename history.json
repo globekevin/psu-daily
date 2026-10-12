@@ -5709,9 +5709,56 @@
       "source": "Penn State News",
       "date": "2026-10-10",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/100-yr-physics-phd-celebration-5.jpg?h=56d0ca2e&amp;itok=CcgoVnRH"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/digital-ethics-symposium-features-free-campus-lectures-oct",
+      "title_cn": "宾州州立大学传媒学院举办数字伦理研讨会",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/davisethics-opt1.jpg?h=723deae0&amp;itok=r99K8r5N"
+    },
+    {
+      "url": "https://www.psu.edu/news/schuylkill/story/penn-state-laureate-present-collaborative-poetry-event-penn-state-schuylkill",
+      "title_cn": "宾州州立桂冠诗人将赴舒尔基尔校区办诗歌工作坊",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/murphy-laureate-headshot.jpeg?h=0edda1f1&amp;itok=HVIlSz9b"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/joe-abraham-joins-penn-state-smeal-real-estate-advisory-board",
+      "title_cn": "斯米尔校友亚伯拉罕加入房地产顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/joe-abraham-4x3.jpg?h=798193db&amp;itok=Xn5S1Mgc"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/golik-patience-is-a-virtue-matt-campbell-is-about-to-test-penn-states/",
+      "title_cn": "坎贝尔执教耐心受考验 宾州州立球迷怒火难平",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-11",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/10/DSC00506-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/preliminary-targets-identified-road-map-workstreams",
+      "title_cn": "宾州州立大学公布十一项发展路径初步目标",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-11"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-sustainability/story/penn-state-sustainability-pa-greengov-council-offer-8th-annual",
+      "title_cn": "宾州州立携手州府，共推可持续系列讲座",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/adobestock_473497429.jpeg?h=0c976230&amp;itok=HY810a8X"
     }
   ],
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-11",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
