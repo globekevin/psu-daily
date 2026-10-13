@@ -5756,9 +5756,57 @@
       "source": "Penn State News",
       "date": "2026-10-11",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/adobestock_473497429.jpeg?h=0c976230&amp;itok=HY810a8X"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/clue-actors-zoie-tannous-kyle-yampiro-look-past-inspiration",
+      "title_cn": "经典喜剧《妙探寻凶》首登宾州州立舞台",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/07/1-the-company-of-the-second-north-american-tour-of-clue-photo-by-evan-zimmerman-for-murphymade.jpg?h=82f92a78&amp;itok=jmSjwBxa"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/landscape-architecture-alumni-partner-offer-student-internship-italy",
+      "title_cn": "宾州州立校友联手设海外实习",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/farewell-lunch_psnews.jpg?h=b78320da&amp;itok=217E08Yc"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/12/news-notes-from-penn-state-womens-basketball-media-day/",
+      "title_cn": "赖特重返快乐谷，执掌宾州州立女篮",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-12",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/03/IMG_1188.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-forum-speaker-series-hosts-ai-business-strategist-jeff-sundheim-nov",
+      "title_cn": "宾州州立论坛邀AI战略家开讲",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jeff-sundheim.png?h=f9aa5d64&amp;itok=Hnu2lJrp"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/tiny-droplets-can-form-soft-networks-brain-inspired-computing",
+      "title_cn": "水滴织网，软材料学会“记忆”",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/neuromorphic-header.jpg?h=84071268&amp;itok=PTSlykxy"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-present-modern-adaptation-shakespeares-macbeth",
+      "title_cn": "宾州州立阿尔图纳校区将上演现代版《麦克白》",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/macbeth-4x3.jpg?h=6eb229a4&amp;itok=CtkCj5ud"
     }
   ],
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
