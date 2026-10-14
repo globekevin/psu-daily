@@ -5804,9 +5804,57 @@
       "source": "Penn State News",
       "date": "2026-10-12",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/macbeth-4x3.jpg?h=6eb229a4&amp;itok=CtkCj5ud"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/three-penn-state-entries-earn-top-finishes-college-student",
+      "title_cn": "宾州州立三学子问鼎地区艾美奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/sarahgrosch.jpeg?h=3751da6c&amp;itok=M0d10lWQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/palmer-museum-art/story/palmer-museum-exhibitions-showcase-faculty-student-curators-through",
+      "title_cn": "宾州州立博物馆秋季双展：师生共策艺术与劳动",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/pal_4360.jpg?h=2a71c125&amp;itok=4Z3EBn6R"
+    },
+    {
+      "url": "https://www.psu.edu/news/student-affairs/story/zeta-phi-beta-sorority-inc-chapter-marks-50-years-honors-paul-robeson",
+      "title_cn": "姐妹会五十载回馈文化中心",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/4v1a1485.jpeg?h=a57d4ebb&amp;itok=7PddNFPC"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/13/man-charged-with-selling-cocaine-in-state-college-area/",
+      "title_cn": "州学院男子涉贩可卡因面临十八项重罪指控",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-13",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/04/state-college-police-cop-car-officer-cruiser-scpd-uppd-15-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/student-advocates-engage-community-support-federal-student-aid-programs",
+      "title_cn": "宾州州立学生集会呼吁保住联邦助学金",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/img_4215.jpg?h=02ce9656&amp;itok=3ciehSBQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/recycled-plastic-asphalt-may-boost-pavement-performance-limit-particle-release",
+      "title_cn": "再生塑料沥青更耐久，或减少微塑料释放",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/asphalt.jpg?h=6eb229a4&amp;itok=ZOI5k1HF"
     }
   ],
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
