@@ -5852,9 +5852,56 @@
       "source": "Penn State News",
       "date": "2026-10-13",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/asphalt.jpg?h=6eb229a4&amp;itok=ZOI5k1HF"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/acclaimed-documentary-screen-major-festivals-austin-london",
+      "title_cn": "宾州州立大学教授纪录片连获三大国际电影节青睐",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/tokillanazi2.jpg?h=63e2158d&amp;itok=-e3LcTOG"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/jazz-lincoln-center-orchestra-celebrates-global-language-jazz-nov-8",
+      "title_cn": "马萨利斯率爵士乐团巡演，告别之旅奏响全球城市",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/jlco_midwintertour.jpg?h=10d202d3&amp;itok=1E03-qKp"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/fifteen-penn-staters-honored-2026-alumni-fellows",
+      "title_cn": "十五位校友荣归母校获最高荣誉",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/af26_1.jpg?h=618554cb&amp;itok=loK4-5Vl"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/15/penn-state-football-linebacker-cam-smith-upgraded-to-probable-against-michigan-on-thursday-availability-report/",
+      "title_cn": "宾州州立线卫史密斯升级出战密歇根",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-15",
+      "image_url": "https://cdn.onwardstate.com/uploads/2025/11/Penn-State-Football-vs-Ohio-State-by-Ericka-Apolskis-19-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/faculty-senate-hears-updates-university-leadership-informational-reports",
+      "title_cn": "教师评议会听取校方汇报，多项议题待表决",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/genome-detectives-students-sequence-genome-harmful-plant-pathogen",
+      "title_cn": "学生解码植物病原体完整基因组",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/genomeheader.png?h=6eb229a4&amp;itok=1-T9N57n"
     }
   ],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-15",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
