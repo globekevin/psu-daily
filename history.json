@@ -5947,9 +5947,56 @@
       "source": "Penn State News",
       "date": "2026-10-16",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/indianapolis1-copy.jpg?h=84071268&amp;itok=MBLN5AGz"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/faculty-members-award-winning-documentary-screen-its-50th",
+      "title_cn": "一部纪录片走过五十个电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/04/classofherown_0.jpg?h=67eabc4d&amp;itok=A9rUiaWR"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/sending-we-are-these-penn-staters-oct-15",
+      "title_cn": "宾州州立表彰二十四位“We Are!”人物",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-1.jpg?h=ffffff33&amp;itok=-Jw8SJ4F"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/gift-distinguished-alumnus-renames-school-theatres-playhouse-theatre",
+      "title_cn": "校友捐资命名剧院，致敬舞台初心",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/jimirro-2_2026_0.jpg?h=5681f646&amp;itok=MCVCj9-N"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/everything-matt-campbell-said-after-21-18-loss-to-michigan/",
+      "title_cn": "宾州州立大学连败四场，客场惜败密歇根",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/penn-state-military-appreciation-week-2026-events-kick-nov-7",
+      "title_cn": "宾州州立大学将举办军事感谢周",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/11/ind_8615.jpg?h=fe742a33&amp;itok=4u5pU6o-"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/one-step-rapid-syphilis-test-detects-infection-earlier-researchers-report",
+      "title_cn": "纳米颗粒加持 梅毒检测提速",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/pan-lateral-flow-reporter-syphilis-header.jpg?h=292e1dbe&amp;itok=4yfXh9K5"
     }
   ],
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
