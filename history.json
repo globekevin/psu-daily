@@ -5994,9 +5994,57 @@
       "source": "Penn State News",
       "date": "2026-10-17",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/pan-lateral-flow-reporter-syphilis-header.jpg?h=292e1dbe&amp;itok=4yfXh9K5"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/filmmaker-will-thwaites-visit-screening-qa-around-crime",
+      "title_cn": "获奖导演携新片走进宾州州立校园",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/willthwaites.jpg?h=b8aae163&amp;itok=6V9s2jBg"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/penn-state-centre-stage-presents-musical-sister-act-through-oct-17",
+      "title_cn": "宾州州立大学剧院上演《修女也疯狂》",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/sister_act-1.jpg?h=d991e50c&amp;itok=POf7Faa1"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/18/penn-state-wrestlings-jayden-james-takes-silver-medal-at-u23-world-championships-in-las-vegas/",
+      "title_cn": "詹姆斯拉斯维加斯摘银 宾州州立三将出战U23世锦赛",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-18",
+      "image_url": "https://cdn.onwardstate.com/uploads/2024/11/Cael-Sanderson-Penn-State-wrestling-Aidan-Conrad-1-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/berks/story/penn-state-berks-advisory-board-welcomes-seven-new-members",
+      "title_cn": "宾州州立大学伯克斯分校顾问委员会新增七名成员",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/advisory-board-members-article-fa26.jpg?h=167a2611&amp;itok=ICvCoAio"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/engineers-penn-state-contribute-national-20m-liver-bioprinting-project",
+      "title_cn": "宾州州立大学工程师参与两千万美元肝脏生物打印项目",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/lance-lian.jpg?h=8f2e14dd&amp;itok=RF4D1NqM"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-visual-arts-continue-anderson-lecture-series-oct-20",
+      "title_cn": "艺术家杰斐逊·平德将登台安德森讲座",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/pinder_-anderson-2026.jpg?h=604e0bf3&amp;itok=wyQTD9-f"
     }
   ],
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-18",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
