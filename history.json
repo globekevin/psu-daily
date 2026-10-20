@@ -6042,9 +6042,56 @@
       "source": "Penn State News",
       "date": "2026-10-18",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/pinder_-anderson-2026.jpg?h=604e0bf3&amp;itok=wyQTD9-f"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/penn-state-have-key-exhibit-198th-phs-philadelphia-flower-show",
+      "title_cn": "宾州州立大学将携重磅展园重返费城花展",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/the-arboretum-at-penn-state.jpg?h=0d27ee61&amp;itok=yVcS_HQH"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-music-presents-two-family-friendly-performances-young-audiences",
+      "title_cn": "宾州州立音乐学院秋季献演 两场亲子音乐会带孩子走进音乐世界",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/unnamed.jpg?h=d318f057&amp;itok=qp6fpah6"
+    },
+    {
+      "url": "https://www.psu.edu/news/athletics/story/ticket-requests-military-appreciation-football-game-start-oct-21",
+      "title_cn": "宾州州立军人感恩赛开放免费索票",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/10/military-appreciation-2.jpg?h=5dc9785f&amp;itok=BnqdX6QR"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/rink-intel-penn-state-looks-to-end-winless-start-against-robert-morris/",
+      "title_cn": "宾州州立主场迎战罗伯特莫里斯，力争赛季首胜",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-board-trustees-meet-nov-12-13-university-park",
+      "title_cn": "宾州州立大学董事会将于十一月召开公开会议",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5191-copy.jpg?h=abe9b284&amp;itok=PvFBIlAY"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/jennifer-van-hook-elected-president-population-association-america",
+      "title_cn": "宾州州立教授执掌美国人口学会",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/jenny-van-hook-3-new-2.jpg?h=984eabc3&amp;itok=73q7Bibn"
     }
   ],
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
