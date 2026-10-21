@@ -6089,9 +6089,57 @@
       "source": "Penn State News",
       "date": "2026-10-19",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/jenny-van-hook-3-new-2.jpg?h=984eabc3&amp;itok=73q7Bibn"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-mark-us-media-literacy-week-panels-community",
+      "title_cn": "宾州州立大学举办媒体素养周 探讨AI与虚假信息",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/barkerproclaimation.jpeg?h=b78320da&amp;itok=t-qqrf6u"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/gravity-other-myths-acrobat-expect-serious-play-ten-thousand-hours",
+      "title_cn": "澳洲杂技团携《一万小时》炫技宾州州立",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/ten-thousand-hours.jpg?h=34000891&amp;itok=3EkK_Wup"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/penn-state-alumni-association-celebrates-2026-black-alumni-reunion",
+      "title_cn": "三百余校友重返校园，共叙黑人社区情谊",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/bar-2000x1500-1.jpg?h=4ba94873&amp;itok=nU8a5rvZ"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/20/penn-state-mens-hockey-dominated-by-robert-morris-5-2/",
+      "title_cn": "宾州州立冰球主场折戟 赛季首胜仍未到来",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-20",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/IMG_8590-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/pennsylvania-house-adopts-penn-state-one-millionth-degree-day-resolution",
+      "title_cn": "宾州众议院通过决议 纪念宾州州立百万学位里程碑",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/08/2026-psu-universitypark-1msummercommencement-0162-large.jpg?h=96a96008&amp;itok=iKVR2OHc"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-global/story/students-participate-stem-research-program-tohoku-university",
+      "title_cn": "宾州州立学子赴日交流 实验室里淬炼科研能力",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/2026-group-tohoku-t-srip-pic_0.jpg?h=adbb760b&amp;itok=WXDM2-aH"
     }
   ],
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
