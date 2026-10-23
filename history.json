@@ -6185,9 +6185,57 @@
       "source": "Penn State News",
       "date": "2026-10-21",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/shanafelt_madeline_1.jpg?h=95ba8432&amp;itok=gHA0St9p"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/experts-set-discuss-how-broadband-gap-hampers-rural",
+      "title_cn": "宽带鸿沟困住宾州乡村，专家开讲破局之道",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/kathryndewit.jpg?h=2226670d&amp;itok=vAuBNWF_"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/beyond-classroom-penn-state-student-finds-new-perspective-through-arboretum",
+      "title_cn": "从课堂到花园：一名景观设计学生的园艺实习记",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/dsc_4268-large.jpg?h=ea95bb15&amp;itok=trcEMv8Q"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/alumni-couples-connection-penn-state-altoona-leads-endowed-scholarship",
+      "title_cn": "校友夫妇捐资设奖学金反哺母校",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/skvir-photo.jpg?h=f22a623e&amp;itok=PyNKrEaW"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/22/penn-state-womens-soccer-conquers-no-5-michigan-state-2-1/",
+      "title_cn": "宾州州立女足客场力克全美第五密歇根州立",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-22",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/08/PMW_0184-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/brandywine/story/brandywine-signs-transfer-agreement-delaware-county-community-college",
+      "title_cn": "布兰迪万与特拉华县社区学院签署转学协议",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/psubw-dccc-1.jpg?h=9127ffdb&amp;itok=e_g2jFco"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/methane-emissions-baltimore-show-seasonal-daily-trends",
+      "title_cn": "巴尔的摩甲烷排放呈现昼夜与季节规律",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/adobestock_557707997.jpeg?h=6eb229a4&amp;itok=qhwi3Smq"
     }
   ],
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-22",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
