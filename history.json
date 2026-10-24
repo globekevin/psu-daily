@@ -6233,9 +6233,57 @@
       "source": "Penn State News",
       "date": "2026-10-22",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/adobestock_557707997.jpeg?h=6eb229a4&amp;itok=qhwi3Smq"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/2026-27-teaching-and-learning-technologies-faculty-advisory-committee",
+      "title_cn": "宾州州立大学组建教学技术顾问委员会",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/advisorycommittee2026-2027.jpg?h=84071268&amp;itok=HlzSHWgq"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/graphic-design-student-brings-her-culture-her-research",
+      "title_cn": "设计学子将泰米尔文化织入荣誉论文",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/shalini-prasath_discovery-grant_research-photo-185-copy.jpeg?h=0c5222dd&amp;itok=r38kUtXF"
+    },
+    {
+      "url": "https://www.psu.edu/news/world-campus/story/lonsteins-continue-support-world-campus-smart-track-success-program",
+      "title_cn": "校友夫妇五年捐赠续写在线学子成功路",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/lonstein_wedding_use_2000x1500.jpg?h=4039b237&amp;itok=1Qyqjf_V"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/10/penn-state-hits-the-wpial-to-see-james-booboo-armstrong/",
+      "title_cn": "宾州州立大学利用轮空周考察四星四分卫",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-10-23",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/07/Screenshot-2026-07-08-at-9.01.43-PM-scaled.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/retirement-webinar-support-penn-state-faculty-planning-transition-2",
+      "title_cn": "宾州州立大学推出退休网络研讨会，助力教师从容转身",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5134-copy.jpg?h=190f44cc&amp;itok=X5Do4ODy"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/building-social-and-emotional-skills-preschool-improved-life-young-adults",
+      "title_cn": "学前社交情感课，二十年后的回响",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-23",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/kids-and-book-gettyimages-2235758946-fatcamera.jpg?h=33fa4b71&amp;itok=5r6LR_1I"
     }
   ],
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
