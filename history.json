@@ -6281,9 +6281,57 @@
       "source": "Penn State News",
       "date": "2026-10-23",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/kids-and-book-gettyimages-2235758946-fatcamera.jpg?h=33fa4b71&amp;itok=5r6LR_1I"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/scholar-practitioner-collaborations-shape-latest-page",
+      "title_cn": "学者与业界携手，重塑传播研究新路径",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/professors-art-exhibited-national-museum-african-american-history-and",
+      "title_cn": "宾州州立教授抽象椅作入藏国家非裔美国人历史文化博物馆",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/fo-wilson_2026.jpg?h=677c281b&amp;itok=PzuSnuw4"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/college-ag-sciences-clubs-get-philanthropy-boost-visiting-ag-company",
+      "title_cn": "校友企业返校捐赠，助力农科社团发展",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/homecomingdonation.png?h=6eb229a4&amp;itok=aXhdd07a"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/24/penn-state-mens-hockey-walks-it-off-in-overtime-in-3-2-win-against-canisius/",
+      "title_cn": "加时绝杀！宾州州立冰球横扫金狮",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-24",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/Jared_Freed-1-2-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/new-case-management-solution-provides-coordinated-support-students-families",
+      "title_cn": "宾州州立大学推出统一案件管理平台，让学生告别多部门奔波",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf0611-copy-2-1.jpg?h=bffca316&amp;itok=XZdwJxUi"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/next-gen-tools-next-gen-telescopes",
+      "title_cn": "新一代望远镜海量数据催生分析新工具",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/ward-sj-2lr.jpg?h=eaaafdd8&amp;itok=6RlQizpH"
     }
   ],
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-24",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
