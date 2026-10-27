@@ -6377,9 +6377,57 @@
       "source": "Penn State News",
       "date": "2026-10-25",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/princiotta-and-diangelo-algae-research-fa26_news.jpg?h=6eb229a4&amp;itok=hITk1NTg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/centre-film-festival-celebrates-filmmaking-options-variety",
+      "title_cn": "第八届中心电影节将开幕，全球佳作汇聚宾州",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/cff_poster_2026_uec5-1382x2048.jpg?h=67eabc4d&amp;itok=AbSPWKxC"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/stuckeman-school-host-expert-psychological-and-brain-sciences-talk",
+      "title_cn": "德雷塞尔学者来校 解码设计者心智",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/johngero_psnews.jpg?h=b78320da&amp;itok=jlN5Ohdr"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/landscape-architecture-alums-involved-two-new-presidential-libraries",
+      "title_cn": "两位宾州州立校友重塑总统图书馆景观",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/obamaroosevelt_hero_theodore-roosevelt-presidential-library_obama-foundation.jpg?h=b78320da&amp;itok=xom5pS47"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/26/penn-state-womens-volleyballs-kennedy-martin-alexis-stucky-receive-weekly-big-ten-awards/",
+      "title_cn": "宾州州立女排双星闪耀，连克强敌揽周度大奖",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-26",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/VBall-vs-Nebraska-15-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/save-date-penn-state-host-leading-through-disruption-panel-nov-4-industry",
+      "title_cn": "宾州州立大学将办论坛 探讨变局中的领导力",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/2025-psu-universitypark-0955-large.jpg?h=96a96008&amp;itok=LHeaTPY3"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/crowd-sourced-collabs-using-ai-social-media-find-potential-brand-partners",
+      "title_cn": "社媒数据助力品牌配对",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/social-media-networking.jpg?h=be31237a&amp;itok=-GQyCADE"
     }
   ],
-  "last_updated": "2026-10-25",
+  "last_updated": "2026-10-26",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
