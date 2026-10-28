@@ -6425,9 +6425,56 @@
       "source": "Penn State News",
       "date": "2026-10-26",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/social-media-networking.jpg?h=be31237a&amp;itok=-GQyCADE"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/school-visual-arts-conclude-fall-anderson-lecture-series-nov-3",
+      "title_cn": "加纳艺术家将废品化为诗意 宾州州立讲座收官",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/anderson-2026_mohammed.jpg?h=38acf462&amp;itok=xKbfglgY"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/landscape-architecture-alumni-partner-offer-student-internship-italy",
+      "title_cn": "宾州州立校友携手 送学子赴意实习",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/farewell-lunch_psnews.jpg?h=b78320da&amp;itok=217E08Yc"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/27/matt-campbell-focused-on-staying-true-to-penn-state-footballs-process-despite-demand-for-instant-gratification/",
+      "title_cn": "四连败后坎贝尔坚守建队之道",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-27",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/Penn-State-vs-Northwestern-Ericka-Apolskis-89-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/bookmark-database-now-available-support-professional-licensure",
+      "title_cn": "宾州州立推出执照认证数据库，各州要求一键可查",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-27"
+    },
+    {
+      "url": "https://www.psu.edu/news/behrend/story/behrend-researchers-share-work-annual-faculty-showcase",
+      "title_cn": "四旬学者亮出千万美元研究清单",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/10.21.2026-faculty-showcase.1.jpg?h=005e64c6&amp;itok=gYu58rgB"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/centre-stages-wolves-examines-adolescent-struggles-through-soccer-lens",
+      "title_cn": "绿茵场上的少女心事：宾州州立大学剧院上演《狼群》",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/1920x1080-cs-wolves1.jpg?h=be3ce50b&amp;itok=pfRD8_I7"
     }
   ],
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
