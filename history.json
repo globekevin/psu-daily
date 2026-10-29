@@ -6472,9 +6472,57 @@
       "source": "Penn State News",
       "date": "2026-10-27",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/1920x1080-cs-wolves1.jpg?h=be3ce50b&amp;itok=pfRD8_I7"
+    },
+    {
+      "url": "https://www.psu.edu/news/institute-computational-and-data-sciences/story/icds-announces-26-co-hires-support-ai-initiatives",
+      "title_cn": "宾州州立大学新聘26名AI联合聘任教师",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/newco-hires-1.png?h=6eb229a4&amp;itok=LEuQyt2L"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/poetry-motion-program-promotes-creative-expression-agricultural",
+      "title_cn": "诗歌走进农业课堂，创意表达点亮全球教育",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/clinton.jpg?h=943238f6&amp;itok=quXx_RFR"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/28/penn-state-mens-soccer-beats-duquesne-3-1/",
+      "title_cn": "宾州州立男足三球完胜杜肯大学",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-28",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/10.28.26-Isaac-Lothrop-PSU-MSoc-vs.-DuQuesne-15-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/academics/story/25th-year-conference-academic-advising-focuses-student-success",
+      "title_cn": "学术指导会议走过廿五载 聚焦学生成功新路径",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/2026-academic-advising-conference.jpg?h=97ef7290&amp;itok=iFvkgXDd"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/ask-expert-are-polls-trustworthy",
+      "title_cn": "民调可信吗？专家拆解背后科学",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/gettyimages-1704680401_psn.jpg?h=19ad3fdd&amp;itok=br-WVE5A"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-present-artwork-vesselina-traptcheva",
+      "title_cn": "织梦者特普切娃将携获奖作品亮相阿尔图纳",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/traptchevav_2-2.jpg?h=6eb229a4&amp;itok=TxEpTtQP"
     }
   ],
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
