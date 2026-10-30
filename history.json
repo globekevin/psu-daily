@@ -6520,9 +6520,56 @@
       "source": "Penn State News",
       "date": "2026-10-28",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/traptchevav_2-2.jpg?h=6eb229a4&amp;itok=TxEpTtQP"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/work-penn-state-faculty-alumni-set-screenings-centre-film",
+      "title_cn": "宾州州立大学师生作品亮相中心电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/tokillanazi.jpg?h=c1d6f72c&amp;itok=2WNYgTf-"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/audiences-gain-insight-teen-girls-struggles-friendships-latest-centre",
+      "title_cn": "绿茵场上的少女心事：宾州州立大学剧团演绎成长阵痛",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/thewolves-rehearsal-0964.jpg?h=9eaf294e&amp;itok=nZPSSP98"
+    },
+    {
+      "url": "https://www.psu.edu/news/alumni-association/story/fifteen-penn-staters-honored-2026-alumni-fellows",
+      "title_cn": "十五位校友获颁最高荣誉重返母校",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-10-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/af26_1.jpg?h=618554cb&amp;itok=loK4-5Vl"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/29/no-13-penn-state-womens-volleyball-defeats-ohio-state-3-1/",
+      "title_cn": "宾州州立女排主场力克俄亥俄州立",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-29",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/Wvb-vs-Ohio-State-10-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/research-support-transformation-grant-and-contract-processing-improvements-through",
+      "title_cn": "宾州州立推出数据看板，提速科研合同审批",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/resident-experience-matters-estimating-neighborhood-walkability",
+      "title_cn": "步行友好度，居民感受比客观数据更真实",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-29",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/walkability-header.jpeg?h=a6aae8b2&amp;itok=WsC5ZcPu"
     }
   ],
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
