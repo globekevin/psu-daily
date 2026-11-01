@@ -6615,9 +6615,57 @@
       "source": "Penn State News",
       "date": "2026-10-30",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/3-young-researchers-low-rez.jpg?h=2d1c98cb&amp;itok=ptRqp1cM"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bronstein-lecture-highlight-ethics-and-leadership",
+      "title_cn": "传媒伦理讲堂聚焦责任领导力",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/mary-e-rolling-reading-series-present-fiction-writer-morris-collins-nov-12",
+      "title_cn": "宾州州立大学校友柯林斯携新作重返母校朗读",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-10-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/morris-collins-rolling-reading-series.png?h=68346444&amp;itok=HE8nVZf7"
+    },
+    {
+      "url": "https://onwardstate.com/2026/10/31/penn-state-mens-hockey-falls-to-no-18-minnesota-4-3-in-overtime/",
+      "title_cn": "加时赛遭明尼苏达绝杀，宾州州立冰球憾负",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-10-31",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/Penn-State-Mens-Hockey-vs-Canisius-by-Ella-Wehmeyer-51-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/15-penn-state-employees-recognized-achieving-25-years-service-october",
+      "title_cn": "十五位教职工获表彰 廿五载坚守宾州州立",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-10-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/penn-state-days-adj_0.png?h=eba2f25f&amp;itok=5_lXglga"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/virtual-modeling-reveals-safety-measures-battery-powered-mining",
+      "title_cn": "虚拟矿井预演电池火灾 为矿工抢出逃生时间",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-10-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/mining-hero.png?h=10d202d3&amp;itok=WJ82PcLg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-passion-project-film-goes-introductory-class",
+      "title_cn": "课堂作业变获奖纪录片，学生镜头对准乐队抛旗手",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-10-31",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/sapphire1.jpeg?h=d46f0542&amp;itok=CCvhacG1"
     }
   ],
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-10-31",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
