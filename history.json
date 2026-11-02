@@ -6663,9 +6663,56 @@
       "source": "Penn State News",
       "date": "2026-10-31",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/sapphire1.jpeg?h=d46f0542&amp;itok=CCvhacG1"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/acclaimed-documentary-screen-major-festivals-austin-london",
+      "title_cn": "宾州州立大学教授纪录片连映三大国际影展",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/tokillanazi2.jpg?h=63e2158d&amp;itok=-e3LcTOG"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/hard-freight-magazine-submission-deadline-extended",
+      "title_cn": "宾州州立阿尔图纳校区文学杂志征稿延期",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2023/03/audience-listens-professor-patricia-jabbeh-wesley-introduce-featured-reader-yaw-agawu-kakraba.jpg?h=6eb229a4&amp;itok=P-FN80JU"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/odds-early-penn-state-washington-line-revealed/",
+      "title_cn": "宾州州立客场挑战华盛顿，早期盘口略处下风",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-01",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2024/11/DSC07047-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/community-input-strengthens-urban-flood-adaptation-model",
+      "title_cn": "巴尔的摩居民参与设计防洪模型，积水最深可降五成",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/baltimore-workshop.jpg?h=10a60c0e&amp;itok=0fXu1Jf-"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/penn-state-altoona-present-artwork-jordan-kornreich",
+      "title_cn": "宾州州立阿尔图纳分校将展科恩赖希绘画作品",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-01",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/jordan_kornreich_chair-with-boxes.jpg?h=6eb229a4&amp;itok=o0yF2kXf"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/for-his-community-for-his-journey-cam-wallaces-perseverance-pays-off/",
+      "title_cn": "泪洒赛场后，华莱士的坚持终获回报",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-01"
     }
   ],
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
