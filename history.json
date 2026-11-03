@@ -6710,9 +6710,57 @@
       "category": "体育动态",
       "source": "Nittany Sports Now",
       "date": "2026-11-01"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/kill-nazi-finalist-best-doc-austin-film-festival-set-tv",
+      "title_cn": "宾州州立教授纪录片入围奥斯汀电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/austinfilm2026.png?h=19ad3fdd&amp;itok=n1G8L5N8"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/department-art-history-offer-annual-dickson-lecture-nov-10",
+      "title_cn": "宾州州立艺术史系将办年度讲座，聚焦安第斯叛乱视觉文化",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/dicson_2026.jpg?h=677c281b&amp;itok=gxzraxPu"
+    },
+    {
+      "url": "https://www.psu.edu/news/cocoziello-institute-real-estate-innovation/story/family-builds-borrellis-deepen-their-penn-state",
+      "title_cn": "博雷利家族再捐资，深耕房地产研究",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/05/borrellis.jpg?h=1ba5ce48&amp;itok=NNcJ2iC5"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/02/penn-state-hoops-dominates-canisius-in-season-opener-97-57/",
+      "title_cn": "宾州州立大学篮球揭幕战大胜卡尼修斯",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-02",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/11/0S8A0202-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/more-1100-penn-staters-voice-ideas-universitys-future",
+      "title_cn": "千人共议宾州州立大学未来蓝图",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/road-map-student-success-workstream.jpg?h=ddb1ad0c&amp;itok=7IlwNSXQ"
+    },
+    {
+      "url": "https://www.psu.edu/news/rock-ethics-institute/story/expanding-empathy-series-explore-morality-empathy-and-future-research",
+      "title_cn": "共情研究系列讲座探讨道德与人性",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-02",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ee-crop.jpg?h=596b6a05&amp;itok=XlIznL9R"
     }
   ],
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
