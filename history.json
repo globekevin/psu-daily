@@ -6758,9 +6758,57 @@
       "source": "Penn State News",
       "date": "2026-11-02",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ee-crop.jpg?h=596b6a05&amp;itok=XlIznL9R"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/award-winning-filmmaker-discuss-breaking-nonfiction-film",
+      "title_cn": "艾美奖导演走进宾州州立 拆解非虚构影视入行路",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/paultaylor.jpeg?h=19ad3fdd&amp;itok=2Dmti-_A"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-emeritus-academy-welcomes-distinguished-fall-2026-inductees",
+      "title_cn": "九位荣休教授入选宾州州立大学荣休学院",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/01/21-3-15-lion-shrine-014.jpg?h=56c360e1&amp;itok=Lm1ZPWBS"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/floyd-named-senior-director-development-and-alumni-relations",
+      "title_cn": "弗洛伊德执掌农学院校友发展事务",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/abby-floyd_1.jpg?h=4975ae63&amp;itok=S94xGbxs"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/03/penn-state-football-hot-takes-post-purdue/",
+      "title_cn": "宾州州立大学橄榄球队大胜普渡，跑卫爆发终结连败",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-03",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/11/Penn-State-Football-vs-Purdue-by-Ella-Wehmeyer-39-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/twenty-five-faculty-receive-new-provost-awards-academic-excellence",
+      "title_cn": "二十五位教师获首届教务长奖",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/FallCampusExterior2020-100.png?h=76c7c60b&amp;itok=kooTmowb"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/journal-general-education-one-universitys-oldest-gets-refresh",
+      "title_cn": "七十八年老刊回归宾州州立，通识教育期刊焕新出发",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-03",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/agls_2026_jge_graphics3.png?h=64ab2443&amp;itok=PN2dRuAY"
     }
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-03",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
