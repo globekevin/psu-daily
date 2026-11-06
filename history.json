@@ -6854,9 +6854,56 @@
       "source": "Penn State News",
       "date": "2026-11-04",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/at-microscope-low-rez.jpg?h=810b210d&amp;itok=4EzuxFF-"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/penn-state-students-reimagine-historic-texts-change-voice-competition",
+      "title_cn": "七学子用网络黑话重讲美国经典文本",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/change-the-voice-materials_psu-news-featured-image-1.jpg?h=c2426927&amp;itok=2e140U9S"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/penn-state-summit-helps-k-12-educators-turn-sustainability-ideas-action",
+      "title_cn": "宾州州立峰会助中小学教师将可持续理念落地课堂",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/dsc00931-1_0.jpg?h=c62a6f50&amp;itok=6mnElBxA"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/renaissance-funds-50th-anniversary-gala-raises-400505",
+      "title_cn": "半世纪善举点亮学子前程",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/bendapudi-at-renaissance-fund_reduced-size_0.jpg?h=84071268&amp;itok=n36XidZW"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/injuries-another-penn-state-receiver-questionable-for-washington/",
+      "title_cn": "宾州州立外接手再陷伤病潮 迎战华盛顿成疑",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-05"
+    },
+    {
+      "url": "https://www.psu.edu/news/scranton/story/greater-scranton-penn-state-chapter-honors-wayne-sebastianelli-nursing-endowment",
+      "title_cn": "斯克兰顿分会设护理基金纪念塞巴斯蒂安内利",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/chapter-group-photo_sebastianelli-event.jpg?h=bb64e066&amp;itok=XUcySyde"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/brief-putting-squeeze-gene-editing-techniques",
+      "title_cn": "机械挤压助力基因编辑，细胞重编程效率跃升",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-05",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/in_body_image_neurons.jpg?h=c9f93661&amp;itok=Lo40C62N"
     }
   ],
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-05",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
