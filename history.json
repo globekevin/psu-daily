@@ -6901,9 +6901,57 @@
       "source": "Penn State News",
       "date": "2026-11-05",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/in_body_image_neurons.jpg?h=c9f93661&amp;itok=Lo40C62N"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-appreciate-learning-experience-provided-harmelin",
+      "title_cn": "两周磨一剑：学生实战媒体策划挑战赛",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/honeygrow1.jpg?h=19ad3fdd&amp;itok=OnZQW3-j"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-sustainability/story/sustainability-careers-arts-and-architecture-webinar-be-held-nov-17",
+      "title_cn": "宾州州立大学将办艺术与建筑可持续职业讲座",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/pastor_website-2048x1265.png?h=58fbb787&amp;itok=X5AD686-"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/penn-state-smeal-forms-new-risk-management-and-actuarial-science",
+      "title_cn": "宾州州立大学斯米尔商学院成立风险管理与精算顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/business-building-fall-4x3.jpg?h=1ba46ab1&amp;itok=v2lTYI8Q"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/06/penn-state-mens-hockey-topped-by-notre-dame-5-4-in-overtime-in-big-ten-home-opener/",
+      "title_cn": "宾州州立冰球加时遭逆转 主场首秀惜败圣母大学",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-06",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/11/Alex-Holmes-Hockey.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/coache-steering-committee-shares-university-action-plan",
+      "title_cn": "宾州州立大学发布教师满意度行动方案",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/03/nittany-lion-shrine.jpg?h=0dca5af1&amp;itok=KncxK4Ye"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/johns-hopkins-suicide-prevention-expert-deliver-25th-annual-bennett-lecture",
+      "title_cn": "约翰霍普金斯专家赴宾州州立 共议自杀预防新路径",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-06",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/holly-wilcox-headshot-horizontal.jpg?h=8cb98dde&amp;itok=zCPijLJM"
     }
   ],
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
