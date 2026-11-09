@@ -6997,9 +6997,57 @@
       "source": "Penn State News",
       "date": "2026-11-07",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/yu-chen-vasa-fieldwork.jpg?h=6eb229a4&amp;itok=gSCfbB_0"
+    },
+    {
+      "url": "https://www.psu.edu/news/abington/story/world-music-meets-bluegrass-penn-state-abington-free-concert",
+      "title_cn": "蓝草乐器奏响世界旋律，阿宾顿免费音乐会邀邻里共赏",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/simple-gifts-photo_regina-broscius.jpg?h=3f144585&amp;itok=KcjSPiAP"
+    },
+    {
+      "url": "https://www.psu.edu/news/altoona/story/alumni-couples-connection-penn-state-altoona-leads-endowed-scholarship",
+      "title_cn": "校友伉俪捐资设奖学金反哺母校",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/skvir-photo.jpg?h=f22a623e&amp;itok=PyNKrEaW"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/08/no-11-penn-state-womens-volleyball-upsets-no-7-wisconsin-3-2/",
+      "title_cn": "宾州州立女排五局鏖战力克威斯康星",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-08",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/10/10.16.26-Isaac-Lothrop-Womens-Volleyball-vs.-Oregon-Photos-8-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/academics/story/student-disability-resources-encourages-faculty-and-students-plan-ahead-fall-final",
+      "title_cn": "期末考临近 无障碍考试安排需提前规划",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2024/07/penn-state-seal_2000x1500.jpg?h=3f4d8c7e&amp;itok=dIv2cTF-"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/qa-how-american-manufacturing-evolving-ai-and-robotics",
+      "title_cn": "人工智能重塑美国制造业版图",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ilya-kovalenko-manufacturing-resized.jpg?h=84071268&amp;itok=7hUu4VYM"
+    },
+    {
+      "url": "https://www.psu.edu/news/abington/story/collaborative-poetry-event-penn-state-abington-feature-penn-state-laureate",
+      "title_cn": "桂冠诗人走进阿宾顿，以诗串联专业与职业",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-08",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/murphy-laureate-headshot.jpeg?h=0edda1f1&amp;itok=HVIlSz9b"
     }
   ],
-  "last_updated": "2026-11-07",
+  "last_updated": "2026-11-08",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
