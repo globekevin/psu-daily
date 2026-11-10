@@ -7045,9 +7045,56 @@
       "source": "Penn State News",
       "date": "2026-11-08",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/murphy-laureate-headshot.jpeg?h=0edda1f1&amp;itok=HVIlSz9b"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/film-examines-extinct-pacific-northwest-woolly-dogs-importance-indigenous",
+      "title_cn": "千年羊毛犬灭绝之谜，一部短片打捞原住民记忆",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/kirk-woolly-dog-3-.jpg?h=2848f5af&amp;itok=THiL1BT9"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-burning-man-alumni-debut-projects-desert-festival",
+      "title_cn": "宾州州立校友沙漠艺术节首秀",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/a-and-h_paul-alkoby.jpg?h=b78320da&amp;itok=O3HESmix"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/greater-allegheny-raise-support-athletics-givingtuesday",
+      "title_cn": "校友聚力助体育，让赛场梦想延续",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ga_gt-athletics_0.jpg?h=9fef27e4&amp;itok=RpIA1Jsk"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-wrestling-masanosuke-ono-expected-to-debut-thursday/",
+      "title_cn": "日本世锦赛冠军小野将迎宾州州立首秀",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-10",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/08/Ono.jpeg"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/spark-leadership-series-nov-11-session-focuses-academic-integrity-and-ai",
+      "title_cn": "宾州州立大学领导力讲座聚焦人工智能时代的学术诚信",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/crowd-sourced-collabs-using-ai-social-media-find-potential-brand-partners",
+      "title_cn": "社媒数据助品牌精准配对",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-10",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/social-media-networking.jpg?h=be31237a&amp;itok=-GQyCADE"
     }
   ],
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-10",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
