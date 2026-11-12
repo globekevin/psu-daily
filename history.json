@@ -7140,9 +7140,56 @@
       "source": "Penn State News",
       "date": "2026-11-10",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/2026symposium.png?h=6eb229a4&amp;itok=R0Yx03tk"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-student-media-named-video-outlet-year-second",
+      "title_cn": "宾州州立学生媒体蝉联年度视频媒体奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ccrgoundhogday2026.jpg?h=b78320da&amp;itok=i9k49g8B"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/penn-state-students-connect-art-and-literature-through-study-abroad-ireland",
+      "title_cn": "宾州州立学生赴爱尔兰寻艺文之源",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ireland-photo.jpg?h=9b4bb0eb&amp;itok=wlMdipba"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/poetry-motion-program-promotes-creative-expression-agricultural",
+      "title_cn": "诗歌走进农课堂，创意表达点亮全球农业教育",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/clinton.jpg?h=943238f6&amp;itok=quXx_RFR"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/matt-campbell-responds-to-chase-sowells-penalty-defending-rocco-becht/",
+      "title_cn": "外接手为四分卫出头吃罚 主帅称点燃全队斗志",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-11",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/10/DSC00195-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/initiative-shape-future-engineering-technology-and-related-disciplines",
+      "title_cn": "宾州州立启动学科重组探索",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/new-book-explores-w-e-b-du-bois-connection-roman-thinker-cicero",
+      "title_cn": "杜波依斯与西塞罗的思想对话",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-11",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mathias-kate-2-.jpg?h=41ef3158&amp;itok=IvcJQ0wh"
     }
   ],
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
