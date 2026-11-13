@@ -7187,9 +7187,56 @@
       "source": "Penn State News",
       "date": "2026-11-11",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mathias-kate-2-.jpg?h=41ef3158&amp;itok=IvcJQ0wh"
+    },
+    {
+      "url": "https://www.psu.edu/news/rock-ethics-institute/story/rock-ethics-institute-puts-truth-and-trust-focus",
+      "title_cn": "洛克伦理研究所将“真相与信任”定为年度主题",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/untitled-1.jpg?h=84071268&amp;itok=F9DzB9nb"
+    },
+    {
+      "url": "https://www.psu.edu/news/palmer-museum-art/story/people-people-palmer-museum-community-driven-shows-close-nov-29",
+      "title_cn": "宾州州立博物馆两展落幕，社区共绘美国梦",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/pal_2897.jpg?h=2a71c125&amp;itok=ySW2vEMR"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/sending-we-are-these-penn-staters-nov-12",
+      "title_cn": "宾州州立致敬二十二位“我们就是”员工",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-4.jpg?h=b78320da&amp;itok=fHQGbcu2"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/12/no-1-penn-state-wrestling-dismantles-bloomsburg-42-3-in-season-opener/",
+      "title_cn": "宾州州立摔跤揭幕战42-3碾压布卢姆斯堡",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-12",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/03/Big-ten-Championship-3.7.26-Jess-Farhat-13.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-technology/story/widespread-microsoft-outage-impacting-penn-state",
+      "title_cn": "微软服务全球宕机 宾州州立大学受波及",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/nitrate-pollution-rivers-linked-dry-climates-not-just-human-activity",
+      "title_cn": "干旱气候推高河流硝酸盐污染",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-12",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/river-stock-photo.jpg?h=84071268&amp;itok=RUOGeY3x"
     }
   ],
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
