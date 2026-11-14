@@ -7234,9 +7234,57 @@
       "source": "Penn State News",
       "date": "2026-11-12",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/river-stock-photo.jpg?h=84071268&amp;itok=RUOGeY3x"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/international-reporting-student-takes-two-tango-focused",
+      "title_cn": "宾州州立学生凭探戈疗愈报道夺全国大奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/tangostory.jpg?h=19ad3fdd&amp;itok=Mnzd2lHS"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-invites-support-18-givingtuesday-campaigns-dec-1",
+      "title_cn": "艺术学院吁校友助力十八项公益募捐",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/gt27-pressrelease-image_0.jpeg?h=c7230544&amp;itok=YGYrja1E"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/nfl-players-incs-matthew-curtin-joins-penn-state-smeal-board-visitors",
+      "title_cn": "校友柯廷入斯米尔顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/untitled-november-12-2026-at-11.32.44.png?h=5fb83070&amp;itok=X74J4OFg"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/bo-bassett-fired-up-about-marcus-blazes-move-to-141-thats-a-guy-i-want-to-beat/",
+      "title_cn": "巴斯克特盼与布莱兹同级别对决：那是我渴望击败的对手",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-13",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/03/IMG_9589.webp"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/penn-state-trustees-recap-board-approves-infrastructure-upgrades-real-estate",
+      "title_cn": "宾州州立董事会批准多项基建投资与地产出售",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5191-copy.jpg?h=abe9b284&amp;itok=PvFBIlAY"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/small-mighty-helping-microgreens-pack-even-more-nutritional-punch",
+      "title_cn": "让微型菜营养加倍的三重路径",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-13",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/3-young-researchers-low-rez.jpg?h=2d1c98cb&amp;itok=ptRqp1cM"
     }
   ],
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
