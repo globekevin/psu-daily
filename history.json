@@ -7282,9 +7282,57 @@
       "source": "Penn State News",
       "date": "2026-11-13",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/3-young-researchers-low-rez.jpg?h=2d1c98cb&amp;itok=ptRqp1cM"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bronstein-lecture-highlight-ethics-and-leadership",
+      "title_cn": "传媒伦理讲堂请来童书出版高管",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2022/10/PageCenter-Logo-RTG.jpg?h=84071268&amp;itok=Rmc3JO8u"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/audiences-gain-insight-teen-girls-struggles-friendships-latest-centre",
+      "title_cn": "宾州州立大学舞台剧《狼群》聚焦少女成长",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/thewolves-rehearsal-0964.jpg?h=9eaf294e&amp;itok=nZPSSP98"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/googles-vicki-eckert-appointed-penn-state-smeal-board-visitors",
+      "title_cn": "谷歌高管埃克特重返母校 加盟斯米尔商学院顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/untitled-november-12-2026-at-11.43.21.png?h=6cfa7f1d&amp;itok=pGubkMNw"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/14/lady-lions-reschedule-arizona-state-game-to-november-16/",
+      "title_cn": "航班停飞打乱赛程 女篮客战太阳魔推迟一天",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-14",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/11/CMG_20261027335-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/human-resources/story/weight-watchers-can-help-employees-stay-well-during-winter-season",
+      "title_cn": "宾州州立大学携手WW助员工冬季守健康",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/gettyimages-2086018126.jpg?h=b1a91ebe&amp;itok=Sf_0lL5d"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/virtual-modeling-reveals-safety-measures-battery-powered-mining",
+      "title_cn": "虚拟矿井预演电池火灾 为矿工筑牢安全防线",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-14",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/mining-hero.png?h=10d202d3&amp;itok=WJ82PcLg"
     }
   ],
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
