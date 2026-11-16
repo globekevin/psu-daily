@@ -7330,9 +7330,56 @@
       "source": "Penn State News",
       "date": "2026-11-14",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/10/mining-hero.png?h=10d202d3&amp;itok=WJ82PcLg"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/work-penn-state-faculty-alumni-set-screenings-centre-film",
+      "title_cn": "宾州州立师生作品亮相中心电影节",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/05/tokillanazi.jpg?h=c1d6f72c&amp;itok=2WNYgTf-"
+    },
+    {
+      "url": "https://www.psu.edu/news/wilkes-barre/story/local-high-schoolers-display-artwork-penn-state-wilkes-barre",
+      "title_cn": "宾州州立大学威尔克斯-巴里分校迎来第八届高中生艺术展",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/2025-friedman-art-gallery-hs-student-art.jpg?h=d65c85ab&amp;itok=XJff5wOv"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/liberal-arts-award-honors-diane-trounson-chaikens-legacy",
+      "title_cn": "以温暖与担当立奖，延续她的善意",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/img_2816-copy.jpg?h=e9b23546&amp;itok=cCh9oarP"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/88-penn-state-wrestling-passes-1st-road-test-with-flying-colors/",
+      "title_cn": "宾州州立摔跤客场首战大获全胜",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://www.psu.edu/news/faculty-and-staff/story/annual-celebration-recognizes-promotions-199-faculty",
+      "title_cn": "宾州州立大学表彰199位晋升教师",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ntf-promotion-event-2026.jpg?h=8c837498&amp;itok=7MjmMnqZ"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/inaugural-eberly-research-excellence-and-innovation-awards-honor-12",
+      "title_cn": "宾州州立大学首届科研创新奖表彰十二位学者",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-15",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/research-showcase-awards-18_43.jpg?h=e32dd124&amp;itok=IK8W8wQE"
     }
   ],
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
