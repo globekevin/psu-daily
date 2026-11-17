@@ -7377,9 +7377,56 @@
       "source": "Penn State News",
       "date": "2026-11-15",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/research-showcase-awards-18_43.jpg?h=e32dd124&amp;itok=IK8W8wQE"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/student-uses-filmmaking-skills-share-stories-culture-and-community",
+      "title_cn": "镜头为桥，他用影像传递文化与社区故事",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/_k3_9065.jpg?h=e4b2e767&amp;itok=ZQ1E25jp"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/centre-stage-present-new-musical-about-john-wilkes-and-edwin-booth",
+      "title_cn": "宾州州立大学首演新音乐剧《暴君》",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/centre-stage-tyrants-poster_0.jpg?h=b5c3de39&amp;itok=BC1wVpJO"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/givingtuesday-alumni-association-invites-gifts-create",
+      "title_cn": "校友会吁捐赠延续宾州州立情缘",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/26-givingtuesday-psn-3_jpeg.jpg?h=d048d717&amp;itok=BeDRq51e"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-announces-senior-day-class-including-few-surprises/",
+      "title_cn": "宾州州立公布老兵日名单，多人去留成悬念",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-17",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/09/DSC07998-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/community-appr-update-process-outlined-one-year-review-check-ins-2028",
+      "title_cn": "宾州州立大学公布学术项目审查一年期复核流程",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/penn-state-alumna-discuss-ai-higher-education-geography-coffee",
+      "title_cn": "天普教务长重返母校 畅谈高校如何应对AI浪潮",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-17",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/libby-wentz-headshot-1200x900.jpg?h=60b3920b&amp;itok=mC6Utn0L"
     }
   ],
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-17",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
