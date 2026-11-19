@@ -7472,9 +7472,56 @@
       "source": "Penn State News",
       "date": "2026-11-17",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/photos-0584.jpg?h=707772c7&amp;itok=SVOTDlIs"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/fall-2026-student-technology-advisory-reps-named-two-founding-members",
+      "title_cn": "宾州州立大学公布2026秋季学生科技顾问名单",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/image4.png?h=6eb229a4&amp;itok=twO3Pjcg"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/penn-state-school-music-present-mosaic-2026-dec-6",
+      "title_cn": "两百人声浪压轴，宾州州立音乐节一日尽览",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/590427539_18538306249048291_564392646787107648_n.jpg?h=98c7eaba&amp;itok=CUBfJ_u0"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/alumnas-gift-supports-summer-undergraduate-research-experiences",
+      "title_cn": "校友捐赠点燃本科生暑期科研梦",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/dsc_3681lr.jpg?h=84071268&amp;itok=R9_Ny4bc"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/injuries-defender-out-another-doubtful-for-penn-state-ahead-of-rutgers/",
+      "title_cn": "宾州州立防线告急 一将缺阵一将存疑",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-18",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/09/DSC06108-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/information-technology/story/penn-state-students-faculty-and-staff-should-subscribe-it-alerts-0",
+      "title_cn": "宾州州立大学吁师生订阅IT警报",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-18"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/31m-nih-grant-funds-study-stomach-cancer-development",
+      "title_cn": "三百一十万美元资助胃癌起源研究",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-18",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mills_hero_1200x800.jpg?h=6b0497d2&amp;itok=Hg0dozb3"
     }
   ],
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
