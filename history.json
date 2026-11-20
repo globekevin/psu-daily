@@ -7519,9 +7519,56 @@
       "source": "Penn State News",
       "date": "2026-11-18",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mills_hero_1200x800.jpg?h=6b0497d2&amp;itok=Hg0dozb3"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/commagency-student-work-earns-three-different-honors",
+      "title_cn": "学生社媒作品全国大赛斩获三奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/commagency-sportshall.png?h=13d017d5&amp;itok=TW1N0Dtz"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/new-musical-examines-events-booth-family-leading-lincolns-assassination",
+      "title_cn": "新音乐剧揭开布斯家族往事，追溯林肯遇刺前因",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/tyrants-dress-2899.jpg?h=9855f42d&amp;itok=WsjivO4G"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/lets-hear-we-are-these-penn-staters-nov-19",
+      "title_cn": "宾州州立表彰二十四位暖心员工",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-3.jpg?h=6d86927c&amp;itok=EX0Pgo_F"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-grayshirt-to-face-four-time-world-medalist-at-raf-16/",
+      "title_cn": "宾州州立新星迎战世界奖牌老将",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-19",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/08/Screenshot-2026-08-23-at-2.32.48-PM-scaled.png"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/spark-leadership-series-hold-session-managing-difficult-student-conversations",
+      "title_cn": "宾州州立大学领导力系列讲座聚焦学生沟通难题",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/nasas-swift-mission-ends-leaves-behind-scientific-legacy",
+      "title_cn": "斯威夫特望远镜谢幕，宾州州立大学廿载守望星海",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-19",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/swift_in_space_15_ac.jpg?h=fa0a5898&amp;itok=CVYHBZf8"
     }
   ],
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
