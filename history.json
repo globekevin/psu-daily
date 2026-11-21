@@ -7566,9 +7566,57 @@
       "source": "Penn State News",
       "date": "2026-11-19",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/swift_in_space_15_ac.jpg?h=fa0a5898&amp;itok=CVYHBZf8"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/hard-working-students-story-comes-full-circle-bellisario",
+      "title_cn": "一场偶遇改写大学时光 勤勉学子将执绶带",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/siroty-newsstory.jpeg?h=9925eb68&amp;itok=c9ZIx8Eu"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/centre-stage-presents-tyrants-new-musical-about-john-wilkes-and-edwin",
+      "title_cn": "兄弟殊途：一部新音乐剧回望林肯遇刺",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/tyrants-3.jpg?h=cb91ea64&amp;itok=i3MfyMgy"
+    },
+    {
+      "url": "https://www.psu.edu/news/eberly-college-science/story/preparing-students-be-socially-responsible-healthcare-professionals",
+      "title_cn": "沉浸式社区实践锻造医者仁心",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/help_sunshinehouse_lr.jpg?h=08b866d1&amp;itok=jVb3Tw1Z"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/is-penn-state-footballs-late-season-hot-streak-special-or-hollow-nsns-joe-smeltzer-joins-pittsburgh-football-show-to-discuss/",
+      "title_cn": "三连胜背后：宾州州立大学橄榄球队回暖还是赛程送暖？",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-20",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/11/DSC01394-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/students/story/office-student-success-names-leadership-team-brings-together-student-support-units",
+      "title_cn": "宾州州立大学学生成功办公室组建领导团队",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/09/dscf5166-copy.jpg?h=f49c84fe&amp;itok=zpbOiIyM"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/vitamin-d-may-help-control-lung-inflammation-during-flu-infections-mice",
+      "title_cn": "维生素D或助身体平息流感肺部炎症",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-20",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/michele-blackwell-on-unsplash.jpg?h=6f8e8448&amp;itok=4iS-nRVC"
     }
   ],
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
