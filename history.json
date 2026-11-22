@@ -7614,9 +7614,57 @@
       "source": "Penn State News",
       "date": "2026-11-20",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/michele-blackwell-on-unsplash.jpg?h=6f8e8448&amp;itok=4iS-nRVC"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-ad-pr-network-board-honors-three",
+      "title_cn": "三位广告公关校友获颁成就奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/adprwinners-fall2026.jpeg?h=1df6a277&amp;itok=iInSPLBb"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-sustainability/story/sustainability-careers-arts-and-architecture-webinar-be-held-nov-17",
+      "title_cn": "宾州州立大学举办艺术与建筑可持续职业讲座",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/pastor_website-2048x1265.png?h=58fbb787&amp;itok=X5AD686-"
+    },
+    {
+      "url": "https://www.psu.edu/news/story/ira-lubert-and-pam-estadt-commit-75-million-penn-state-campaign",
+      "title_cn": "七千五百万捐赠改写校史",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/old-main-1.jpg?h=19ad3fdd&amp;itok=eJrUpHJL"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/what-just-happened-joe-and-the-fatman-try-to-make-sense-of-penn-state-losing-to-rutgers/",
+      "title_cn": "宾州州立主场爆冷负于罗格斯，播客复盘溃败",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-21",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/11/IMG_4030.jpeg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/griffith-named-assistant-vice-provost-student-success-and-retention",
+      "title_cn": "格里菲斯获任学生成功事务助理教务长",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/kelly-griffith-1200x900.png?h=026830cb&amp;itok=nEYevOET"
+    },
+    {
+      "url": "https://www.psu.edu/news/nese-college-nursing/story/safe-t-center-hosts-first-cohort-forensic-nursing-leadership-program",
+      "title_cn": "宾州州立大学培养首批法医护理领军者",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-21",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/554836ee-f2e4-48d5-93f0-f26c9f7abaa3-1-1.jpg?h=86b4c294&amp;itok=tlewW50x"
     }
   ],
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
