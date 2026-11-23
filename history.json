@@ -7662,9 +7662,57 @@
       "source": "Penn State News",
       "date": "2026-11-21",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/554836ee-f2e4-48d5-93f0-f26c9f7abaa3-1-1.jpg?h=86b4c294&amp;itok=tlewW50x"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/bellisario-college-penn-state-mourn-death-alumnus-jon",
+      "title_cn": "拳台边的笔锋：萨拉切诺逝世",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/jonsaraceno-goodheadshot.jpeg?h=fd44f2c1&amp;itok=qqUu29oB"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/penn-state-summit-helps-k-12-educators-turn-sustainability-ideas-action",
+      "title_cn": "宾州州立峰会助教师把可持续理念带进课堂",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/dsc00931-1_0.jpg?h=c62a6f50&amp;itok=6mnElBxA"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-wrestling-complete-results-from-the-c-j-morgan-invitational/",
+      "title_cn": "宾州州立摔跤队八冠横扫摩根邀请赛",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-22",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2025/02/DSC09470-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/beate-brunow-named-interim-executive-director-schreyer-institute",
+      "title_cn": "布鲁诺临危受命，掌舵教学卓越研究所",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/beatebrunow-1200x900.png?h=e7bffe55&amp;itok=4OzI2JQp"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/five-earth-and-mineral-sciences-students-selected-nsf-graduate",
+      "title_cn": "五位学子摘得国家科学基金会奖学金",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/adger-nsf-fellowship-workshop-5994_0.jpg?h=6eb229a4&amp;itok=zyUZiM7m"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/students-appreciate-learning-experience-provided-harmelin",
+      "title_cn": "学生实战媒体策划挑战赛 淬炼真实商战本领",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-22",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/honeygrow1.jpg?h=19ad3fdd&amp;itok=OnZQW3-j"
     }
   ],
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
