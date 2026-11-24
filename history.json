@@ -7710,9 +7710,56 @@
       "source": "Penn State News",
       "date": "2026-11-22",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/honeygrow1.jpg?h=19ad3fdd&amp;itok=OnZQW3-j"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/consumers-oblivious-being-targeted-find-online-ads-helpful",
+      "title_cn": "精准广告暗随行，透明提示反添忧",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ads-with-explanation.png?h=6eb229a4&amp;itok=JM42seGP"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-entertainment/story/three-family-friendly-events-coming-bryce-jordan-center-spring",
+      "title_cn": "布莱斯乔丹中心春季三场家庭演出开票",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/050326_priceisrightlive_keswick_jessefaatz-4862.jpg?h=ac778ff2&amp;itok=lNn8bkR6"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-flips-will-zaccagnino-from-big-ten-school/",
+      "title_cn": "宾州州立大学逆转抢下三星防守锋线",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-24",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/11/54E27943-0A8C-479E-8ECC-D90DCA90E7A1.jpeg"
+    },
+    {
+      "url": "https://www.psu.edu/news/administration/story/faculty-senate-adopts-four-reports-final-meeting-fall-2026-semester",
+      "title_cn": "教师参议院秋季收官 四份报告落槌",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://www.psu.edu/news/engineering/story/undergrads-work-may-help-resolve-radiation-therapy-dosing-challenge",
+      "title_cn": "光纤剂量计有望破解放疗精准配量难题",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/260265-psn_gabriell.jpg?h=19ad3fdd&amp;itok=8Kyik1rv"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/vietnamese-edicts-offer-penn-state-students-new-view-imperial-history",
+      "title_cn": "越南敕令跨海入藏，宾州州立学生直面帝国史",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-24",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/hero-top-image-vietnamese-edicts-collage-scan-roll-display-bilker_2pcdinsets.jpg?h=6eb229a4&amp;itok=mCaG4Yb4"
     }
   ],
-  "last_updated": "2026-11-22",
+  "last_updated": "2026-11-24",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
