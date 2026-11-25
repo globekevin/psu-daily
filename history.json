@@ -7757,9 +7757,57 @@
       "source": "Penn State News",
       "date": "2026-11-24",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/hero-top-image-vietnamese-edicts-collage-scan-roll-display-bilker_2pcdinsets.jpg?h=6eb229a4&amp;itok=mCaG4Yb4"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/faculty-member-addresses-artificial-intelligence",
+      "title_cn": "从课堂到理论，她让AI不再遥远",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/shoenbergerheather.jpg?h=6eb229a4&amp;itok=l-eGPC0N"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-professor-lands-nea-grant-study-arts-and",
+      "title_cn": "宾州州立教授获艺术基金 探究音乐如何延缓大脑衰老",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/nichols.png?h=ac6b0bea&amp;itok=fRYrHPTh"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/ardelis-healths-timmy-garde-appointed-penn-state-smeal-board-visitors",
+      "title_cn": "阿德利斯医疗高管加德受聘斯米尔商学院顾问委员会",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/garde-timmy2.jpg?h=56d0ca2e&amp;itok=v3iOCE0n"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-wrestling-goes-4-for-5-at-nwca-all-star-classic/",
+      "title_cn": "宾州州立摔跤全明星赛五战四胜展现实力",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-25",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2025/03/IMG_1226.jpeg"
+    },
+    {
+      "url": "https://www.psu.edu/news/impact/story/penn-state-named-fast-companys-brands-matter-list",
+      "title_cn": "宾州州立大学跻身“有意义品牌”榜单",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/09/mar_2824_0.jpg?h=1376fa79&amp;itok=pJvfbHYB"
+    },
+    {
+      "url": "https://www.psu.edu/news/academics/story/penn-stater-named-senior-college-all-american-livestock-judging-team",
+      "title_cn": "宾州州立学子入选全美家畜评审全明星队",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-25",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mcgargle-with-lamb.jpg?h=af0e81e3&amp;itok=3t99telH"
     }
   ],
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
