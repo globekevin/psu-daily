@@ -7805,9 +7805,57 @@
       "source": "Penn State News",
       "date": "2026-11-25",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/mcgargle-with-lamb.jpg?h=af0e81e3&amp;itok=3t99telH"
+    },
+    {
+      "url": "https://www.psu.edu/news/bellisario-college-communications/story/penn-state-student-media-named-video-outlet-year-second",
+      "title_cn": "宾州州立学生媒体蝉联年度视频媒体奖",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ccrgoundhogday2026.jpg?h=b78320da&amp;itok=i9k49g8B"
+    },
+    {
+      "url": "https://www.psu.edu/news/earth-and-mineral-sciences/story/qa-what-matters-most-homeowners-facing-flooding",
+      "title_cn": "洪水当前，房主最在意什么",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/flood-q-and-a-copy.jpg?h=84071268&amp;itok=PqvaJ1a_"
+    },
+    {
+      "url": "https://www.psu.edu/news/development-and-alumni-relations/story/greater-allegheny-raise-support-athletics-givingtuesday",
+      "title_cn": "校友齐心助力体育发展",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/ga_gt-athletics_0.jpg?h=9fef27e4&amp;itok=RpIA1Jsk"
+    },
+    {
+      "url": "https://onwardstate.com/2026/11/25/penn-state-hoops-falls-short-to-no-24-memphis-83-70-in-first-2026-battle-4-atlantis-matchup/",
+      "title_cn": "宾州州立男篮惜败孟菲斯，止步首战",
+      "category": "体育动态",
+      "source": "Onward State",
+      "date": "2026-11-26",
+      "image_url": "https://cdn.onwardstate.com/uploads/2026/11/Roko-Prkacin_Penn-State-Basketball-vs-Mercyhurst-11-12-by-Jared-Freed_073-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/invent-penn-state/story/xenakis-family-supports-next-generation-penn-state-entrepreneurs",
+      "title_cn": "家族捐资命名创业赛，助力学子逐梦",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/xenakis-family_edited.jpg?h=19396d3b&amp;itok=p71S2-FF"
+    },
+    {
+      "url": "https://www.psu.edu/news/university-libraries/story/penn-state-university-press-opens-books-global-readers-big-ten-open",
+      "title_cn": "宾州州立大学出版社开放学术著作供全球阅读",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-26",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/btob-psupress-covers-collage-261125.png?h=6eb229a4&amp;itok=EKKbApLJ"
     }
   ],
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
