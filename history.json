@@ -7853,9 +7853,57 @@
       "source": "Penn State News",
       "date": "2026-11-26",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/btob-psupress-covers-collage-261125.png?h=6eb229a4&amp;itok=EKKbApLJ"
+    },
+    {
+      "url": "https://www.psu.edu/news/rock-ethics-institute/story/rock-ethics-institute-puts-truth-and-trust-focus",
+      "title_cn": "洛克伦理研究所聚焦“真相与信任”",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/untitled-1.jpg?h=84071268&amp;itok=F9DzB9nb"
+    },
+    {
+      "url": "https://www.psu.edu/news/penn-state-sustainability/story/experiential-learning-will-be-display-during-sustainability-expo",
+      "title_cn": "可持续项目展演，学生实践成果亮相",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/expo-4-26_0.jpeg?h=286b4f81&amp;itok=_DhyKi4D"
+    },
+    {
+      "url": "https://www.psu.edu/news/campus-life/story/sending-we-are-these-penn-staters-nov-12",
+      "title_cn": "宾州州立表彰二十二位教职工",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2025/01/psustock-mascot-2024-4.jpg?h=b78320da&amp;itok=fHQGbcu2"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/a-seat-at-my-thanksgiving-table-for-these-nittany-lions/",
+      "title_cn": "感恩节餐桌上的尼塔尼雄狮：一场关于坚守与传承的告白",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-27",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/09/DSC05232-scaled.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/outreach/story/donor-support-and-hundreds-volunteer-hours-make-vital-hawk-watches-reality",
+      "title_cn": "百万遗赠守护宾州鹰群迁徙观测",
+      "category": "行政人事",
+      "source": "Penn State News",
+      "date": "2026-11-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/northern-harrier_10-09-2023b.jpg?h=ac2ce275&amp;itok=59YfaHWM"
+    },
+    {
+      "url": "https://www.psu.edu/news/research/story/nitrate-pollution-rivers-linked-dry-climates-not-just-human-activity",
+      "title_cn": "干旱气候推高河流硝酸盐污染",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-27",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/river-stock-photo.jpg?h=84071268&amp;itok=RUOGeY3x"
     }
   ],
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
