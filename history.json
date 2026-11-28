@@ -7901,9 +7901,57 @@
       "source": "Penn State News",
       "date": "2026-11-27",
       "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/river-stock-photo.jpg?h=84071268&amp;itok=RUOGeY3x"
+    },
+    {
+      "url": "https://www.psu.edu/news/liberal-arts/story/film-examines-extinct-pacific-northwest-woolly-dogs-importance-indigenous",
+      "title_cn": "银幕重现已逝羊毛犬，海岸萨利什编织记忆",
+      "category": "传媒学院",
+      "source": "Penn State News",
+      "date": "2026-11-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/kirk-woolly-dog-3-.jpg?h=2848f5af&amp;itok=THiL1BT9"
+    },
+    {
+      "url": "https://www.psu.edu/news/arts-and-architecture/story/arts-and-architecture-invites-support-18-givingtuesday-campaigns-dec-1",
+      "title_cn": "艺术学院邀您共襄公益捐赠日",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/gt27-pressrelease-image_0.jpeg?h=c7230544&amp;itok=YGYrja1E"
+    },
+    {
+      "url": "https://www.psu.edu/news/smeal-college-business/story/nfl-players-incs-matthew-curtin-joins-penn-state-smeal-board-visitors",
+      "title_cn": "橄榄球高管重返母校 执掌商学院顾问团",
+      "category": "校友活动",
+      "source": "Penn State News",
+      "date": "2026-11-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/untitled-november-12-2026-at-11.32.44.png?h=5fb83070&amp;itok=X74J4OFg"
+    },
+    {
+      "url": "https://nittanysportsnow.com/2026/11/penn-state-basketball-splits-contests-in-the-bahamas-juric-breaks-record/",
+      "title_cn": "巴哈马赛场胜负参半 约里奇创队史纪录",
+      "category": "体育动态",
+      "source": "Nittany Sports Now",
+      "date": "2026-11-28",
+      "image_url": "https://nittanysportsnow.com/wp-content/uploads/2026/11/Battle4AtlantisWin.jpg"
+    },
+    {
+      "url": "https://www.psu.edu/news/agricultural-sciences/story/keeping-pets-safe-during-holidays-avoiding-dangers-festive-plants",
+      "title_cn": "节日绿植暗藏杀机，宠物误食或致命",
+      "category": "科研成果",
+      "source": "Penn State News",
+      "date": "2026-11-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/pexels-julia-volk-5110851.jpg?h=79492e8c&amp;itok=TUaQOWVD"
+    },
+    {
+      "url": "https://www.psu.edu/news/palmer-museum-art/story/people-people-palmer-museum-community-driven-shows-close-nov-29",
+      "title_cn": "宾州州立博物馆两展映照民主理想",
+      "category": "演出预告",
+      "source": "Penn State News",
+      "date": "2026-11-28",
+      "image_url": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/11/pal_2897.jpg?h=2a71c125&amp;itok=ySW2vEMR"
     }
   ],
-  "last_updated": "2026-11-27",
+  "last_updated": "2026-11-28",
   "version": 1,
   "notes": "Tracks URLs already shown on the site to avoid duplicates."
 }
